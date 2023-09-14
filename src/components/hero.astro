@@ -1,6 +1,7 @@
 ---
 import { Picture } from "@astrojs/image/components";
 import heroImage from "assets/hero.png";
+import mainLogoImage from "assets/cdq_large.png"
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
 ---
@@ -9,26 +10,30 @@ import { Icon } from "astro-icon";
   class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
-      src={heroImage}
+      src={mainLogoImage}
       alt="Astronaut in the air"
       widths={[200, 400, 600]}
-      aspectRatio="4:3"
+      aspectRatio="4:4"
       sizes="(max-width: 800px) 100vw, 620px"
       loading="eager"
       format="avif"
     />
   </div>
   <div>
-    <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Marketing website done with Astro
+
+    <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
+      The <span class="font-italic font-skinny">(un)</span>Official
+    </h1>
+    <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+      <span class="text-primary">Green Bay</span> <span class="text-secondary">Packers</span>
+    </h1>
+    <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
+      Fan Club in Brasil 🇧🇷
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Astroship is a starter template for startups, marketing websites & landing
-      pages.<wbr /> Built with Astro.build and TailwindCSS. You can quickly create
-      any website with this starter.
+      Cabeça de Queijo is a fan club for the American National Football (NFL) Team - Green Bay Packers in Brasil. We are a group of fans that love the Packers and want to share our passion with other fans in Brasil.
     </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3">
+    <!-- <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
         href="#"
         href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
@@ -36,19 +41,12 @@ import { Icon } from "astro-icon";
         class="flex gap-1 items-center justify-center"
         rel="noopener">
         <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
-
-        Download for Free
+        Submit a Bar
       </Link>
-      <Link
-        size="lg"
-        style="outline"
-        rel="noopener"
-        href="https://github.com/surjithctly/astroship"
-        class="flex gap-1 items-center justify-center"
-        target="_blank">
-        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-        GitHub Repo
-      </Link>
-    </div>
+    </div> -->
+    <!-- <a role="button" class="btn btn-primary">Current Chapters</a>
+    <a role="button" class="btn btn-secondary">Create a Chapter</a> -->
+    <br><a role="button" class="btn btn-primary">Join Cabeça de Queijo for Free</a>
+    <!-- Submit a Bar, View Current Bars, Upcoming Games, etc -->
   </div>
 </main>
