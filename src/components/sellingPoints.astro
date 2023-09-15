@@ -1,0 +1,71 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const sellingPoints = [
+  {
+    title: "Rich History",
+    description:
+      "The Green Bay Packers were founded in 1919 and have won 13 championships, more than any other team in the NFL.",
+    icon: "bx:bxs-book",
+  },
+  {
+    title: "Global Community",
+    description:
+      "Rooting for the Packers means joining a global community of passionate fans.",
+    icon: "mdi:globe",
+  },
+  {
+    title: "Cheeseheads",
+    description:
+      "Packers fans are affectionately known as 'Cheeseheads', a fun and unique part of NFL fan culture.",
+    icon: "icon-park-outline:cheese",
+  },
+  {
+    title: "Lambeau Field",
+    description:
+      "The Packers' home, Lambeau Field, is one of the most iconic stadiums in all of sports.",
+    icon: "ic:outline-stadium",
+  },
+  {
+    title: "Non-Profit Ownership",
+    description:
+      "The Packers are the only non-profit, community-owned franchise in the NFL.",
+    icon: "bx:bxs-group",
+  },
+  {
+    title: "Competitive Team",
+    description:
+      "The Packers are consistently competitive and have a strong team, making their games exciting to watch.",
+    icon: "bx:bxs-trophy",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0" id="selling-points">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Why Should You Root For the Green Bay Packers
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    The Green Bay Packers have a rich history,
+    filled with numerous championships and legendary players.
+    Rooting for the Packers means joining a global community of passionate fans.
+    Plus, who doesn't love cheese?
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    sellingPoints.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>
