@@ -4,6 +4,7 @@ import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import { Icon } from "astro-icon";
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
@@ -19,12 +20,15 @@ publishedBlogEntries.sort(function (a, b) {
 <Layout title="Blog">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Our Blog</Fragment>
+      <Fragment slot="title">Stories From Fans (Coming Soon)</Fragment>
       <Fragment slot="desc">
-        We write about building startups and thoughts going on our mind.
+        We love to hear from our fans. If you have a story to share, please
+        <a href="mailto:gopackgo@CabecadeQueijo.com.br">
+          Contact Us
+        </a>.
       </Fragment>
     </Sectionhead>
-    <main class="mt-16">
+    <!-- <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
           publishedBlogEntries.map((blogPostEntry, index) => (
@@ -71,6 +75,6 @@ publishedBlogEntries.sort(function (a, b) {
           ))
         }
       </ul>
-    </main>
+    </main> -->
   </Container>
 </Layout>
