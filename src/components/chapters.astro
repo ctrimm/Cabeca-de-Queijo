@@ -1,0 +1,79 @@
+---
+const chapters = [
+  {
+    city: "São Paulo",
+    state: "São Paulo",
+    country: "Brasil",
+    members: "125",
+    chapterMeetingPlace: "Lambeau Field",
+    chapterMeetingAddress: "123 Lombardi Ave",
+    status: "Coming Soon"
+  },
+  {
+    city: "Salvador",
+    state: "Bahia",
+    country: "Brasil",
+    members: "22",
+    chapterMeetingPlace: "Lambeau Field Northeast",
+    chapterMeetingAddress: "123 Lombardi Ave NE",
+    status: "Coming Soon"
+  },
+  {
+    city: "Amazonia",
+    state: "-",
+    country: "Brasil",
+    members: "~10",
+    chapterMeetingPlace: "Lambeau Field Amazonia",
+    chapterMeetingAddress: "987 Holmgren Way",
+    status: "Coming Soon"
+  },
+];
+---
+
+<div class="mt-16 md:mt-0 py-4 pb-24" id="chapters">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Current Chapters
+  </h2>
+  <div class="grid grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
+    {
+      chapters.map((chapter, index) => (
+        <div class="relative border border-slate-200 rounded-lg p-4">
+          {chapter.status === "Coming Soon" && (
+            <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
+              <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>
+              <span class="font-extrabold text-white text-2xl pb-2">Coming Soon</span>
+              <a href="/join" class="btn btn-accent text-md">
+                🧀 Get Notified
+              </a>
+            </div>
+          )}
+          <h3 class="text-2xl font-bold tracking-tight">
+            {chapter.city}
+          </h3>
+          <p class="text-lg font-semibold mt-2">
+            {chapter.state}, {chapter.country}
+          </p>
+          <p class="text-lg font-semibold mt-2">
+            {chapter.members} members
+          </p>
+          <p class="text-lg font-semibold mt-2">
+            {chapter.chapterMeetingPlace}
+          </p>
+          <p class="text-lg font-semibold mt-2">
+            {chapter.chapterMeetingAddress}
+          </p>
+          <p class="text-lg font-semibold mt-2">
+            {chapter.status}
+          </p>
+          {
+            // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
+            chapter.status !== "Coming Soon" && chapter.status !== "Inactive" && (
+            <a href="/join" class="btn btn-primary text-lg">
+              🧀 Join {chapter.city}
+            </a>
+          )}
+        </div>
+      ))
+    }
+  </div>
+</div>
