@@ -1,0 +1,36 @@
+---
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import StartAChapter from "@components/startAChapter.astro";
+// import ChapterStats from "@components/chapterStats.astro";
+import JoinPhoto from "@components/joinPhoto.astro";
+---
+
+<Layout title="Join">
+  <Container>
+    <div class="grid lg:grid-cols-12 lg:gap-4 lg:w-10/12 sm:grid-cols-3 md:grid-cols-12 mx-auto">
+      <div class="lg:col-span-8 sm:col-span-2 md:col-span-9">
+    
+      </div>
+      <div class="lg:col-span-4 sm:col-span-1 md:col-span-3">
+        <!-- This is where a photo will go w/ text overlay -->
+        <JoinPhoto>
+          <div class="text-white">
+            <p class="font-extrabold text-center text-white text-3xl">Lambeau Leap & <br>Join Us</p>
+            <ul class="list-disc list-inside pt-2">
+              <li>Join a chapter</li>
+              <li>Start a chapter</li>
+              <li>Join the team</li>
+            </ul
+          </div>
+        </JoinPhoto>
+      </div>
+    </div>
+
+    <!-- <Join /> -->
+    <!-- <ChapterStats /> -->
+    <div class="pt-12">
+      <StartAChapter />
+    </div
+  </Container>
+</Layout>

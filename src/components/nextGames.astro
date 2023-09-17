@@ -113,7 +113,16 @@ function convertToReadableDate(dateString) {
   <div class="grid grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
     {
       schedule
-      .filter((game) => new Date(game.dateOfMatch) >= new Date())
+      .filter((game) => {
+        const today = new Date();
+        const gameDate = new Date(game.dateOfMatch);
+
+        return (
+          gameDate.getFullYear() > today.getFullYear() ||
+          (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() > today.getMonth()) ||
+          (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() === today.getMonth() && gameDate.getDate() >= today.getDate())
+        );
+      })
       .sort((a, b) => new Date(a.dateOfMatch).getTime() - new Date(b.dateOfMatch).getTime())
       .slice(0, 4)
       .map((game, index) => (
