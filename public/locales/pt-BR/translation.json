@@ -37,5 +37,62 @@
     "localeString": "pt-BR",
     "in": "em",
     "day": "dia"
+  },
+  "sellingPoints": {
+    "title": "Por que você deveria torcer pelos Green Bay Packers?",
+    "subtext": "Os Green Bay Packers têm uma história rica, repleta de inúmeros campeonatos e jogadores lendários. Torcer pelos Packers significa juntar-se a uma comunidade global de fãs apaixonados. Além disso, quem não gosta de queijo?",
+    "sellingPoints" : [
+      {
+        "title": "História rica",
+        "description":
+          "O Green Bay Packers foi fundado em 1919 e ganhou 13 campeonatos, mais do que qualquer outro time da NFL.",
+        "icon": "bx:bxs-book"
+      },
+      {
+        "title": "Comunidade Global",
+        "description":
+          "Torcer pelos Packers significa juntar-se a uma comunidade global de fãs apaixonados.",
+        "icon": "mdi:globe"
+      },
+      {
+        "title": "Cheeseheads",
+        "description":
+          "Os fãs dos Packers são carinhosamente conhecidos como 'Cheeseheads', uma parte divertida e única da cultura dos fãs da NFL.",
+        "icon": "icon-park-outline:cheese"
+      },
+      {
+        "title": "Campo Lambeau",
+        "description":
+          "A casa dos Packers, Lambeau Field, é um dos estádios mais emblemáticos de todos os esportes.",
+        "icon": "ic:outline-stadium"
+      },
+      {
+        "title": "Propriedade sem fins lucrativos",
+        "description":
+          "Os Packers são a única franquia sem fins lucrativos de propriedade comunitária da NFL.",
+        "icon": "bx:bxs-group"
+      },
+      {
+        "title": "Equipe Competitiva",
+        "description":
+          "Os Packers são consistentemente competitivos e têm uma equipe forte, tornando seus jogos emocionantes de assistir.",
+        "icon": "bx:bxs-trophy"
+      }
+    ]
+  },
+  "cta": {
+    "goPackGo": "Vá. Pack. Vá.",
+    "subtext": "Junte-se a um capítulo perto de você ou comece o seu próprio.",
+    "button1Text": "Participar de um capítulo",
+    "button1Link": "/pt-BR/join",
+    "button2Text": "Iniciar um capítulo",
+    "button2Link": "/pt-BR/chapters"
+  },
+  "footer": {
+    "copyright": "Direito Autoral",
+    "rights": "Todos os direitos reservados.",
+    "byline": "Feito a partir de um <0>Web3Template</0> por <1>@cdt5058</1>",
+    "help": "Preciso de ajuda? Tem comentários? Clique aqui.",
+    "helpLink": "/pt-BR/contact"
   }
 }
