@@ -4,6 +4,9 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
 
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
 export interface Props {
   title: string;
 }
@@ -23,12 +26,13 @@ const makeTitle = title
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="lemonade" style="scroll-behavior: smooth">
+<html lang={i18next.language} data-theme="lemonade" style="scroll-behavior: smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
+    <HeadHrefLangs />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO

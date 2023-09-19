@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "<0>O <1>(un)</1>fã-clube oficial</0><2><3>Green Bay</3> <4>Packers</4></2><5>no Brasil 🇧🇷</5>",
+    "subtitle": "Cabeça de Queijo é um fã-clube da Seleção Americana de Futebol (NFL) - Green Bay Packers no Brasil. Somos um grupo de torcedores que amam os Packers e querem compartilhar nossa paixão com outros torcedores do Brasil.",
+    "button1Text": "Saber mais",
+    "button1Link": "/pt-BR#selling-points",
+    "button2Text": "Junte-se ao Cabeça de Queijo Gratuitamente",
+    "button2Link": "/pt-BR/join"
+  },
+  "navbar": {
+    "mainLink" : "/pt-BR",
+    "menuitems": [
+      {
+        "title": "Junte",
+        "path": "/pt-BR/join"
+      },
+      {
+        "title": "Capítulos",
+        "path": "/pt-BR/chapters"
+      },
+      {
+        "title": "Agenda",
+        "path": "/pt-BR#schedule"
+      },
+      {
+        "title": "Capítulos",
+        "path": "/pt-BR/blog"
+      }
+    ],
+    "button1Text": "Envolver-se",
+    "button1Link": "/pt-BR/join"
+  },
+  "site": {
+    "title": "My awesome website!",
+    "description": "Here is the description of my awesome website!"
+  },
+  "home": {
+    "title": "Welcome to my awesome website!",
+    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
+  }
+}

@@ -3,6 +3,8 @@ import { Picture } from "@astrojs/image/components";
 import mainLogoImage from "assets/cdq_large.png"
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 ---
 
 <main
@@ -19,17 +21,19 @@ import { Icon } from "astro-icon";
     />
   </div>
   <div>
-    <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
-      The <span class="font-italic font-skinny">(un)</span>Official
-    </h1>
-    <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      <span class="text-primary">Green Bay</span> <span class="text-secondary">Packers</span>
-    </h1>
-    <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
-      Fan Club in Brasil 🇧🇷
-    </h1>
+    <Trans i18nKey="hero.title">
+      <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
+        The <span class="font-italic font-skinny">(un)</span>Official
+      </h1>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+        <span class="text-primary">Green Bay</span> <span class="text-secondary">Packers</span>
+      </h1>
+      <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
+        Fan Club in Brasil 🇧🇷
+      </h1>
+    </Trans>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Cabeça de Queijo is a fan club for the American National Football (NFL) Team - Green Bay Packers in Brasil. We are a group of fans that love the Packers and want to share our passion with other fans in Brasil.
+      {t("hero.subtitle")}
     </p>
     <!-- <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
@@ -44,8 +48,8 @@ import { Icon } from "astro-icon";
     </div> -->
     <!-- <a role="button" class="btn btn-primary">Current Chapters</a> -->
     <br>
-    <a role="button" class="btn btn-secondary" href="#selling-points">Learn More</a>
-    <a href="/join" role="button" class="btn btn-primary">Join Cabeça de Queijo for Free</a>
+    <a href={t("hero.button1Link")} role="button" class="btn btn-secondary">{t("hero.button1Text")}</a>
+    <a href={t("hero.button2Link")} role="button" class="btn btn-primary">{t("hero.button2Text")}</a>
     <!-- Submit a Bar, View Current Bars, Upcoming Games, etc -->
   </div>
 </main>

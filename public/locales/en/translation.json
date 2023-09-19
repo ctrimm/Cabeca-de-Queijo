@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "<0>The <1>(un)</1>Official</0><2><3>Green Bay</3> <4>Packers</4></2><5>Fan Club in Brasil 🇧🇷</5>",
+    "subtitle": "Cabeça de Queijo is a fan club for the American National Football (NFL) Team - Green Bay Packers in Brasil. We are a group of fans that love the Packers and want to share our passion with other fans in Brasil.",
+    "button1Text": "Learn More",
+    "button1Link": "#selling-points",
+    "button2Text": "Join Cabeça de Queijo for Free",
+    "button2Link": "/join"
+  },
+  "navbar": {
+    "mainLink" : "/",
+    "menuitems": [
+      {
+        "title": "Join",
+        "path": "/join"
+      },
+      {
+        "title": "Chapters",
+        "path": "/chapters"
+      },
+      {
+        "title": "Schedule",
+        "path": "/#schedule"
+      },
+      {
+        "title": "Stories",
+        "path": "/blog"
+      }
+    ],
+    "button1Text": "Get Involved",
+    "button1Link": "/join"
+  },
+  "site": {
+    "title": "My awesome website!",
+    "description": "Here is the description of my awesome website!"
+  },
+  "home": {
+    "title": "Welcome to my awesome website!",
+    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
+  }
+}

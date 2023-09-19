@@ -3,42 +3,20 @@ import Container from "@components/container.astro";
 // import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
-const menuitems = [
-  // Use the below code to render dropdowns
-  // {
-  //   title: "Features",
-  //   path: "#",
-  //   children: [
-  //     { title: "Action", path: "/" },
-  //     { title: "Another action", path: "#" },
-  //     { title: "Dropdown Submenu", path: "#" },
-  //     { title: "404 Page", path: "/404" },
-  //   ],
-  // },
-  {
-    title: "Join",
-    path: "/join",
-  },
-  {
-    title: "Chapters",
-    path: "/chapters",
-  },
-  {
-    title: "Schedule",
-    path: "/#schedule",
-  },
-  {
-    title: "Stories",
-    path: "/blog",
-  },
-];
+import { LanguageSelector } from "astro-i18next/components";
+
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
+const menuitems = t("navbar.menuitems", { returnObjects: true });
+
 ---
 
 <Container>
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg">
+        <a href={t("navbar.mainLink")} class="text-lg">
           <span class="font-bold text-slate-800">Cabeça</span>
           <span class="text-slate-500"> de </span>
           <span class="font-bold text-slate-800">Queijo</span>
@@ -74,13 +52,25 @@ const menuitems = [
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <a role="button" href="/join" class="btn btn-large btn-primary">Get Involved</a>
+          <a role="button" href={t("navbar.button1Link")} class="btn btn-large btn-primary">{t("navbar.button1Text")}</a>
+          <!-- LanguageSelector with custom language naming -->
+          <LanguageSelector
+            showFlag={true}
+            languageMapping={{ en: "Anglais" }}
+            class="my-select-class"
+          />
         </div>
       </MenuItems>
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a role="button" href="/join" class="btn btn-large btn-primary">Get Involved</a>
+        <a role="button" href={t("navbar.button1Link")} class="btn btn-large btn-primary">{t("navbar.button1Text")}</a>
+        <!-- LanguageSelector with custom language naming -->
+        <LanguageSelector
+          showFlag={true}
+          languageMapping={{ en: "Anglais" }}
+          class="my-select-class"
+        />
       </div>
     </div>
   </header>
