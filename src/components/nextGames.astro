@@ -1,4 +1,7 @@
 ---
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
 // TO-DO - Work in Progress to add TV networks + outcome + logic to not display games in the past
 const schedule = [
   {
@@ -95,20 +98,21 @@ function calculateTimeUntilMatch(dateOfMatch) {
   const matchDate = new Date(dateOfMatch);
   const timeDifference = matchDate.getTime() - today.getTime();
   const daysUntilMatch = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-  return `In ${daysUntilMatch} Day${daysUntilMatch > 1 ? 's' : ''}`;
+  return `${t("nextGames.in")} ${daysUntilMatch} ${t("nextGames.day")}${daysUntilMatch > 1 ? 's' : ''}`;
 }
 
 function convertToReadableDate(dateString) {
   const date = new Date(dateString);
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  return date.toLocaleDateString(undefined, options);
+  const localeString = t("nextGames.localeString");
+  return date.toLocaleDateString(localeString, options);
 }
 
 ---
 
 <div class="mt-16 md:mt-0 py-4 pb-24" id="schedule">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Upcoming Games
+    {t("nextGames.title")}
   </h2>
   <div class="grid grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
     {
@@ -129,8 +133,8 @@ function convertToReadableDate(dateString) {
         <div class="card w-50 bg-neutral text-neutral-content">
           <div class="card-body">
             <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
-            <p class="pt-5 pb-0"><strong>Time:</strong>{` ${game.timeOfMatch}`}</p>
-            <p class="pb-5"><strong>Opponent:</strong>{` ${game.opponent}`}</p>
+            <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${game.timeOfMatch}`}</p>
+            <p class="pb-5"><strong>{t("nextGames.opponent")}:</strong>{` ${game.opponent}`}</p>
           </div>
         </div>
       ))
