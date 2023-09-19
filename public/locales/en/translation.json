@@ -94,5 +94,49 @@
     "byline": "Made from a <0>Web3Template</0> by <1>@cdt5058</1>",
     "help": "Need Help? Have Feedback? Click Here.",
     "helpLink": "/contact"
+  },
+  "joinComponent": {
+    "title": "Join Us 🧀 🧑 🇧🇷",
+    "subtitle": "Witty subtitle goes here."
+  },
+  "startAChapter": {
+    "text": "Are you interested in starting a chapter in your area?",
+    "buttonText": "Start a Chapter",
+    "buttonLink": "/chapters/new"
+  },
+  "chapters": {
+    "chapterList": [
+      {
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "country": "Brasil",
+        "members": "125",
+        "chapterMeetingPlace": "Lambeau Field",
+        "chapterMeetingAddress": "123 Lombardi Ave",
+        "status": "Coming Soon"
+      },
+      {
+        "city": "Salvador",
+        "state": "Bahia",
+        "country": "Brasil",
+        "members": "22",
+        "chapterMeetingPlace": "Lambeau Field Northeast",
+        "chapterMeetingAddress": "123 Lombardi Ave NE",
+        "status": "Coming Soon"
+      },
+      {
+        "city": "Amazonia",
+        "state": "-",
+        "country": "Brasil",
+        "members": "~10",
+        "chapterMeetingPlace": "Lambeau Field Amazonia",
+        "chapterMeetingAddress": "987 Holmgren Way",
+        "status": "Coming Soon"
+      }
+    ],
+    "chapterListTitle": "Current Chapters",
+    "join": "🧀 Join",
+    "getNotified": "🧀 Get Notified",
+    "chapterComingSoon": "Coming Soon"
   }
 }

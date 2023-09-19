@@ -94,5 +94,49 @@
     "byline": "Feito a partir de um <0>Web3Template</0> por <1>@cdt5058</1>",
     "help": "Preciso de ajuda? Tem comentários? Clique aqui.",
     "helpLink": "/pt-BR/contact"
+  },
+  "joinComponent": {
+    "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
+    "subtitle": "Witty subtitle goes here."
+  },
+  "startAChapter": {
+    "text": "Você está interessado em iniciar um capítulo em sua área?",
+    "buttonText": "Iniciar um grupo",
+    "buttonLink": "/pt-BR/chapters/new"
+  },
+  "chapters": {
+    "chapterList": [
+      {
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "country": "Brasil",
+        "members": "125",
+        "chapterMeetingPlace": "Campo Lambeau",
+        "chapterMeetingAddress": "Avenida Lombardi 123",
+        "status": "Em breve"
+      },
+      {
+        "city": "Salvador",
+        "state": "Bahia",
+        "country": "Brasil",
+        "members": "22",
+        "chapterMeetingPlace": "Campo Lambeau Nordeste",
+        "chapterMeetingAddress": "123 Lombardi Ave NE",
+        "status": "Em breve"
+      },
+      {
+        "city": "Amazônia",
+        "state": "-",
+        "country": "Brasil",
+        "members": "~10",
+        "chapterMeetingPlace": "Campo Lambeau Amazônia",
+        "chapterMeetingAddress": "987 Holmgren Way",
+        "status": "Em breve"
+      }
+    ],
+    "chapterListTitle": "Capítulos Atuais",
+    "join": "🧀 Junte-se",
+    "getNotified": "🧀 Seja notificado",
+    "chapterComingSoon": "Em breve"
   }
 }

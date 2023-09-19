@@ -1,6 +1,10 @@
+---
+import { t } from "i18next";
+---
+
 <div class="alert">
-  <span>Are you interested in starting a chapter in your area?</span>
+  <span>{t("startAChapter.text")}</span>
   <div>
-    <button class="btn btn-sm btn-primary">Start a Chapter</button>
+    <a href={t("startAChapter.buttonLink")} role="button" class="btn btn-primary">{t("startAChapter.buttonText")}</a>
   </div>
 </div>
