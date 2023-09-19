@@ -113,7 +113,7 @@
         "members": "125",
         "chapterMeetingPlace": "Lambeau Field",
         "chapterMeetingAddress": "123 Lombardi Ave",
-        "status": "Coming Soon"
+        "status": "Active"
       },
       {
         "city": "Salvador",
@@ -137,6 +137,22 @@
     "chapterListTitle": "Current Chapters",
     "join": "🧀 Join",
     "getNotified": "🧀 Get Notified",
-    "chapterComingSoon": "Coming Soon"
+    "chapterComingSoon": "Coming Soon",
+    "members": "Members"
+  },
+  "chapterStats": {
+    "brazilianCheeseheads": "Brazilian Cheeseheads",
+    "join": "Join For Free",
+    "chapters": "Chapters"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subTitle": "Have something you want to bring to our attention?",
+    "guide": "We are here to help. Below is our contact info -"
+  },
+  "blog": {
+    "title": "Stories From Fans (Coming Soon)",
+    "desc": "We love to hear from our fans. If you have a story to share, please",
+    "contactUs": "Contact Us"
   }
 }

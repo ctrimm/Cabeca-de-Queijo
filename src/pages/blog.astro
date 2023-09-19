@@ -1,11 +1,10 @@
 ---
-import { changeLanguage } from "i18next";
+import { t, changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import { Icon } from "astro-icon";
 
 changeLanguage("en");
 
@@ -22,11 +21,11 @@ publishedBlogEntries.sort(function (a, b) {
 <Layout title="Blog">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Stories From Fans (Coming Soon)</Fragment>
+      <Fragment slot="title">{t("blog.title")}</Fragment>
       <Fragment slot="desc">
-        We love to hear from our fans. If you have a story to share, please
+        {t("blog.desc")}
         <a href="mailto:gopackgo@CabecadeQueijo.com">
-          Contact Us
+          {t("blog.contactUs")}
         </a>.
       </Fragment>
     </Sectionhead>

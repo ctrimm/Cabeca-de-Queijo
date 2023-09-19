@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "<0>O <1>(un)</1>fã-clube oficial</0><2><3>Green Bay</3> <4>Packers</4></2><5>no Brasil 🇧🇷</5>",
+    "title": "<0>O fã-clube <1>(não)</1> oficial</0><2><3>Green Bay</3> <4>Packers</4></2><5>no Brasil 🇧🇷</5>",
     "subtitle": "Cabeça de Queijo é um fã-clube da Seleção Americana de Futebol (NFL) - Green Bay Packers no Brasil. Somos um grupo de torcedores que amam os Packers e querem compartilhar nossa paixão com outros torcedores do Brasil.",
     "button1Text": "Saber mais",
     "button1Link": "/pt-BR#selling-points",
@@ -113,7 +113,7 @@
         "members": "125",
         "chapterMeetingPlace": "Campo Lambeau",
         "chapterMeetingAddress": "Avenida Lombardi 123",
-        "status": "Em breve"
+        "status": "Active"
       },
       {
         "city": "Salvador",
@@ -137,6 +137,22 @@
     "chapterListTitle": "Capítulos Atuais",
     "join": "🧀 Junte-se",
     "getNotified": "🧀 Seja notificado",
-    "chapterComingSoon": "Em breve"
+    "chapterComingSoon": "Em breve",
+    "members": "Membros"
+  },
+  "chapterStats": {
+    "brazilianCheeseheads": "Cheeseheads Brasileiros",
+    "join": "Entre de Graça",
+    "chapters": "Clubes"
+  },
+  "contact": {
+    "title": "Fale Conosco",
+    "subTitle": "Tem algo que você gostaria de chamar nossa atenção?",
+    "guide": "Estamos aqui para ajudar. Abaixo estão nossas informações de contato -"
+  },
+  "blog": {
+    "title": "Histórias de fãs (em breve)",
+    "desc": "Adoramos ouvir nossos fãs. Se você tem uma história para compartilhar, por favor",
+    "contactUs": "Fale Conosco"
   }
 }

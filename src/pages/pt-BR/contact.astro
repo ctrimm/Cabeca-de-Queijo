@@ -1,10 +1,10 @@
 ---
-import { changeLanguage } from "i18next";
-import Contactform from "@components/contactform.astro";
+// import Contactform from "@components/contactform.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon";
+import { t, changeLanguage } from "i18next";
 
 changeLanguage("pt-BR");
 ---
@@ -12,15 +12,15 @@ changeLanguage("pt-BR");
 <Layout title="Contact">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Contact Us</Fragment>
-      <Fragment slot="desc">Have something you want to bring to our attention?</Fragment>
+      <Fragment slot="title">{t("contact.title")}</Fragment>
+      <Fragment slot="desc">{t("contact.subTitle")}</Fragment>
     </Sectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
         <!-- <h2 class="font-medium text-2xl text-gray-800">Contact Cabeça de Queijo</h2> -->
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          We are here to help. Below is our contact info -
+          {t("contact.guide")}
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
