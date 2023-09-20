@@ -5,7 +5,8 @@
     "button1Text": "Learn More",
     "button1Link": "#selling-points",
     "button2Text": "Join Cabeça de Queijo for Free",
-    "button2Link": "/join"
+    "button2Link": "/join",
+    "altTag": "Logo for Cabeça de Queijo of a Toucan wearing a Cheesehead Hat on it's head."
   },
   "navbar": {
     "mainLink" : "/",
@@ -36,7 +37,8 @@
     "opponent": "Opponent",
     "localeString": "en-US",
     "in": "in",
-    "day": "day"
+    "day": "day",
+    "today": "TODAY"
   },
   "sellingPoints": {
     "title": "Why Should You Root For the Green Bay Packers?",
@@ -97,7 +99,8 @@
   },
   "joinComponent": {
     "title": "Join Us 🧀 🧑 🇧🇷",
-    "subtitle": "Witty subtitle goes here."
+    "subtitle": "Witty subtitle goes here.",
+    "altTag": "Photo of a Lambeau Leap with a Packers player jumping into the stands"
   },
   "startAChapter": {
     "text": "Are you interested in starting a chapter in your area?",
@@ -138,7 +141,8 @@
     "join": "🧀 Join",
     "getNotified": "🧀 Get Notified",
     "chapterComingSoon": "Coming Soon",
-    "members": "Members"
+    "members": "Members",
+    "buttonLink": "/join"
   },
   "chapterStats": {
     "brazilianCheeseheads": "Brazilian Cheeseheads",
@@ -154,5 +158,41 @@
     "title": "Stories From Fans (Coming Soon)",
     "desc": "We love to hear from our fans. If you have a story to share, please",
     "contactUs": "Contact Us"
+  },
+  "whatsApp": {
+    "title": "Join the Community",
+    "subtext": "Click the Icon Below to Join the WhatsApp Community",
+    "altTag": "Logo for WhatsApp Community"
+  },
+  "memberBenefits": {
+    "title": "What Membership Gets You",
+    "subtext": "Embrace the excitement of being a Packers fan in Brasil. Unite with fellow fans who share your passion and excitement for the legendary Green Bay Packers. Cabeça de Queijo is here to bring together the Packers' vibrant fan community in Brasil.",
+    "benefits": [
+      {
+        "title": "Community and Unity",
+        "description": "Become a vital part of a global Packers community, connecting with fans locally and worldwide through chapters and an exclusive WhatsApp group, fostering unity and camaraderie.",
+        "icon": "mdi:account-group-outline"
+      },
+      {
+        "title": "Information and Updates",
+        "description": "Stay abreast of the latest Packers news, updates, and legendary stories through regular email subscriptions.",
+        "icon": "mdi:email-newsletter"
+      },
+      {
+        "title": "Events and Gatherings",
+        "description": "Join game day gatherings and community events, where you can unite with fellow fans to celebrate and support the team.",
+        "icon": "mdi:calendar-multiple"
+      },
+      {
+        "title": "Exclusive Content",
+        "description": "Dive into the unique Cheesehead culture with exclusive content and virtual tours of the iconic Lambeau Field.",
+        "icon": "mdi:content-copy"
+      },
+      {
+        "title": "Unique Experiences",
+        "description": "Enjoy unique experiences tailored just for the members, including special events, exclusive merchandise, and more.",
+        "icon": "mdi:star-outline"
+      }
+    ]
   }
 }

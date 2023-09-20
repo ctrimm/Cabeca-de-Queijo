@@ -5,6 +5,9 @@ import Layout from "@layouts/Layout.astro";
 import JoinHero from "@components/joinHero.astro";
 import StartAChapter from "@components/startAChapter.astro";
 import ChapterStats from "@components/chapterStats.astro";
+import NewsletterPT from "@components/newsletterPT.astro";
+import WhatsAppJoin from "@components/whatsApp.astro";
+import MemberBenefits from "@components/memberBenefits.astro";
 
 changeLanguage("pt-BR");
 ---
@@ -14,6 +17,17 @@ changeLanguage("pt-BR");
     <JoinHero>
       <ChapterStats />
     </JoinHero>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-0">
+      <div class="col-span-1">
+        <!-- Content for first column goes here -->
+        <NewsletterPT />
+      </div>
+      <div class="col-span-1">
+        <!-- Content for second column goes here -->
+        <WhatsAppJoin />
+      </div>
+    </div>
+    <MemberBenefits />
     <!-- Submit a Bar, View Current Bars, Upcoming Games, etc -->
     <StartAChapter />
   </Container>

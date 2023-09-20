@@ -1,6 +1,6 @@
 ---
 import { Picture } from "@astrojs/image/components";
-import mainLogoImage from "assets/cdq_large.png"
+import mainLogoImage from "assets/main.png"
 import { t } from "i18next";
 import { Trans } from "astro-i18next/components";
 ---
@@ -10,7 +10,7 @@ import { Trans } from "astro-i18next/components";
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
       src={mainLogoImage}
-      alt="Logo for Cabeça de Queijo"
+      alt={t("hero.altTag")}
       widths={[200, 400, 600]}
       aspectRatio="4:4"
       sizes="(max-width: 800px) 100vw, 620px"

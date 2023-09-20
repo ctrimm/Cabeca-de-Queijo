@@ -43,7 +43,7 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
             // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
             ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
               (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
-            <a href="/join" class="btn btn-primary text-lg">
+            <a href={t("chapters.buttonLink")} class="btn btn-primary text-lg">
               {t("chapters.join")} {chapter.city}
             </a>
           )}

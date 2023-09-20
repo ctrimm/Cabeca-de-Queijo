@@ -5,7 +5,8 @@
     "button1Text": "Saber mais",
     "button1Link": "/pt-BR#selling-points",
     "button2Text": "Junte-se ao Cabeça de Queijo Gratuitamente",
-    "button2Link": "/pt-BR/join"
+    "button2Link": "/pt-BR/join",
+    "altTag": "Logotipo para Cabeça de Queijo de um Tucano com Chapéu de Queijo na cabeça."
   },
   "navbar": {
     "mainLink" : "/pt-BR",
@@ -19,7 +20,7 @@
         "path": "/pt-BR/chapters"
       },
       {
-        "title": "Agenda",
+        "title": "Partidas",
         "path": "/pt-BR#schedule"
       },
       {
@@ -36,7 +37,8 @@
     "opponent": "Adversário",
     "localeString": "pt-BR",
     "in": "em",
-    "day": "dia"
+    "day": "dia",
+    "today": "HOJE"
   },
   "sellingPoints": {
     "title": "Por que você deveria torcer pelos Green Bay Packers?",
@@ -97,7 +99,8 @@
   },
   "joinComponent": {
     "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
-    "subtitle": "Witty subtitle goes here."
+    "subtitle": "Witty subtitle goes here.",
+    "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas"
   },
   "startAChapter": {
     "text": "Você está interessado em iniciar um capítulo em sua área?",
@@ -138,7 +141,8 @@
     "join": "🧀 Junte-se",
     "getNotified": "🧀 Seja notificado",
     "chapterComingSoon": "Em breve",
-    "members": "Membros"
+    "members": "Membros",
+    "buttonLink": "/pt-BR/join"
   },
   "chapterStats": {
     "brazilianCheeseheads": "Cheeseheads Brasileiros",
@@ -154,5 +158,41 @@
     "title": "Histórias de fãs (em breve)",
     "desc": "Adoramos ouvir nossos fãs. Se você tem uma história para compartilhar, por favor",
     "contactUs": "Fale Conosco"
-  }
+  },
+  "whatsApp": {
+    "title": "Junte-se à comunidade",
+    "subtext": "Clique no ícone abaixo para ingressar na comunidade WhatsApp",
+    "altTag": "Logotipo para comunidade WhatsApp"
+  },
+  "memberBenefits": {
+    "title": "O Que Você Ganha com a Assinatura",
+    "subtext": "Abrace a emoção de ser um fã dos Packers no Brasil. Una-se a outros fãs que compartilham sua paixão e entusiasmo pelo lendário Green Bay Packers. Cabeça de Queijo está aqui para reunir a vibrante comunidade de fãs dos Packers no Brasil.",
+    "benefits": [
+      {
+        "title": "Comunidade e União",
+        "description": "Torne-se uma parte vital da comunidade global dos Packers, conectando-se com fãs local e mundialmente através de capítulos e um grupo exclusivo no WhatsApp, promovendo união e camaradagem.",
+        "icon": "mdi:account-group-outline"
+      },
+      {
+        "title": "Informações e Atualizações",
+        "description": "Mantenha-se atualizado com as últimas notícias, atualizações e histórias lendárias dos Packers através de assinaturas de e-mail regulares.",
+        "icon": "mdi:email-newsletter"
+      },
+      {
+        "title": "Eventos e Encontros",
+        "description": "Participe de encontros em dias de jogo e eventos comunitários, onde você pode se unir a outros fãs para celebrar e apoiar o time.",
+        "icon": "mdi:calendar-multiple"
+      },
+      {
+        "title": "Conteúdo Exclusivo",
+        "description": "Mergulhe na única cultura Cheesehead com conteúdo exclusivo e tours virtuais pelo icônico Lambeau Field.",
+        "icon": "mdi:content-copy"
+      },
+      {
+        "title": "Experiências Únicas",
+        "description": "Desfrute de experiências únicas feitas especialmente para os membros, incluindo eventos especiais, mercadorias exclusivas e muito mais.",
+        "icon": "mdi:star-outline"
+      }
+    ]
+  }  
 }
