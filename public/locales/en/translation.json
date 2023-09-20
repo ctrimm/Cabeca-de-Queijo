@@ -36,9 +36,11 @@
     "time": "Time",
     "opponent": "Opponent",
     "localeString": "en-US",
-    "in": "in",
-    "day": "day",
-    "today": "TODAY"
+    "in": "In",
+    "day": "Day",
+    "today": "TODAY",
+    "inProgress": "IN PROGRESS",
+    "endedToday": "TODAY = FINAL"
   },
   "sellingPoints": {
     "title": "Why Should You Root For the Green Bay Packers?",
@@ -194,5 +196,8 @@
         "icon": "mdi:star-outline"
       }
     ]
+  },
+  "404": {
+    "title": "Page Not Found"
   }
 }

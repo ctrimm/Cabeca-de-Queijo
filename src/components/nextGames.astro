@@ -16,7 +16,7 @@ const schedule = [
     score: "24-25"
   },
   {
-    dateOfMatch: "2023-09-20T14:00:00.000-03:00",
+    dateOfMatch: "2023-09-24T14:00:00.000-03:00",
     opponent: "New Orleans Saints",
   },
   {
@@ -81,9 +81,22 @@ function calculateTimeUntilMatch(dateOfMatch) {
   const today = new Date();
   const matchDate = new Date(dateOfMatch);
   const timeDifference = matchDate.getTime() - today.getTime();
-  const daysUntilMatch = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-  if(daysUntilMatch === 0) return t("nextGames.today");
-  return `${t("nextGames.in")} ${daysUntilMatch} ${t("nextGames.day")}${daysUntilMatch > 1 ? 's' : ''}`;
+  const hoursUntilMatch = timeDifference / (1000 * 60 * 60);
+  const daysUntilMatch = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+  // If today === match date, return "Today"
+  // Else if the match is in the past by 4 hours, return "In Progress"
+  // Else if the match is in the past between 4 and 24 hours, return "Ended Today"
+  // Else return "In X days"
+  if (today === matchDate) {
+    return t("nextGames.today");
+  } else if (hoursUntilMatch < 0 && hoursUntilMatch > -4) {
+    return t("nextGames.inProgress");
+  } else if (hoursUntilMatch <-4 && hoursUntilMatch > -24 ) {
+    return t("nextGames.endedToday");
+  } else {
+    return `${t("nextGames.in")} ${daysUntilMatch} ${t("nextGames.day")}${daysUntilMatch > 1 ? 's' : ''}`;
+  }
 }
 
 function convertToReadableDate(dateString) {
@@ -99,7 +112,6 @@ function extractTime(dateString) {
   const localeString = t("nextGames.localeString");
   return date.toLocaleTimeString(localeString, options);
 }
-
 ---
 
 <div class="mt-16 md:mt-0 py-4 pb-24" id="schedule">

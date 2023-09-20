@@ -3,9 +3,8 @@ import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
-
-import i18next, { t } from "i18next";
-import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import i18next from "i18next";
+import { HeadHrefLangs } from "astro-i18next/components";
 
 export interface Props {
   title: string;

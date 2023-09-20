@@ -36,9 +36,11 @@
     "time": "Tempo",
     "opponent": "Adversário",
     "localeString": "pt-BR",
-    "in": "em",
-    "day": "dia",
-    "today": "HOJE"
+    "in": "Em",
+    "day": "Dia",
+    "today": "HOJE",
+    "inProgress": "EM ANDAMENTO",
+    "endedToday": "HOJE = FINALIZADO"
   },
   "sellingPoints": {
     "title": "Por que você deveria torcer pelos Green Bay Packers?",
@@ -194,5 +196,8 @@
         "icon": "mdi:star-outline"
       }
     ]
-  }  
+  },
+  "404": {
+    "title": "Página não encontrada"
+  }
 }
