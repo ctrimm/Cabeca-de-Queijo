@@ -16,7 +16,7 @@
         "path": "/pt-BR/join"
       },
       {
-        "title": "Capítulos",
+        "title": "Clubes",
         "path": "/pt-BR/chapters"
       },
       {
@@ -24,7 +24,7 @@
         "path": "/pt-BR#schedule"
       },
       {
-        "title": "Capítulos",
+        "title": "Blogue",
         "path": "/pt-BR/blog"
       }
     ],
@@ -84,10 +84,10 @@
   },
   "cta": {
     "goPackGo": "Vá. Pack. Vá.",
-    "subtext": "Junte-se a um capítulo perto de você ou comece o seu próprio.",
-    "button1Text": "Participar de um capítulo",
+    "subtext": "Junte-se a um clube perto de você ou comece o seu próprio.",
+    "button1Text": "Participar de um clube",
     "button1Link": "/pt-BR/join",
-    "button2Text": "Iniciar um capítulo",
+    "button2Text": "Iniciar um clube",
     "button2Link": "/pt-BR/chapters"
   },
   "footer": {
@@ -103,7 +103,7 @@
     "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas"
   },
   "startAChapter": {
-    "text": "Você está interessado em iniciar um capítulo em sua área?",
+    "text": "Você está interessado em iniciar um clube em sua área?",
     "buttonText": "Iniciar um grupo",
     "buttonLink": "/pt-BR/chapters/new"
   },
@@ -137,7 +137,7 @@
         "status": "Em breve"
       }
     ],
-    "chapterListTitle": "Capítulos Atuais",
+    "chapterListTitle": "Clubes Atuais",
     "join": "🧀 Junte-se",
     "getNotified": "🧀 Seja notificado",
     "chapterComingSoon": "Em breve",
@@ -170,7 +170,7 @@
     "benefits": [
       {
         "title": "Comunidade e União",
-        "description": "Torne-se uma parte vital da comunidade global dos Packers, conectando-se com fãs local e mundialmente através de capítulos e um grupo exclusivo no WhatsApp, promovendo união e camaradagem.",
+        "description": "Torne-se uma parte vital da comunidade global dos Packers, conectando-se com fãs local e mundialmente através de clubes e um grupo exclusivo no WhatsApp, promovendo união e camaradagem.",
         "icon": "mdi:account-group-outline"
       },
       {
