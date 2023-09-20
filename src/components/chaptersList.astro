@@ -21,30 +21,22 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
               </a>
             </div>
           )}
-          <h3 class="text-2xl font-bold tracking-tight">
+          <h3 class="text-3xl font-extrabold tracking-tight text-center ">
             {chapter.city}
           </h3>
+          <hr>
           <p class="text-lg font-semibold mt-2">
-            {chapter.state}, {chapter.country}
+            👪 {chapter.members} {t("chapters.members")}
           </p>
           <p class="text-lg font-semibold mt-2">
-            {chapter.members} {t("chapters.members")}
-          </p>
-          <p class="text-lg font-semibold mt-2">
-            {chapter.chapterMeetingPlace}
-          </p>
-          <p class="text-lg font-semibold mt-2">
-            {chapter.chapterMeetingAddress}
-          </p>
-          <p class="text-lg font-semibold mt-2">
-            {chapter.status}
+            <a href={t("chapter.chapterMeetingAddressLink")} target="_blank">🗺️ {chapter.chapterMeetingPlace}</a>
           </p>
           {
             // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
             ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
               (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
-            <a href={t("chapters.buttonLink")} class="btn btn-primary text-lg">
-              {t("chapters.join")} {chapter.city}
+            <a href={`/chapters/${chapter.slug}`} class="btn btn-primary text-lg mt-2">
+              {t("chapters.learnMore")}
             </a>
           )}
         </div>

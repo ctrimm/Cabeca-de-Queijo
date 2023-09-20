@@ -112,15 +112,28 @@
   "chapters": {
     "chapterList": [
       {
+        "slug": "sao-paulo",
         "city": "São Paulo",
         "state": "São Paulo",
         "country": "Brasil",
-        "members": "125",
-        "chapterMeetingPlace": "Lambeau Field",
-        "chapterMeetingAddress": "123 Lombardi Ave",
+        "members": "1",
+        "chapterMeetingPlace": "O'Malley's",
+        "chapterMeetingAddressLink": "https://www.google.com/maps/place/O'Malley's/@-23.558204,-46.6686148,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce582b588b210f:0x5c53c5929142242!8m2!3d-23.558204!4d-46.6660399!16s%2Fg%2F1tgq7slq?entry=ttu",
+        "website": "https://www.omalleysbar.net/",
         "status": "Active"
       },
       {
+        "slug": "santos",
+        "city": "Santos",
+        "state": "São Paulo",
+        "country": "Brasil",
+        "members": "22",
+        "chapterMeetingPlace": "Lambeau Field Northeast",
+        "chapterMeetingAddress": "123 Lombardi Ave NE",
+        "status": "Coming Soon"
+      },
+      {
+        "slug": "santos",
         "city": "Salvador",
         "state": "Bahia",
         "country": "Brasil",
@@ -130,6 +143,7 @@
         "status": "Coming Soon"
       },
       {
+        "slug": "amazonia",
         "city": "Amazonia",
         "state": "-",
         "country": "Brasil",
@@ -137,10 +151,20 @@
         "chapterMeetingPlace": "Lambeau Field Amazonia",
         "chapterMeetingAddress": "987 Holmgren Way",
         "status": "Coming Soon"
+      },
+      {
+        "slug": "brasilia",
+        "city": "Brasilia",
+        "state": "-",
+        "country": "Brasil",
+        "members": "~10",
+        "chapterMeetingPlace": "Campo Lambeau Amazônia",
+        "chapterMeetingAddress": "987 Holmgren Way",
+        "status": "Em breve"
       }
     ],
     "chapterListTitle": "Current Chapters",
-    "join": "🧀 Join",
+    "learnMore": "🧀 Learn More",
     "getNotified": "🧀 Get Notified",
     "chapterComingSoon": "Coming Soon",
     "members": "Members",
@@ -158,7 +182,7 @@
   },
   "blog": {
     "title": "Stories From Fans (Coming Soon)",
-    "desc": "We love to hear from our fans. If you have a story to share, please",
+    "desc": "We love to hear from our Brasilian Cheeseheads. If you have a story to share, please",
     "contactUs": "Contact Us"
   },
   "whatsApp": {
