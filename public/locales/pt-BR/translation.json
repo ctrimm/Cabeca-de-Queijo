@@ -1,0 +1,203 @@
+{
+  "hero": {
+    "title": "<0>O fã-clube <1>(não)</1> oficial</0><2><3>Green Bay</3> <4>Packers</4></2><5>no Brasil 🇧🇷</5>",
+    "subtitle": "Cabeça de Queijo é um fã-clube da Seleção Americana de Futebol (NFL) - Green Bay Packers no Brasil. Somos um grupo de torcedores que amam os Packers e querem compartilhar nossa paixão com outros torcedores do Brasil.",
+    "button1Text": "Saber mais",
+    "button1Link": "/pt-BR#selling-points",
+    "button2Text": "Junte-se ao Cabeça de Queijo Gratuitamente",
+    "button2Link": "/pt-BR/join",
+    "altTag": "Logotipo para Cabeça de Queijo de um Tucano com Chapéu de Queijo na cabeça."
+  },
+  "navbar": {
+    "mainLink" : "/pt-BR",
+    "menuitems": [
+      {
+        "title": "Junte",
+        "path": "/pt-BR/join"
+      },
+      {
+        "title": "Clubes",
+        "path": "/pt-BR/chapters"
+      },
+      {
+        "title": "Partidas",
+        "path": "/pt-BR#schedule"
+      },
+      {
+        "title": "Blogue",
+        "path": "/pt-BR/blog"
+      }
+    ],
+    "button1Text": "Envolver-se",
+    "button1Link": "/pt-BR/join"
+  },
+  "nextGames" : {
+    "title": "Próximos Jogos",
+    "time": "Tempo",
+    "opponent": "Adversário",
+    "localeString": "pt-BR",
+    "in": "Em",
+    "day": "Dia",
+    "today": "HOJE",
+    "inProgress": "EM ANDAMENTO",
+    "endedToday": "HOJE = FINALIZADO"
+  },
+  "sellingPoints": {
+    "title": "Por que você deveria torcer pelos Green Bay Packers?",
+    "subtext": "Os Green Bay Packers têm uma história rica, repleta de inúmeros campeonatos e jogadores lendários. Torcer pelos Packers significa juntar-se a uma comunidade global de fãs apaixonados. Além disso, quem não gosta de queijo?",
+    "sellingPoints" : [
+      {
+        "title": "História rica",
+        "description":
+          "O Green Bay Packers foi fundado em 1919 e ganhou 13 campeonatos, mais do que qualquer outro time da NFL.",
+        "icon": "bx:bxs-book"
+      },
+      {
+        "title": "Comunidade Global",
+        "description":
+          "Torcer pelos Packers significa juntar-se a uma comunidade global de fãs apaixonados.",
+        "icon": "mdi:globe"
+      },
+      {
+        "title": "Cheeseheads",
+        "description":
+          "Os fãs dos Packers são carinhosamente conhecidos como 'Cheeseheads', uma parte divertida e única da cultura dos fãs da NFL.",
+        "icon": "icon-park-outline:cheese"
+      },
+      {
+        "title": "Campo Lambeau",
+        "description":
+          "A casa dos Packers, Lambeau Field, é um dos estádios mais emblemáticos de todos os esportes.",
+        "icon": "ic:outline-stadium"
+      },
+      {
+        "title": "Propriedade sem fins lucrativos",
+        "description":
+          "Os Packers são a única franquia sem fins lucrativos de propriedade comunitária da NFL.",
+        "icon": "bx:bxs-group"
+      },
+      {
+        "title": "Equipe Competitiva",
+        "description":
+          "Os Packers são consistentemente competitivos e têm uma equipe forte, tornando seus jogos emocionantes de assistir.",
+        "icon": "bx:bxs-trophy"
+      }
+    ]
+  },
+  "cta": {
+    "goPackGo": "Vá. Pack. Vá.",
+    "subtext": "Junte-se a um clube perto de você ou comece o seu próprio.",
+    "button1Text": "Participar de um clube",
+    "button1Link": "/pt-BR/join",
+    "button2Text": "Iniciar um clube",
+    "button2Link": "/pt-BR/chapters"
+  },
+  "footer": {
+    "copyright": "Direito Autoral",
+    "rights": "Todos os direitos reservados.",
+    "byline": "Feito a partir de um <0>Web3Template</0> por <1>@cdt5058</1>",
+    "help": "Preciso de ajuda? Tem comentários? Clique aqui.",
+    "helpLink": "/pt-BR/contact"
+  },
+  "joinComponent": {
+    "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
+    "subtitle": "Witty subtitle goes here.",
+    "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas"
+  },
+  "startAChapter": {
+    "text": "Você está interessado em iniciar um clube em sua área?",
+    "buttonText": "Iniciar um grupo",
+    "buttonLink": "/pt-BR/chapters/new"
+  },
+  "chapters": {
+    "chapterList": [
+      {
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "country": "Brasil",
+        "members": "125",
+        "chapterMeetingPlace": "Campo Lambeau",
+        "chapterMeetingAddress": "Avenida Lombardi 123",
+        "status": "Active"
+      },
+      {
+        "city": "Salvador",
+        "state": "Bahia",
+        "country": "Brasil",
+        "members": "22",
+        "chapterMeetingPlace": "Campo Lambeau Nordeste",
+        "chapterMeetingAddress": "123 Lombardi Ave NE",
+        "status": "Em breve"
+      },
+      {
+        "city": "Amazônia",
+        "state": "-",
+        "country": "Brasil",
+        "members": "~10",
+        "chapterMeetingPlace": "Campo Lambeau Amazônia",
+        "chapterMeetingAddress": "987 Holmgren Way",
+        "status": "Em breve"
+      }
+    ],
+    "chapterListTitle": "Clubes Atuais",
+    "join": "🧀 Junte-se",
+    "getNotified": "🧀 Seja notificado",
+    "chapterComingSoon": "Em breve",
+    "members": "Membros",
+    "buttonLink": "/pt-BR/join"
+  },
+  "chapterStats": {
+    "brazilianCheeseheads": "Cheeseheads Brasileiros",
+    "join": "Entre de Graça",
+    "chapters": "Clubes"
+  },
+  "contact": {
+    "title": "Fale Conosco",
+    "subTitle": "Tem algo que você gostaria de chamar nossa atenção?",
+    "guide": "Estamos aqui para ajudar. Abaixo estão nossas informações de contato -"
+  },
+  "blog": {
+    "title": "Histórias de fãs (em breve)",
+    "desc": "Adoramos ouvir nossos fãs. Se você tem uma história para compartilhar, por favor",
+    "contactUs": "Fale Conosco"
+  },
+  "whatsApp": {
+    "title": "Junte-se à comunidade",
+    "subtext": "Clique no ícone abaixo para ingressar na comunidade WhatsApp",
+    "altTag": "Logotipo para comunidade WhatsApp"
+  },
+  "memberBenefits": {
+    "title": "O Que Você Ganha com a Assinatura",
+    "subtext": "Abrace a emoção de ser um fã dos Packers no Brasil. Una-se a outros fãs que compartilham sua paixão e entusiasmo pelo lendário Green Bay Packers. Cabeça de Queijo está aqui para reunir a vibrante comunidade de fãs dos Packers no Brasil.",
+    "benefits": [
+      {
+        "title": "Comunidade e União",
+        "description": "Torne-se uma parte vital da comunidade global dos Packers, conectando-se com fãs local e mundialmente através de clubes e um grupo exclusivo no WhatsApp, promovendo união e camaradagem.",
+        "icon": "mdi:account-group-outline"
+      },
+      {
+        "title": "Informações e Atualizações",
+        "description": "Mantenha-se atualizado com as últimas notícias, atualizações e histórias lendárias dos Packers através de assinaturas de e-mail regulares.",
+        "icon": "mdi:email-newsletter"
+      },
+      {
+        "title": "Eventos e Encontros",
+        "description": "Participe de encontros em dias de jogo e eventos comunitários, onde você pode se unir a outros fãs para celebrar e apoiar o time.",
+        "icon": "mdi:calendar-multiple"
+      },
+      {
+        "title": "Conteúdo Exclusivo",
+        "description": "Mergulhe na única cultura Cheesehead com conteúdo exclusivo e tours virtuais pelo icônico Lambeau Field.",
+        "icon": "mdi:content-copy"
+      },
+      {
+        "title": "Experiências Únicas",
+        "description": "Desfrute de experiências únicas feitas especialmente para os membros, incluindo eventos especiais, mercadorias exclusivas e muito mais.",
+        "icon": "mdi:star-outline"
+      }
+    ]
+  },
+  "404": {
+    "title": "Página não encontrada"
+  }
+}

@@ -1,24 +1,23 @@
 ---
-// @ts-ignore
 import { Icon } from "astro-icon";
 import { t } from "i18next";
 
-const sellingPoints = t("sellingPoints.sellingPoints", { returnObjects: true });
+const memberBenefits = t("memberBenefits.benefits", { returnObjects: true });
 ---
 
-<div class="mt-16 md:mt-0" id="selling-points">
+<div class="mt-12 md:mt-12" id="selling-points">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    {t("sellingPoints.title")}
+    {t("memberBenefits.title")}
     
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    {t("sellingPoints.subtext")}
+    {t("memberBenefits.subtext")}
   </p>
 </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16 md:pb-12 mb-12">
   {
-    sellingPoints.map((item) => (
+    memberBenefits.map((item) => (
       <div class="flex gap-4 items-start">
         <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
           <Icon class="text-white" name={item.icon} />

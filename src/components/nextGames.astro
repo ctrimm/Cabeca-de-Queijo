@@ -1,91 +1,78 @@
 ---
+import { t } from "i18next";
+
 // TO-DO - Work in Progress to add TV networks + outcome + logic to not display games in the past
 const schedule = [
   {
-    dateOfMatch: "2023-09-10",
-    timeOfMatch: "1:00 PM BST",
+    dateOfMatch: "2023-09-10T13:00:00.000-03:00",
     opponent: "at Chicago Bears",
     outcome: "W",
     score: "38-20"
   },
   {
-    dateOfMatch: "2023-09-17",
-    timeOfMatch: "2:00 PM BST",
+    dateOfMatch: "2023-09-17T14:00:00.000-03:00",
     opponent: "at Atlanta Falcons",
+    outcome: "L",
+    score: "24-25"
   },
   {
-    dateOfMatch: "2023-09-24",
-    timeOfMatch: "2:00 PM BST",
+    dateOfMatch: "2023-09-24T14:00:00.000-03:00",
     opponent: "New Orleans Saints",
   },
   {
-    dateOfMatch: "2023-09-28",
-    timeOfMatch: "9:15 PM BST",
+    dateOfMatch: "2023-09-28T21:15:00.000-03:00",
     opponent: "Detroit Lions",
   },
   {
-    dateOfMatch: "2023-10-09",
-    timeOfMatch: "9:15 PM BST",
+    dateOfMatch: "2023-10-09T21:15:00.000-03:00",
     opponent: "at Oakland Raiders",
   },
   {
-    dateOfMatch: "2023-10-22",
-    timeOfMatch: "5:25 PM BST",
+    dateOfMatch: "2023-10-22T17:25:00.000-03:00",
     opponent: "at Denver Broncos",
   },
   {
-    dateOfMatch: "2023-10-29",
-    timeOfMatch: "2:00 PM BST",
+    dateOfMatch: "2023-10-29T14:00:00.000-03:00",
     opponent: "Minnesota Vikings",
   },
   {
-    dateOfMatch: "2023-11-05",
-    timeOfMatch: "3:00 PM BST",
+    dateOfMatch: "2023-11-05T15:00:00.000-03:00",
     opponent: "Los Angeles Rams",
   },
   {
-    dateOfMatch: "2023-11-12",
-    timeOfMatch: "3:00 PM BST",
+    dateOfMatch: "2023-11-12T15:00:00.000-03:00",
     opponent: "at Pittsburgh Steelers",
   },
   {
-    dateOfMatch: "2023-11-19",
-    timeOfMatch: "3:00 PM BST",
+    dateOfMatch: "2023-11-19T15:00:00.000-03:00",
     opponent: "Los Angeles Chargers",
   },
   {
-    dateOfMatch: "2023-11-23",
-    timeOfMatch: "3:00 PM BST",
+    dateOfMatch: "2023-11-23T15:00:00.000-03:00",
     opponent: "at Detroit Lions",
   },
   {
-    dateOfMatch: "2023-12-03",
-    timeOfMatch: "10:20 PM BST",
+    dateOfMatch: "2023-12-03T22:20:00.000-03:00",
     opponent: "Kansas City Chiefs",
   },
   {
-    dateOfMatch: "2023-12-11",
-    timeOfMatch: "10:15 PM BST",
+    dateOfMatch: "2023-12-11T22:15:00.000-03:00",
     opponent: "at New York Giants",
   },
   {
-    dateOfMatch: "2023-12-17",
-    timeOfMatch: "3:00 PM BST",
+    dateOfMatch: "2023-12-17T15:00:00.000-03:00",
     opponent: "Tampa Bay Buccaneers",
   },
   {
-    dateOfMatch: "2023-12-24",
-    timeOfMatch: "3:00 PM BST",
+    dateOfMatch: "2023-12-24T15:00:00.000-03:00",
     opponent: "at Carolina Panthers",
   },
   {
-    dateOfMatch: "2024-12-31",
-    timeOfMatch: "10:20 PM BST",
+    dateOfMatch: "2024-12-31T22:20:00.000-03:00",
     opponent: "at Minnesota Vikings",
   },
   {
-    dateOfMatch: "2024-01-07",
-    timeOfMatch: "TBD",
+    dateOfMatch: "2024-01-07T00:00:00.000-03:00",
     opponent: "Chicago Bears",
   },
 ];
@@ -94,21 +81,42 @@ function calculateTimeUntilMatch(dateOfMatch) {
   const today = new Date();
   const matchDate = new Date(dateOfMatch);
   const timeDifference = matchDate.getTime() - today.getTime();
+  const hoursUntilMatch = timeDifference / (1000 * 60 * 60);
   const daysUntilMatch = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-  return `In ${daysUntilMatch} Day${daysUntilMatch > 1 ? 's' : ''}`;
+
+  // If today === match date, return "Today"
+  // Else if the match is in the past by 4 hours, return "In Progress"
+  // Else if the match is in the past between 4 and 24 hours, return "Ended Today"
+  // Else return "In X days"
+  if (today === matchDate) {
+    return t("nextGames.today");
+  } else if (hoursUntilMatch < 0 && hoursUntilMatch > -4) {
+    return t("nextGames.inProgress");
+  } else if (hoursUntilMatch <-4 && hoursUntilMatch > -24 ) {
+    return t("nextGames.endedToday");
+  } else {
+    return `${t("nextGames.in")} ${daysUntilMatch} ${t("nextGames.day")}${daysUntilMatch > 1 ? 's' : ''}`;
+  }
 }
 
 function convertToReadableDate(dateString) {
   const date = new Date(dateString);
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  return date.toLocaleDateString(undefined, options);
+  const localeString = t("nextGames.localeString");
+  return date.toLocaleDateString(localeString, options);
 }
 
+function extractTime(dateString) {
+  const date = new Date(dateString);
+  const options = { hour: 'numeric', minute: '2-digit', hour12: true };
+  const localeString = t("nextGames.localeString");
+  return date.toLocaleTimeString(localeString, options);
+}
 ---
 
 <div class="mt-16 md:mt-0 py-4 pb-24" id="schedule">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Upcoming Games
+    {t("nextGames.title")}
   </h2>
   <div class="grid grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
     {
@@ -129,8 +137,8 @@ function convertToReadableDate(dateString) {
         <div class="card w-50 bg-neutral text-neutral-content">
           <div class="card-body">
             <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
-            <p class="pt-5 pb-0"><strong>Time:</strong>{` ${game.timeOfMatch}`}</p>
-            <p class="pb-5"><strong>Opponent:</strong>{` ${game.opponent}`}</p>
+            <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Local Time</p>
+            <p class="pb-5"><strong>{t("nextGames.opponent")}:</strong>{` ${game.opponent}`}</p>
           </div>
         </div>
       ))
