@@ -109,6 +109,11 @@
     "buttonText": "Iniciar um grupo",
     "buttonLink": "/pt-BR/chapters/new"
   },
+  "joinAChapter": {
+    "text": "Interessado em se tornar um membro deste ",
+    "buttonText": "Junte-se ao ",
+    "buttonLink": "/pt-BR/join"
+  },
   "chapters": {
     "chapterList": [
       {
