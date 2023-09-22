@@ -6,8 +6,8 @@ import { Trans } from "astro-i18next/components";
 ---
 
 <main
-  class="grid lg:grid-cols-2 place-items-center pt-16 pb-2 md:pt-3 md:pb-6">
-  <div class="py-6 md:order-1 hidden md:block">
+  class="grid lg:grid-cols-2 place-items-center pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6">
+  <div class="py-6 order-last sm:block">
     <Picture
       src={mainLogoImage}
       alt={t("hero.altTag")}
@@ -20,10 +20,10 @@ import { Trans } from "astro-i18next/components";
   </div>
   <div>
     <Trans i18nKey="hero.title">
-      <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
+      <h1 class="text-3xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
         The <span class="font-italic font-skinny">(un)</span>Official
       </h1>
-      <div class="lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+      <div class="text-5xl lg:text-5xl xl:text-6xl  font-bold lg:tracking-tight xl:tracking-tighter">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
           Green Bay Packers
         </span>
@@ -31,7 +31,7 @@ import { Trans } from "astro-i18next/components";
       <!-- <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
         <span class="text-primary">Green Bay</span> <span class="text-secondary">Packers</span>
       </h1> -->
-      <h1 class="text-4xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
+      <h1 class="text-3xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
         Fan Club in Brasil 🇧🇷
       </h1>
     </Trans>
@@ -51,8 +51,8 @@ import { Trans } from "astro-i18next/components";
     </div> -->
     <!-- <a role="button" class="btn btn-primary">Current Chapters</a> -->
     <br>
-    <a href={t("hero.button1Link")} role="button" class="btn btn-secondary">{t("hero.button1Text")}</a>
-    <a href={t("hero.button2Link")} role="button" class="btn btn-primary">{t("hero.button2Text")}</a>
+    <a href={t("hero.button1Link")} role="button" class="btn btn-secondary mt-2">{t("hero.button1Text")}</a>
+    <a href={t("hero.button2Link")} role="button" class="btn btn-primary mt-2">{t("hero.button2Text")}</a>
     <!-- Submit a Bar, View Current Bars, Upcoming Games, etc -->
   </div>
 </main>
