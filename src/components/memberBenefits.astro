@@ -5,7 +5,7 @@ import { t } from "i18next";
 const memberBenefits = t("memberBenefits.benefits", { returnObjects: true });
 ---
 
-<div class="mt-12 md:mt-12" id="selling-points">
+<div class="mt-4 md:mt-4" id="selling-points">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     {t("memberBenefits.title")}
     
@@ -15,7 +15,7 @@ const memberBenefits = t("memberBenefits.benefits", { returnObjects: true });
   </p>
 </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16 md:pb-12 mb-12">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-10 gap-10 md:pb-6 mb-6">
   {
     memberBenefits.map((item) => (
       <div class="flex gap-4 items-start">

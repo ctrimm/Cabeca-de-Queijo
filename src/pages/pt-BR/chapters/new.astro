@@ -1,0 +1,32 @@
+---
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+import { Icon } from "astro-icon";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("pt-BR");
+---
+
+<Layout title="Start a Chapter">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">{t("startAChapterPage.title")}</Fragment>
+      <Fragment slot="desc">{t("startAChapterPage.subTitle")}</Fragment>
+    </Sectionhead>
+
+    <div class="grid md:grid-cols-1 gap-10 mx-auto max-w-xl mt-16">
+      <div>
+        <p class="text-lg leading-relaxed text-slate-500 mt-3">
+          {t("startAChapterPage.guide")}
+        </p>
+        <div class="mt-5">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
+            <a href="mailto:chapters@CabecadeQueijo.com">chapters@CabecadeQueijo.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Layout>

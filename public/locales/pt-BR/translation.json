@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "<0>O fã-clube <1>(não)</1> oficial</0><2><3>Green Bay</3> <4>Packers</4></2><5>no Brasil 🇧🇷</5>",
+    "title": "<0>O fã-clube <1>(não)</1> oficial</0><2><3>Green Bay Packers</3></2><4>no Brasil 🇧🇷</4>",
     "subtitle": "Cabeça de Queijo é um fã-clube da Seleção Americana de Futebol (NFL) - Green Bay Packers no Brasil. Somos um grupo de torcedores que amam os Packers e querem compartilhar nossa paixão com outros torcedores do Brasil.",
     "button1Text": "Saber mais",
     "button1Link": "/pt-BR#selling-points",
@@ -90,7 +90,7 @@
     "button1Text": "Participar de um clube",
     "button1Link": "/pt-BR/join",
     "button2Text": "Iniciar um clube",
-    "button2Link": "/pt-BR/chapters"
+    "button2Link": "/pt-BR/chapters/new"
   },
   "footer": {
     "copyright": "Direito Autoral",
@@ -101,26 +101,52 @@
   },
   "joinComponent": {
     "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
-    "subtitle": "Witty subtitle goes here.",
-    "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas"
+    "subtitle": "Existem algumas formas de se envolver com Cabeça de Queijo. Você pode simplesmente se inscrever em nosso boletim informativo por e-mail para receber atualizações, ingressar no WhatsApp de um clube local ou iniciar um clube.",
+    "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas",
+    "viewChaptersText": "Ver Clubes Atuais"
   },
   "startAChapter": {
     "text": "Você está interessado em iniciar um clube em sua área?",
     "buttonText": "Iniciar um grupo",
     "buttonLink": "/pt-BR/chapters/new"
   },
+  "joinAChapter": {
+    "text": "Interessado em se tornar um membro deste ",
+    "buttonText": "Junte-se ao ",
+    "buttonLink": "/pt-BR/join"
+  },
+  "chapterSlug": {
+    "interested": "Interessado em se tornar um membro da",
+    "joinWhatsApp": "Junte-se",
+    "whereToCheer": "Onde torcer",
+    "backToChapters": "Voltar para Clubes",
+    "backToChaptersLink": "/pt-BR/chapters"
+  },
   "chapters": {
     "chapterList": [
       {
+        "slug": "sao-paulo",
         "city": "São Paulo",
         "state": "São Paulo",
         "country": "Brasil",
-        "members": "125",
-        "chapterMeetingPlace": "Campo Lambeau",
-        "chapterMeetingAddress": "Avenida Lombardi 123",
+        "members": "3",
+        "chapterMeetingPlace": "O'Malley's",
+        "chapterMeetingAddressLink": "https://www.google.com/maps/place/O'Malley's/@-23.558204,-46.6686148,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce582b588b210f:0x5c53c5929142242!8m2!3d-23.558204!4d-46.6660399!16s%2Fg%2F1tgq7slq?entry=ttu",
+        "website": "https://www.omalleysbar.net/",
         "status": "Active"
       },
       {
+        "slug": "santos",
+        "city": "Santos",
+        "state": "São Paulo",
+        "country": "Brasil",
+        "members": "22",
+        "chapterMeetingPlace": "Lambeau Field Northeast",
+        "chapterMeetingAddress": "123 Lombardi Ave NE",
+        "status": "Coming Soon"
+      },
+      {
+        "slug": "salvador",
         "city": "Salvador",
         "state": "Bahia",
         "country": "Brasil",
@@ -130,7 +156,18 @@
         "status": "Em breve"
       },
       {
+        "slug": "amazonia",
         "city": "Amazônia",
+        "state": "-",
+        "country": "Brasil",
+        "members": "~10",
+        "chapterMeetingPlace": "Campo Lambeau Amazônia",
+        "chapterMeetingAddress": "987 Holmgren Way",
+        "status": "Em breve"
+      },
+      {
+        "slug": "brasilia",
+        "city": "Brasilia",
         "state": "-",
         "country": "Brasil",
         "members": "~10",
@@ -140,7 +177,7 @@
       }
     ],
     "chapterListTitle": "Clubes Atuais",
-    "join": "🧀 Junte-se",
+    "learnMore": "🧀 Saber mais",
     "getNotified": "🧀 Seja notificado",
     "chapterComingSoon": "Em breve",
     "members": "Membros",
@@ -156,9 +193,14 @@
     "subTitle": "Tem algo que você gostaria de chamar nossa atenção?",
     "guide": "Estamos aqui para ajudar. Abaixo estão nossas informações de contato -"
   },
+  "startAChapterPage": {
+    "title": "Iniciar um clube",
+    "subTitle": "Você está interessado em iniciar um clube na sua área?",
+    "guide": "Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um clube. Entraremos em contato com você o mais breve possível."
+  },
   "blog": {
     "title": "Histórias de fãs (em breve)",
-    "desc": "Adoramos ouvir nossos fãs. Se você tem uma história para compartilhar, por favor",
+    "desc": "Adoramos ouvir nossos Cheeseheads Brasileiros. Se você tem uma história para compartilhar, por favor",
     "contactUs": "Fale Conosco"
   },
   "whatsApp": {

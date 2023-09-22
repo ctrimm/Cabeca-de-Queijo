@@ -1,0 +1,132 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import { Icon } from "astro-icon";
+import lambeauOutside from "assets/outsideLambeau.jpeg";
+// import { changeLanguage } from "i18next";
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+
+changeLanguage("pt-BR");
+
+// changeLanguage("en");
+const currentLang = i18next.language;
+// Generate a new path for every collection entry
+export async function getStaticPaths() {
+    const chapterEntries = await getCollection("chapters");
+    return chapterEntries.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+// Get the entry directly from the prop on render
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<!-- ACTIVE CHAPTER CODE -->
+{entry.data.activeChapter === true && (
+  <Layout title={entry.data.city}>
+    <Container>
+      <div class="flex flex-row mt-6 min-h-[36rem]">
+        <!-- LEFT SECTION -->
+        <div class="min-h-full w-1/2 mt-14 p-20 relative" style={`background-image: url(${lambeauOutside.src});`}>
+          <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+          <div class="relative">
+            <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+              {entry.data.category}
+            </span>
+            <h1 class="text-white text-4xl lg:text-6xl font-bold lg:tracking-tight mt-1 lg:leading-tight">
+              {entry.data.city}
+            </h1>
+          </div>
+        </div>
+
+        <!-- RIGHT SECTION -->
+        <div class="w-1/2 p-6">
+          <!-- <JoinAChapter>{entry.data.city}?</JoinAChapter> -->
+          <div class="alert mt-12 mb-12 flex">
+            <span class="text-sm font-bold lg:tracking-tight mw-12">{t("chapterSlug.interested")} {entry.data.city}?</span>
+            <div class="join">
+              <a href={entry.data.whatsAppLink} role="button" target="_blank" class="btn btn-secondary">
+                <Icon class="text-black w-5 h-5" name="mdi:whatsapp" />
+                {t("chapterSlug.joinWhatsApp")}
+              </a>
+            </div>
+          </div>
+          {entry.data.ptBR.snippet}
+
+          <!-- FIND US SECTION -->
+          <div class="mt-6 mb-6">
+            <h2 class="text-2xl font-bold">{t("chapterSlug.whereToCheer")}</h2>
+            <div class="mt-3 bg-base-200 rounded-lg p-4">
+              <p class="text-lg font-extrabold">{entry.data.findUs.locationName}</p>
+              <p class="m-1">{entry.data.findUs.locationAddress}</p>
+              <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" class="btn btn-success">
+                <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                Google Maps
+              </a>
+              <a href={entry.data.findUs.appleMapsLink} role="button" target="_blank" class="btn btn-success">
+                <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                Apple Maps
+              </a>
+            </div>
+            {
+              entry.data.otherPlacesToWatch.map((otherPlace) => (
+              <div class="mt-3 bg-base-200 rounded-lg p-4">
+                <p class="text-lg font-extrabold">{otherPlace.locationName}</p>
+                <p class="m-1">{otherPlace.locationAddress}</p>
+                <a href={otherPlace.googleMapsLink} role="button" target="_blank" class="btn btn-success">
+                  <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                  Google Maps
+                </a>
+                <a href={otherPlace.appleMapsLink} role="button" target="_blank" class="btn btn-success">
+                  <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                  Apple Maps
+                </a>
+              </div>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a
+          href={t("chapterSlug.backToChaptersLink")}
+          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
+          >← {t("chapterSlug.backToChapters")}</a
+        >
+      </div>
+    </Container>
+  </Layout>
+)}
+
+<!-- NON-ACTIVE CHAPTER or COMING SOON CHAPTER -->
+{((entry.data.activeChapter === false && entry.data.comingSoon === true) ||
+  (entry.data.activeChapter === false && entry.data.comingSoon === false)) && (
+  <Layout title={entry.data.city}>
+    <Container>
+      <div class="mx-auto max-w-3xl mt-14">
+        <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+          {entry.data.category}
+        </span>
+        <h1
+          class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight">
+          {entry.data.city}
+        </h1>
+      </div>
+
+      <div class="mx-auto prose prose-lg mt-6 max-w-3xl">
+        {(entry.data.comingSoon === false && entry.data.activeChapter === false)? 'Chapter Not Yet Active' : ''}
+        {(entry.data.comingSoon === true && entry.data.activeChapter === false) ? 'Chapter Coming Soon' : ''}
+      </div>
+      <div class="text-center mt-8">
+        <a
+          href="/chapters"
+          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
+          >← Back to Chapters</a
+        >
+      </div>
+    </Container>
+  </Layout>
+)}
