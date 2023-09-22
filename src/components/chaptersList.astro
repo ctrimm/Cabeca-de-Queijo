@@ -4,14 +4,14 @@ import { t } from "i18next";
 const chapterList = t("chapters.chapterList", { returnObjects: true });
 ---
 
-<div class="mt-16 md:mt-0 py-4 pb-24" id="chapters">
+<div class="mt-16 md:mt-0 py-4" id="chapters">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     {t("chapters.chapterListTitle")}
   </h2>
   <div class="grid grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
     {
       chapterList.map((chapter, index) => (
-        <div class="relative border border-slate-200 rounded-lg p-4">
+        <div class="relative border border-slate-200 rounded-lg p-4 hover:drop-shadow-sm">
           {(chapter.status === "Coming Soon" || chapter.status === "Em breve") && (
             <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
               <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>

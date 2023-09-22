@@ -1,6 +1,7 @@
 ---
 import { Picture } from "@astrojs/image/components";
 import LambeauLeapImage from "assets/lambeauLeap.jpeg"
+import { Icon } from "astro-icon";
 import { t } from "i18next";
 ---
 
@@ -13,7 +14,7 @@ import { t } from "i18next";
       widths={[748, 512]}
       aspectRatio="4:4"
       sizes="(max-width: 748px) 748px, 512px"
-      loading="lazy"
+      loading="eager"
       format="avif"
       class="rounded-lg"
     />
@@ -23,7 +24,7 @@ import { t } from "i18next";
       {t("joinComponent.title")}
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      <!-- {t("joinComponent.subtitle")} -->
+      {t("joinComponent.subtitle")}
     </p>
     <!-- <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
@@ -37,8 +38,14 @@ import { t } from "i18next";
       </Link>
     </div> -->
     <!-- <a role="button" class="btn btn-primary">Current Chapters</a> -->
+    
     <br>
     <!-- This is where children will appear -->
-    <slot />    
+    <slot />
+    <br>
+    <a href="/chapters" role="button" class="btn btn-primary hover:btn-active btn-block">
+      <Icon class="text-white w-5 h-5 font-extrabold" name="mdi:football" />
+      {t("joinComponent.viewChaptersText")}
+    </a>
   </div>
 </main>

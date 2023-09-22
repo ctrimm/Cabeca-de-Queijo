@@ -114,7 +114,7 @@ function extractTime(dateString) {
 }
 ---
 
-<div class="mt-16 md:mt-0 py-4 pb-24" id="schedule">
+<div class="mt-16 md:mt-0 py-4 pb-[4rem]" id="schedule">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     {t("nextGames.title")}
   </h2>
@@ -134,7 +134,7 @@ function extractTime(dateString) {
       .sort((a, b) => new Date(a.dateOfMatch).getTime() - new Date(b.dateOfMatch).getTime())
       .slice(0, 4)
       .map((game, index) => (
-        <div class="card w-50 bg-neutral text-neutral-content">
+        <div class="card w-50 bg-neutral text-neutral-content drop-shadow-lg">
           <div class="card-body">
             <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
             <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Local Time</p>

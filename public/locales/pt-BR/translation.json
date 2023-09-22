@@ -90,7 +90,7 @@
     "button1Text": "Participar de um clube",
     "button1Link": "/pt-BR/join",
     "button2Text": "Iniciar um clube",
-    "button2Link": "/pt-BR/chapters"
+    "button2Link": "/pt-BR/chapters/new"
   },
   "footer": {
     "copyright": "Direito Autoral",
@@ -101,8 +101,9 @@
   },
   "joinComponent": {
     "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
-    "subtitle": "Witty subtitle goes here.",
-    "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas"
+    "subtitle": "Existem algumas formas de se envolver com Cabeça de Queijo. Você pode simplesmente se inscrever em nosso boletim informativo por e-mail para receber atualizações, ingressar no WhatsApp de um clube local ou iniciar um clube.",
+    "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas",
+    "viewChaptersText": "Ver Clubes Atuais"
   },
   "startAChapter": {
     "text": "Você está interessado em iniciar um clube em sua área?",
@@ -113,6 +114,13 @@
     "text": "Interessado em se tornar um membro deste ",
     "buttonText": "Junte-se ao ",
     "buttonLink": "/pt-BR/join"
+  },
+  "chapterSlug": {
+    "interested": "Interessado em se tornar um membro da",
+    "joinWhatsApp": "Junte-se",
+    "whereToCheer": "Onde torcer",
+    "backToChapters": "Voltar para Clubes",
+    "backToChaptersLink": "/pt-BR/chapters"
   },
   "chapters": {
     "chapterList": [
@@ -186,9 +194,9 @@
     "guide": "Estamos aqui para ajudar. Abaixo estão nossas informações de contato -"
   },
   "startAChapterPage": {
-    "title": "Iniciar um capítulo",
-    "subTitle": "Você está interessado em iniciar um capítulo na sua área?",
-    "guide": "Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um capítulo. Entraremos em contato com você o mais breve possível."
+    "title": "Iniciar um clube",
+    "subTitle": "Você está interessado em iniciar um clube na sua área?",
+    "guide": "Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um clube. Entraremos em contato com você o mais breve possível."
   },
   "blog": {
     "title": "Histórias de fãs (em breve)",

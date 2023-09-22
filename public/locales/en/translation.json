@@ -90,7 +90,7 @@
     "button1Text": "Join a Chapter",
     "button1Link": "/join",
     "button2Text": "Start a Chapter",
-    "button2Link": "/chapters"
+    "button2Link": "/chapters/new"
   },
   "footer": {
     "copyright": "Copyright",
@@ -101,8 +101,9 @@
   },
   "joinComponent": {
     "title": "Join Us 🧀 🧑 🇧🇷",
-    "subtitle": "Witty subtitle goes here.",
-    "altTag": "Photo of a Lambeau Leap with a Packers player jumping into the stands"
+    "subtitle": "There are a few ways to be invovled with Cabeça de Queijo. You can sign up for our email newsletter to receive updates, join a local chapter's WhatsApp, or start a chapter.",
+    "altTag": "Photo of a Lambeau Leap with a Packers player jumping into the stands",
+    "viewChaptersText": "View Current Chapters"
   },
   "startAChapter": {
     "text": "Are you interested in starting a chapter in your area?",
@@ -113,6 +114,13 @@
     "text": "Interested in becoming a member of ",
     "buttonText": "Join ",
     "buttonLink": "/join"
+  },
+  "chapterSlug": {
+    "interested": "Interested in becoming a member of",
+    "joinWhatsApp": "Join on WhatsApp",
+    "whereToCheer": "Where to Cheer",
+    "backToChapters": "Back to Chapters",
+    "backToChaptersLink": "/chapters"
   },
   "chapters": {
     "chapterList": [

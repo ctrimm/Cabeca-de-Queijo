@@ -4,6 +4,9 @@ comingSoon: false
 officialChapter: true
 city: " São Paulo"
 state: "São Paulo"
+ptBR: {
+  snippet: "Bem-vindo à vibrante comunidade de torcedores dos Packers em São Paulo. Junte-se a nós para torcer pelos Green Bay Packers."
+}
 snippet: "Welcome to the vibrant community of Packers fans in São Paulo. Join us to cheer on the Green Bay Packers."
 findUs: {
   locationName: "O'Malley's",
