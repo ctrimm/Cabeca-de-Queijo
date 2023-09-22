@@ -185,6 +185,11 @@
     "subTitle": "Have something you want to bring to our attention?",
     "guide": "We are here to help. Below is our contact info -"
   },
+  "startAChapterPage": {
+    "title": "Start a Chapter",
+    "subTitle": "Are you interested in starting a chapter in your area?",
+    "guide": "Drop us an email with your name, location, and a brief description of why you want to start a chapter. We will get back to you as soon as possible."
+  },
   "blog": {
     "title": "Stories From Fans (Coming Soon)",
     "desc": "We love to hear from our Brasilian Cheeseheads. If you have a story to share, please",

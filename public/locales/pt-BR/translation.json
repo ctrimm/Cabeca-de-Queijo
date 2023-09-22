@@ -185,6 +185,11 @@
     "subTitle": "Tem algo que você gostaria de chamar nossa atenção?",
     "guide": "Estamos aqui para ajudar. Abaixo estão nossas informações de contato -"
   },
+  "startAChapterPage": {
+    "title": "Iniciar um capítulo",
+    "subTitle": "Você está interessado em iniciar um capítulo na sua área?",
+    "guide": "Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um capítulo. Entraremos em contato com você o mais breve possível."
+  },
   "blog": {
     "title": "Histórias de fãs (em breve)",
     "desc": "Adoramos ouvir nossos Cheeseheads Brasileiros. Se você tem uma história para compartilhar, por favor",
