@@ -12,4 +12,8 @@ Go. Pack. Go.
 
 ---
 
+To generate the translated pages / components, use the command `npx astro-i18next generate`.
+
+---
+
 #### [Getting Started Guide](/ORIGINALREADME.md)

@@ -38,7 +38,7 @@
     "localeString": "en-US",
     "in": "In",
     "day": "Day",
-    "today": "TODAY",
+    "today": "TODAY 🎉",
     "inProgress": "IN PROGRESS",
     "endedToday": "TODAY = FINAL"
   },
@@ -120,7 +120,9 @@
     "joinWhatsApp": "Join on WhatsApp",
     "whereToCheer": "Where to Cheer",
     "backToChapters": "Back to Chapters",
-    "backToChaptersLink": "/chapters"
+    "backToChaptersLink": "/chapters",
+    "placesToWatch": "Different Places to Watch",
+    "members": "Members"
   },
   "chapters": {
     "chapterList": [

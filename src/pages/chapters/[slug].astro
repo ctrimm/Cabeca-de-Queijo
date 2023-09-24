@@ -31,7 +31,7 @@ const { Content } = await entry.render();
     <Container>
       <div class="grid grid-cols-1 md:grid-cols-2 mt-6 min-h-[36rem]">
         <!-- LEFT SECTION -->
-        <div class="min-h-full mt-4 p-20 relative" style={`background-image: url(${lambeauOutside.src});`}>
+        <div class="min-h-full mt-4 p-20 relative" style={`background-image: url(${lambeauOutside.src}); background-repeat: no-repeat`}>
           <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
           <div class="relative">
             <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
@@ -41,10 +41,10 @@ const { Content } = await entry.render();
               {entry.data.city}
             </h1>
             <h2 class="text-blue-400 uppercase tracking-wider text-sm font-medium pt-2">
-              {entry.data.otherPlacesToWatch.length + 1} Different Places to Watch
+              {entry.data.otherPlacesToWatch.length + 1} {t("chapterSlug.placesToWatch")}
             </h2>
             <h2 class="text-blue-400 uppercase tracking-wider text-sm font-medium pt-2">
-              {entry.data.totalMembers} Members
+              {entry.data.totalMembers} {t("chapterSlug.members")}
             </h2>
           </div>
         </div>
@@ -139,7 +139,7 @@ const { Content } = await entry.render();
         <a
           href="/chapters"
           class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
-          >← Back to Chapters</a
+          >← {t("chapterSlug.backToChapters")}</a
         >
       </div>
     </Container>

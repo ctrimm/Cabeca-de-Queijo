@@ -88,7 +88,7 @@ function calculateTimeUntilMatch(dateOfMatch) {
   // Else if the match is in the past by 4 hours, return "In Progress"
   // Else if the match is in the past between 4 and 24 hours, return "Ended Today"
   // Else return "In X days"
-  if (today === matchDate) {
+  if (today.getFullYear() === matchDate.getFullYear() && today.getMonth() === matchDate.getMonth() && today.getDate() === matchDate.getDate()) {
     return t("nextGames.today");
   } else if (hoursUntilMatch < 0 && hoursUntilMatch > -4) {
     return t("nextGames.inProgress");
@@ -101,14 +101,14 @@ function calculateTimeUntilMatch(dateOfMatch) {
 
 function convertToReadableDate(dateString) {
   const date = new Date(dateString);
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Sao_Paulo' };
   const localeString = t("nextGames.localeString");
   return date.toLocaleDateString(localeString, options);
 }
 
 function extractTime(dateString) {
   const date = new Date(dateString);
-  const options = { hour: 'numeric', minute: '2-digit', hour12: true };
+  const options = { hour: 'numeric', minute: '2-digit', hour12: true, timeZone: 'America/Sao_Paulo' };
   const localeString = t("nextGames.localeString");
   return date.toLocaleTimeString(localeString, options);
 }
@@ -137,7 +137,7 @@ function extractTime(dateString) {
         <div class="card w-50 bg-neutral text-neutral-content drop-shadow-lg">
           <div class="card-body">
             <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
-            <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Local Time</p>
+            <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Brasilia Time</p>
             <p class="pb-5"><strong>{t("nextGames.opponent")}:</strong>{` ${game.opponent}`}</p>
           </div>
         </div>

@@ -38,7 +38,7 @@
     "localeString": "pt-BR",
     "in": "Em",
     "day": "Dia",
-    "today": "HOJE",
+    "today": "HOJE 🎉",
     "inProgress": "EM ANDAMENTO",
     "endedToday": "HOJE = FINALIZADO"
   },
@@ -120,7 +120,9 @@
     "joinWhatsApp": "Junte-se",
     "whereToCheer": "Onde torcer",
     "backToChapters": "Voltar para Clubes",
-    "backToChaptersLink": "/pt-BR/chapters"
+    "backToChaptersLink": "/pt-BR/chapters",
+    "placesToWatch": "Diferentes lugares para assistir",
+    "members": "Membros"
   },
   "chapters": {
     "chapterList": [
