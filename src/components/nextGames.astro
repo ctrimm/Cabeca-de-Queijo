@@ -84,11 +84,11 @@ function calculateTimeUntilMatch(dateOfMatch) {
   const hoursUntilMatch = timeDifference / (1000 * 60 * 60);
   const daysUntilMatch = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-  // If today === match date, return "Today"
+  // If today === match date and the match time is in the future, return "Today"
   // Else if the match is in the past by 4 hours, return "In Progress"
   // Else if the match is in the past between 4 and 24 hours, return "Ended Today"
   // Else return "In X days"
-  if (today.getFullYear() === matchDate.getFullYear() && today.getMonth() === matchDate.getMonth() && today.getDate() === matchDate.getDate()) {
+  if (today.getFullYear() === matchDate.getFullYear() && today.getMonth() === matchDate.getMonth() && today.getDate() === matchDate.getDate() && hoursUntilMatch > 0) {
     return t("nextGames.today");
   } else if (hoursUntilMatch < 0 && hoursUntilMatch > -4) {
     return t("nextGames.inProgress");
