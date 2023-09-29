@@ -90,10 +90,10 @@ function calculateTimeUntilMatch(dateOfMatch) {
   // Else return "In X days"
   if (today.getFullYear() === matchDate.getFullYear() && today.getMonth() === matchDate.getMonth() && today.getDate() === matchDate.getDate() && hoursUntilMatch > 0) {
     return t("nextGames.today");
-  } else if (hoursUntilMatch < 0 && hoursUntilMatch > -4) {
-    return t("nextGames.inProgress");
-  } else if (hoursUntilMatch <-4 && hoursUntilMatch > -24 ) {
-    return t("nextGames.endedToday");
+  // } else if (hoursUntilMatch < 0 && hoursUntilMatch > -4) {
+  //   return t("nextGames.inProgress");
+  // } else if (hoursUntilMatch <-4 && hoursUntilMatch > -24 ) {
+  //   return t("nextGames.endedToday");
   } else {
     return `${t("nextGames.in")} ${daysUntilMatch} ${t("nextGames.day")}${daysUntilMatch > 1 ? 's' : ''}`;
   }
