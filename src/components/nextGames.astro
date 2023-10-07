@@ -77,6 +77,10 @@ const schedule = [
   },
 ];
 
+// The function below wasn't working properly, quickly just removed it in favor of displaying dates.
+// The original HTML was below - 
+// <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
+
 function calculateTimeUntilMatch(dateOfMatch) {
   const today = new Date();
   const matchDate = new Date(dateOfMatch);
@@ -136,7 +140,7 @@ function extractTime(dateString) {
       .map((game, index) => (
         <div class="card w-50 bg-neutral text-neutral-content drop-shadow-lg">
           <div class="card-body">
-            <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
+            <h2 class="card-title text-center">{convertToReadableDate(game.dateOfMatch)}</h2>
             <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Brasilia Time</p>
             <p class="pb-5"><strong>{t("nextGames.opponent")}:</strong>{` ${game.opponent}`}</p>
           </div>
