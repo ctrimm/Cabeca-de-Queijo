@@ -10,8 +10,9 @@ Steps -
 8. Setup the S3 bucket like any other bucket - with `Static Website Hosting` **disabled**
 9. Setup a CloudFront Distribution in the same region as the S3 Bucket (i.e. us-east-1) in order to make setup easier
 10. The CloudFront Distribution should use `All Edge Locations`, `HTTP/2, HTTP/1.1, HTTP/1.0`, be connected to the `SSL Certificate` that was created earlier (pickable in a dropdown option), `TLSv1.2_2021` security option, `Redirect HTTP to HTTPS`, and other setting for the `index` page and `error` pages.
-11. Now, we need to ensure there is a CI/CD pipeline from GitHub.com to the AWS resource(s) - in this case, we built a static website built with [Astro](https://astro.build/) and a CI/CD workflow on GitHub.com as the source code repository location.
-12. The code below is the GitHub Action required to make the code build & deploy when something is `merged` or `pushed` to the `main` branch. Step 14 is where the various Secrets - 
+11. The S3 Bucket Policy needs to be updated to allow the CloudFront Distribution to access it. This can be done by going into the CloudFront Distribution that was just created and then select the `Origins` tab and select the only entry + `Edit`. From here, you will setup ` Origin access control settings (recommended)` and then `Create control setting` and then `Save` to create a linkage between CloudFront and the S3 Bucket.
+13. Now, we need to ensure there is a CI/CD pipeline from GitHub.com to the AWS resource(s) - in this case, we built a static website built with [Astro](https://astro.build/) and a CI/CD workflow on GitHub.com as the source code repository location.
+14. The code below is the GitHub Action required to make the code build & deploy when something is `merged` or `pushed` to the `main` branch. Step 14 is where the various Secrets - 
 ```yml
 name: Deploy Website to Amazon S3
 
@@ -41,8 +42,8 @@ jobs:
       - name: Create CloudFront invalidation
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths "/*"
 ```
-13. As you can see from the `.github/workflows/deploy.yml` file above, you need a few secrets stored in GitHub.com on the repository. You can access this Secret Store under the `Settings` tab of your repo.
-14. In the AWS Console, navigate to the [IAM Policies Page](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies) - and with the policy below - 
+13. As you can see from the `.github/workflows/deploy.yml` file above, you need a few secrets stored in GitHub.com on the repository. You can access this Secret Store under the `Settings` tab of your repo. (NOTE - In the `deploy.yml` file above, the `BUCKET_ID` is just the plain-text name of your bucket - `project-name-frontend`)
+15. In the AWS Console, navigate to the [IAM Policies Page](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies) - and with the policy below - 
 ```yml
 {
     "Version": "2012-10-17",
