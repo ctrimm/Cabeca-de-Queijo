@@ -79,3 +79,6 @@ jobs:
 25. As mentioned above, if you want to setup email forwarding for any email that goes to `*@domainName.com` to your personal `email@provider.com`, utilize a tool like [improvMX.com](https://improvmx.com/). It takes ~5 minutes to setup and you can even send emails from `*@gmail.com` but make them look like their from `*@domainName.com`.
 
 If there are issues with the above, ensure that your DNS has propagated with a [tool like this](https://www.whatsmydns.net/).
+
+
+Note - If you have a multipage website, be sure to create a [CloudFront Function]([url](https://us-east-1.console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/functions)https://us-east-1.console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/functions) in order to handle redirects properly.
