@@ -109,6 +109,22 @@ const schedule = [
     dateOfMatch: "2024-01-14T18:30:00.000-03:00",
     opponent: "Dallas Cowboys",
   },
+  {
+    dateOfMatch: "2024-01-20T18:30:00.000-03:00",
+    eventName: "Divisional Round",
+  },
+  {
+    dateOfMatch: "2024-01-28T18:30:00.000-03:00",
+    eventName: "Conference Champions",
+  },
+  {
+    dateOfMatch: "2024-02-11T20:30:00.000-03:00",
+    eventName: "Super Bowl LVIII",
+  },
+  {
+    dateOfMatch: "2024-04-25T18:30:00.000-03:00",
+    eventName: "2024 Draft",
+  },
 ];
 
 // The function below wasn't working properly, quickly just removed it in favor of displaying dates.
@@ -176,7 +192,7 @@ function extractTime(dateString) {
           <div class="card-body">
             <h2 class="card-title text-center">{convertToReadableDate(game.dateOfMatch)}</h2>
             <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Brasilia Time</p>
-            <p class="pb-5"><strong>{t("nextGames.opponent")}:</strong>{` ${game.opponent}`}</p>
+            <p class="pb-5"><strong>{game.opponent ? t("nextGames.opponent"): t("nextGames.event")}:</strong>{game.opponent ? ` ${game.opponent}`: ` ${game.eventName}`}</p>
           </div>
         </div>
       ))
