@@ -5,6 +5,7 @@ import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
 import i18next from "i18next";
 import { HeadHrefLangs } from "astro-i18next/components";
+import PostHog from '@components/posthog.astro';
 
 export interface Props {
   title: string;
@@ -55,8 +56,8 @@ const makeTitle = title
         },
       }}
     />
-    <!-- PLAUSIBLE ANALYTICS -->
-    <script defer data-domain="cabecadequeijo.com" src="https://plausible.io/js/script.js"></script>
+    <!-- POSTHOG ANALYTICS -->
+    <PostHog />
   </head>
   <body>
     <Navbar />
