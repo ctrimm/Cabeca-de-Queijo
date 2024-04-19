@@ -32,7 +32,7 @@
     "button1Link": "/pt-BR/join"
   },
   "nextGames" : {
-    "title": "Próximos Jogos",
+    "title": "Próximos Jogos & Eventos",
     "time": "Tempo",
     "opponent": "Adversário",
     "event": "Evento",
@@ -202,7 +202,7 @@
     "guide": "Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um clube. Entraremos em contato com você o mais breve possível."
   },
   "blog": {
-    "title": "Histórias de fãs (em breve)",
+    "title": "Postagens e histórias de fãs",
     "desc": "Adoramos ouvir nossos Cheeseheads Brasileiros. Se você tem uma história para compartilhar, por favor",
     "contactUs": "Fale Conosco"
   },

@@ -24,7 +24,7 @@
         "path": "/#schedule"
       },
       {
-        "title": "Stories",
+        "title": "Posts",
         "path": "/blog"
       }
     ],
@@ -32,9 +32,10 @@
     "button1Link": "/join"
   },
   "nextGames" : {
-    "title": "Upcoming Games",
+    "title": "Upcoming Games & Events",
     "time": "Time",
     "opponent": "Opponent",
+    "event": "Event",
     "localeString": "en-US",
     "in": "In",
     "day": "Day",
@@ -201,7 +202,7 @@
     "guide": "Drop us an email with your name, location, and a brief description of why you want to start a chapter. We will get back to you as soon as possible."
   },
   "blog": {
-    "title": "Stories From Fans (Coming Soon)",
+    "title": "Posts & Stories From Fans",
     "desc": "We love to hear from our Brasilian Cheeseheads. If you have a story to share, please",
     "contactUs": "Contact Us"
   },
