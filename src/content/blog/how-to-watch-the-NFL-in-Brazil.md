@@ -23,10 +23,10 @@ Whether you are traveling here for [the first ever NFL game in South America](ht
 3. Visit a Sports Bar in São Paulo
 4. Have Another Option? [Contact Us](/contact).
 
-<!-- ![image courtesy of NFL Brasil detailing the percentage of the population that like each NFL Team](../assets/nfl-brasil-team-fans.png)
+<!-- ![image courtesy of NFL Brasil detailing the percentage of the population that like each NFL Team](../../assets/nfl-brasil-team-fans.png)
 _Image courtesy of [NFL Brasil](https://instagram.com/nflbrasil) (source: [Reddit](https://www.reddit.com/r/GreenBayPackers/comments/14fdmhw/the_packers_are_the_most_popular_nfl_team_in/))_ -->
 
-![NFL Gamepass on DAZN screenshot](../assets/nfl-game-pass-screenshot.png)
+![NFL Gamepass on DAZN screenshot](../../assets/nfl-game-pass-screenshot.png)
 
 ## NFL Game Pass + NFL Network with DAZN
 
@@ -52,8 +52,8 @@ Steps to use a VPN:
 1. Open your a new web browser session with cookies cleared and access your streaming service
 
 __Note:__ _If you have problems with a specific connection, try to change to another VPN connection and see what happens._
-
-![the interior of o'malley's irish pub](../assets/omalleys-interior.png)
+src/assets/brazil-wisconsin-food.webp
+![the interior of o'malley's irish pub](../../assets/omalleys-interior.png)
 
 ## Going to a Sports Bar
 For some reason or another, finding a place like Buffalo Wild Wings is pretty difficult in Brazil. Typically, soccer matches between clubs are played on small TV's at the corner botecas. Fans used to gather at Applebee's but, it appears that most locations in São Paulo have closed. However, there is also the American Staple - [TGI Fridays](https://www.google.com/maps/search/TGI+Fridays/@-23.6011142,-46.6829626,14z/data=!3m1!4b1?entry=ttu), but they're typically in shopping malls. We cannot speak from experience, but that seems like a bit of a different vibe for watching an NFL game...
