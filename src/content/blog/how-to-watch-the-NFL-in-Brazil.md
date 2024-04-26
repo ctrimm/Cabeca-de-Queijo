@@ -53,7 +53,7 @@ Steps to use a VPN:
 
 __Note:__ _If you have problems with a specific connection, try to change to another VPN connection and see what happens._
 
-![the interior of o'malley's irish pub](../../assets/omalleys-interior.png)
+<!-- ![the interior of o'malley's irish pub](../../assets/omalleys-interior.png) -->
 
 ## Going to a Sports Bar
 For some reason or another, finding a place like Buffalo Wild Wings is pretty difficult in Brazil. Typically, soccer matches between clubs are played on small TV's at the corner botecas. Fans used to gather at Applebee's but, it appears that most locations in São Paulo have closed. However, there is also the American Staple - [TGI Fridays](https://www.google.com/maps/search/TGI+Fridays/@-23.6011142,-46.6829626,14z/data=!3m1!4b1?entry=ttu), but they're typically in shopping malls. We cannot speak from experience, but that seems like a bit of a different vibe for watching an NFL game...
