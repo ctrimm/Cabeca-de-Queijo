@@ -1,5 +1,5 @@
 ---
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import WhatsAppCommunityLogo from "assets/whatsappcommunity.png"
 import { t } from "i18next";
 import { Trans } from "astro-i18next/components";
@@ -16,7 +16,7 @@ import { Trans } from "astro-i18next/components";
   </p>
   <div class="flex items-center cursor-pointer">
     <a href="https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA" target="_blank" rel="noopener noreferrer" class="text-primary text-lg md:text-xl">
-        <Picture
+        <Image
           src={WhatsAppCommunityLogo}
           alt={t("whatsApp.altTag")}
           widths={[128, 128]}

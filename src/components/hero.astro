@@ -1,5 +1,5 @@
 ---
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import mainLogoImage from "assets/main.png"
 import { t } from "i18next";
 import { Trans } from "astro-i18next/components";
@@ -8,11 +8,10 @@ import { Trans } from "astro-i18next/components";
 <main
   class="grid lg:grid-cols-2 place-items-center pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6">
   <div class="py-6 order-last sm:block">
-    <Picture
+    <Image
       src={mainLogoImage}
       alt={t("hero.altTag")}
       widths={[200, 400, 600]}
-      aspectRatio="4:4"
       sizes="(max-width: 800px) 100vw, 620px"
       loading="eager"
       format="avif"
