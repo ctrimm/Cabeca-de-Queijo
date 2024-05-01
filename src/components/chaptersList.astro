@@ -10,37 +10,44 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
   </h2>
   <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
     {
-      chapterList.map((chapter, index) => (
-        <div class="relative border border-slate-200 rounded-lg p-4 hover:drop-shadow-sm">
-          {(chapter.status === "Coming Soon" || chapter.status === "Em breve") && (
-            <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
-              <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>
-              <span class="font-extrabold text-white text-2xl pb-2">{t("chapters.chapterComingSoon")}</span>
-              <a href="/join" class="btn btn-accent text-md">
-                {t("chapters.getNotified")}
-              </a>
+      chapterList.map((chapter, index) => {
+        if (chapter.status === "Coming Soon" || chapter.status === "Em breve") {
+          return (
+            <div class="relative border border-slate-200 rounded-lg p-4 hover:drop-shadow-sm min-h-56">
+              <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
+                <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>
+                <span class="font-extrabold text-white text-2xl pb-2">{t("chapters.chapterComingSoon")}</span>
+                <a href="/join" class="btn btn-accent text-md">
+                  {t("chapters.getNotified")}
+                </a>
+              </div>
             </div>
-          )}
-          <h3 class="text-3xl font-extrabold tracking-tight text-center ">
-            {chapter.city}
-          </h3>
-          <hr>
-          <p class="text-lg font-semibold mt-2">
-            👪 {chapter.members} {t("chapters.members")}
-          </p>
-          <p class="text-lg font-semibold mt-2">
-            <a href={chapter.chapterMeetingAddressLink}>🗺️ {chapter.chapterMeetingPlace}</a>
-          </p>
-          {
-            // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
-            ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
-              (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
-            <a href={`/chapters/${chapter.slug}`} class="btn btn-primary text-lg mt-2">
-              {t("chapters.learnMore")}
-            </a>
-          )}
-        </div>
-      ))
+          )
+        } else {
+          return (
+            <div class="relative border border-slate-200 rounded-lg p-4 hover:drop-shadow-sm min-h-56">
+              <h3 class="text-3xl font-extrabold tracking-tight text-center ">
+                {chapter.city}
+              </h3>
+              <hr>
+              <p class="text-lg font-semibold mt-2">
+                👪 {chapter.members} {t("chapters.members")}
+              </p>
+              <p class="text-lg font-semibold mt-2">
+                <a href={chapter.chapterMeetingAddressLink}>🗺️ {chapter.chapterMeetingPlace}</a>
+              </p>
+              {
+                // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
+                ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
+                  (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
+                <a href={`/chapters/${chapter.slug}`} class="btn btn-primary text-lg mt-2">
+                  {t("chapters.learnMore")}
+                </a>
+              )}
+            </div>
+          )
+        }
+      })
     }
   </div>
 </div>
