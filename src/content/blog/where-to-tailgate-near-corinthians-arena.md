@@ -20,10 +20,8 @@ We will take a look at places to tailgate near Corinthians Stadium - however, I 
 ## Places to Tailgate Near Corinthians Arena
 There are TONS of great places to get good food near Corinthians Arena. Be sure to check out our brief guide on [food overlap between Brazil and Wisconsin](/blog/culinary-similarities-between-wisonson-brazil).
 
-
 ## How to Get To/From Corinthians Arena
 THe primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels.
-
 
 American Football has been growing in popularity in Brazil - even more so now with the [first ever game in São Paulo in September](https://www.nfl.com/news/sao-paulo-brazil-to-host-regular-season-game-during-2024-nfl-season) between the [Green Bay Packers](https://www.packers.com/) and the [Philadelphia Eagles](https://www.philadelphiaeagles.com/). It'll be helpful to know some basic Portuguese vocabulary related to the sport. Whether you're a new fan in Brazil or just interested in cultural linguistics, this guide will help you communicate with Brazilian fans during American Football games. Additionally, if you're a fan of the Green Bay Packers, we've included some must-know terms to enhance your experience.
 
