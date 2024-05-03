@@ -6,7 +6,7 @@ image: {
     src: "/src/assets/boteco-sports-bar.webp",
     alt: "an AI generated image of a packers fan sitting at a boteco watching the game"
 }
-publishDate: "2024-04-25 08:39"
+publishDate: "2024-05-03 08:39"
 category: "Sports"
 author: "Cory Trimm"
 tags: [sports, bar, brazil]
