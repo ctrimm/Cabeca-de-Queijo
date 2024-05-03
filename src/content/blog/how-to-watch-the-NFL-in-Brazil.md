@@ -12,6 +12,8 @@ author: "Cory Trimm"
 tags: [sports, dazn, brazil]
 ---
 
+![Photo of an AI generated set of fans watching the NFL inside of a very Brazilian house](../../assets/watch-nfl-in-brazil.webp)
+
 ## Growing American Football Culture in Brazil
 Since ~2010, American Football has been on the rise in Brazil - similar to the NBA. The Packers have repeatedly been one of the [most rooted for teams in Brazil](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F2x3s4o1xme7b1.jpg). We think that this is due to the colors being green and gold (like the flag of Brazil) and because the fans 'own' the team. However, one of the biggest problems that I've found while traveling overseas has been how to watch the Green Bay Packers. 
 

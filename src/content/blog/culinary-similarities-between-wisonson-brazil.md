@@ -12,6 +12,9 @@ author: "Cory Trimm"
 tags: [food, wisconsin, brazil]
 ---
 
+
+![Photo of an AI generated spread of food on a table from Brazil and Wisconsin](../../assets/brazil-wisconsin-food.webp)
+
 Exploring the culinary landscapes of Wisconsin and Brazil might seem like a study in contrasts, but you might be surprised to discover a number of delicious similarities. Both regions boast a rich heritage of using local ingredients to create hearty, comforting dishes that have become staples of their respective culinary cultures. Here’s a look at some of the foods where Wisconsin and Brazil find common ground.
 
 ## Cheese: A Love Story
