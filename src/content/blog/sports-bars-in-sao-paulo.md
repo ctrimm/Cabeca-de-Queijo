@@ -13,7 +13,7 @@ tags: [sports, bar, brazil]
 ---
 
 
-![Photo of an AI generated outside view of a Boteco with a sports fan watching the television](../../assets/boteca-sports-bar.webp)
+![Photo of an AI generated outside view of a Boteco with a sports fan watching the television](../../assets/boteco-sports-bar.webp)
 _Last Updated: May 2024_
 
 ## Going to a Sports Bar in São Paulo, Brazil
