@@ -1,29 +1,33 @@
 ---
 draft: true
-title: "Weeklong Travel Itinerary for the NFL Game in Brazil"
-snippet: "Staying in Brazil longer than a weekend - read our guide to help make the most of your trip to South America."
+title: "Weekend Itinerary for the Packers-Eagles NFL Game in Brazil"
+snippet: "If you're headed all the way to Brazil, but only staying for a long weekend - this guide will point out various points of interest around the city of São Paulo"
 image: {
-    src: "/src/assets/brazil-wisconsin-food.webp",
-    alt: "a hybrid image of food from Brazil and Wisconsin"
+    src: "/src/assets/weekend-itinerary-planning.webp",
+    alt: "an image of a packers fan planning a weekend trip"
 }
 publishDate: "2024-04-25 08:39"
-category: "Sports"
+category: "Travel"
 author: "Cory Trimm"
-tags: [sports, dazn, brazil]
+tags: [travel, weekend, plan]
 ---
 
+## Weekend Itinerary for the Packers-Eagles NFL Game in Brazil
+If you're headed to Brazil from America or another country to watch the Green Bay Packers to watch the Philadelphia Eagles for Week One of the 2024 NFL Season, take a look at our suggestions below to help direct you around to various points of interest.
 
-=====
+We've already drafted up a [Places to Stay guide in São Paulo](/blog/where-to-stay-in-sao-paulo-for-NFL-game) - so, using that in conjunction with our recommendations below to have an awesome weekend itinerary while here. You can also see [how to get around the city here](/blog/how-to-get-around-sao-paulo).
 
-![the interior of o'malley's irish pub](../../assets/omalleys-interior.png)
+## Cultural Museums
 
-## Going to a Sports Bar
-For some reason or another, finding a place like Buffalo Wild Wings is pretty difficult in Brazil. Typically, soccer matches between clubs are played on small TV's at the corner botecas. Fans used to gather at Applebee's but, it appears that most locations in São Paulo have closed. However, there is also the American Staple - [TGI Fridays](https://www.google.com/maps/search/TGI+Fridays/@-23.6011142,-46.6829626,14z/data=!3m1!4b1?entry=ttu), but they're typically in shopping malls. We cannot speak from experience, but that seems like a bit of a different vibe for watching an NFL game...
 
-Here is a short list of bars in São Paulo that we know of with TV's that will play the NFL.
+## Places With a View
 
-- [O'Malley's](https://www.omalleysbar.net/) - _typically __PACKED__ with NFL fans every game day_
-- [Goose Island Brewery São Paulo](https://www.instagram.com/gooseislandsp/)
-- [Flames Tap House](https://www.instagram.com/flamestaphouse/)
 
-My one piece of advice is to reach out to the bar on Instagram or via What'sApp to confirm that they will have the game you are looking for. It's happened a couple times where we have gone to a "sports bar" only to find that they did not have the game on.
+## Places for Typical Brazilian Food
+
+
+## Places to Watch Other NFL Games
+We've fortunately already looked into this for you all! There is [how to watch the NFL while in Brazil](/blog/how-to-watch-the-nfl-in-brazil) and also [sports bars in Sao Paulo](/blog/sports-bars-in-sao-paulo).
+
+## Places to Dance
+

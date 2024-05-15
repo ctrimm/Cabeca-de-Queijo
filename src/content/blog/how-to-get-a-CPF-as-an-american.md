@@ -1,15 +1,15 @@
 ---
 draft: true
-title: "How to Get a CPF as an American"
-snippet: "A CPF is essential if you are looking to create an account on Rappi or iFood for food delivery while in Brazil."
+title: "Four Ways to Get a CPF as an American"
+snippet: "A Cadastro de Pessoas Físicas (CPF) is essential if you are looking to create an account on Rappi or iFood for food delivery while styaing in Brazil."
 image: {
     src: "/src/assets/watch-nfl-in-brazil.webp",
     alt: "a hybrid image of food from Brazil and Wisconsin"
 }
 publishDate: "2024-04-25 08:39"
-category: "Sports"
+category: "Paperwork"
 author: "Cory Trimm"
-tags: [sports, dazn, brazil]
+tags: [CPF, bureaucracy, identification]
 ---
 
 
