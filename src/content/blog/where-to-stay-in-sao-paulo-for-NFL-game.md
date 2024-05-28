@@ -52,4 +52,4 @@ Obviously, with a city so large, there are hundreds of different neighborhoods a
 
 
 ## How to Get To/From Corinthians Arena From Your Neighborhood
-The primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels. You can [read more about different transit options to get around Sao Paulo here](how-to-get-around-sao-paulo).
+The primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels. You can [read more about different transit options to get around Sao Paulo here](/blog/how-to-get-around-sao-paulo).

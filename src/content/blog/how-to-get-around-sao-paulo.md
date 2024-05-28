@@ -18,7 +18,7 @@ tags: [transportation, brazil]
 As we've mentioned numerous times in other posts - São Paulo is a mega city. However, with it being so large, there are plenty of options and a range of prices to get around.
 
 ## Walking
-Fortunately, if you [pick a good neighborhood to stay](where-to-stay-in-sao-paulo-for-NFL-game) - you will be able to walk to and from the attractions in the neighborhood. Typically when it is dark, we will still use an Uber for safety.
+Fortunately, if you [pick a good neighborhood to stay](/blog/where-to-stay-in-sao-paulo-for-nfl-game) - you will be able to walk to and from the attractions in the neighborhood. Typically when it is dark, we will still use an Uber for safety.
 
 ![Screenshot of Itau Bike Share Availability in Sao Paulo](../../assets/screenshots/bike-share.jpg)
 ## Biking
