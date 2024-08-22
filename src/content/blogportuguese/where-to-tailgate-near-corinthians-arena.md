@@ -1,15 +1,15 @@
 ---
 draft: true
-title: "Where to Tailgate Near Corinthians Arena for the Sao Paulo NFL Game"
-snippet: "Looking for a place to tailgate in São Paulo for the inaugural NFL Game in South America between the Packers and the Eagles? Look no further."
+title: "Onde Fazer Tailgate Perto da Arena Corinthians para o Jogo da NFL em São Paulo"
+snippet: "Procurando um lugar para fazer tailgate em São Paulo para o jogo inaugural da NFL na América do Sul entre Packers e Eagles? Não procure mais."
 image: {
     src: "/src/assets/language-cheering-fans.webp",
-    alt: "Green Bay Packers fans cheering inside of a stadium with green and gold jerseys"
+    alt: "Torcedores do Green Bay Packers torcendo dentro de um estádio com camisas verdes e douradas"
 }
 publishDate: "2024-04-22 14:39"
 category: "Tailgate"
 author: "Cory Trimm"
-tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
+tags: [tailgate, corinthians, eagles, packers, nfl, são paulo]
 ---
 
 ## Quick Intro

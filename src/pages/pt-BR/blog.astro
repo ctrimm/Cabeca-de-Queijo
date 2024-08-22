@@ -12,7 +12,7 @@ changeLanguage("pt-BR");
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif,webp}');
 
 // Filter blog entries with 'draft: false' & date before current date
-const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+const publishedBlogEntries = await getCollection("blogportuguese", ({ data }) => {
     return !data.draft && data.publishDate < new Date();
 });
 
