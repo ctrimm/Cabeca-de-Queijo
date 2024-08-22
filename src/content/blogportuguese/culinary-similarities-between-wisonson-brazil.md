@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Discovering Culinary Connections: Similar Foods Between Wisconsin and Brazil"
-snippet: "Exploring the culinary landscapes of Wisconsin and Brazil might seem like a study in contrasts, but you might be surprised to discover a number of delicious similarities."
+title: "Descobrindo Conexões Culinárias: Alimentos Semelhantes entre Wisconsin e Brasil"
+snippet: "Explorar os cenários culinários de Wisconsin e Brasil pode parecer um estudo de contrastes, mas você pode se surpreender ao descobrir várias semelhanças deliciosas."
 image: {
     src: "/src/assets/brazil-wisconsin-food.webp",
-    alt: "a hybrid image of food from Brazil and Wisconsin"
+    alt: "uma imagem híbrida de alimentos do Brasil e Wisconsin"
 }
 publishDate: "2024-04-18 08:39"
-category: "Food"
+category: "Comida"
 author: "Cory Trimm"
-tags: [food, wisconsin, brazil]
+tags: [comida, wisconsin, brasil]
 ---
 
 ![Foto de uma mesa com alimentos do Brasil e Wisconsin gerada por IA](../../assets/brazil-wisconsin-food.webp)

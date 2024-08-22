@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Go Pack Go in Portuguese"
-snippet: "Learning a new language can be difficult, but there is one phrase you should know before the NFL in Sao Paulo game"
+title: "Vai Pack Vai em Português"
+snippet: "Aprender um novo idioma pode ser difícil, mas há uma frase que você deve saber antes do jogo da NFL em São Paulo."
 image: {
     src: "/src/assets/go-pack-go-in-portuguese.webp",
-    alt: "Green Bay Packers fans learning Go Pack Go in Portuguese"
+    alt: "Torcedores do Green Bay Packers aprendendo Vai Pack Vai em português"
 }
 publishDate: "2024-05-19 14:39"
-category: "Language"
+category: "Língua"
 author: "Cory Trimm"
-tags: [language, portuguese, learning]
+tags: [língua, português, aprendizado]
 ---
 
 ![Foto de um grupo de torcedores dos Packers torcendo Vai Pack Vai gerada por IA](../../assets/go-pack-go-in-portuguese.webp)

@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Sports Bars in São Paulo, Brazil"
-snippet: "Based on our experience, there are a few easy ways to watch NFL, NBA, and other sports while visiting Brazil."
+title: "Sports Bars em São Paulo, Brasil"
+snippet: "Com base em nossa experiência, existem algumas maneiras fáceis de assistir à NFL, NBA e outros esportes enquanto visita o Brasil."
 image: {
     src: "/src/assets/boteco-sports-bar.webp",
-    alt: "an AI generated image of a packers fan sitting at a boteco watching the game"
+    alt: "uma imagem gerada por IA de um torcedor dos Packers sentado em um boteco assistindo ao jogo"
 }
 publishDate: "2024-05-03 08:39"
-category: "Sports"
+category: "Esportes"
 author: "Cory Trimm"
-tags: [sports, bar, brazil]
+tags: [esportes, bar, brasil]
 ---
 
 ![Foto gerada por IA de um boteco com um fã de esportes assistindo televisão](../../assets/boteco-sports-bar.webp)

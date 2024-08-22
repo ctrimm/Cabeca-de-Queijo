@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Where to Stay In Sao Paulo for the First Ever NFL Game"
-snippet: "Sao Paulo is a city of over 22.5 MILLION people - nearly 2.5x the size of New York City. Use our guide to help find a great neighborhood to stay."
+title: "Onde Ficar em São Paulo para o Primeiro Jogo da NFL"
+snippet: "São Paulo é uma cidade com mais de 22,5 MILHÕES de pessoas - quase 2,5x o tamanho de Nova York. Use nosso guia para encontrar um ótimo bairro para se hospedar."
 image: {
     src: "/src/assets/aerial-view-sao-paulo.webp",
-    alt: "Photo of an AI generated aerial view of Sao Paulo"
+    alt: "Foto gerada por IA de uma vista aérea de São Paulo"
 }
 publishDate: "2024-04-28 14:52"
 category: "Tailgate"
 author: "Cory Trimm"
-tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
+tags: [tailgate, corinthians, eagles, packers, nfl, são paulo]
 ---
 
 ![Foto aérea de São Paulo gerada por IA](../../assets/aerial-view-sao-paulo.webp)

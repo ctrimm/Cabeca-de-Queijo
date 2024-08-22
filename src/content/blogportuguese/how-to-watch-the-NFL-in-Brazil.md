@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "How to Watch the NFL in Brazil"
-snippet: "Based on our experience, there are a few easy ways to watch NFL games while visiting Brazil."
+title: "Como Assistir à NFL no Brasil"
+snippet: "Com base em nossa experiência, existem algumas maneiras fáceis de assistir aos jogos da NFL enquanto visita o Brasil."
 image: {
     src: "/src/assets/watch-nfl-in-brazil.webp",
-    alt: "a hybrid image of food from Brazil and Wisconsin"
+    alt: "uma imagem híbrida de alimentos do Brasil e Wisconsin"
 }
 publishDate: "2024-04-25 08:39"
-category: "Sports"
+category: "Esportes"
 author: "Cory Trimm"
-tags: [sports, dazn, brazil]
+tags: [esportes, dazn, brasil]
 ---
 
 ![Foto de um conjunto de fãs assistindo à NFL dentro de uma casa bem brasileira gerada por IA](../../assets/watch-nfl-in-brazil.webp)

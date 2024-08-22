@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "How to Get Around Sao Paulo"
-snippet: "Being a mega-city of 22.5 million people there are plenty of ways to get from Point A to Point B."
+title: "Como Se Locomover em São Paulo"
+snippet: "Sendo uma mega-cidade com 22,5 milhões de pessoas, há muitas maneiras de ir do ponto A ao ponto B."
 image: {
     src: "/src/assets/packers-fans-in-transit.webp",
-    alt: "a hybrid image of food from Brazil and Wisconsin"
+    alt: "uma imagem híbrida de alimentos do Brasil e Wisconsin"
 }
 publishDate: "2024-05-01 08:39"
-category: "Sports"
+category: "Esportes"
 author: "Cory Trimm"
-tags: [transportation, brazil]
+tags: [transporte, brasil]
 ---
 
 ![imagem de torcedores do Packers entrando em um Uber](../../assets/packers-fans-in-transit.webp)

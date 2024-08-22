@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "A Guide to Portuguese Phrases for American Football Fans"
-snippet: "With the NFL coming to São Paulo in the Fall and the growth of American Football in Brazil, it's handy to know some Portuguese vocabulary related to the sport."
+title: "Um Guia de Frases em Português para Fãs de Futebol Americano"
+snippet: "Com a NFL chegando a São Paulo no outono e o crescimento do Futebol Americano no Brasil, é útil conhecer algum vocabulário em português relacionado ao esporte."
 image: {
     src: "/src/assets/language-cheering-fans.webp",
-    alt: "Green Bay Packers fans cheering inside of a stadium with green and gold jerseys"
+    alt: "Torcedores do Green Bay Packers torcendo dentro de um estádio com camisas verdes e douradas"
 }
 publishDate: "2024-04-19 14:39"
-category: "Language"
+category: "Língua"
 author: "Cory Trimm"
-tags: [language, portuguese, learning]
+tags: [língua, português, aprendizado]
 ---
 
 ![Foto aérea gerada por IA de torcedores comemorando durante uma partida](../../assets/language-cheering-fans.webp)
