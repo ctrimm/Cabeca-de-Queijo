@@ -34,13 +34,13 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
                 👪 {chapter.members} {t("chapters.members")}
               </p>
               <p class="text-lg font-semibold mt-2">
-                <a href={`${chapter.chapterMeetingAddressLink}/`}>🗺️ {chapter.chapterMeetingPlace}</a>
+                <a href={`${chapter.chapterMeetingAddressLink}`}>🗺️ {chapter.chapterMeetingPlace}</a>
               </p>
               {
                 // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
                 ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
                   (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
-                <a href={`/chapters/${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
+                <a href={`/chapters/${chapter.slug}`} class="btn btn-primary text-lg mt-2">
                   {t("chapters.learnMore")}
                 </a>
               )}
