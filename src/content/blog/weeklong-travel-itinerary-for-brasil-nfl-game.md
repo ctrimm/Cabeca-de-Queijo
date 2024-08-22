@@ -15,7 +15,7 @@ tags: [travel, weekend, plan]
 ## Weekend Itinerary for the Packers-Eagles NFL Game in Brazil
 If you're headed to Brazil from America or another country to watch the Green Bay Packers to watch the Philadelphia Eagles for Week One of the 2024 NFL Season, take a look at our suggestions below to help direct you around to various points of interest.
 
-We've already drafted up a [Places to Stay guide in São Paulo](/blog/where-to-stay-in-sao-paulo-for-NFL-game) - so, using that in conjunction with our recommendations below to have an awesome weekend itinerary while here. You can also see [how to get around the city here](/blog/how-to-get-around-sao-paulo).
+We've already drafted up a [Places to Stay guide in São Paulo](/blog/where-to-stay-in-sao-paulo-for-nfl-game) - so, using that in conjunction with our recommendations below to have an awesome weekend itinerary while here. You can also see [how to get around the city here](/blog/how-to-get-around-sao-paulo).
 
 ## Cultural Museums
 
