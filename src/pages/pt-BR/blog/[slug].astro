@@ -8,8 +8,8 @@ changeLanguage("pt-BR");
 
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
-    const blogEntries = await getCollection("blog");
-    return blogEntries.map((entry) => ({
+    const blogPortugueseEntries = await getCollection("blogportuguese");
+    return blogPortugueseEntries.map((entry) => ({
         params: { slug: entry.slug },
         props: { entry },
     }));
@@ -57,7 +57,7 @@ const { Content } = await entry.render();
       <a
         href="/blog"
         class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
-        >← Back to Blog</a
+        >← Voltar ao blog</a
       >
     </div>
   </Container>
