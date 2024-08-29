@@ -2,7 +2,7 @@
 activeChapter: true
 comingSoon: false
 officialChapter: true
-city: " São Paulo"
+city: "São Paulo"
 state: "São Paulo"
 ptBRsnippet: "Bem-vindo à vibrante comunidade de torcedores dos Packers em São Paulo. Junte-se a nós para torcer pelos Green Bay Packers."
 snippet: "Welcome to the vibrant community of Packers fans in São Paulo. Join us to cheer on the Green Bay Packers."
