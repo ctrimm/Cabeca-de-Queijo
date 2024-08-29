@@ -9,7 +9,21 @@ import { t, changeLanguage } from "i18next";
 changeLanguage("pt-BR");
 ---
 
-<Layout title="Contact">
+<Layout
+  seoTitle="Contato | Cabeça de Queijo"
+  seoDescription="Entre em contato com o Cabeça de Queijo para obter mais informações sobre o Green Bay Packers, a NFL e a base de fãs brasileira."
+  seoOpenGraph={{
+    basic: {
+      title: "Contato",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-contact-pt.png",
+      url: "https://cabecadequeijo.com/pt-BR/contact",
+    },
+    image: {
+      alt: "Cabeça de Queijo Contato",
+    },
+  }}
+>
   <Container>
     <Sectionhead>
       <Fragment slot="title">{t("contact.title")}</Fragment>

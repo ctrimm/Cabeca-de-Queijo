@@ -11,7 +11,7 @@ export interface Props {
   title?: string;
   seoTitle: string;
   seoDescription: string;
-  seoOpenGraph: {
+  seoOpenGraph?: {
     basic: {
       url: string;
       type: string;
@@ -36,6 +36,18 @@ const resolvedImageWithDomain = new URL(
   Astro.site
 ).toString();
 
+const makeOpenGraph = Astro.props.seoOpenGraph || {
+  basic: {
+    url: canonicalURL,
+    type: "website",
+    title: Astro.props.title || "Cabeça de Queijo",
+    image: resolvedImageWithDomain,
+  },
+  image: {
+    alt: "Cabeça de Queijo Homepage Screenshot",
+  },
+};
+
 const makeTitle = Astro.props.title
   ? `${Astro.props.title} | Cabeça de Queijo`
   : "Cabeça de Queijo - Brasilian Green Bay Packers Fan Club";
@@ -56,7 +68,7 @@ const makeTitle = Astro.props.title
     <SEO
       title={Astro.props.seoTitle || makeTitle}
       description={Astro.props.seoDescription}
-      openGraph={Astro.props.seoOpenGraph}
+      openGraph={Astro.props.seoOpenGraph || makeOpenGraph}
       twitter={{
         creator: "@cdt5058",
         site: "@cabeçadequeijo",

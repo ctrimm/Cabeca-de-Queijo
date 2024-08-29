@@ -10,7 +10,21 @@ import NextGames from "@components/nextGames.astro";
 changeLanguage("en");
 ---
 
-<Layout title="">
+<Layout
+  seoTitle="Cabeça de Queijo | The Brazilian Green Bay Packers Fan Club"
+  seoDescription="Cabeça de Queijo is the Brazilian Green Bay Packers Fan Club. We are the largest Packers fan club in Brazil. We are dedicated to the Green Bay Packers, the NFL, and the Brazilian fanbase."
+  seoOpenGraph={{
+    basic: {
+      title: "Cabeça de Queijo",
+      type: "website",
+      image: "https://cabecadequeijo.com/open-graph.png",
+      url: "https://cabecadequeijo.com",
+    },
+    image: {
+      alt: "Cabeça de Queijo Homepage Screenshot",
+    },
+  }}
+>
   <Container>
     <Hero />
     <NextGames />

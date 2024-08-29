@@ -1,5 +1,4 @@
 ---
-import { SEO } from "astro-seo";
 import { t, changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
@@ -47,7 +46,7 @@ publishedBlogEntries.sort(function (a, b) {
       alt: "Cabeça de Queijo Blog Page Screenshot",
     },
   }}
-/>
+>
   <Container>
     <Sectionhead>
       <Fragment slot="title">{t("blog.title")}</Fragment>

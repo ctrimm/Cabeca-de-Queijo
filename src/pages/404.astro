@@ -77,7 +77,21 @@ const randomErrorStatus = errorStatuses[randomIndex].text;
 const randomErrorStatusLink = errorStatuses[randomIndex].link;
 ---
 
-<Layout title="404 Not Found">
+<Layout
+  seoTitle="404 | Cabeça de Queijo"
+  seoDescription="Page Not Found"
+  seoOpenGraph={{
+    basic: {
+      title: "404 | Page Not Found",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-404-eng.png",
+      url: "https://cabecadequeijo.com/404",
+    },
+    image: {
+      alt: "Cabeça de Queijo 404 Page Screenshot",
+    },
+  }}
+>
   <Container>
     <div class="min-h-[calc(100vh-16rem)] flex items-center justify-center">
       <div class="mt-16 text-center">

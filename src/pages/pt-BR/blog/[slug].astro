@@ -1,5 +1,4 @@
 ---
-import { SEO } from "astro-seo";
 import { changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
@@ -39,7 +38,7 @@ const { Content } = await entry.render();
       tags: entry.data.tags,
     },
   }}
-/>
+>
   <Container>
     <div class="mx-auto max-w-3xl mt-14">
       <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">

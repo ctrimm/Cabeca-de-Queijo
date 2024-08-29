@@ -1,5 +1,4 @@
 ---
-import { SEO } from "astro-seo";
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import ChaptersList from "@components/chaptersList.astro";
@@ -23,7 +22,7 @@ changeLanguage("en");
       alt: "Cabeça de Queijo Chapters Page Screenshot",
     },
   }}
-/>
+>
   <Container>
     <ChaptersList />
     <StartAChapter />

@@ -9,7 +9,21 @@ import { t, changeLanguage } from "i18next";
 changeLanguage("en");
 ---
 
-<Layout title="Contact">
+<Layout
+  seoTitle="Contact | Cabeça de Queijo"
+  seoDescription="Contact Cabeça de Queijo for more information about the Green Bay Packers, the NFL, and the Brazilian fanbase."
+  seoOpenGraph={{
+    basic: {
+      title: "Contact",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-contact-eng.png",
+      url: "https://cabecadequeijo.com/contact",
+    },
+    image: {
+      alt: "Cabeça de Queijo Contact Page Screenshot",
+    },
+  }}
+>
   <Container>
     <Sectionhead>
       <Fragment slot="title">{t("contact.title")}</Fragment>

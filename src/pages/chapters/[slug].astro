@@ -1,5 +1,4 @@
 ---
-import { SEO } from "astro-seo";
 import i18next, { t, changeLanguage } from "i18next";
 import { Icon } from "astro-icon";
 import lambeauOutside from "assets/outsideLambeau.jpeg";
@@ -25,7 +24,6 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-
 <!-- ACTIVE CHAPTER CODE -->
 {entry.data.activeChapter === true && (
   <Layout
@@ -42,7 +40,7 @@ const { Content } = await entry.render();
         alt: "Cabeça de Queijo Homepage Screenshot",
       },
     }}
-  />
+  >
     <Container>
       <div class="grid grid-cols-1 md:grid-cols-2 mt-6 min-h-[36rem]">
         <!-- LEFT SECTION -->
@@ -150,7 +148,7 @@ const { Content } = await entry.render();
           alt: "Cabeça de Queijo Homepage Screenshot",
         },
       }}
-    />
+    >
     <Container>
       <div class="mx-auto max-w-3xl mt-14">
         <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">

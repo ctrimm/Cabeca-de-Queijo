@@ -8,7 +8,21 @@ import { t, changeLanguage } from "i18next";
 changeLanguage("en");
 ---
 
-<Layout title="Start a Chapter">
+<Layout
+  seoTitle="Start a Chapter | Cabeça de Queijo"
+  seoDescription="Start a Green Bay Packers fan club chapter in your city. Connect with fellow fans, get exclusive updates, and show your support for the team."
+  seoOpenGraph={{
+    basic: {
+      title: "Start a Chapter",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-start-a-chapter-eng.png",
+      url: "https://cabecadequeijo.com/chapters/new",
+    },
+    image: {
+      alt: "Cabeça de Queijo Start a Chapter",
+    },
+  }}
+>
   <Container>
     <Sectionhead>
       <Fragment slot="title">{t("startAChapterPage.title")}</Fragment>
