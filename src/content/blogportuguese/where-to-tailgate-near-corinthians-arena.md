@@ -1,77 +1,46 @@
 ---
-draft: true
+draft: false
 title: "Onde Fazer Tailgate Perto da Arena Corinthians para o Jogo da NFL em São Paulo"
 snippet: "Procurando um lugar para fazer tailgate em São Paulo para o jogo inaugural da NFL na América do Sul entre Packers e Eagles? Não procure mais."
 image: {
-    src: "/src/assets/language-cheering-fans.webp",
-    alt: "Torcedores do Green Bay Packers torcendo dentro de um estádio com camisas verdes e douradas"
+    src: "/src/assets/packers-fans-tailgating-inside-a-boteco.webp",
+    alt: "Torcedores do Green Bay Packers torcendo dentro de um boteco"
 }
-publishDate: "2024-04-22 14:39"
+publishDate: "2024-06-22 14:39"
 category: "Tailgate"
 author: "Cory Trimm"
-tags: [tailgate, corinthians, eagles, packers, nfl, são paulo]
+tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
 ---
 
-## Quick Intro
-Corinthians Arena is typically home to a different kind of football. However for the first time in over 50+ years, the National Football League (NFL) will be hosting an American Football match - the first of it's kind in South America - between the Green Bay Packers and the Philadelphia Eagles. Corinthians Arena typically has "camarote" or VIP sections in the southern end of the stadium that has good food and drink typically 2 hours before and after the game ends. Now, if you don't live in São Paulo, you may not know where to tailgate prior to the game. 
+![Foto de torcedores do Green Bay Packers fazendo tailgate dentro de um boteco](../../assets/packers-fans-tailgating-inside-a-boteco.webp)
 
-We will take a look at places to tailgate near Corinthians Stadium - however, I would recommend [joining the São Paulo WhatsApp Group](https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA) to see where members are tailgating prior to the game. Corinthians Stadium is located in the Eastern part of the city - nearly 40 minutes away from [Ibirapuera Park](https://www.wikiwand.com/en/Ibirapuera_Park). I'm sure, in typical NFL fashion, that there will be events around the city all week long leading up to the big matchup.
+## Introdução Rápida
+A Arena Corinthians é tipicamente a casa de um tipo diferente de futebol. No entanto, pela primeira vez, a National Football League (NFL) sediará uma partida de Futebol Americano - a primeira do gênero na América do Sul - entre o Green Bay Packers e o Philadelphia Eagles.
 
-## Places to Tailgate Near Corinthians Arena
-There are TONS of great places to get good food near Corinthians Arena. Be sure to check out our brief guide on [food overlap between Brazil and Wisconsin](/blog/culinary-similarities-between-wisonson-brazil).
+Vale destacar que, para jogos de Futebol / Futebol nos estádios de São Paulo, normalmente existem seções VIP ou "camarote" que podem vender bebidas alcoólicas 2 horas antes e uma hora depois do início/fim do jogo. Esta é uma [lei do Estado de São Paulo](https://www.al.sp.gov.br/propositura/?id=1000537922) devido a incidentes ocorridos no passado entre grupos de torcedores rivais, para garantir a segurança de todos no dia do jogo. Mesmo assim, durante a Copa do Mundo de 2014, não houve incidentes registrados.
 
-## How to Get To/From Corinthians Arena
-THe primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels.
+Agora, se você não mora em São Paulo, pode não saber onde fazer tailgate antes do jogo.
 
-American Football has been growing in popularity in Brazil - even more so now with the [first ever game in São Paulo in September](https://www.nfl.com/news/sao-paulo-brazil-to-host-regular-season-game-during-2024-nfl-season) between the [Green Bay Packers](https://www.packers.com/) and the [Philadelphia Eagles](https://www.philadelphiaeagles.com/). It'll be helpful to know some basic Portuguese vocabulary related to the sport. Whether you're a new fan in Brazil or just interested in cultural linguistics, this guide will help you communicate with Brazilian fans during American Football games. Additionally, if you're a fan of the Green Bay Packers, we've included some must-know terms to enhance your experience.
+**Mas primeiro, esteja ciente de como o trânsito pode ser terrível**! O Estádio do Corinthians está localizado na zona leste da cidade - ir do centro de São Paulo à Arena Corinthians pode levar 45 minutos ou **mais de 2 horas** - além disso, o jogo é numa sexta-feira, quando muitas pessoas querem sair da cidade para o fim de semana. Google Maps / Waze / etc. nem sempre são confiáveis.
 
-## Common Portuguese Words for American Football
+![Foto de torcedores do Green Bay Packers fazendo tailgate fora de um Boteco na esquina](../../assets/packers-fans-tailgating-outside-a-boteco.webp)
 
-Here are some of the most commonly used terms in Portuguese that are specific to American Football:
+****
+# Onde Fazer Tailgate Perto da Arena Corinthians
+Vamos dar uma olhada em lugares para fazer tailgate perto do [Estádio do Corinthians](https://www.google.com/maps/place/Neo+Qu%C3%ADmica+Arena/@-23.5453134,-46.4768041,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94ce66dec98fb855:0xf2b061ffbcd2ecf8!8m2!3d-23.5453134!4d-46.4742292!16s%2Fm%2F0czdxhf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D) - no entanto, eu recomendaria [entrar no grupo do WhatsApp de São Paulo](https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA) para ver onde os membros estão fazendo tailgate antes do jogo.
 
-1. **Futebol Americano** - American Football
-2. **Capacete** - Helmet
-3. **Jarda(s)** - Yard(s)
-4. **Touchdown** - Touchdown (used as it is in English, often abbreviated as TD)
-5. **Quarterback** - Quarterback (also used as it is in English)
-6. **Interceptação** - Interception
-7. **Passe** - Pass
-8. **Recepção** - Reception
-9. **Defesa** - Defense
-10. **Ataque** - Offense
+Onde ir para fazer tailgate dependerá de [em que bairro você estará hospedado](/blog/where-to-stay-in-sao-paulo-for-nfl-game). Se você estiver perto do [O'Malley's](https://maps.app.goo.gl/vkiEhgoQQ5Nfyhm36), eles são um "Gringo Bar" e [têm jogos da NFL e outros eventos esportivos todos os fins de semana](https://www.omalleysbar.net/esportes/). No último ano, também ajudei a estabelecer o local como o [bar Packers Everywhere](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) em São Paulo. Existem [alguns outros "sports bars"](https://cabecadequeijo.com/blog/sports-bars-in-sao-paulo/), mas eu recomendaria simplesmente ir a um Boteco na esquina.
+****
 
-These terms will help you follow the game better and communicate with other fans during a match.
+## Melhores Lugares para Fazer Tailgate Perto da Arena Corinthians:
+- [Shopping Metrô Itaquera](https://www.shoppingitaquera.com.br/) - shopping com quiosque de Brahma Chopp, Outback Steakhouse, Johnny Rockets e outros lugares para comer algo.
+  - Nota - É cerca de 1,6 km de caminhada do shopping até o estádio.
+- [Bares Dentro do Estádio](https://www.wikiwand.com/en/articles/Neo_Quimica_Arena) - Os portões abrirão mais cedo para quem quiser assistir aos aquecimentos. Há bares e restaurantes dentro do estádio - como o [Bar do Zeca Pagodinho](https://maps.app.goo.gl/9H5BbLHiR6Y9JhvG8) (famoso cantor e compositor brasileiro) e [cerca de 75 outras opções para escolher](https://www.wikiwand.com/en/articles/Neo_Quimica_Arena).
+- Pegue uma cerveja no quiosque da estação Corinthians-Itaquera do metrô.
+- Traga suas próprias bebidas. [O Brasil é um país com lei de bebida aberta](https://www.reddit.com/r/Brazil/comments/15glmp3/how_loose_are_the_drinking_laws_here/) - ou seja, você não precisa de uma sacola de papel marrom ou algo parecido. Apenas fique atento ao seu entorno e não exagere.
+- Se eu tivesse que apostar, diria que haverá vendedores fora do estádio nos estacionamentos vendendo bebidas também.
 
-## Top Ten Words Every Green Bay Packers Fan Should Know
+## Como Chegar e Sair da Arena Corinthians
+A principal maneira que a maioria dos paulistanos usa para ir e voltar do estádio do Corinthians é utilizando o Metrô. A Linha Vermelha pode levá-lo ao centro da cidade para se conectar a outras linhas que o levarão mais perto de seus hotéis. O Uber é muito acessível no Brasil, e o custo dependerá da distância percorrida e da duração da viagem. Novamente, planeje-se para o tráfego. [Leia este post para saber mais sobre todas as opções](/blog/how-to-get-around-sao-paulo).
 
-If you're cheering for the Green Bay Packers, here are ten terms that are essential for every fan to know:
-
-1. **Packers** - Packers (used as it is in English)
-2. **Cabeça de Queijo** - Cheesehead (a nickname for Packers fans, reflecting Wisconsin's famous cheese industry)
-3. **Lambeau Leap** - Lambeau Leap (the famous jump into the stands by a player after scoring, named after the Packers' stadium)
-4. **Grelha** - Gridiron (another term for the football field)
-5. **Vitória** - Victory
-6. **Super Bowl** - Super Bowl (the championship game of the NFL)
-7. **Playoffs** - Playoffs (the postseason games leading up to the Super Bowl)
-8. **Rivalidade** - Rivalry (important in sports, especially against long-time rivals like the Chicago Bears)
-9. **Treinador** - Coach
-10. **Torcida** - Fans
-
-## Top Ten Packers Related Cheers in Portuguese
-
-Here are ten more 
-
-1. **Vai Pack Vai!** - Go Pack Go!
-2. **Verde e Dourado ate Estar Morto e Gelado** - Green and Gold till I'm Dead and Cold**
-3. **Sangramos Verde e Dourado** - We Bleed Green and Gold
-4. **Cabeças de Queijo Para Sempre** - Cheeseheads Forever
-5. **Ataque do Pack!** - Pack Attack
-6. **Touchdown Packers!** - Touchdown Packers! (same as English)
-7. **Bora Defesa!** - Let's Go Defense!
-8. **Bora Packers** - Let's Go Packers!
-9. **Vamos Packers, Vamos!** - Let's Go Packers, Let's Go!
-10. **Parem Eles** - Stop Them (on defense)
-
-Knowing these terms not only helps in understanding the game better but also in connecting with other fans, particularly those who share your enthusiasm for the Packers. You can also join a [fan club WhatsApp Group](/chapters) to keep in touch with other Brazilian Packers Backers.
-
-Whether you are watching the game in Brazil, with Brazilian friends, or just want to add a new dimension to your American Football vocabulary, these Portuguese terms will definitely enhance your viewing experience. Enjoy the game, or as they say in Portuguese, "Aproveite o jogo!"
+Existem alguns lugares para comer perto da Arena Corinthians. Certifique-se de conferir nosso breve guia sobre [sobreposição culinária entre Brasil e Wisconsin](/blog/culinary-similarities-between-wisonson-brazil).

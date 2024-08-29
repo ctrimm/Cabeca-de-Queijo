@@ -1,77 +1,46 @@
 ---
-draft: true
+draft: false
 title: "Where to Tailgate Near Corinthians Arena for the Sao Paulo NFL Game"
 snippet: "Looking for a place to tailgate in São Paulo for the inaugural NFL Game in South America between the Packers and the Eagles? Look no further."
 image: {
-    src: "/src/assets/language-cheering-fans.webp",
-    alt: "Green Bay Packers fans cheering inside of a stadium with green and gold jerseys"
+    src: "/src/assets/packers-fans-tailgating-inside-a-boteco.webp",
+    alt: "Green Bay Packers fans cheering inside of a boteco with jerseys on"
 }
-publishDate: "2024-04-22 14:39"
+publishDate: "2024-06-22 14:39"
 category: "Tailgate"
 author: "Cory Trimm"
 tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
 ---
 
+![Photo of Green Bay Packers fans tailgating inside of a Boteco](../../assets/packers-fans-tailgating-inside-a-boteco.webp)
+
 ## Quick Intro
-Corinthians Arena is typically home to a different kind of football. However for the first time in over 50+ years, the National Football League (NFL) will be hosting an American Football match - the first of it's kind in South America - between the Green Bay Packers and the Philadelphia Eagles. Corinthians Arena typically has "camarote" or VIP sections in the southern end of the stadium that has good food and drink typically 2 hours before and after the game ends. Now, if you don't live in São Paulo, you may not know where to tailgate prior to the game. 
+Corinthians Arena is typically home to a different kind of football. However for the first time, the National Football League (NFL) will be hosting an American Football match - the first of it's kind in South America - between the Green Bay Packers and the Philadelphia Eagles.
 
-We will take a look at places to tailgate near Corinthians Stadium - however, I would recommend [joining the São Paulo WhatsApp Group](https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA) to see where members are tailgating prior to the game. Corinthians Stadium is located in the Eastern part of the city - nearly 40 minutes away from [Ibirapuera Park](https://www.wikiwand.com/en/Ibirapuera_Park). I'm sure, in typical NFL fashion, that there will be events around the city all week long leading up to the big matchup.
+It should be noted that for Soccer / Futebol games at stadiums in São Paulo, typically there are "camarote" or VIP sections that are allowed to sell alcoholic drinks 2 hours before and one hour after the game starts/ends. This is a [Sao Paulo State law](https://www.al.sp.gov.br/propositura/?id=1000537922) due to shenanigans occurring in the past between rival fan groups to ensure the safety of everyone during gameday. Even tho during the 2014 World Cup, there were no recorded incidents.
 
-## Places to Tailgate Near Corinthians Arena
-There are TONS of great places to get good food near Corinthians Arena. Be sure to check out our brief guide on [food overlap between Brazil and Wisconsin](/blog/culinary-similarities-between-wisonson-brazil).
+Now, if you don't live in São Paulo, you may not know where to tailgate prior to the game.
+
+**But first, please be aware of how terrible the traffic can be**! Corinthians Stadium is located in the Eastern part of the city - to go from central São Paulo to Corinthians Arena can be 45 minutes or it can be **2+ hours** - plus, the game is on a Friday when a lot of people want to leave the city for the weekend. Google Maps / Waze / etc aren't reliable.
+
+![Photo of Green Bay Packers fans tailgating outside at a corner Boteco](../../assets/packers-fans-tailgating-outside-a-boteco.webp)
+
+****
+# Where to Tailgate Near Corinthians Arena
+We will take a look at places to tailgate near [Corinthians Stadium](https://www.google.com/maps/place/Neo+Qu%C3%ADmica+Arena/@-23.5453134,-46.4768041,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94ce66dec98fb855:0xf2b061ffbcd2ecf8!8m2!3d-23.5453134!4d-46.4742292!16s%2Fm%2F0czdxhf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D) - however, I'd recommend [joining the São Paulo WhatsApp Group](https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA) to see where members are tailgating prior to the game.
+
+Where to go tailgate will depend on [what neighborhood you'll be in](/blog/where-to-stay-in-sao-paulo-for-nfl-game). If you're near [O'Malley's](https://maps.app.goo.gl/vkiEhgoQQ5Nfyhm36), they are a "Gringo Bar" and [have NFL games and other sporting events on every weekend](https://www.omalleysbar.net/esportes/). Over the past year, I also helped set it up as the [Packers Everywhere bar](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) in São Paulo. There are a [few other "sports bars"](https://cabecadequeijo.com/blog/sports-bars-in-sao-paulo/) but, I'd recommend just going to a corner Boteco.
+****
+
+## Top Places to Tailgate Near Corinthians Arena:
+- [Shopping Metro Itaquera](https://www.shoppingitaquera.com.br/) - shopping mall with a Brahma Chopp Kiosk, Outback Steakhouse, Johnny Rockets, and other places to grab a bite to eat.
+  - Note - It is about 1 mile walking to go from the Mall to the Stadium.
+- [Bars Inside the Stadium](https://www.wikiwand.com/en/articles/Neo_Quimica_Arena) - Gates will open early for people to watch warm ups. There are bars and restaurants inside the stadium - like [Bar do Zeca Pagodinho](https://maps.app.goo.gl/9H5BbLHiR6Y9JhvG8) (famous Brazilian singer-songwriter) and [about 75 other options to choose from](https://www.wikiwand.com/en/articles/Neo_Quimica_Arena)
+- Grab a beer from the stand in the Corinthians Metro stop
+- Bring drinks with you. [Brazil is an open container country](https://www.reddit.com/r/Brazil/comments/15glmp3/how_loose_are_the_drinking_laws_here/) - meaning you don't need a brown paper bag or anything. Just be aware of your surroundings and don't imbibe too much.
+- If I had to bet, I would guess that there will be vendors outside the stadium in the parking lots selling drinks as well.
 
 ## How to Get To/From Corinthians Arena
-THe primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels.
+The primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels. Uber is very affordable in Brazil and cost will depend on the distance traveled and duration. Again, plan accordingly for there to be traffic. [Read this post to learn more about all of the options](/blog/how-to-get-around-sao-paulo).
 
-American Football has been growing in popularity in Brazil - even more so now with the [first ever game in São Paulo in September](https://www.nfl.com/news/sao-paulo-brazil-to-host-regular-season-game-during-2024-nfl-season) between the [Green Bay Packers](https://www.packers.com/) and the [Philadelphia Eagles](https://www.philadelphiaeagles.com/). It'll be helpful to know some basic Portuguese vocabulary related to the sport. Whether you're a new fan in Brazil or just interested in cultural linguistics, this guide will help you communicate with Brazilian fans during American Football games. Additionally, if you're a fan of the Green Bay Packers, we've included some must-know terms to enhance your experience.
-
-## Common Portuguese Words for American Football
-
-Here are some of the most commonly used terms in Portuguese that are specific to American Football:
-
-1. **Futebol Americano** - American Football
-2. **Capacete** - Helmet
-3. **Jarda(s)** - Yard(s)
-4. **Touchdown** - Touchdown (used as it is in English, often abbreviated as TD)
-5. **Quarterback** - Quarterback (also used as it is in English)
-6. **Interceptação** - Interception
-7. **Passe** - Pass
-8. **Recepção** - Reception
-9. **Defesa** - Defense
-10. **Ataque** - Offense
-
-These terms will help you follow the game better and communicate with other fans during a match.
-
-## Top Ten Words Every Green Bay Packers Fan Should Know
-
-If you're cheering for the Green Bay Packers, here are ten terms that are essential for every fan to know:
-
-1. **Packers** - Packers (used as it is in English)
-2. **Cabeça de Queijo** - Cheesehead (a nickname for Packers fans, reflecting Wisconsin's famous cheese industry)
-3. **Lambeau Leap** - Lambeau Leap (the famous jump into the stands by a player after scoring, named after the Packers' stadium)
-4. **Grelha** - Gridiron (another term for the football field)
-5. **Vitória** - Victory
-6. **Super Bowl** - Super Bowl (the championship game of the NFL)
-7. **Playoffs** - Playoffs (the postseason games leading up to the Super Bowl)
-8. **Rivalidade** - Rivalry (important in sports, especially against long-time rivals like the Chicago Bears)
-9. **Treinador** - Coach
-10. **Torcida** - Fans
-
-## Top Ten Packers Related Cheers in Portuguese
-
-Here are ten more 
-
-1. **Vai Pack Vai!** - Go Pack Go!
-2. **Verde e Dourado ate Estar Morto e Gelado** - Green and Gold till I'm Dead and Cold**
-3. **Sangramos Verde e Dourado** - We Bleed Green and Gold
-4. **Cabeças de Queijo Para Sempre** - Cheeseheads Forever
-5. **Ataque do Pack!** - Pack Attack
-6. **Touchdown Packers!** - Touchdown Packers! (same as English)
-7. **Bora Defesa!** - Let's Go Defense!
-8. **Bora Packers** - Let's Go Packers!
-9. **Vamos Packers, Vamos!** - Let's Go Packers, Let's Go!
-10. **Parem Eles** - Stop Them (on defense)
-
-Knowing these terms not only helps in understanding the game better but also in connecting with other fans, particularly those who share your enthusiasm for the Packers. You can also join a [fan club WhatsApp Group](/chapters) to keep in touch with other Brazilian Packers Backers.
-
-Whether you are watching the game in Brazil, with Brazilian friends, or just want to add a new dimension to your American Football vocabulary, these Portuguese terms will definitely enhance your viewing experience. Enjoy the game, or as they say in Portuguese, "Aproveite o jogo!"
+There are a few places to get food near Corinthians Arena. Be sure to check out our brief guide on [food overlap between Brazil and Wisconsin](/blog/culinary-similarities-between-wisonson-brazil).
