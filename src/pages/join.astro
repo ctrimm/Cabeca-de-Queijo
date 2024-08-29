@@ -13,21 +13,21 @@ import MemberBenefits from "@components/memberBenefits.astro";
 changeLanguage("en");
 ---
 
-<Layout title="Join">
-  <SEO
-    title="Join the Green Bay Packers Fan Club in Brazil"
-    description="Become a member of the official Green Bay Packers fan club in Brazil. Connect with fellow fans, get exclusive updates, and show your support for the team."
-    openGraph={{
-      basic: {
-        title: "Join the Green Bay Packers Fan Club in Brazil",
-        type: "website",
-        image: "https://cabecadequeijo.com/og/og-join-us-eng.png",
-      },
-      image: {
-        alt: "Cabeça de Queijo Join Us Page",
-      },
-    }}
-  />
+<Layout
+  seoTitle="Join the Green Bay Packers Fan Club in Brazil"
+  seoDescription="Become a member of the official Green Bay Packers fan club in Brazil. Connect with fellow fans, get exclusive updates, and show your support for the team."
+  seoOpenGraph={{
+    basic: {
+      title: "Join the Green Bay Packers Fan Club in Brazil",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-join-us-eng.png",
+      url: "https://cabecadequeijo.com/join",
+    },
+    image: {
+      alt: "Cabeça de Queijo Join Us Page",
+    },
+  }}
+/>
   <Container>
     <JoinHero>
       <!-- <ChapterStats /> -->

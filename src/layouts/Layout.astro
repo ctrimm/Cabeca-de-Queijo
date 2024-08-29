@@ -8,20 +8,36 @@ import { HeadHrefLangs } from "astro-i18next/components";
 import PostHog from '@components/posthog.astro';
 
 export interface Props {
-  title: string;
+  title?: string;
+  seoTitle: string;
+  seoDescription: string;
+  seoOpenGraph: {
+    basic: {
+      url: string;
+      type: string;
+      title: string;
+      image: string;
+    },
+    image: {
+      alt: string;
+    },
+    article?: {
+      publishedTime: string;
+      authors: string[];
+      tags: string[];
+    }
+  };
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString()+'/';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL(
   "/opengraph.jpg",
   Astro.site
 ).toString();
 
-const { title } = Astro.props;
-
-const makeTitle = title
-  ? title + " | " + "Cabeça de Queijo"
+const makeTitle = Astro.props.title
+  ? `${Astro.props.title} | Cabeça de Queijo`
   : "Cabeça de Queijo - Brasilian Green Bay Packers Fan Club";
 ---
 
@@ -36,25 +52,15 @@ const makeTitle = title
     <HeadHrefLangs />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
+    <!-- src/layouts/Layout.astro -->
     <SEO
-      title={makeTitle}
-      description="Cabeça de Queijo is a Brasilian Green Bay Packers Football Team Fan Club."
-      canonical={canonicalURL}
+      title={Astro.props.seoTitle || makeTitle}
+      description={Astro.props.seoDescription}
+      openGraph={Astro.props.seoOpenGraph}
       twitter={{
         creator: "@cdt5058",
         site: "@cabeçadequeijo",
         card: "summary_large_image",
-      }}
-      openGraph={{
-        basic: {
-          url: canonicalURL,
-          type: "website",
-          title: `Cabeça de Queijo - Brasilian Green Bay Packers Fan Club`,
-          image: resolvedImageWithDomain,
-        },
-        image: {
-          alt: "Cabeça de Queijo Homepage Screenshot",
-        },
       }}
     />
     <!-- POSTHOG ANALYTICS -->

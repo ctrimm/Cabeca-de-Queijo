@@ -28,21 +28,21 @@ const { Content } = await entry.render();
 
 <!-- ACTIVE CHAPTER CODE -->
 {entry.data.activeChapter === true && (
-  <Layout title={entry.data.city}>
-    <SEO
-      title={entry.data.city.toString() + " Chapter | ACTIVE | Cabeça de Queijo"}
-      description={entry.data.snippet}
-      openGraph={{
-        basic: {
-          title: entry.data.city,
-          type: "website",
-          image: "https://cabecadequeijo.com/openGraph.jpg",
-        },
-        image: {
-          alt: "Cabeça de Queijo Homepage Screenshot",
-        },
-      }}
-    />
+  <Layout
+    seoTitle={entry.data.city.toString() + " Chapter | ACTIVE | Cabeça de Queijo"}
+    seoDescription={entry.data.snippet}
+    seoOpenGraph={{
+      basic: {
+        title: entry.data.city,
+        type: "website",
+        image: "https://cabecadequeijo.com/openGraph.jpg",
+        url: "https://cabecadequeijo.com/chapters/" + entry.data.slug,
+      },
+      image: {
+        alt: "Cabeça de Queijo Homepage Screenshot",
+      },
+    }}
+  />
     <Container>
       <div class="grid grid-cols-1 md:grid-cols-2 mt-6 min-h-[36rem]">
         <!-- LEFT SECTION -->
@@ -136,15 +136,15 @@ const { Content } = await entry.render();
 <!-- NON-ACTIVE CHAPTER or COMING SOON CHAPTER -->
 {((entry.data.activeChapter === false && entry.data.comingSoon === true) ||
   (entry.data.activeChapter === false && entry.data.comingSoon === false)) && (
-  <Layout title={entry.data.city}>
-    <SEO
-      title={entry.data.city.toString() + " Chapter | INACTIVE | Cabeça de Queijo"}
-      description={entry.data.snippet}
-      openGraph={{
+  <Layout
+      seoTitle={entry.data.city.toString() + " Chapter | INACTIVE | Cabeça de Queijo"}
+      seoDescription={entry.data.snippet}
+      seoOpenGraph={{
         basic: {
           title: entry.data.city,
           type: "website",
           image: "https://cabecadequeijo.com/openGraph.jpg",
+          url: "https://cabecadequeijo.com/chapters/" + entry.data.slug,
         },
         image: {
           alt: "Cabeça de Queijo Homepage Screenshot",

@@ -20,26 +20,26 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout title={entry.data.title}>
-  <SEO
-    title={entry.data.title}
-    description={entry.data.snippet}
-    openGraph={{
-      basic: {
-        title: entry.data.title,
-        type: "article",
-        image: entry.data.image.src,
-      },
-      image: {
-        alt: entry.data.image.alt,
-      },
-      article: {
-        publishedTime: entry.data.publishDate.toISOString(),
-        authors: [entry.data.author],
-        tags: entry.data.tags,
-      },
-    }}
-  />
+<Layout
+  seoTitle={entry.data.title}
+  seoDescription={entry.data.snippet}
+  seoOpenGraph={{
+    basic: {
+      title: entry.data.title,
+      type: "article",
+      image: entry.data.image.src,
+      url: `https://cabecadequeijo.com/pt-BR/blog/${entry.slug}`,
+    },
+    image: {
+      alt: entry.data.image.alt,
+    },
+    article: {
+      publishedTime: entry.data.publishDate.toISOString(),
+      authors: [entry.data.author],
+      tags: entry.data.tags,
+    },
+  }}
+/>
   <Container>
     <div class="mx-auto max-w-3xl mt-14">
       <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">

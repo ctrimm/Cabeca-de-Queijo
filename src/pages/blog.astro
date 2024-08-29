@@ -33,21 +33,21 @@ publishedBlogEntries.sort(function (a, b) {
 });
 ---
 
-<Layout title="Blog">
-  <SEO
-    title="Blog | Cabeça de Queijo"
-    description="Read the latest blog posts from the Cabeça de Queijo community. Learn about the Green Bay Packers, the NFL, and the Brazilian fanbase."
-    openGraph={{
-      basic: {
-        title: "Blog",
-        type: "website",
-        image: "https://cabecadequeijo.com/og/og-blog-eng.png",
-      },
-      image: {
-        alt: "Cabeça de Queijo Blog Page Screenshot",
-      },
-    }}
-  />
+<Layout
+  seoTitle="Blog | Cabeça de Queijo"
+  seoDescription="Read the latest blog posts from the Cabeça de Queijo community. Learn about the Green Bay Packers, the NFL, and the Brazilian fanbase."
+  seoOpenGraph={{
+    basic: {
+      title: "Blog",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-blog-eng.png",
+      url: "https://cabecadequeijo.com/blog",
+    },
+    image: {
+      alt: "Cabeça de Queijo Blog Page Screenshot",
+    },
+  }}
+/>
   <Container>
     <Sectionhead>
       <Fragment slot="title">{t("blog.title")}</Fragment>

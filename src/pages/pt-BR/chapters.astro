@@ -9,21 +9,21 @@ import StartAChapter from "@components/startAChapter.astro";
 changeLanguage("pt-BR");
 ---
 
-<Layout title="Chapters">
-  <SEO
-    title="Capítulos de Fãs do Green Bay Packers no Brasil"
-    description="Encontre e junte-se a um capítulo local de fãs do Green Bay Packers no Brasil. Conecte-se com outros fãs, assista aos jogos juntos e mostre seu apoio ao time."
-    openGraph={{
-      basic: {
-        title: "Capítulos do Clube de Fãs do Green Bay Packers no Brasil",
-        type: "website",
-        image: "https://cabecadequeijo.com/og/og-chapters-pt.png",
-      },
-      image: {
-        alt: "Captura de tela da página de capítulos do Cabeça de Queijo",
-      },
-    }}
-  />
+<Layout
+  seoTitle="Capítulos de Fãs do Green Bay Packers no Brasil"
+  seoDescription="Encontre e junte-se a um capítulo local de fãs do Green Bay Packers no Brasil. Conecte-se com outros fãs, assista aos jogos juntos e mostre seu apoio ao time."
+  seoOpenGraph={{
+    basic: {
+      title: "Capítulos do Clube de Fãs do Green Bay Packers no Brasil",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-chapters-pt.png",
+      url: "https://cabecadequeijo.com/pt-BR/chapters",
+    },
+    image: {
+      alt: "Captura de tela da página de capítulos do Cabeça de Queijo",
+    },
+  }}
+/>
   <Container>
     <ChaptersList />
     <StartAChapter />
