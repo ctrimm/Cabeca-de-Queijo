@@ -5,7 +5,7 @@
     "button1Text": "Learn More",
     "button1Link": "#selling-points",
     "button2Text": "Join Cabeça de Queijo for Free",
-    "button2Link": "/join",
+    "button2Link": "/join/",
     "altTag": "Logo for Cabeça de Queijo of a Toucan wearing a Cheesehead Hat on it's head."
   },
   "navbar": {
@@ -13,11 +13,11 @@
     "menuitems": [
       {
         "title": "Join",
-        "path": "/join"
+        "path": "/join/"
       },
       {
         "title": "Chapters",
-        "path": "/chapters"
+        "path": "/chapters/"
       },
       {
         "title": "Schedule",
@@ -25,11 +25,11 @@
       },
       {
         "title": "Posts",
-        "path": "/blog"
+        "path": "/blog/"
       }
     ],
     "button1Text": "Get Involved",
-    "button1Link": "/join"
+    "button1Link": "/join/"
   },
   "nextGames" : {
     "title": "Upcoming Games & Events",
@@ -89,16 +89,16 @@
     "goPackGo": "Go. Pack. Go.",
     "subtext": "Join a chapter near you or start your own.",
     "button1Text": "Join a Chapter",
-    "button1Link": "/join",
+    "button1Link": "/join/",
     "button2Text": "Start a Chapter",
-    "button2Link": "/chapters/new"
+    "button2Link": "/chapters/new/"
   },
   "footer": {
     "copyright": "Copyright",
     "rights": "All Rights Reserved",
     "byline": "Made from a <0>Web3Template</0> by <1>@cdt5058</1>",
     "help": "Need Help? Have Feedback? Click Here.",
-    "helpLink": "/contact"
+    "helpLink": "/contact/"
   },
   "joinComponent": {
     "title": "Join Us 🧀 🧑 🇧🇷",
@@ -109,19 +109,19 @@
   "startAChapter": {
     "text": "Are you interested in starting a chapter in your area?",
     "buttonText": "Start a Chapter",
-    "buttonLink": "/chapters/new"
+    "buttonLink": "/chapters/new/"
   },
   "joinAChapter": {
     "text": "Interested in becoming a member of ",
     "buttonText": "Join ",
-    "buttonLink": "/join"
+    "buttonLink": "/join/"
   },
   "chapterSlug": {
     "interested": "Interested in becoming a member of",
     "joinWhatsApp": "Join on WhatsApp",
     "whereToCheer": "Where to Cheer",
     "backToChapters": "Back to Chapters",
-    "backToChaptersLink": "/chapters",
+    "backToChaptersLink": "/chapters/",
     "placesToWatch": "Different Places to Watch",
     "members": "Members"
   },
@@ -134,7 +134,7 @@
         "country": "Brasil",
         "members": "3",
         "chapterMeetingPlace": "Watch Parties",
-        "chapterMeetingAddressLink": "/chapters/sao-paulo",
+        "chapterMeetingAddressLink": "/chapters/sao-paulo/",
         "website": "https://www.omalleysbar.net",
         "status": "Active"
       },
@@ -184,8 +184,8 @@
     "getNotified": "🧀 Get Notified",
     "chapterComingSoon": "Coming Soon",
     "members": "Members",
-    "learnMoreButtonLink": "/chapters",
-    "buttonLink": "/join"
+    "learnMoreButtonLink": "/chapters/",
+    "buttonLink": "/join/"
   },
   "chapterStats": {
     "brazilianCheeseheads": "Brazilian Cheeseheads",
