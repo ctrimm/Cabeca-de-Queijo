@@ -13,11 +13,11 @@
     "menuitems": [
       {
         "title": "Junte",
-        "path": "/pt-BR/join/"
+        "path": "/pt-BR/join"
       },
       {
         "title": "Clubes",
-        "path": "/pt-BR/chapters/"
+        "path": "/pt-BR/chapters"
       },
       {
         "title": "Partidas",
@@ -25,11 +25,11 @@
       },
       {
         "title": "Blogue",
-        "path": "/pt-BR/blog/"
+        "path": "/pt-BR/blog"
       }
     ],
     "button1Text": "Envolver-se",
-    "button1Link": "/pt-BR/join/"
+    "button1Link": "/pt-BR/join"
   },
   "nextGames" : {
     "title": "Próximos Jogos & Eventos",
@@ -91,14 +91,14 @@
     "button1Text": "Participar de um clube",
     "button1Link": "/pt-BR/join",
     "button2Text": "Iniciar um clube",
-    "button2Link": "/pt-BR/chapters/new/"
+    "button2Link": "/pt-BR/chapters/new"
   },
   "footer": {
     "copyright": "Direito Autoral",
     "rights": "Todos os direitos reservados.",
     "byline": "Feito a partir de um <0>Web3Template</0> por <1>@cdt5058</1>",
     "help": "Preciso de ajuda? Tem comentários? Clique aqui.",
-    "helpLink": "/pt-BR/contact/"
+    "helpLink": "/pt-BR/contact"
   },
   "joinComponent": {
     "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
@@ -109,19 +109,19 @@
   "startAChapter": {
     "text": "Você está interessado em iniciar um clube em sua área?",
     "buttonText": "Iniciar um grupo",
-    "buttonLink": "/pt-BR/chapters/new/"
+    "buttonLink": "/pt-BR/chapters/new"
   },
   "joinAChapter": {
     "text": "Interessado em se tornar um membro deste ",
     "buttonText": "Junte-se ao ",
-    "buttonLink": "/pt-BR/join/"
+    "buttonLink": "/pt-BR/join"
   },
   "chapterSlug": {
     "interested": "Interessado em se tornar um membro da",
     "joinWhatsApp": "Junte-se",
     "whereToCheer": "Onde torcer",
     "backToChapters": "Voltar para Clubes",
-    "backToChaptersLink": "/pt-BR/chapters/",
+    "backToChaptersLink": "/pt-BR/chapters",
     "placesToWatch": "Diferentes lugares para assistir",
     "members": "Membros"
   },
@@ -134,8 +134,8 @@
         "country": "Brasil",
         "members": "3",
         "chapterMeetingPlace": "Assistir Festas",
-        "chapterMeetingAddressLink": "/chapters/sao-paulo/",
-        "website": "https://www.omalleysbar.net/",
+        "chapterMeetingAddressLink": "/chapters/sao-paulo",
+        "website": "https://www.omalleysbar.net",
         "status": "Active"
       },
       {
@@ -184,8 +184,8 @@
     "getNotified": "🧀 Seja notificado",
     "chapterComingSoon": "Em breve",
     "members": "Membros",
-    "learnMoreButtonLink": "/pt-BR/chapters/",
-    "buttonLink": "/pt-BR/join/"
+    "learnMoreButtonLink": "/pt-BR/chapters",
+    "buttonLink": "/pt-BR/join"
   },
   "chapterStats": {
     "brazilianCheeseheads": "Cheeseheads Brasileiros",

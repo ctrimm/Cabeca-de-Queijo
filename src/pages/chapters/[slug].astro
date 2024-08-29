@@ -70,10 +70,12 @@ const { Content } = await entry.render();
           <div class="alert mt-12 mb-12">
             <span class="text-sm font-bold lg:tracking-tight mw-12">{t("chapterSlug.interested")} {entry.data.city}?</span>
             <div class="">
-              <button class="btn btn-secondary">
-                <Icon class="text-black w-5 h-5" name="mdi:whatsapp" />
-                {t("chapterSlug.joinWhatsApp")}
-              </button>
+              <a href="https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA">
+                <button class="btn btn-secondary whitespace-nowrap">
+                  <Icon class="text-black w-5 h-5" name="mdi:whatsapp" />
+                  {t("chapterSlug.joinWhatsApp")}
+                </button>
+              </a>
             </div>
           </div>
           {entry.data.snippet}
@@ -81,13 +83,13 @@ const { Content } = await entry.render();
           <!-- FIND US SECTION -->
           <div class="mt-6 mb-6">
             <h2 class="text-2xl font-bold">{t("chapterSlug.whereToCheer")}</h2>
-            <div class="mt-3 bg-base-200 rounded-lg p-4">
+            <div class="mt-3 bg-base-200 rounded-lg p-4 border border-emerald-700 border-2 transition-all hover:bg-green-100">
               <a href={entry.data.findUs.googleMapsLink} target="_blank">
                 <p class="text-lg font-extrabold">{entry.data.findUs.locationName}</p>
               </a>
               <p class="m-1">{entry.data.findUs.locationAddress}</p>
               <div class="mt-2 items-center text-center">
-                <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" class="btn btn-success">
+                <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" class="btn btn-success m-2">
                   <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
                   Google Maps
                 </a>
@@ -105,7 +107,7 @@ const { Content } = await entry.render();
                 </a>
                 <p class="m-1">{otherPlace.locationAddress}</p>
                 <div class="mt-2 items-center text-center">
-                  <a href={otherPlace.googleMapsLink} role="button" target="_blank" class="btn btn-success">
+                  <a href={otherPlace.googleMapsLink} role="button" target="_blank" class="btn btn-success m-2">
                     <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
                     Google Maps
                   </a>

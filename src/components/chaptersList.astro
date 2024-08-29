@@ -17,7 +17,7 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
               <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
                 <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>
                 <span class="font-extrabold text-white text-2xl pb-2">{t("chapters.chapterComingSoon")}</span>
-                <a href="/join/" class="btn btn-accent text-md">
+                <a href="/join" class="btn btn-accent text-md">
                   {t("chapters.getNotified")}
                 </a>
               </div>
@@ -40,7 +40,7 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
                 // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
                 ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
                   (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
-                <a href={t("chapters.learnMoreButtonLink")+`${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
+                <a href={t("chapters.learnMoreButtonLink")+`/${chapter.slug}`} class="btn btn-primary text-lg mt-2">
                   {t("chapters.learnMore")}
                 </a>
               )}
