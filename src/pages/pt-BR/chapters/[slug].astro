@@ -31,7 +31,7 @@ const { Content } = await entry.render();
   <Layout title={entry.data.city}>
     <SEO
       title={entry.data.city.toString() + " Chapter | ATIVO | Cabeça de Queijo"}
-      description={entry.data.ptBRsnippet}
+      description={entry.data.ptBRsnippet.toString()}
       openGraph={{
         basic: {
           title: entry.data.city,
@@ -76,7 +76,7 @@ const { Content } = await entry.render();
               </button>
             </div>
           </div>
-          {entry.data.ptBR.snippet} <!-- Individual Chapter Snippet Needs to Be Like This -->
+          {entry.data.ptBRsnippet} <!-- Individual Chapter Snippet Needs to Be Like This -->
 
           <!-- FIND US SECTION -->
           <div class="mt-6 mb-6">
@@ -137,7 +137,7 @@ const { Content } = await entry.render();
   <Layout title={entry.data.city}>
     <SEO
       title={entry.data.city.toString() + " Chapter | INATIVO | Cabeça de Queijo"}
-      description={entry.data.ptBR.snippet}
+      description={entry.data.ptBRsnippet}
       openGraph={{
         basic: {
           title: entry.data.city,
