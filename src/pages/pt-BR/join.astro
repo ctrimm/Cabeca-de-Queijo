@@ -1,4 +1,5 @@
 ---
+import { SEO } from "astro-seo";
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
@@ -13,6 +14,20 @@ changeLanguage("pt-BR");
 ---
 
 <Layout title="Join">
+  <SEO
+    title="Junte-se ao Clube de Fãs do Green Bay Packers no Brasil"
+    description="Torne-se membro do clube oficial de fãs do Green Bay Packers no Brasil. Conecte-se com outros fãs, receba atualizações exclusivas e mostre seu apoio ao time."
+    openGraph={{
+      basic: {
+        title: "Junte-se ao Clube de Fãs do Green Bay Packers no Brasil",
+        type: "website",
+        image: "https://cabecadequeijo.com/og/og-join-us-pt.png",
+      },
+      image: {
+        alt: "Cabeça de Queijo Junte-se a nós pagina",
+      },
+    }}
+  />
   <Container>
     <JoinHero>
       <!-- <ChapterStats /> -->

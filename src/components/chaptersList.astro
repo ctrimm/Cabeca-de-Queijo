@@ -5,9 +5,9 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
 ---
 
 <div class="pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6" id="chapters">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+  <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     {t("chapters.chapterListTitle")}
-  </h2>
+  </h1>
   <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
     {
       chapterList.map((chapter, index) => {
@@ -40,7 +40,7 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
                 // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
                 ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
                   (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
-                <a href={t("chapters.learnMoreButtonLink")+`${chapter.slug}`} class="btn btn-primary text-lg mt-2">
+                <a href={t("chapters.learnMoreButtonLink")+`${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
                   {t("chapters.learnMore")}
                 </a>
               )}

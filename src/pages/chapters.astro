@@ -1,4 +1,5 @@
 ---
+import { SEO } from "astro-seo";
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import ChaptersList from "@components/chaptersList.astro";
@@ -9,6 +10,20 @@ changeLanguage("en");
 ---
 
 <Layout title="Chapters">
+  <SEO
+    title="Green Bay Packers Fan Chapters in Brazil"
+    description="Find and join a local Green Bay Packers fan chapter in Brazil. Connect with fellow fans, watch games together, and show your support for the team."
+    openGraph={{
+      basic: {
+        title: "Green Bay Packers Fan Club Chapters in Brazil",
+        type: "website",
+        image: "https://cabecadequeijo.com/og/og-chapters-eng.png",
+      },
+      image: {
+        alt: "Cabeça de Queijo Chapters Page Screenshot",
+      },
+    }}
+  />
   <Container>
     <ChaptersList />
     <StartAChapter />

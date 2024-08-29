@@ -1,4 +1,5 @@
 ---
+import { SEO } from "astro-seo";
 import { t, changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
@@ -33,6 +34,20 @@ publishedBlogEntries.sort(function (a, b) {
 ---
 
 <Layout title="Blog">
+  <SEO
+    title="Blog | Cabeça de Queijo"
+    description="Leia os últimos posts do blog da comunidade Cabeça de Queijo. Aprenda sobre o Green Bay Packers, a NFL e a torcida brasileira."
+    openGraph={{
+      basic: {
+        title: "Blog",
+        type: "website",
+        image: "https://cabecadequeijo.com/og/og-blog-pt.png",
+      },
+      image: {
+        alt: "Captura de tela da página do Blog do Cabeça de Queijo",
+      },
+    }}
+  />
   <Container>
     <Sectionhead>
       <Fragment slot="title">{t("blog.title")}</Fragment>
