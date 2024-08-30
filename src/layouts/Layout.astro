@@ -20,7 +20,7 @@ const canonicalURL = isEnglish
 const alternateLanguage = isEnglish ? 'pt-BR' : 'en';
 const alternateURL = isEnglish
   ? `https://cabecadequeijo.com/pt-BR${Astro.url.pathname}`
-  : 'https://cabecadequeijo.com/' + Astro.url.pathname.replace('/pt-BR', '');
+  : 'https://cabecadequeijo.com/' + Astro.url.pathname.replace('/pt-BR/', '');
 
 // console.log('alternateLanguage', alternateLanguage);
 // console.log('alternateURL', alternateURL);
