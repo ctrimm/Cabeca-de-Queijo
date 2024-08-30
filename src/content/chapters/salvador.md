@@ -2,6 +2,7 @@
 activeChapter: false
 comingSoon: true
 officialChapter: false
+slug: "salvador
 city: "Salvador"
 state: "Bahia"
 ptBRsnippet: "Bem-vindo à vibrante comunidade de torcedores dos Packers em Bahia. Junte-se a nós para torcer pelos Green Bay Packers."

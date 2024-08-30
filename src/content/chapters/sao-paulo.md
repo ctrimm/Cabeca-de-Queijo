@@ -2,6 +2,7 @@
 activeChapter: true
 comingSoon: false
 officialChapter: true
+slug: "sao-paulo"
 city: "São Paulo"
 state: "São Paulo"
 ptBRsnippet: "Bem-vindo à vibrante comunidade de torcedores dos Packers em São Paulo. Junte-se a nós para torcer pelos Green Bay Packers."
