@@ -32,4 +32,4 @@ Pack: rhymes with "back" or "sack", pronounced as /pæk/
 Vai: same as the first "Vai", pronounced as /vaɪ/
 ```
 
-If you're looking to learn more Portuguese words for the match - [check out our longer post](/blog/brazilian-portuguese-phrases-for-americans).
+If you're looking to learn more Portuguese words for the match - [check out our longer post](/blog/brazilian-portuguese-phrases-for-americans/).

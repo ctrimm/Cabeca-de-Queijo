@@ -63,7 +63,7 @@ publishedBlogEntries.sort(function (a, b) {
           publishedBlogEntries.map((blogPostEntry, index) => {
             return (
             <li>
-              <a href={`/pt-BR/blog/${blogPostEntry.slug}`}>
+              <a href={`/pt-BR/blog/${blogPostEntry.slug}/`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                   <Image
                     src={dynamicImageImport(blogPostEntry.data.image.src)}

@@ -18,7 +18,7 @@ tags: [transporte, brasil]
 Como mencionamos várias vezes em outros posts - São Paulo é uma mega cidade. No entanto, sendo tão grande, há muitas opções e uma variedade de preços para se locomover.
 
 ## Caminhada
-Felizmente, se você [escolher um bom bairro para se hospedar](/blog/where-to-stay-in-sao-paulo-for-nfl-game) - poderá caminhar para as atrações do bairro. Normalmente, quando está escuro, ainda usamos um Uber para segurança.
+Felizmente, se você [escolher um bom bairro para se hospedar](/blog/where-to-stay-in-sao-paulo-for-nfl-game/) - poderá caminhar para as atrações do bairro. Normalmente, quando está escuro, ainda usamos um Uber para segurança.
 
 ![Captura de tela da disponibilidade de compartilhamento de bicicletas do Itaú em São Paulo](../../assets/screenshots/bike-share.jpg)
 ## Bicicleta

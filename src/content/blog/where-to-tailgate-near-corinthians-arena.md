@@ -29,7 +29,7 @@ Now, if you don't live in São Paulo, you may not know where to tailgate prior t
 # Where to Tailgate Near Corinthians Arena
 We will take a look at places to tailgate near [Corinthians Stadium](https://www.google.com/maps/place/Neo+Qu%C3%ADmica+Arena/@-23.5453134,-46.4768041,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94ce66dec98fb855:0xf2b061ffbcd2ecf8!8m2!3d-23.5453134!4d-46.4742292!16s%2Fm%2F0czdxhf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D) - however, I'd recommend [joining the São Paulo WhatsApp Group](https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA) to see where members are tailgating prior to the game.
 
-Where to go tailgate will depend on [what neighborhood you'll be in](/blog/where-to-stay-in-sao-paulo-for-nfl-game). If you're near [O'Malley's](https://maps.app.goo.gl/vkiEhgoQQ5Nfyhm36), they are a "Gringo Bar" and [have NFL games and other sporting events on every weekend](https://www.omalleysbar.net/esportes/). Over the past year, I also helped set it up as the [Packers Everywhere bar](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) in São Paulo. There are a [few other "sports bars"](https://cabecadequeijo.com/blog/sports-bars-in-sao-paulo/) but, I'd recommend just going to a corner Boteco.
+Where to go tailgate will depend on [what neighborhood you'll be in](/blog/where-to-stay-in-sao-paulo-for-nfl-game/). If you're near [O'Malley's](https://maps.app.goo.gl/vkiEhgoQQ5Nfyhm36), they are a "Gringo Bar" and [have NFL games and other sporting events on every weekend](https://www.omalleysbar.net/esportes/). Over the past year, I also helped set it up as the [Packers Everywhere bar](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) in São Paulo. There are a [few other "sports bars"](https://cabecadequeijo.com/blog/sports-bars-in-sao-paulo/) but, I'd recommend just going to a corner Boteco.
 ****
 
 ## Top Places to Tailgate Near Corinthians Arena:
@@ -41,6 +41,6 @@ Where to go tailgate will depend on [what neighborhood you'll be in](/blog/where
 - If I had to bet, I would guess that there will be vendors outside the stadium in the parking lots selling drinks as well.
 
 ## How to Get To/From Corinthians Arena
-The primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels. Uber is very affordable in Brazil and cost will depend on the distance traveled and duration. Again, plan accordingly for there to be traffic. [Read this post to learn more about all of the options](/blog/how-to-get-around-sao-paulo).
+The primary way most Paulistanos go to/from Corinthians stadium would be by using the Metro. The Red Line can take you into the city to connect to other lines to get you closer to your hotels. Uber is very affordable in Brazil and cost will depend on the distance traveled and duration. Again, plan accordingly for there to be traffic. [Read this post to learn more about all of the options](/blog/how-to-get-around-sao-paulo/).
 
-There are a few places to get food near Corinthians Arena. Be sure to check out our brief guide on [food overlap between Brazil and Wisconsin](/blog/culinary-similarities-between-wisonson-brazil).
+There are a few places to get food near Corinthians Arena. Be sure to check out our brief guide on [food overlap between Brazil and Wisconsin](/blog/culinary-similarities-between-wisonson-brazil/).
