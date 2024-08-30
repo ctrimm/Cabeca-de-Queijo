@@ -7,6 +7,24 @@ import i18next from "i18next";
 import { HeadHrefLangs } from "astro-i18next/components";
 import PostHog from '@components/posthog.astro';
 
+const params: Record<string, string> = {}
+for (const [key, value] of Object.entries(Astro.params)) {
+	if (value === undefined) continue
+	params[key] = String(value)
+}
+
+const hrefLangs = i18next.languages.map((locale) => ({
+  href:
+    Astro.url.origin +
+    '/' + locale +
+    i18next.t(Astro.url.pathname, {
+      lng: locale,
+    }),
+  hreflang: locale,
+}))
+
+console.log('hrefLangs', hrefLangs);
+
 export interface Props {
   title?: string;
   seoTitle: string;
@@ -61,7 +79,11 @@ const makeTitle = Astro.props.title
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="generator" content={Astro.generator} />
-    <HeadHrefLangs />
+    {
+      hrefLangs.map(({ href, hreflang }) => (
+        <link rel="alternate" href={href} hreflang={hreflang} />
+      ))
+    }
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <!-- src/layouts/Layout.astro -->
