@@ -32,4 +32,4 @@ Pack: rima com "back" ou "sack", pronunciado como /pæk/
 Vai: igual ao primeiro "Vai", pronunciado como /vaɪ/
 ```
 
-Se você está interessado em aprender mais palavras em português para o jogo - [confira nosso post mais longo](/blog/brazilian-portuguese-phrases-for-americans/).
+Se você está interessado em aprender mais palavras em português para o jogo - [confira nosso post mais longo](/pt-BR/blog/brazilian-portuguese-phrases-for-americans/).
