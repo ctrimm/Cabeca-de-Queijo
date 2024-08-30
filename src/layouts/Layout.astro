@@ -10,8 +10,8 @@ const currentLanguage = i18next.language;
 const isEnglish = currentLanguage === 'en';
 
 const canonicalURL = isEnglish
-  ? new URL(Astro.url.pathname, Astro.site).toString() // english
-  : new URL(`/${currentLanguage}${Astro.url.pathname}`, Astro.site).toString(); // portuguese
+  ? new URL(Astro.url.pathname, Astro.site).toString()
+  : new URL(`/${currentLanguage}${Astro.url.pathname}`, Astro.site).toString();
 
 const alternateLanguage = isEnglish ? 'pt-BR' : 'en';
 const alternateURL = isEnglish
@@ -39,14 +39,6 @@ export interface Props {
     }
   };
 }
-
-
-// const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
-// const canonicalURL = isEnglish
-//   ? new URL(Astro.url.pathname, Astro.site).toString() // english
-//   : new URL(Astro.url.pathname+"/pt-BR", Astro.site).toString() // portuguese
-
-console.log('canonicalURL - ', canonicalURL);
 
 const resolvedImageWithDomain = new URL(
   "/opengraph.jpg",
