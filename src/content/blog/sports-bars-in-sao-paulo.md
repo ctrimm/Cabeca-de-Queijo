@@ -35,4 +35,4 @@ Here is a short list of bars in São Paulo that we know of with TV's that will p
 
 Our one piece of advice is to reach out to the bar on Instagram or via What'sApp to confirm that they will have the game you are looking for. It's happened a couple times where we have gone to a "sports bar" only to find that they did not have the game on.
 
-If there are any sports bars missing from the list above, please [reach out to us](/contact) and we will update the post.
+If there are any sports bars missing from the list above, please [reach out to us](/contact/) and we will update the post.

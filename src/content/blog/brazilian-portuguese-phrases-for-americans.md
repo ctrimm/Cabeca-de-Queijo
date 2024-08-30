@@ -63,6 +63,6 @@ Here are ten more
 9. **Vamos Packers, Vamos!** - Let's Go Packers, Let's Go!
 10. **Parem Eles** - Stop Them (on defense)
 
-Knowing these terms not only helps in understanding the game better but also in connecting with other fans, particularly those who share your enthusiasm for the Packers. You can also join a [fan club WhatsApp Group](/chapters) to keep in touch with other Brazilian Packers Backers.
+Knowing these terms not only helps in understanding the game better but also in connecting with other fans, particularly those who share your enthusiasm for the Packers. You can also join a [fan club WhatsApp Group](/chapters/) to keep in touch with other Brazilian Packers Backers.
 
 Whether you are watching the game in Brazil, with Brazilian friends, or just want to add a new dimension to your American Football vocabulary, these Portuguese terms will definitely enhance your viewing experience. Enjoy the game, or as they say in Portuguese, "Aproveite o jogo!"

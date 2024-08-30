@@ -23,7 +23,7 @@ Whether you are traveling here for [the first ever NFL game in South America](ht
 1. Purchase NFL Game Pass via DAZN (~$75 USD for the entire season!)
 2. Use a VPN and connect to the USA to use your existing TV subscription
 3. Visit a Sports Bar in São Paulo
-4. Have Another Option? [Contact Us](/contact).
+4. Have Another Option? [Contact Us](/contact/).
 
 <!-- ![image courtesy of NFL Brasil detailing the percentage of the population that like each NFL Team](../src/assets/nfl-brasil-team-fans.png)
 _Image courtesy of [NFL Brasil](https://instagram.com/nflbrasil) (source: [Reddit](https://www.reddit.com/r/GreenBayPackers/comments/14fdmhw/the_packers_are_the_most_popular_nfl_team_in/))_ -->
@@ -70,7 +70,7 @@ My one piece of advice is to reach out to the bar on Instagram or via What'sApp 
 
 ---
 
-Hopefully this quick guide will make it a little bit easier for you to watch your favorite NFL team in Brazil. If you know of any other ways to watch or other sports bars, please [Contact Us](/contact) and we will update this post.
+Hopefully this quick guide will make it a little bit easier for you to watch your favorite NFL team in Brazil. If you know of any other ways to watch or other sports bars, please [Contact Us](/contact/) and we will update this post.
 
 ---
 

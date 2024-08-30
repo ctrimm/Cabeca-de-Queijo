@@ -34,4 +34,4 @@ Aqui está uma lista curta de bares em São Paulo que sabemos que têm TVs que e
 
 Minha única dica é entrar em contato com o bar no Instagram ou via WhatsApp para confirmar se eles terão o jogo que você procura. Aconteceu algumas vezes de irmos a um "sports bar" e descobrirmos que eles não tinham o jogo na TV.
 
-Se houver algum sports bar que não esteja na lista acima, por favor, [entre em contato conosco](/contact) e atualizaremos o post.
+Se houver algum sports bar que não esteja na lista acima, por favor, [entre em contato conosco](/contact/) e atualizaremos o post.

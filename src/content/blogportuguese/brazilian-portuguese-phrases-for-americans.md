@@ -63,6 +63,6 @@ Aqui estão mais dez
 9. **Vamos Packers, Vamos!** - Let's Go Packers, Let's Go!
 10. **Parem Eles** - Stop Them (na defesa)
 
-Conhecer esses termos não só ajuda a entender melhor o jogo, mas também a se conectar com outros torcedores, especialmente aqueles que compartilham seu entusiasmo pelos Packers. Você também pode entrar em um [grupo de WhatsApp de torcedores](/chapters) para manter contato com outros Packers Backers brasileiros.
+Conhecer esses termos não só ajuda a entender melhor o jogo, mas também a se conectar com outros torcedores, especialmente aqueles que compartilham seu entusiasmo pelos Packers. Você também pode entrar em um [grupo de WhatsApp de torcedores](/chapters/) para manter contato com outros Packers Backers brasileiros.
 
 Seja assistindo ao jogo no Brasil, com amigos brasileiros, ou apenas querendo adicionar uma nova dimensão ao seu vocabulário de Futebol Americano, esses termos em português definitivamente vão melhorar sua experiência. Aproveite o jogo, ou como dizem em português, "Aproveite o jogo!"

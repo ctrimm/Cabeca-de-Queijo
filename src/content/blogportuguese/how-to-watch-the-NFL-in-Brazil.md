@@ -23,7 +23,7 @@ Seja você um viajante vindo para [o primeiro jogo da NFL na América do Sul](ht
 1. Comprar NFL Game Pass via DAZN (~$75 USD para a temporada inteira!)
 2. Usar um VPN e conectar-se aos EUA para usar sua assinatura de TV existente
 3. Visitar um Sports Bar em São Paulo
-4. Tem Outra Opção? [Entre em Contato](/contact).
+4. Tem Outra Opção? [Entre em Contato](/contact/).
 
 <!-- ![imagem cortesia da NFL Brasil detalhando a porcentagem da população que gosta de cada time da NFL](../src/assets/nfl-brasil-team-fans.png)
 _Imagem cortesia da [NFL Brasil](https://instagram.com/nflbrasil) (fonte: [Reddit](https://www.reddit.com/r/GreenBayPackers/comments/14fdmhw/the_packers_are_the_most_popular_nfl_team_in/))_ -->
@@ -70,7 +70,7 @@ Minha única dica é entrar em contato com o bar no Instagram ou via WhatsApp pa
 
 ---
 
-Esperamos que este guia rápido torne mais fácil para você assistir ao seu time favorito da NFL no Brasil. Se você conhece outras maneiras de assistir ou outros sports bars, por favor, [Entre em Contato](/contact) e atualizaremos este post.
+Esperamos que este guia rápido torne mais fácil para você assistir ao seu time favorito da NFL no Brasil. Se você conhece outras maneiras de assistir ou outros sports bars, por favor, [Entre em Contato](/contact/) e atualizaremos este post.
 
 ---
 
