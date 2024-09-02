@@ -14,7 +14,7 @@ tags: [PackersEverywhere.com, O'Malley's, Official]
 
 ![Screenshot of Cabeca de Queijo and O'Malley's Bar on the PackersEverywhere.com website](../../assets/packers-everywhere-announcement.png)
 
-# 🚨 Announcing O'Malley's As the Packers Everywhere Bar in São Paulo 🚨
+# 🚨 Announcing O'Malley's As [the Packers Everywhere Bar](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) in São Paulo 🚨
 With the NFL coming to São Paulo **next week** - there is no better time than the present to announce O'Malley's being **the location** to watch all [Green Bay Packers](https://packers.com) games for the 2024 to 2025 season.
 
 Over the past year or so, we've been in communication with the manager at [O'Malley's](https://www.omalleysbar.net/) after watching the Packers take on the Steelers in November of 2023. Quite possibly the game where Jordan Love started to R-E-L-A-X and let loose a bit (at least in the last 2 min drive).
