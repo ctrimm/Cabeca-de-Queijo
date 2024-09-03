@@ -6,7 +6,7 @@ image: {
     src: "/src/assets/packers-fans-shopping.webp",
     alt: "Torcedores do Green Bay Packers fazendo compras em uma loja de shopping, procurando uma nova camiseta ou jersey."
 }
-publishDate: "2024-08-29 14:39"
+publishDate: "2024-09-02 14:39"
 category: "Fandom"
 author: "Cory Trimm"
 tags: [Merchandise, Guia, NFL Brasil]

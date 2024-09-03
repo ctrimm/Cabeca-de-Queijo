@@ -6,7 +6,7 @@ image: {
     src: "/src/assets/packers-fans-shopping.webp",
     alt: "Green Bay Packers fans shopping at a mall store for a new shirt or jersey."
 }
-publishDate: "2024-08-29 14:39"
+publishDate: "2024-09-02 14:39"
 category: "Fandom"
 author: "Cory Trimm"
 tags: [Merchandise, Guide, NFL Brazil]
