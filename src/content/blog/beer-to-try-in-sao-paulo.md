@@ -20,7 +20,7 @@ tags: [Cervejaria, Chopp, Craft Beer]
 
 # Top Beers To Try While in Brazil for the NFL Sao Paulo Game
 
-[If you need help ordering a beer, checkout our 2 minute guide here](/blog/beerhow-to-order-a-beer-in-portuguese/).
+[If you need help ordering a beer, checkout our 2 minute guide here](/blog/how-to-order-a-beer-in-portuguese/).
 
 There are of course the favorites - an `estupida gelada chopp` - or, a stupidly cold beer. These chopps are traditionally lighter, pilsner or lager styled beers that you can get much anywhere in the city. There are a few major Brazilian breweries - Brahma, Antarctica Original (my favorite), Skol, Itaipava, and others - that create this style. And, you can typically get it in a ~10 ounce pour for a couple of dollars (anything more is highway robbery).
 

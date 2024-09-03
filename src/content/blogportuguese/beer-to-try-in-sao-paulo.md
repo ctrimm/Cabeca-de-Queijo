@@ -20,7 +20,7 @@ tags: [Cervejaria, Chopp, Craft Beer]
 
 # As Melhores Cervejas Para Experimentar no Brasil Durante o Jogo da NFL em São Paulo
 
-[Se precisar de ajuda para pedir uma cerveja, confira nosso guia de 2 minutos aqui](/blog/beerhow-to-order-a-beer-in-portuguese/).
+[Se precisar de ajuda para pedir uma cerveja, confira nosso guia de 2 minutos aqui](/blog/how-to-order-a-beer-in-portuguese/).
 
 Claro, existem as favoritas - um `estupida gelada chopp` - ou seja, uma cerveja estupidamente gelada. Esses chopps são tradicionalmente cervejas mais leves, de estilo pilsner ou lager, que você pode encontrar em praticamente qualquer lugar da cidade. Existem algumas grandes cervejarias brasileiras - Brahma, Antarctica Original (minha favorita), Skol, Itaipava e outras - que criam esse estilo. E você pode geralmente consegui-la por algumas poucas reais em um copo de ~300 ml (qualquer preço maior é roubo).
 
