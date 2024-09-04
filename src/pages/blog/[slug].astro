@@ -27,6 +27,9 @@ const otherEntries = blogEntries.filter((otherEntry) => otherEntry.slug !== entr
 
 // Randomly select an entry from the remaining entries
 const randomEntry = otherEntries[Math.floor(Math.random() * otherEntries.length)];
+
+// Get the static path for the random entry's image
+const randomEntryImagePath = import.meta.resolve(`/src/content/blog/${randomEntry.slug}/${randomEntry.data.image}`);
 ---
 
 <Layout
@@ -88,7 +91,7 @@ const randomEntry = otherEntries[Math.floor(Math.random() * otherEntries.length)
       <h2 class="text-2xl font-bold mb-4">You May Also Like:</h2>
       <a href={`/blog/${randomEntry.slug}`} class="flex items-center gap-4">
         <img
-          src={randomEntry.data.image.src}
+          src={randomEntryImagePath}
           alt={randomEntry.data.image.alt}
           class="w-48 h-48 object-cover rounded-md"
         />
