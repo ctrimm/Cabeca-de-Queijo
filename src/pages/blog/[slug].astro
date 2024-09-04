@@ -8,15 +8,25 @@ changeLanguage("en");
 
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
-    const blogEntries = await getCollection("blog");
-    return blogEntries.map((entry) => ({
-        params: { slug: entry.slug },
-        props: { entry },
-    }));
+  const blogEntries = await getCollection("blog");
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
 }
+
 // Get the entry directly from the prop on render
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+// Get all blog entries
+const blogEntries = await getCollection("blog");
+
+// Filter out the current entry
+const otherEntries = blogEntries.filter((otherEntry) => otherEntry.slug !== entry.slug);
+
+// Randomly select an entry from the remaining entries
+const randomEntry = otherEntries[Math.floor(Math.random() * otherEntries.length)];
 ---
 
 <Layout
@@ -72,6 +82,23 @@ const { Content } = await entry.render();
     <div class="mx-auto prose prose-lg mt-6 max-w-3xl">
       <Content />
     </div>
+
+    {/* Add the "You May Also Like" component */}
+    <div class="my-8 mx-auto max-w-3xl bg-gray-100 p-4 rounded-md hover:bg-gray-200 transition">
+      <h2 class="text-2xl font-bold mb-4">You May Also Like:</h2>
+      <a href={`/blog/${randomEntry.slug}`} class="flex items-center gap-4">
+        <img
+          src={randomEntry.data.image.src}
+          alt={randomEntry.data.image.alt}
+          class="w-48 h-48 object-cover rounded-md"
+        />
+        <article class="p-4">
+          <h3 class="text-xl font-bold">{randomEntry.data.title}</h3>
+          <p class="text-gray-600">{randomEntry.data.snippet}</p>
+        </article>
+      </a>
+    </div>
+
     <div class="text-center mt-8">
       <a
         href="/blog/"
