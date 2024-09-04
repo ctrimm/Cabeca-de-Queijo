@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Um Guia de Frases em Português para Fãs de Futebol Americano"
+title: "Um Guia de Frases em Português para Torcedores de Futebol Americano"
 snippet: "Com a NFL chegando a São Paulo no outono e o crescimento do Futebol Americano no Brasil, é útil conhecer algum vocabulário em português relacionado ao esporte."
 image: {
     src: "/src/assets/language-cheering-fans.webp",
@@ -38,7 +38,7 @@ Esses termos ajudarão você a entender melhor o jogo e a se comunicar com outro
 Se você está torcendo para o Green Bay Packers, aqui estão dez termos que são essenciais para todo fã saber:
 
 1. **Packers** - Packers (usado como no inglês)
-2. **Cabeça de Queijo** - Cheesehead (um apelido para os fãs dos Packers, refletindo a famosa indústria de queijo de Wisconsin)
+2. **Cabeça de Queijo** - Cheesehead (um apelido para os torcedores dos Packers, refletindo a famosa indústria de queijo de Wisconsin)
 3. **Lambeau Leap** - Lambeau Leap (o famoso salto nas arquibancadas feito por um jogador após marcar, nomeado em homenagem ao estádio dos Packers)
 4. **Grelha** - Gridiron (outro termo para o campo de futebol americano)
 5. **Vitória** - Victory

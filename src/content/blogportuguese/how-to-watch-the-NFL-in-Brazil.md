@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [esportes, dazn, brasil]
 ---
 
-![Foto de um conjunto de fãs assistindo à NFL dentro de uma casa bem brasileira gerada por IA](../../assets/watch-nfl-in-brazil.webp)
+![Foto de um conjunto de torcedores assistindo à NFL dentro de uma casa bem brasileira gerada por IA](../../assets/watch-nfl-in-brazil.webp)
 
 ## Crescimento da Cultura do Futebol Americano no Brasil
 Desde aproximadamente 2010, o futebol americano tem crescido no Brasil - similarmente ao que aconteceu com a NBA. Os Packers têm sido repetidamente um dos [times mais torcidos no Brasil](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F2x3s4o1xme7b1.jpg). Achamos que isso se deve ao fato das cores serem verde e dourado (como a bandeira do Brasil) e porque os torcedores "possuem" o time. No entanto, um dos maiores problemas que encontrei ao viajar para o exterior foi como assistir aos jogos do Green Bay Packers.
@@ -62,7 +62,7 @@ Por algum motivo, encontrar um lugar como Buffalo Wild Wings é bem difícil no 
 
 Aqui está uma lista curta de bares em São Paulo que sabemos que têm TVs que exibem a NFL.
 
-- [O'Malley's](https://www.omalleysbar.net/) - _tipicamente __LOTADO__ de fãs da NFL em todos os dias de jogo_
+- [O'Malley's](https://www.omalleysbar.net/) - _tipicamente __LOTADO__ de torcedores da NFL em todos os dias de jogo_
 - [Goose Island Brewery São Paulo](https://www.instagram.com/gooseislandsp/)
 - [Flames Tap House](https://www.instagram.com/flamestaphouse/)
 

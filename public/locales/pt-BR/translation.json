@@ -45,7 +45,7 @@
   },
   "sellingPoints": {
     "title": "Por que você deveria torcer pelos Green Bay Packers?",
-    "subtext": "Os Green Bay Packers têm uma história rica, repleta de inúmeros campeonatos e jogadores lendários. Torcer pelos Packers significa juntar-se a uma comunidade global de fãs apaixonados. Além disso, quem não gosta de queijo?",
+    "subtext": "Os Green Bay Packers têm uma história rica, repleta de inúmeros campeonatos e jogadores lendários. Torcer pelos Packers significa juntar-se a uma comunidade global de torcedores apaixonados. Além disso, quem não gosta de queijo?",
     "sellingPoints" : [
       {
         "title": "História rica",
@@ -56,13 +56,13 @@
       {
         "title": "Comunidade Global",
         "description":
-          "Torcer pelos Packers significa juntar-se a uma comunidade global de fãs apaixonados.",
+          "Torcer pelos Packers significa juntar-se a uma comunidade global de torcedores apaixonados.",
         "icon": "mdi:globe"
       },
       {
         "title": "Cheeseheads",
         "description":
-          "Os fãs dos Packers são carinhosamente conhecidos como 'Cheeseheads', uma parte divertida e única da cultura dos fãs da NFL.",
+          "Os torcedores dos Packers são carinhosamente conhecidos como 'Cheeseheads', uma parte divertida e única da cultura dos torcedores da NFL.",
         "icon": "icon-park-outline:cheese"
       },
       {
@@ -203,7 +203,7 @@
     "guide": "Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um clube. Entraremos em contato com você o mais breve possível."
   },
   "blog": {
-    "title": "Postagens e histórias de fãs",
+    "title": "Postagens e histórias de torcedores",
     "desc": "Adoramos ouvir nossos Cheeseheads Brasileiros. Se você tem uma história para compartilhar, por favor",
     "contactUs": "Fale Conosco"
   },
@@ -214,11 +214,11 @@
   },
   "memberBenefits": {
     "title": "O Que Você Ganha com a Assinatura",
-    "subtext": "Abrace a emoção de ser um fã dos Packers no Brasil. Una-se a outros fãs que compartilham sua paixão e entusiasmo pelo lendário Green Bay Packers. Cabeça de Queijo está aqui para reunir a vibrante comunidade de fãs dos Packers no Brasil.",
+    "subtext": "Abrace a emoção de ser um fã dos Packers no Brasil. Una-se a outros torcedores que compartilham sua paixão e entusiasmo pelo lendário Green Bay Packers. Cabeça de Queijo está aqui para reunir a vibrante comunidade de torcedores dos Packers no Brasil.",
     "benefits": [
       {
         "title": "Comunidade e União",
-        "description": "Torne-se uma parte vital da comunidade global dos Packers, conectando-se com fãs local e mundialmente através de clubes e um grupo exclusivo no WhatsApp, promovendo união e camaradagem.",
+        "description": "Torne-se uma parte vital da comunidade global dos Packers, conectando-se com torcedores local e mundialmente através de clubes e um grupo exclusivo no WhatsApp, promovendo união e camaradagem.",
         "icon": "mdi:account-group-outline"
       },
       {
@@ -228,7 +228,7 @@
       },
       {
         "title": "Eventos e Encontros",
-        "description": "Participe de encontros em dias de jogo e eventos comunitários, onde você pode se unir a outros fãs para celebrar e apoiar o time.",
+        "description": "Participe de encontros em dias de jogo e eventos comunitários, onde você pode se unir a outros torcedores para celebrar e apoiar o time.",
         "icon": "mdi:calendar-multiple"
       },
       {

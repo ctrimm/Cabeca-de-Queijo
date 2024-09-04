@@ -25,4 +25,4 @@ O processo para garantir um local foi **duas etapas**:
 
 O processo acima foi bastante simples, já que temos este belo site, alguns adesivos e até um [grupo no WhatsApp](/chapters/sao-paulo/) para comunicar com outros torcedores.
 
-Ainda somos uma operação pequena, e encorajamos os fãs dos Packers a [ler mais em nosso blog](/pt-BR/blog/), visitar nossos amigos no [Packers.br](https://www.packersbrasil.com.br/) e ajudar a espalhar o amor pelo jogo.
+Ainda somos uma operação pequena, e encorajamos os torcedores dos Packers a [ler mais em nosso blog](/pt-BR/blog/), visitar nossos amigos no [Packers.br](https://www.packersbrasil.com.br/) e ajudar a espalhar o amor pelo jogo.

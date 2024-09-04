@@ -33,7 +33,7 @@ Existem algumas **Lojas da NFL** nos diversos aeroportos e shoppings ao redor do
 Os preços nas lojas mencionadas podem variar. Nas Lojas NFL, você estará comprando produtos licenciados e oficiais da NFL, portanto, eles podem ser bem caros. Cerca de **40 USD / 200 BRL** por uma camiseta. Se você estiver procurando por uma jersey, um moletom ou outros produtos, eles têm, mas será caro.
 
 ### Fim de Semana do Jogo em São Paulo:
-Nos dias que antecedem e após o jogo, haverá várias [experiências para fãs da NFL](https://www.nfl.com/international/games/saopaulo/) onde você poderá comprar produtos dos times. Não sabemos qual será a seleção disponível, mas esperamos que seja semelhante à seleção da Loja Oficial da NFL.
+Nos dias que antecedem e após o jogo, haverá várias [experiências para torcedores da NFL](https://www.nfl.com/international/games/saopaulo/) onde você poderá comprar produtos dos times. Não sabemos qual será a seleção disponível, mas esperamos que seja semelhante à seleção da Loja Oficial da NFL.
 
 ![Opções de bonés da Renner.com para o jogo da NFL em São Paulo](../../assets/renner-hat-options.png)
 
@@ -42,15 +42,15 @@ Como estamos no Brasil, há MUITAS opções diferentes para comprar produtos do 
 
 Alguns dos lugares onde encontramos produtos da NFL são as seguintes lojas:
 - [Renner](https://www.lojasrenner.com.br/p/camiseta-comfort-em-algodao-com-estampa-nfl-packers/-/A-927784120-br.lr?sku=927784162)
-  - A Renner tem a seleção mais diversa de roupas com os melhores preços. O link acima mostrará uma camiseta por menos de 100 BRL (~20 USD). No momento da redação, há 49 opções para fãs dos Packers e 11 opções para fãs dos Eagles. As opções para outros times geralmente são bonés.
+  - A Renner tem a seleção mais diversa de roupas com os melhores preços. O link acima mostrará uma camiseta por menos de 100 BRL (~20 USD). No momento da redação, há 49 opções para torcedores dos Packers e 11 opções para torcedores dos Eagles. As opções para outros times geralmente são bonés.
 - [Sport America](https://www.sportamerica.com.br/futebol-americano/)
   - Esta loja é a única que vimos que tem capacetes e protetores para pessoas que querem praticar o esporte. Eles também têm uma bandeira dos Packers, chaveiros e outros acessórios. Os preços são um pouco menores que os da Loja NFL.
 - [Netshoes](https://www.netshoes.com.br/busca2?nsCat=Natural&q=NFL)
   - A Netshoes tem uma seleção de produtos da Nike, como shorts oficiais dos times, camisetas com estampa de oncinha e outras opções com uma ampla faixa de preços. Em nossa opinião, esta é a melhor escolha para a maioria das pessoas.
 - [Loja America](https://www.netshoes.com.br/futebol-americano/camisetas/nfl)
-  - Há camisetas de 31 times disponíveis para venda na Loja America por apenas 90 BRL (~20 USD). Também há jerseys de diferentes times, bonés e outros acessórios que os fãs podem comprar.
+  - Há camisetas de 31 times disponíveis para venda na Loja America por apenas 90 BRL (~20 USD). Também há jerseys de diferentes times, bonés e outros acessórios que os torcedores podem comprar.
 - [Centauro](https://www.centauro.com.br/busca/green-bay-packers)
-  - No momento da redação, a Centauro tem mais de 100 itens para fãs do Green Bay Packers e [30 produtos para fãs dos Eagles](https://www.centauro.com.br/busca/philadelphia-eagles).
+  - No momento da redação, a Centauro tem mais de 100 itens para torcedores do Green Bay Packers e [30 produtos para torcedores dos Eagles](https://www.centauro.com.br/busca/philadelphia-eagles).
 - [Loja NFL Brasil](https://www.lojanfl.com.br/)
   - Será caro, mas os produtos são autênticos e licenciados.
 
