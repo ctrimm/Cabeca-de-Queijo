@@ -2,6 +2,7 @@
 import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
+import BannerBar from "@components/BannerBar.astro";
 import "@fontsource-variable/inter/index.css";
 import i18next from "i18next";
 import PostHog from '@components/posthog.astro';
@@ -97,6 +98,7 @@ const makeTitle = Astro.props.title
   </head>
   <body>
     <Navbar />
+    <BannerBar language={currentLanguage} />
     <slot />
     <Footer />
     <style is:global>

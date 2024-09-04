@@ -18,7 +18,7 @@ foundedDate: "2023-09-20 16:00"
 lastMeeting: "2023-09-23"
 category: "Chapter"
 organizer: "Cory Trimm"
-totalMembers: "4"
+totalMembers: "12"
 tags: [webdev, tailwindcss, frontend]
 otherPlacesToWatch: [
   {

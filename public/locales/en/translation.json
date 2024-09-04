@@ -117,7 +117,7 @@
     "buttonLink": "/join/"
   },
   "chapterSlug": {
-    "interested": "Interested in becoming a member of",
+    "interested": "Interested in becoming a member of ",
     "joinWhatsApp": "Join on WhatsApp",
     "whereToCheer": "Where to Cheer",
     "backToChapters": "Back to Chapters",
@@ -132,7 +132,7 @@
         "city": "São Paulo",
         "state": "São Paulo",
         "country": "Brasil",
-        "members": "3",
+        "members": "12",
         "chapterMeetingPlace": "Watch Parties",
         "chapterMeetingAddressLink": "/chapters/sao-paulo/",
         "website": "https://www.omalleysbar.net",
