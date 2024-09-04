@@ -28,6 +28,16 @@ export async function getStaticPaths() {
   return paths;
 }
 
+// helper function to import dynamic images
+const dynamicImageImport = (src) => {
+  // return the http or https image paths
+  if (src.startsWith('http') || src.startsWith('https')) {
+    return src;
+  } else {
+    return images[`${src}`]();
+  }
+}
+
 // Get the entry and random entry directly from the props on render
 const { entry, randomEntry } = Astro.props;
 const { Content } = await entry.render();
@@ -92,7 +102,7 @@ const { Content } = await entry.render();
       <h2 class="text-2xl font-bold mb-4">🧀 Você também pode gostar:</h2>
       <a href={`/blog/${randomEntry.slug}`} class="flex items-center gap-4">
         <Image
-          src={randomEntry.data.image.src}
+          src={dynamicImageImport(randomEntry.data.image.src)}
           alt={randomEntry.data.image.alt}
           width="256"
           height="256"
