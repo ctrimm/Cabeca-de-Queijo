@@ -9,27 +9,27 @@ changeLanguage("en");
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
   const blogEntries = await getCollection("blog");
-  return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
-  }));
+  const paths = [];
+
+  for (const entry of blogEntries) {
+    // Filter out the current entry
+    const otherEntries = blogEntries.filter((otherEntry) => otherEntry.slug !== entry.slug);
+
+    // Randomly select an entry from the remaining entries
+    const randomEntry = otherEntries[Math.floor(Math.random() * otherEntries.length)];
+
+    paths.push({
+      params: { slug: entry.slug },
+      props: { entry, randomEntry },
+    });
+  }
+
+  return paths;
 }
 
-// Get the entry directly from the prop on render
-const { entry } = Astro.props;
+// Get the entry and random entry directly from the props on render
+const { entry, randomEntry } = Astro.props;
 const { Content } = await entry.render();
-
-// Get all blog entries
-const blogEntries = await getCollection("blog");
-
-// Filter out the current entry
-const otherEntries = blogEntries.filter((otherEntry) => otherEntry.slug !== entry.slug);
-
-// Randomly select an entry from the remaining entries
-const randomEntry = otherEntries[Math.floor(Math.random() * otherEntries.length)];
-
-// Get the static path for the random entry's image
-const randomEntryImagePath = import.meta.resolve(`/src/content/blog/${randomEntry.slug}/${randomEntry.data.image}`);
 ---
 
 <Layout
@@ -91,7 +91,7 @@ const randomEntryImagePath = import.meta.resolve(`/src/content/blog/${randomEntr
       <h2 class="text-2xl font-bold mb-4">You May Also Like:</h2>
       <a href={`/blog/${randomEntry.slug}`} class="flex items-center gap-4">
         <img
-          src={randomEntryImagePath}
+          src={randomEntry.data.image.src}
           alt={randomEntry.data.image.alt}
           class="w-48 h-48 object-cover rounded-md"
         />
@@ -102,6 +102,7 @@ const randomEntryImagePath = import.meta.resolve(`/src/content/blog/${randomEntr
       </a>
     </div>
 
+    {/* Add a link to go back to the blog */}
     <div class="text-center mt-8">
       <a
         href="/blog/"
