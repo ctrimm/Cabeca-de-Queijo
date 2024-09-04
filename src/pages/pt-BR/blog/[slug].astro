@@ -7,6 +7,8 @@ import Container from "@components/container.astro";
 
 changeLanguage("pt-BR");
 
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif,webp}');
+
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
   const blogPortugueseEntries = await getCollection("blog");
