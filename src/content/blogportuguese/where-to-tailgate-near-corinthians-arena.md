@@ -25,6 +25,15 @@ Agora, se você não mora em São Paulo, pode não saber onde fazer tailgate ant
 
 ![Foto de torcedores do Green Bay Packers fazendo tailgate fora de um Boteco na esquina](../../assets/packers-fans-tailgating-outside-a-boteco.webp)
 
+**Última Atualização - Quinta-feira, 5 de Setembro de 2024**
+Estamos constantemente monitorando a internet para outras opções.
+
+Se você tem ingressos para o jogo, parece que você pode entrar no NFL Fan Campus logo fora da Arena Corinthians. Lá, haverá comida/bebida, o Troféu Lombardi, a Loja da NFL, e outras atividades antes de entrar no estádio.
+
+Baixe o aplicativo NFL OnePass ([iPhone](https://apps.apple.com/us/app/nfl-onepass/id1456010454) ou [Android](https://play.google.com/store/apps/details?id=com.nfl.fanmobilepass&hl=en_US&pli=1)) para ver o mapa do Fan Campus com mais detalhes (foto abaixo). [Também há um tailgate de $200 USD no Shopping Itaquera](https://sportsfanstravel.com/products/green-bay-philadelphia-tailgate-in-sao-paulo), mas é bem caro.
+
+![Captura de tela da experiência NFL One Pass Fan Experience fora da Arena Corinthians](../../assets/nfl-fan-zone-one-pass.jpg)
+
 ****
 # Onde Fazer Tailgate Perto da Arena Corinthians
 Vamos dar uma olhada em lugares para fazer tailgate perto do [Estádio do Corinthians](https://www.google.com/maps/place/Neo+Qu%C3%ADmica+Arena/@-23.5453134,-46.4768041,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94ce66dec98fb855:0xf2b061ffbcd2ecf8!8m2!3d-23.5453134!4d-46.4742292!16s%2Fm%2F0czdxhf?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D) - no entanto, eu recomendaria [entrar no grupo do WhatsApp de São Paulo](https://chat.whatsapp.com/DCeTE832kUTJfAiskx4krA) para ver onde os membros estão fazendo tailgate antes do jogo.

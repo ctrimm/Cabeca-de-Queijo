@@ -14,10 +14,19 @@ tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
 
 ![Photo of Green Bay Packers fans tailgating inside of a Boteco](../../assets/packers-fans-tailgating-inside-a-boteco.webp)
 
+**Last Updated - Thursday, September 5, 2024**
+We are constantly monitoring the internet for other options.
+
+If you **have** tickets to the game, it appears that you can enter the NFL Fan Campus immediately outside of Corinthians Arena. Which will have food/drink, the Lombardi Trophy, NFL Store, and other activities before you enter the stadium.
+
+Download the NFL OnePass App ([iPhone](https://apps.apple.com/us/app/nfl-onepass/id1456010454) or [Android](https://play.google.com/store/apps/details?id=com.nfl.fanmobilepass&hl=en_US&pli=1)) to see the Fan Campus Map with more detail (photo below). [There is also a $200 USD tailgate at the Itaquera Mall](https://sportsfanstravel.com/products/green-bay-philadelphia-tailgate-in-sao-paulo), but that is pretty expensive.
+
+![Screenshot of the NFL One Pass Fan Experience outside of Corinthians Arena](../../assets/nfl-fan-zone-one-pass.jpg)
+
 ## Quick Intro
 Corinthians Arena is typically home to a different kind of football. However for the first time, the National Football League (NFL) will be hosting an American Football match - the first of it's kind in South America - between the Green Bay Packers and the Philadelphia Eagles.
 
-It should be noted that for Soccer / Futebol games at stadiums in São Paulo, typically there are "camarote" or VIP sections that are allowed to sell alcoholic drinks 2 hours before and one hour after the game starts/ends. This is a [Sao Paulo State law](https://www.al.sp.gov.br/propositura/?id=1000537922) due to shenanigans occurring in the past between rival fan groups to ensure the safety of everyone during gameday. Even tho during the 2014 World Cup, there were no recorded incidents.
+It should be noted that for Soccer / Futebol games at stadiums in São Paulo, typically there are "camarote" or VIP sections that are allowed to sell alcoholic drinks 2 hours before and one hour after the game starts/ends. This is a [Sao Paulo State law](https://www.al.sp.gov.br/propositura/?id=1000537922) due to shenanigans occurring in the past between rival fan groups to ensure the safety of everyone during gameday. Even tho during the 2014 World Cup, there were no recorded incidents. 
 
 Now, if you don't live in São Paulo, you may not know where to tailgate prior to the game.
 
