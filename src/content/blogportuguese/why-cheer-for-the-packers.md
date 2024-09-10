@@ -3,7 +3,7 @@ draft: false
 title: "Por Que Torcer Pelo Green Bay Packers?"
 snippet: "Agora que o primeiro jogo da NFL na América do Sul foi disputado, você pode estar procurando um time para torcer. Leia este post para saber mais sobre por que você deve torcer pelo Green Bay Packers."
 image: {
-    src: "/src/assets/go-pack-go-in-portuguese-sign",
+    src: "/src/assets/go-pack-go-in-portuguese-sign.webp",
     alt: "Imagem gerada por IA de torcedores do Green Bay Packers dentro de um estádio com uma placa que diz 'Vai Pack Vai'"
 }
 publishDate: "2024-09-09 14:39"
