@@ -11,7 +11,7 @@ const isEnglish = currentLanguage === 'en';
 
 const canonicalURL = isEnglish
   ? new URL(Astro.url.pathname, Astro.site).toString()
-  : new URL(`/${currentLanguage}${Astro.url.pathname.replace('/pt-br', '')}`, Astro.site).toString();
+  : new URL(`/${currentLanguage}${Astro.url.pathname.replace('/pt-BR', '')}`, Astro.site).toString();
 
 const alternateLanguage = isEnglish ? 'pt-br' : 'en';
 const alternateURL = isEnglish
