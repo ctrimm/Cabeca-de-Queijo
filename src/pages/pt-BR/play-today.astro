@@ -8,24 +8,24 @@ const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() =
 ---
 
 <PlayTodayLayout
-  seoTitle={`O Green Bay Packers Joga Hoje? ${isPlayingToday ? 'SIM' : 'NÃO'}`}
+  seoTitle={`Tem Jogo do Green Bay Packers Hoje? ${isPlayingToday ? 'SIM' : 'NÃO'}`}
   seoDescription={`Verifique rapidamente se o Green Bay Packers está jogando hoje.`}
   seoOpenGraph={{
     basic: {
-      title: `O Green Bay Packers Joga Hoje? ${isPlayingToday ? 'SIM' : 'NÃO'}`,
+      title: `Tem Jogo do Green Bay Packers Hoje? ${isPlayingToday ? 'SIM' : 'NÃO'}`,
       type: "website",
-      image: `https://cabecadequeijo.com/og/og-playing-${isPlayingToday ? 'sim' : 'nao'}.png`,
+      image: `https://cabecadequeijo.com/og/og-playing-${isPlayingToday ? 'yes' : 'no'}.png`,
       url: "https://cabecadequeijo.com/play-today/",
     },
     image: {
-      alt: `Captura de tela do site "O Green Bay Packers Joga Hoje?" ${isPlayingToday ? 'SIM' : 'NÃO'}`,
+      alt: `Captura de tela do site "Tem Jogo do Green Bay Packers Hoje?" ${isPlayingToday ? 'SIM' : 'NÃO'}`,
     },
   }}
 >
   <Container>
     <div class="flex flex-col justify-center items-center pt-12 min-h-96">
       <div class="text-3xl font-semibold mb-4">
-        O Green Bay Packers Joga Hoje?
+        Tem Jogo do Green Bay Packers Hoje?
       </div>
       <div class="text-[12rem] font-bold">
         {isPlayingToday ? '🧀 SIM 🧀' : 'NÃO 😭'}
