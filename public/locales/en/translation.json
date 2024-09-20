@@ -98,7 +98,11 @@
     "rights": "All Rights Reserved",
     "byline": "Made from a <0>Web3Template</0> by <1>@cdt5058</1>",
     "help": "Need Help? Have Feedback? Click Here.",
-    "helpLink": "/contact/"
+    "helpLink": "/contact/",
+    "playToday": {
+      "linkText": "Green Bay Packers Game Today?",
+      "linkHref": "/green-bay-packers-game-today/"
+    }
   },
   "joinComponent": {
     "title": "Join Us 🧀 🧑 🇧🇷",

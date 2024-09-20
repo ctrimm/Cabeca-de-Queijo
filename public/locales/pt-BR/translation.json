@@ -98,7 +98,11 @@
     "rights": "Todos os direitos reservados.",
     "byline": "Feito a partir de um <0>Web3Template</0> por <1>@cdt5058</1>",
     "help": "Preciso de ajuda? Tem comentários? Clique aqui.",
-    "helpLink": "/pt-BR/contact/"
+    "helpLink": "/pt-BR/contact/",
+    "playToday": {
+      "linkText": "Tem Jogo do Green Bay Packers Hoje?",
+      "linkHref": "/pt-BR/green-bay-packers-game-today/"
+    }
   },
   "joinComponent": {
     "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
