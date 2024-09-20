@@ -1,0 +1,35 @@
+---
+import { getNextGames } from '@utils/getNextGames';
+import Container from "@components/container.astro";
+import PlayTodayLayout from "@layouts/PlayTodayLayout.astro";
+
+const { nextGame } = await getNextGames();
+const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() === new Date().toDateString();
+---
+
+<PlayTodayLayout
+  seoTitle={`Do The Green Bay Packers Play Today? ${isPlayingToday ? 'YES' : 'NO'}`}
+  seoDescription={`Quickly check to see if the Green Bay Packers are playing today.`}
+  seoOpenGraph={{
+    basic: {
+      title: `Do The Green Bay Packers Play Today? ${isPlayingToday ? 'YES' : 'NO'}`,
+      type: "website",
+      image: `https://cabecadequeijo.com/og/og-playing-${isPlayingToday ? 'yes' : 'no'}.png`,
+      url: "https://cabecadequeijo.com/play-today/",
+    },
+    image: {
+      alt: `Do The Green Bay Packers Play Today website screenshot? ${isPlayingToday ? 'YES' : 'NO'}`,
+    },
+  }}
+>
+  <Container>
+    <div class="flex flex-col justify-center items-center pt-12 min-h-96">
+      <div class="text-3xl font-semibold mb-4">
+        Do the Green Bay Packers Play Today?
+      </div>
+      <div class="text-[12rem] font-bold">
+        {isPlayingToday ? '🧀 YES 🧀' : 'NO 😭'}
+      </div>
+    </div>
+  </Container>
+</PlayTodayLayout>

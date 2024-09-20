@@ -2,7 +2,6 @@
 import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
-import BannerBar from "@components/BannerBar.astro";
 import "@fontsource-variable/inter/index.css";
 import i18next from "i18next";
 import PostHog from '@components/posthog.astro';
@@ -14,18 +13,12 @@ const canonicalURL = isEnglish
   ? new URL(Astro.url.pathname, Astro.site).toString()
   : new URL(`/${currentLanguage}${Astro.url.pathname.replace('/pt-BR', '')}`, Astro.site).toString();
 
-// console.log('canonicalURL', canonicalURL);
-
 const alternateLanguage = isEnglish ? 'pt-BR' : 'en';
 const alternateURL = isEnglish
   ? `https://cabecadequeijo.com/pt-BR${Astro.url.pathname}`
   : 'https://cabecadequeijo.com/' + Astro.url.pathname.replace('/pt-BR/', '');
 
-// console.log('alternateLanguage', alternateLanguage);
-// console.log('alternateURL', alternateURL);
-
 export interface Props {
-  title?: string;
   seoTitle: string;
   seoDescription: string;
   seoOpenGraph?: {
@@ -38,11 +31,6 @@ export interface Props {
     image: {
       alt: string;
     },
-    article?: {
-      publishedTime: string;
-      authors: string[];
-      tags: string[];
-    }
   };
 }
 
@@ -55,17 +43,13 @@ const makeOpenGraph = Astro.props.seoOpenGraph || {
   basic: {
     url: canonicalURL,
     type: "website",
-    title: Astro.props.title || "Cabeça de Queijo",
+    title: Astro.props.seoTitle,
     image: resolvedImageWithDomain,
   },
   image: {
     alt: "Cabeça de Queijo Homepage Screenshot",
   },
 };
-
-const makeTitle = Astro.props.title
-  ? `${Astro.props.title} | Cabeça de Queijo`
-  : "Cabeça de Queijo - Brasilian Green Bay Packers Fan Club";
 ---
 
 <!DOCTYPE html>
@@ -79,10 +63,8 @@ const makeTitle = Astro.props.title
     <link rel="alternate" href={canonicalURL} hreflang={currentLanguage}/>
     <link rel="alternate" href={alternateURL} hreflang={alternateLanguage} />
 
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
-    <!-- src/layouts/Layout.astro -->
     <SEO
-      title={Astro.props.seoTitle || makeTitle}
+      title={Astro.props.seoTitle}
       description={Astro.props.seoDescription}
       openGraph={Astro.props.seoOpenGraph || makeOpenGraph}
       twitter={{
@@ -91,17 +73,13 @@ const makeTitle = Astro.props.title
         card: "summary_large_image",
       }}
     />
-    <!-- POSTHOG ANALYTICS -->
     <PostHog />
   </head>
   <body>
     <Navbar />
-    <BannerBar language={currentLanguage} />
     <slot />
     <Footer />
     <style is:global>
-      /* Improve Page speed */
-      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
       img {
         content-visibility: auto;
       }
