@@ -101,14 +101,15 @@
     "helpLink": "/pt-BR/contact/",
     "playToday": {
       "linkText": "Tem Jogo do Green Bay Packers Hoje?",
-      "linkHref": "/pt-BR/green-bay-packers-game-today/"
+      "linkHref": "/pt-br/green-bay-packers-game-today/"
     }
   },
   "joinComponent": {
     "title": "Junte-se a Nos 🧀 🧑 🇧🇷",
     "subtitle": "Existem algumas formas de se envolver com Cabeça de Queijo. Você pode simplesmente se inscrever em nosso boletim informativo por e-mail para receber atualizações, ingressar no WhatsApp de um clube local ou iniciar um clube.",
     "altTag": "Foto de um Lambeau Leap com um jogador do Packers pulando nas arquibancadas",
-    "viewChaptersText": "Ver Clubes Atuais"
+    "viewChaptersText": "Ver Clubes Atuais",
+    "viewChaptersLink": "/pt-BR/chapters/"
   },
   "startAChapter": {
     "text": "Você está interessado em iniciar um clube em sua área?",

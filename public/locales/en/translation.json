@@ -108,7 +108,8 @@
     "title": "Join Us 🧀 🧑 🇧🇷",
     "subtitle": "There are a few ways to be invovled with Cabeça de Queijo. You can sign up for our email newsletter to receive updates, join a local chapter's WhatsApp, or start a chapter.",
     "altTag": "Photo of a Lambeau Leap with a Packers player jumping into the stands",
-    "viewChaptersText": "View Current Chapters"
+    "viewChaptersText": "View Current Chapters",
+    "viewChaptersLink": "/chapters/"
   },
   "startAChapter": {
     "text": "Are you interested in starting a chapter in your area?",
