@@ -3,6 +3,9 @@ import { getNextGames } from '@utils/getNextGames';
 import Container from "@components/container.astro";
 import PlayTodayLayout from "@layouts/PlayTodayLayout.astro";
 
+import { changeLanguage } from "i18next";
+changeLanguage("pt-BR");
+
 const { nextGame } = await getNextGames();
 const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() === new Date().toDateString();
 ---
