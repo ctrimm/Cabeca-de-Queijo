@@ -1,13 +1,13 @@
 ---
 import { getNextGames } from '@utils/getNextGames';
 import Container from "@components/container.astro";
-import PlayTodayLayout from "@layouts/PlayTodayLayout.astro";
+import Layout from "@layouts/Layout.astro";
 
 const { nextGame } = await getNextGames();
 const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() === new Date().toDateString();
 ---
 
-<PlayTodayLayout
+<Layout
   seoTitle={`Is There a Green Bay Packers Game Today? ${isPlayingToday ? 'YES' : 'NO'}`}
   seoDescription={`Quickly check to see if the Green Bay Packers are playing today.`}
   seoOpenGraph={{
@@ -32,4 +32,4 @@ const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() =
       </div>
     </div>
   </Container>
-</PlayTodayLayout>
+</Layout>
