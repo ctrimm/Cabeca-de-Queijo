@@ -15,7 +15,7 @@ const canonicalURL = isEnglish
 
 const alternateLanguage = isEnglish ? 'pt-BR' : 'en';
 const alternateURL = isEnglish
-  ? `https://cabecadequeijo.com/pt-BR${Astro.url.pathname}`
+  ? `https://cabecadequeijo.com/pt-br${Astro.url.pathname}`
   : 'https://cabecadequeijo.com/' + Astro.url.pathname.replace('/pt-BR/', '');
 
 export interface Props {
