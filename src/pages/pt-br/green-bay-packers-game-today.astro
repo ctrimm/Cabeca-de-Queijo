@@ -1,7 +1,7 @@
 ---
 import { getNextGames } from '@utils/getNextGames';
 import Container from "@components/container.astro";
-import PlayTodayLayout from "@layouts/PlayTodayLayout.astro";
+import Layout from "@layouts/Layout.astro";
 
 import { changeLanguage } from "i18next";
 
@@ -10,7 +10,7 @@ const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() =
 changeLanguage("pt-BR");
 ---
 
-<PlayTodayLayout
+<Layout
   seoTitle={`Tem Jogo do Green Bay Packers Hoje? ${isPlayingToday ? 'SIM' : 'NÃO'}`}
   seoDescription={`Verifique rapidamente se o Green Bay Packers está jogando hoje.`}
   seoOpenGraph={{
@@ -35,4 +35,4 @@ changeLanguage("pt-BR");
       </div>
     </div>
   </Container>
-</PlayTodayLayout>
+</Layout>

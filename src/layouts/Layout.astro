@@ -10,19 +10,21 @@ import PostHog from '@components/posthog.astro';
 const currentLanguage = i18next.language;
 const isEnglish = currentLanguage === 'en';
 
+console.log('currentLanguage', currentLanguage);
+
 const canonicalURL = isEnglish
   ? new URL(Astro.url.pathname, Astro.site).toString()
   : new URL(`/${currentLanguage}${Astro.url.pathname.replace('/pt-BR', '')}`, Astro.site).toString();
 
-// console.log('canonicalURL', canonicalURL);
+console.log('canonicalURL', canonicalURL);
 
 const alternateLanguage = isEnglish ? 'pt-BR' : 'en';
 const alternateURL = isEnglish
   ? `https://cabecadequeijo.com/pt-BR${Astro.url.pathname}`
   : 'https://cabecadequeijo.com/' + Astro.url.pathname.replace('/pt-BR/', '');
 
-// console.log('alternateLanguage', alternateLanguage);
-// console.log('alternateURL', alternateURL);
+console.log('alternateLanguage', alternateLanguage);
+console.log('alternateURL', alternateURL);
 
 export interface Props {
   title?: string;
