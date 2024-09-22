@@ -5,8 +5,31 @@ import Layout from "@layouts/Layout.astro";
 
 import { changeLanguage } from "i18next";
 
+function isGameToday(gameTime) {
+  const gameDate = new Date(gameTime);
+  const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  // Convert game time to user's time zone
+  const gameTimeInUserTimezone = new Date(gameDate.toLocaleString('en-US', { timeZone: userTimezone }));
+
+  // Get the current date in the user's time zone
+  const now = new Date();
+
+  // Check if the game is happening today in the user's time zone
+  const isToday =
+    gameTimeInUserTimezone.getDate() === now.getDate() &&
+    gameTimeInUserTimezone.getMonth() === now.getMonth() &&
+    gameTimeInUserTimezone.getFullYear() === now.getFullYear();
+
+  // Check if the game time has already passed today
+  // const hasGameStarted = gameTimeInUserTimezone.getTime() < now.getTime();
+  // return isToday && !hasGameStarted;
+
+  return isToday;
+}
+
 const { nextGame } = await getNextGames();
-const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() === new Date().toDateString();
+const isPlayingToday = nextGame && isGameToday(nextGame.dateOfMatch);
 changeLanguage("pt-BR");
 ---
 
