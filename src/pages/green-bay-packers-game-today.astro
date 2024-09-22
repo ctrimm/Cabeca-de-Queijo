@@ -4,7 +4,7 @@ import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 
 const { nextGame } = await getNextGames();
-const isPlayingToday = nextGame && new Date(nextGame.startTime).toDateString() === new Date().toDateString();
+const isPlayingToday = nextGame && new Date(nextGame.startTime).getTime() >= new Date().getTime() && new Date(nextGame.startTime).getTime() < new Date(new Date().getTime() + 86400000).getTime();
 ---
 
 <Layout

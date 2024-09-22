@@ -259,3 +259,7 @@ export async function getNextGames() {
     nextGame: nextGames[0],
   };
 }
+
+export function getSingleNextGame() {
+  return getNextGames().nextGame;
+}
