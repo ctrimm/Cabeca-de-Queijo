@@ -20,13 +20,14 @@ function isGameToday(gameTime) {
     gameTimeInUserTimezone.getFullYear() === now.getFullYear();
 
   // Check if the game time has already passed today
-  const hasGameStarted = gameTimeInUserTimezone.getTime() < now.getTime();
+  // const hasGameStarted = gameTimeInUserTimezone.getTime() < now.getTime();
+  // return isToday && !hasGameStarted;
 
-  return isToday && !hasGameStarted;
+  return isToday;
 }
 
 const { nextGame } = await getNextGames();
-const isPlayingToday = nextGame && isGameToday(nextGame.startTime);
+const isPlayingToday = nextGame && isGameToday(nextGame.dateOfMatch);
 ---
 
 <Layout
