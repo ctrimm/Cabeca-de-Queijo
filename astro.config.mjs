@@ -21,4 +21,5 @@ export default defineConfig({
     }),
     astroI18next(),
   ],
+  trailingSlash: "always",
 });
