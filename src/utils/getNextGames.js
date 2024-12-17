@@ -236,6 +236,22 @@ const schedule = [
     dateOfMatch: "2025-01-05T15:00:00.000-03:00",
     opponent: "Chicago Bears",
   },
+  {
+    dateOfMatch: "2025-01-11T15:00:00.000-03:00",
+    eventName: "Wildcard Weekend",
+  },
+  {
+    dateOfMatch: "2025-01-18T15:00:00.000-03:00",
+    eventName: "Divisional Playoff Weekend",
+  },
+  {
+    dateOfMatch: "2025-01-26T18:00:00.000-03:00",
+    eventName: "AFC + NFC Championship Games",
+  },
+  {
+    dateOfMatch: "2025-02-09T22:00:00.000-03:00",
+    eventName: "Super Bowl LIX",
+  },
 ];
 
 export async function getNextGames() {
