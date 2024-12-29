@@ -229,7 +229,7 @@ const schedule = [
     opponent: "New Orleans Saints",
   },
   {
-    dateOfMatch: "2024-12-29T15:00:00.000-03:00",
+    dateOfMatch: "2024-12-29T18:25:00.000-03:00",
     opponent: "at Minnesota Vikings",
   },
   {
