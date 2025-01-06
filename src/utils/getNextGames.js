@@ -237,8 +237,8 @@ const schedule = [
     opponent: "Chicago Bears",
   },
   {
-    dateOfMatch: "2025-01-11T15:00:00.000-03:00",
-    eventName: "Wildcard Weekend",
+    dateOfMatch: "2025-01-12T18:30:00.000-03:00",
+    eventName: "Wildcard Weekend vs. Philadelphia Eagles",
   },
   {
     dateOfMatch: "2025-01-18T15:00:00.000-03:00",
