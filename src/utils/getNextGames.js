@@ -252,6 +252,98 @@ const schedule = [
     dateOfMatch: "2025-02-09T22:00:00.000-03:00",
     eventName: "Super Bowl LIX",
   },
+  {
+    "dateOfMatch": "2025-03-04T18:00:00.000-03:00",
+    "eventName": "Franchise Tag Deadline"
+  },
+  {
+    "dateOfMatch": "2025-03-10T14:00:00.000-03:00",
+    "eventName": "Free Agent Negotiations Begin"
+  },
+  {
+    "dateOfMatch": "2025-03-12T18:00:00.000-03:00",
+    "eventName": "Free Agency Signing Period"
+  },
+  {
+    "dateOfMatch": "2025-03-12T18:00:00.000-03:00",
+    "eventName": "Trading Period Opens"
+  },
+  {
+    "dateOfMatch": "2025-03-30T02:00:00.000-03:00",
+    "eventName": "Annual League Meeting"
+  },
+  {
+    "dateOfMatch": "2025-04-07T02:00:00.000-03:00",
+    "eventName": "New Coaches Workouts Begin"
+  },
+  {
+    "dateOfMatch": "2025-04-16T02:00:00.000-03:00",
+    "eventName": "Draft Player Evaluation Deadline"
+  },
+  {
+    "dateOfMatch": "2025-04-18T02:00:00.000-03:00",
+    "eventName": "RFA Offer Sheet Deadline"
+  },
+  {
+    "dateOfMatch": "2025-04-21T02:00:00.000-03:00",
+    "eventName": "Returning Coaches Workouts Begin"
+  },
+  {
+    "dateOfMatch": "2025-04-23T02:00:00.000-03:00",
+    "eventName": "RFA First Refusal Deadline"
+  },
+  {
+    "dateOfMatch": "2025-04-24T02:00:00.000-03:00",
+    "eventName": "NFL Draft Begins"
+  },
+  {
+    "dateOfMatch": "2025-05-01T02:00:00.000-03:00",
+    "eventName": "Fifth-Year Option Deadline"
+  },
+  {
+    "dateOfMatch": "2025-05-02T02:00:00.000-03:00",
+    "eventName": "First Rookie Minicamp Window"
+  },
+  {
+    "dateOfMatch": "2025-05-09T02:00:00.000-03:00",
+    "eventName": "Second Rookie Minicamp Window"
+  },
+  {
+    "dateOfMatch": "2025-05-12T02:00:00.000-03:00",
+    "eventName": "Rookie Development Programs Begin"
+  },
+  {
+    "dateOfMatch": "2025-05-14T02:00:00.000-03:00",
+    "eventName": "NFLPA Rookie Premiere"
+  },
+  {
+    "dateOfMatch": "2025-05-20T02:00:00.000-03:00",
+    "eventName": "Spring League Meeting"
+  },
+  {
+    "dateOfMatch": "2025-06-01T02:00:00.000-03:00",
+    "eventName": "June 1 Tender Deadline"
+  },
+  {
+    "dateOfMatch": "2025-06-15T02:00:00.000-03:00",
+    "eventName": "June 15 Tender Deadline"
+  },
+  {
+    "dateOfMatch": "2025-06-25T02:00:00.000-03:00",
+    "eventName": "Rookie Readiness Program Begins"
+  },
+  {
+    "dateOfMatch": "2025-07-15T18:00:00.000-03:00",
+    "eventName": "Franchise Player Contract Deadline"
+  },
+  {
+    "dateOfMatch": "2025-07-16T02:00:00.000-03:00",
+    "eventName": "Training Camp Opens"
+  },
+  {
+    "dateOfMatch": "2025-07-21T18:00:00.000-03:00",
+    "eventName": "Transition Player Signing Deadline"
+  }
 ];
 
 export async function getNextGames() {
