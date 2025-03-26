@@ -15,22 +15,10 @@ import { Trans } from "astro-i18next/components";
   -->
   <p class="text-center text-xs text-slate-500 mt-1">
     <Trans i18nKey="footer.byline">
-      <a
-        href="https://web3templates.com"
-        target="_blank"
-        rel="noopener"
-        class="hover:underline"
-        slot="0">
-        Web3Template
-      </a>
-      <a
-        href="https://twitter.com/cdt5058"
-        target="_blank"
-        rel="noopener"
-        class="hover:underline"
-        slot="1">
-        @cdt5058
-      </a>
+      <Fragment slot="0">Made from a </Fragment>
+      <a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline" slot="1">Web3Template</a>
+      <Fragment slot="2"> by </Fragment>
+      <a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline" slot="3">@cdt5058</a>
     </Trans>
   </p>
   <p class="text-center text-xs text-slate-400 mt-1">
