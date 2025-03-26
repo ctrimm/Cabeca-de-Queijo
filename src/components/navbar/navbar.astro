@@ -5,20 +5,8 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import { LanguageSelector } from "astro-i18next/components";
 import { t } from "i18next";
 
-interface MenuItem {
-  title: string;
-  path: string;
-}
-
-let menuitems: MenuItem[] = [];
-try {
-  const items = t("navbar.menuitems", { returnObjects: true });
-  if (Array.isArray(items) && items.every(item => typeof item === 'object' && 'title' in item && 'path' in item)) {
-    menuitems = items as MenuItem[];
-  }
-} catch (error) {
-  console.error("Error loading menu items:", error);
-}
+// Ensure we have a fallback if translation fails
+const menuitems = t("navbar.menuitems", { returnObjects: true }) || [];
 ---
 
 <Container>
@@ -37,7 +25,7 @@ try {
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
-            menuitems.map((item) => (
+            Array.isArray(menuitems) ? menuitems.map((item) => (
             // Use the below code to render dropdowns
             // {item.children && (
             //   <Dropdown
@@ -57,7 +45,7 @@ try {
                   </li>
                 )}
               </>
-            ))
+            )) : null
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
