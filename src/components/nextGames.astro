@@ -8,7 +8,7 @@ const { nextGames } = await getNextGames();
 // The original HTML was below - 
 // <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
 
-function calculateTimeUntilMatch(dateOfMatch) {
+function calculateTimeUntilMatch(dateOfMatch: string): string {
   const today = new Date();
   const matchDate = new Date(dateOfMatch);
   const timeDifference = matchDate.getTime() - today.getTime();
@@ -30,18 +30,50 @@ function calculateTimeUntilMatch(dateOfMatch) {
   }
 }
 
-function convertToReadableDate(dateString) {
-  const date = new Date(dateString);
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Sao_Paulo' };
-  const localeString = t("nextGames.localeString");
-  return date.toLocaleDateString(localeString, options);
+function convertToReadableDate(dateString: string): string {
+  try {
+    const date = new Date(dateString);
+    const options: Intl.DateTimeFormatOptions = { 
+      weekday: 'long', 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric', 
+      timeZone: 'America/Sao_Paulo' 
+    };
+    const localeString = t("nextGames.localeString") as string;
+    return date.toLocaleDateString(localeString === 'pt-BR' ? 'pt-BR' : 'en-US', options);
+  } catch (error) {
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'America/Sao_Paulo'
+    });
+  }
 }
 
-function extractTime(dateString) {
-  const date = new Date(dateString);
-  const options = { hour: 'numeric', minute: '2-digit', hour12: true, timeZone: 'America/Sao_Paulo' };
-  const localeString = t("nextGames.localeString");
-  return date.toLocaleTimeString(localeString, options);
+function extractTime(dateString: string): string {
+  try {
+    const date = new Date(dateString);
+    const options: Intl.DateTimeFormatOptions = {
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true,
+      timeZone: 'America/Sao_Paulo'
+    };
+    const localeString = t("nextGames.localeString") as string;
+    return date.toLocaleTimeString(localeString === 'pt-BR' ? 'pt-BR' : 'en-US', options);
+  } catch (error) {
+    const date = new Date(dateString);
+    return date.toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true,
+      timeZone: 'America/Sao_Paulo'
+    });
+  }
 }
 ---
 
