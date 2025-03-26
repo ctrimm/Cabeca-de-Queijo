@@ -1,7 +1,24 @@
 ---
 import { t } from "i18next";
 
-const chapterList = t("chapters.chapterList", { returnObjects: true });
+interface Chapter {
+  city: string;
+  members: string;
+  chapterMeetingPlace: string;
+  chapterMeetingAddressLink: string;
+  status: "Active" | "Coming Soon" | "Em breve" | "Inactive";
+  slug: string;
+}
+
+let chapterList: Chapter[] = [];
+try {
+  const items = t("chapters.chapterList", { returnObjects: true });
+  if (Array.isArray(items) && items.every(item => typeof item === 'object' && 'city' in item)) {
+    chapterList = items as Chapter[];
+  }
+} catch (error) {
+  console.error("Error loading chapter list:", error);
+}
 ---
 
 <div class="pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6" id="chapters">
@@ -38,8 +55,7 @@ const chapterList = t("chapters.chapterList", { returnObjects: true });
               </p>
               {
                 // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
-                ((chapter.status !== "Coming Soon" && chapter.status !== "Inactive") || 
-                  (chapter.status !== "Em breve" && chapter.status !== "Inactive")) && (
+                (chapter.status === "Active") && (
                 <a href={t("chapters.learnMoreButtonLink")+`${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
                   {t("chapters.learnMore")}
                 </a>

@@ -1,5 +1,5 @@
 ---
-import { changeLanguage } from "i18next";
+import { changeLanguage, t } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 
@@ -103,8 +103,7 @@ const randomErrorStatusLink = errorStatuses[randomIndex].link;
             </a>
           }
         </p>
-        <p class="text-lg mt-4 text-slate-600">Page Not Found</p>
-        <p class="text-lg mt-4 text-slate-600">Página Não Encontrada</p>
+        <p class="text-lg mt-4 text-slate-600">{t("404.title")}</p>
       </div>
     </div>
   </Container>
