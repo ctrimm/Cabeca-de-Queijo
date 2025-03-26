@@ -96,7 +96,7 @@
   "footer": {
     "copyright": "Copyright",
     "rights": "All Rights Reserved",
-    "byline": "Made from a <0>Web3Template</0> by <1>@cdt5058</1>",
+    "byline": "<0>Made from a </0><1>Web3Template</1><2> by </2><3>@cdt5058</3>",
     "help": "Need Help? Have Feedback? Click Here.",
     "helpLink": "/contact/",
     "playToday": {

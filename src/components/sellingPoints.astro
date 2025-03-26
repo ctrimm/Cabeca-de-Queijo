@@ -3,7 +3,21 @@
 import { Icon } from "astro-icon";
 import { t } from "i18next";
 
-const sellingPoints = t("sellingPoints.sellingPoints", { returnObjects: true });
+interface SellingPoint {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+let sellingPoints: SellingPoint[] = [];
+try {
+  const items = t("sellingPoints.sellingPoints", { returnObjects: true });
+  if (Array.isArray(items) && items.every(item => typeof item === 'object' && 'title' in item)) {
+    sellingPoints = items as SellingPoint[];
+  }
+} catch (error) {
+  console.error("Error loading selling points:", error);
+}
 ---
 
 <div class="mt-4 md:mt-0" id="selling-points">
