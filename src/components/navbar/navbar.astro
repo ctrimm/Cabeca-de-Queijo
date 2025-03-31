@@ -5,15 +5,16 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import { LanguageSelector } from "astro-i18next/components";
 import { t } from "i18next";
 
-// Ensure we have a fallback if translation fails
-const menuitems = t("navbar.menuitems", { returnObjects: true }) || [];
+const menuitems = t("navbar.menuitems", { returnObjects: true });
+const buttonLink = t("navbar.button1Link");
+const buttonText = t("navbar.button1Text");
 ---
 
 <Container>
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href=`${t("navbar.mainLink")}` class="text-lg">
+        <a href={t("navbar.mainLink")} class="text-lg">
           <span class="font-bold text-slate-800">Cabeça</span>
           <span class="text-slate-500"> de </span>
           <span class="font-bold text-slate-800">Queijo</span>
@@ -49,7 +50,7 @@ const menuitems = t("navbar.menuitems", { returnObjects: true }) || [];
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4 flex-col">
-          <a role="button" href={t("navbar.button1Link")} class="btn btn-large btn-primary w-full text-center">{t("navbar.button1Text")}</a>
+          <a role="button" href={buttonLink} class="btn btn-large btn-primary w-full text-center">{buttonText}</a>
           <!-- LanguageSelector with custom language naming -->
           <LanguageSelector
             showFlag={true}
@@ -61,7 +62,7 @@ const menuitems = t("navbar.menuitems", { returnObjects: true }) || [];
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a role="button" href={t("navbar.button1Link")} class="btn btn-large btn-primary">{t("navbar.button1Text")}</a>
+        <a role="button" href={buttonLink} class="btn btn-large btn-primary">{buttonText}</a>
         <!-- LanguageSelector with custom language naming -->
         <LanguageSelector
           showFlag={true}

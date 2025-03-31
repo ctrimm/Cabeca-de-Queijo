@@ -3,8 +3,6 @@ import { getNextGames } from '@utils/getNextGames';
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 
-import { changeLanguage } from "i18next";
-
 function isGameToday(gameTime) {
   const gameDate = new Date(gameTime);
   const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -30,7 +28,6 @@ function isGameToday(gameTime) {
 
 const { nextGame } = await getNextGames();
 const isPlayingToday = nextGame && isGameToday(nextGame.dateOfMatch);
-changeLanguage("pt-BR");
 ---
 
 <Layout

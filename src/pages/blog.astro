@@ -1,13 +1,11 @@
 ---
-import { t, changeLanguage } from "i18next";
+import { t } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import { Image } from "astro:assets";
 import type { ImageMetadata } from 'astro';
-
-changeLanguage("en");
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif,webp}');
 

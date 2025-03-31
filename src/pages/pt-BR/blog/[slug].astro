@@ -1,11 +1,8 @@
 ---
-import { changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-
-changeLanguage("pt-BR");
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif,webp}');
 
