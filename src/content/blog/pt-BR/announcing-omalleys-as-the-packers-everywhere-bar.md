@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [PackersEverywhere.com, O'Malley's, Oficial]
 ---
 
-![Captura de tela do Cabeça de Queijo e do O'Malley's Bar no site PackersEverywhere.com](/src/assets/packers-everywhere-announcement.png)
+![Captura de tela do Cabeça de Queijo e do O'Malley's Bar no site PackersEverywhere.com](../../assets/packers-everywhere-announcement.png)
 
 # 🚨 Anunciando O'Malley's como o Bar Packers Everywhere em São Paulo 🚨
 Com a NFL chegando a São Paulo **na próxima semana**, não há momento melhor para anunciar que o O'Malley's será **o local** para assistir a todos os jogos do [Green Bay Packers](https://packers.com) durante a temporada 2024-2025.

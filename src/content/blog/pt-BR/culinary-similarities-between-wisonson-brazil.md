@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [comida, wisconsin, brasil]
 ---
 
-![Foto de uma mesa com alimentos do Brasil e Wisconsin gerada por IA](/src/assets/brazil-wisconsin-food.webp)
+![Foto de uma mesa com alimentos do Brasil e Wisconsin gerada por IA](../../assets/brazil-wisconsin-food.webp)
 
 Explorar os cenários culinários de Wisconsin e Brasil pode parecer um estudo de contrastes, mas você pode se surpreender ao descobrir várias semelhanças deliciosas. Ambas as regiões possuem uma rica herança de utilização de ingredientes locais para criar pratos reconfortantes que se tornaram pilares de suas respectivas culturas culinárias. Aqui está um olhar sobre alguns dos alimentos onde Wisconsin e Brasil encontram pontos em comum.
 

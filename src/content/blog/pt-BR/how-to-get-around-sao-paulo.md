@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [transporte, brasil]
 ---
 
-![imagem de torcedores do Packers entrando em um Uber](/src/assets/packers-fans-in-transit.webp)
+![imagem de torcedores do Packers entrando em um Uber](../../assets/packers-fans-in-transit.webp)
 
 ## Como se Locomover em São Paulo para o Jogo da NFL
 Como mencionamos várias vezes em outros posts - São Paulo é uma mega cidade. No entanto, sendo tão grande, há muitas opções e uma variedade de preços para se locomover.
@@ -20,7 +20,7 @@ Como mencionamos várias vezes em outros posts - São Paulo é uma mega cidade. 
 ## Caminhada
 Felizmente, se você [escolher um bom bairro para se hospedar](/pt-BR/blog/where-to-stay-in-sao-paulo-for-nfl-game/) - poderá caminhar para as atrações do bairro. Normalmente, quando está escuro, ainda usamos um Uber para segurança.
 
-![Captura de tela da disponibilidade de compartilhamento de bicicletas do Itaú em São Paulo](/src/assets/screenshots/bike-share.jpg)
+![Captura de tela da disponibilidade de compartilhamento de bicicletas do Itaú em São Paulo](../../assets/screenshots/bike-share.jpg)
 ## Bicicleta
 Com o aplicativo do Uber, você pode desbloquear as bicicletas laranjas do Itaú, elétricas ou não. Elas são muito semelhantes às [Citi Bikes de Nova York](https://citibikenyc.com/) ou às [Capital Bikeshare em D.C.](https://capitalbikeshare.com/).
 
@@ -31,7 +31,7 @@ Antes de selecionar e escanear uma bicicleta para alugar, certifique-se de que e
 ## Ônibus ou Metrô via [SPTrans](https://www.sptrans.com.br/)
 Se você não tem um número de CPF, não recomendamos essa opção, pois adquirir um cartão de metrô/ônibus pode ser uma tarefa que leva várias horas. Também é necessário conhecimento básico de português brasileiro para interagir com o atendente e receber o cartão. Normalmente, o ônibus custa 4,90 BRL - não temos certeza se o metrô tem o mesmo preço.
 
-![Captura de tela dos preços do aplicativo Uber em São Paulo](/src/assets/screenshots/uber.jpg)
+![Captura de tela dos preços do aplicativo Uber em São Paulo](../../assets/screenshots/uber.jpg)
 ## Uber
 De longe, a opção mais conveniente. A captura de tela acima mostra quanto custaria para três tipos diferentes de Uber para percorrer cerca de 6,4 km (25 minutos).
 
@@ -46,7 +46,7 @@ No entanto, você pode alugar um carro usando seu Passaporte na Unidas, Movida e
 
 Se você planeja ficar mais tempo no Brasil (recomendamos isso), você pode facilmente dirigir uma hora até a cidade litorânea e berço de Pelé e Neymar - Santos.
 
-![imagem de um motorista particular em frente ao seu carro](/src/assets/private-driver.webp)
+![imagem de um motorista particular em frente ao seu carro](../../assets/private-driver.webp)
 ## Contratar um Motorista Particular
 Essa é a maneira mais garantida de se locomover pela cidade com o mínimo de espera e aborrecimentos. No entanto - isso tem um preço. Você pode esperar que a tarifa por hora seja de $5 USD a $25 USD - então, se o motorista estiver esperando / dirigindo o dia todo, o custo pode aumentar rapidamente. Alguns motoristas particulares têm placas especiais que permitem que usem a faixa de ônibus - tornando o trânsito um pouco mais tolerável.
 

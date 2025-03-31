@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [Cervejaria, Chopp, Craft Beer, Language]
 ---
 
-![Interior of Bauzera Cervejaria](/src/assets/bauzera.jpg)
+![Interior of Bauzera Cervejaria](../../assets/bauzera.jpg)
 
 ## How to Order a Beer in Portuguese
 
@@ -24,4 +24,4 @@ If you are looking for the [PackersEverywhere.com Bar](https://www.packerseveryw
 
 Here is a post with [our favorite craft breweries in Sao Paulo](/blog/beer-to-try-in-sao-paulo/) to try out.
 
-![Craft Beer Flight](/src/assets/beer-flight.png)
+![Craft Beer Flight](../../assets/beer-flight.png)

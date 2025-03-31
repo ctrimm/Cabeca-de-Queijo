@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
 ---
 
-![Foto de torcedores do Green Bay Packers fazendo tailgate dentro de um boteco](/src/assets/packers-fans-tailgating-inside-a-boteco.webp)
+![Foto de torcedores do Green Bay Packers fazendo tailgate dentro de um boteco](../../assets/packers-fans-tailgating-inside-a-boteco.webp)
 
 ## Introdução Rápida
 A Arena Corinthians é tipicamente a casa de um tipo diferente de futebol. No entanto, pela primeira vez, a National Football League (NFL) sediará uma partida de Futebol Americano - a primeira do gênero na América do Sul - entre o Green Bay Packers e o Philadelphia Eagles.
@@ -23,7 +23,7 @@ Agora, se você não mora em São Paulo, pode não saber onde fazer tailgate ant
 
 **Mas primeiro, esteja ciente de como o trânsito pode ser terrível**! O Estádio do Corinthians está localizado na zona leste da cidade - ir do centro de São Paulo à Arena Corinthians pode levar 45 minutos ou **mais de 2 horas** - além disso, o jogo é numa sexta-feira, quando muitas pessoas querem sair da cidade para o fim de semana. Google Maps / Waze / etc. nem sempre são confiáveis.
 
-![Foto de torcedores do Green Bay Packers fazendo tailgate fora de um Boteco na esquina](/src/assets/packers-fans-tailgating-outside-a-boteco.webp)
+![Foto de torcedores do Green Bay Packers fazendo tailgate fora de um Boteco na esquina](../../assets/packers-fans-tailgating-outside-a-boteco.webp)
 
 **Última Atualização - Quinta-feira, 5 de Setembro de 2024**
 Estamos constantemente monitorando a internet para outras opções.
@@ -32,7 +32,7 @@ Se você tem ingressos para o jogo, parece que você pode entrar no NFL Fan Camp
 
 Baixe o aplicativo NFL OnePass ([iPhone](https://apps.apple.com/us/app/nfl-onepass/id1456010454) ou [Android](https://play.google.com/store/apps/details?id=com.nfl.fanmobilepass&hl=en_US&pli=1)) para ver o mapa do Fan Campus com mais detalhes (foto abaixo). [Também há um tailgate de $200 USD no Shopping Itaquera](https://sportsfanstravel.com/products/green-bay-philadelphia-tailgate-in-sao-paulo), mas é bem caro.
 
-![Captura de tela da experiência NFL One Pass Fan Experience fora da Arena Corinthians](/src/assets/nfl-fan-zone-one-pass.jpg)
+![Captura de tela da experiência NFL One Pass Fan Experience fora da Arena Corinthians](../../assets/nfl-fan-zone-one-pass.jpg)
 
 ****
 # Onde Fazer Tailgate Perto da Arena Corinthians

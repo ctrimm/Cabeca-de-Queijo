@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
 ---
 
-![Photo of an AI generated aerial view of Sao Paulo](/src/assets/aerial-view-sao-paulo.webp)
+![Photo of an AI generated aerial view of Sao Paulo](../../assets/aerial-view-sao-paulo.webp)
 
 ## Quick Intro to Sao Paulo, Brazil
 Sao Paulo is a city of over 22.5 million people - nearly 2.5x the population of New York City. Sprawling over the 587.3 mi² - where as NYC is 302.6 mi². 🤯
@@ -23,7 +23,7 @@ This guide is aiming to tell you a little bit more about the different neighborh
 
 As the NFL announces events that will occur around the city, we will be sure to update this post with neighborhoods that are near those venues.
 
-![screenshot of itaquera map view](/src/assets/itaquera-map-view.png)
+![screenshot of itaquera map view](../../assets/itaquera-map-view.png)
 ## [Itaquera Neighborhood](https://www.google.com/maps/place/Itaquera,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5339784,-46.4716919,13.93z/data=!4m6!3m5!1s0x94ce66b99a42eac7:0x8ed06d80800b0a3c!8m2!3d-23.5374198!4d-46.4536983!16s%2Fm%2F0fq2p7t?entry=ttu) (closest to the Stadium)
 The Neo Química Arena, home to the Corinthians Soccer Club, is situated in the eastern part of São Paulo, in the neighborhood of Itaquera. This is where all the action will be for the Friday night game between the Green Bay Packers and the Philadelphia Eagles. This area is primarily residential with a strong community vibe, featuring a mix of apartment buildings and modest single-family homes. However, it has ongoing developmental changes, spurred by the construction of the Neo Química Arena for the 2014 FIFA World Cup. This area is known for its accessibility due to extensive public transportation options, including the Corinthians-Itaquera Metro station nearby. The neighborhood also hosts the Itaquera Shopping Center, providing locals and visitors with various shopping and dining options.
 
@@ -33,7 +33,7 @@ Moema is an upscale neighborhood in São Paulo known for its blend of traditiona
 ## [Pinheiros Neighborhood](https://www.google.com/maps/place/Pinheiros,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5620058,-46.6987426,15z/data=!3m1!4b1!4m6!3m5!1s0x94ce5798cb16268f:0xa94014a3e39a3708!8m2!3d-23.5635787!4d-46.6916068!16s%2Fg%2F155ryzty?entry=ttu)
 Pinheiros is a vibrant and eclectic neighborhood in São Paulo, distinctly different from both Moema and the area around Neo Química Arena. Unlike the more residential and upscale Moema, Pinheiros is known for its bustling nightlife, avant-garde galleries, and a thriving culinary scene, offering a mix of traditional Brazilian and international cuisines. The neighborhood is also a hub for creative industries, featuring numerous startups and co-working spaces. In contrast to the area near Neo Química Arena, which is more known for its stadium and associated developments, Pinheiros boasts a richer cultural atmosphere and a more dynamic urban experience, making it popular among younger residents and professionals. It also borders [Beco do Batman](https://www.google.com/maps/place/Beco+do+Batman/@-23.5566009,-46.6891539,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce575858b6a5b9:0xc5b1a9636043ff22!8m2!3d-23.5566009!4d-46.686579!16s%2Fg%2F11b6pwftrw?entry=ttu) - a famous outdoor grafiti gallery with electric shops.
 
-![screenshot of neighborhoods near ibirapuera park](/src/assets/ibirapuera-map-view.png)
+![screenshot of neighborhoods near ibirapuera park](../../assets/ibirapuera-map-view.png)
 ## Neighborhoods Near Ibirapuera Park ([Jardim Paulista](https://www.google.com/maps/place/Jardim+Paulista,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5339784,-46.4716919,13.93z/data=!4m6!3m5!1s0x94ce59c2db1faacb:0x186ce70be3f34d44!8m2!3d-23.5739787!4d-46.6606906!16s%2Fg%2F120r00xg?entry=ttu), [Vila Nova](https://www.google.com/maps/place/Vila+Nova+Concei%C3%A7%C3%A3o,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5742553,-46.6704143,15z/data=!4m6!3m5!1s0x94ce57575900735f:0xdfe8f65daf38be97!8m2!3d-23.5917828!4d-46.6727333!16s%2Fg%2F121pqdsq?entry=ttu), etc.)
 The neighborhoods surrounding Ibirapuera Park in São Paulo are some of the city's most sought-after areas, offering a mix of residential comfort and cultural vibrancy. Ibirapuera Park is a sprawling green oasis that has tons of trails, small restaurants to grab a bite to eat and plenty of Agua de Coco (coconut water) vendors. Moema lies directly to the south of the park, known for its upscale living and pedestrian-friendly streets. To the north, you'll find Vila Nova Conceição, an affluent area with luxurious properties and excellent restaurants. Jardim Paulista, to the west of the park, combines a residential feel with commercial dynamism, hosting a variety of shops, cafes, and cultural attractions. Each of these neighborhoods shares proximity to Ibirapuera Park, enhancing their appeal with easy access to one of the city’s largest green spaces.
 

@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [Merchandise, Guia, NFL Brasil]
 ---
 
-![Torcedores do Green Bay Packers fazendo compras em uma loja de shopping, procurando uma nova camiseta ou jersey](/src/assets/packers-fans-shopping.webp)
+![Torcedores do Green Bay Packers fazendo compras em uma loja de shopping, procurando uma nova camiseta ou jersey](../../assets/packers-fans-shopping.webp)
 
 # Onde Comprar Produtos da NFL em São Paulo
 
@@ -20,12 +20,12 @@ Vale destacar que, devido ao jogo da NFL em São Paulo entre o **Green Bay Packe
 
 Pelo que vimos online, existem alguns itens muito legais e *exclusivos* de **NFL em São Paulo**. Isso inclui bonés com estampa de oncinha, camisetas, bonés da NFL com o padrão da calçada de Copacabana, e outros itens.
 
-![Captura de tela da Renner.com com opções do jogo dos Packers em São Paulo](/src/assets/renner.com-sao-paulo-game-options.png)
+![Captura de tela da Renner.com com opções do jogo dos Packers em São Paulo](../../assets/renner.com-sao-paulo-game-options.png)
 
 **Itens Exclusivos do Jogo em São Paulo:** 
 A captura de tela acima é um pequeno teaser dos itens feitos exclusivamente para o jogo da NFL em São Paulo. Você pode ver que as cores do Brasil, o Samba e a Onça estão incorporados nos designs. Se você tiver um olhar atento, notará outras pequenas referências à cultura brasileira. Se você descer até a seção `Lojas Online no Brasil`, verá onde pode comprar esses itens.
 
-![Foto da Loja da NFL no Shopping Morumbi](/src/assets/nfl-store-shopping-morumbi.png)
+![Foto da Loja da NFL no Shopping Morumbi](../../assets/nfl-store-shopping-morumbi.png)
 
 ### Localizações Oficiais da Loja NFL:
 Existem algumas **Lojas da NFL** nos diversos aeroportos e shoppings ao redor do Brasil. Notadamente, você poderá fazer compras tanto nos **Aeroportos GRU** e **CGH** em São Paulo quanto nos **Aeroportos GIG** e **SDU** no Rio de Janeiro. Também há lojas no **Shopping Morumbi** em São Paulo e no **Barra Shopping** no Rio de Janeiro.
@@ -35,7 +35,7 @@ Os preços nas lojas mencionadas podem variar. Nas Lojas NFL, você estará comp
 ### Fim de Semana do Jogo em São Paulo:
 Nos dias que antecedem e após o jogo, haverá várias [experiências para torcedores da NFL](https://www.nfl.com/international/games/saopaulo/) onde você poderá comprar produtos dos times. Não sabemos qual será a seleção disponível, mas esperamos que seja semelhante à seleção da Loja Oficial da NFL.
 
-![Opções de bonés da Renner.com para o jogo da NFL em São Paulo](/src/assets/renner-hat-options.png)
+![Opções de bonés da Renner.com para o jogo da NFL em São Paulo](../../assets/renner-hat-options.png)
 
 ### Lojas Online no Brasil:
 Como estamos no Brasil, há MUITAS opções diferentes para comprar produtos do seu time favorito online.
@@ -54,7 +54,7 @@ Alguns dos lugares onde encontramos produtos da NFL são as seguintes lojas:
 - [Loja NFL Brasil](https://www.lojanfl.com.br/)
   - Será caro, mas os produtos são autênticos e licenciados.
 
-![Captura de tela do PackersProShop.com com itens do jogo no Brasil à venda](/src/assets/packersproshop.com-brasil-items.png)
+![Captura de tela do PackersProShop.com com itens do jogo no Brasil à venda](../../assets/packersproshop.com-brasil-items.png)
 
 ### Lojas Online nos Estados Unidos:
 - [Packers Pro Shop](https://packersproshop.com)
@@ -62,6 +62,6 @@ Alguns dos lugares onde encontramos produtos da NFL são as seguintes lojas:
 
 Não entraremos em muitos detalhes sobre as opções acima porque os custos de envio para o Brasil são muito caros.
 
-![Captura de tela do PackersProShop.com informando que o envio não está disponível para o Brasil](/src/assets/shipping-unavailable.png)
+![Captura de tela do PackersProShop.com informando que o envio não está disponível para o Brasil](../../assets/shipping-unavailable.png)
 
 Esperamos que este post tenha sido útil!

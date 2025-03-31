@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [Torcida, Saiba Mais, História]
 ---
 
-![Imagem gerada por IA de torcedores do Green Bay Packers dentro de um estádio com uma placa que diz 'Vai Pack Vai'](/src/assets/go-pack-go-in-portuguese-sign.webp)
+![Imagem gerada por IA de torcedores do Green Bay Packers dentro de um estádio com uma placa que diz 'Vai Pack Vai'](../../assets/go-pack-go-in-portuguese-sign.webp)
 
 # Por Que Você Deveria Torcer Pelo Green Bay Packers?
 Embora o Jogo de São Paulo 2024 entre o Green Bay Packers e o Philadelphia Eagles já tenha passado, você pode estar procurando um time para torcer. Este guia rápido vai te dar alguns motivos rápidos pelos quais você deve escolher o Green Bay Packers. O Green Bay Packers tem uma rica história, repleta de inúmeros campeonatos e jogadores lendários. Torcer pelos Packers significa se juntar a uma comunidade global de fãs apaixonados. Além disso, quem não ama queijo? Aqui estão dez razões rápidas para você torcer pelo Green Bay Packers.
@@ -32,7 +32,7 @@ Embora o Jogo de São Paulo 2024 entre o Green Bay Packers e o Philadelphia Eagl
 ### 5. Propriedade Comunitária
 > Os Packers são a única franquia sem fins lucrativos e de propriedade comunitária na NFL. Você pode saber mais sobre a [estrutura de propriedade dos Packers aqui, pelo Green Bay Post Gazette](https://www.packersnews.com/story/sports/nfl/packers/dougherty/2024/09/05/packers-ownership-structure-is-better-than-that-of-brazilian-soccer/75076315007/#:~:text=As%20strange%20as%20it%20might,associations%20in%20Brazilian%20soccer%20are.).
 
-![Imagem gerada por IA de torcedores do Green Bay Packers dentro de um Boteco no Nordeste do Brasil](/src/assets/packers-fans-inside-a-northeast-boteco.webp)
+![Imagem gerada por IA de torcedores do Green Bay Packers dentro de um Boteco no Nordeste do Brasil](../../assets/packers-fans-inside-a-northeast-boteco.webp)
 
 ### 6. Time Competitivo
 > Os Packers são consistentemente competitivos e têm um time forte, tornando seus jogos emocionantes de assistir.

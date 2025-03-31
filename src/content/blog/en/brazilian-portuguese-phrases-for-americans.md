@@ -12,7 +12,7 @@ author: "Cory Trimm"
 tags: [language, portuguese, learning]
 ---
 
-![Photo of an AI generated aerial view of sports fans cheering during a match](/src/assets/language-cheering-fans.webp)
+![Photo of an AI generated aerial view of sports fans cheering during a match](../../assets/language-cheering-fans.webp)
 
 American Football has been growing in popularity in Brazil - even more so now with the [first ever game in São Paulo in September](https://www.nfl.com/news/sao-paulo-brazil-to-host-regular-season-game-during-2024-nfl-season) between the [Green Bay Packers](https://www.packers.com/) and the [Philadelphia Eagles](https://www.philadelphiaeagles.com/). It'll be helpful to know some basic Portuguese vocabulary related to the sport. Whether you're a new fan in Brazil or just interested in cultural linguistics, this guide will help you communicate with Brazilian fans during American Football games. Additionally, if you're a fan of the Green Bay Packers, we've included some must-know terms to enhance your experience.
 
