@@ -76,6 +76,16 @@ export const ui = {
     'contact.title': 'Contact Us',
     'contact.subTitle': 'Have something you want to bring to our attention?',
     'contact.guide': 'We are here to help. Below is our contact info -',
+    'contact.form.fullName': 'Full Name',
+    'contact.form.email': 'Email Address',
+    'contact.form.message': 'Your Message',
+    'contact.form.submit': 'Send Message',
+    'contact.form.sending': 'Sending...',
+    'contact.form.error': 'Something went wrong!',
+    'contact.form.validation.name': 'Please provide your full name.',
+    'contact.form.validation.email': 'Please provide your email address.',
+    'contact.form.validation.emailFormat': 'Please provide a valid email address.',
+    'contact.form.validation.message': 'Please enter your message.',
 
     // Join Component
     'joinComponent.title': 'Join Us 🧀 🧑 🇧🇷',
@@ -98,6 +108,13 @@ export const ui = {
     'chapterStats.brazilianCheeseheads': 'Brazilian Cheeseheads',
     'chapterStats.join': 'Join For Free',
     'chapterStats.chapters': 'Chapters',
+
+    // Chapter List
+    'chapters.chapterListTitle': 'Current Chapters',
+    'chapters.members': 'Members',
+    'chapters.chapterComingSoon': 'Coming Soon',
+    'chapters.getNotified': '🧀 Get Notified',
+    'chapters.learnMore': '🧀 Learn More',
 
     // WhatsApp
     'whatsApp.title': 'Join the Community',
@@ -131,12 +148,19 @@ export const ui = {
     'chapterSlug.backToChaptersLink': '/chapters/',
     'chapterSlug.placesToWatch': 'Different Places to Watch',
     'chapterSlug.members': 'Members',
+    'chapterSlug.status.notActive': 'Chapter Not Yet Active',
+    'chapterSlug.status.comingSoon': 'Chapter Coming Soon',
 
     // Logos
     'logos.text': "Plus, the team's",
     'logos.colors': 'colors',
     'logos.are': 'are',
     'logos.incredible': 'incredible.',
+
+    // Start a Chapter Page
+    'startAChapterPage.title': 'Start a Chapter',
+    'startAChapterPage.subTitle': 'Are you interested in starting a chapter in your area?',
+    'startAChapterPage.guide': 'Drop us an email with your name, location, and a brief description of why you want to start a chapter. We will get back to you as soon as possible.',
 
     // Misc
     '404.title': 'Page Not Found',
@@ -212,6 +236,16 @@ export const ui = {
     'contact.title': 'Fale Conosco',
     'contact.subTitle': 'Tem algo que você gostaria de nos dizer?',
     'contact.guide': 'Estamos aqui para ajudar. Abaixo estão nossas informações de contato:',
+    'contact.form.fullName': 'Nome Completo',
+    'contact.form.email': 'Endereço de Email',
+    'contact.form.message': 'Sua Mensagem',
+    'contact.form.submit': 'Enviar Mensagem',
+    'contact.form.sending': 'Enviando...',
+    'contact.form.error': 'Algo deu errado!',
+    'contact.form.validation.name': 'Por favor, forneça seu nome completo.',
+    'contact.form.validation.email': 'Por favor, forneça seu endereço de email.',
+    'contact.form.validation.emailFormat': 'Por favor, forneça um endereço de email válido.',
+    'contact.form.validation.message': 'Por favor, digite sua mensagem.',
 
     // Join Component
     'joinComponent.title': 'Junte-se a Nós 🧀 🧑 🇧🇷',
@@ -234,6 +268,13 @@ export const ui = {
     'chapterStats.brazilianCheeseheads': 'Cheeseheads Brasileiros',
     'chapterStats.join': 'Participe Gratuitamente',
     'chapterStats.chapters': 'Capítulos',
+
+    // Chapter List
+    'chapters.chapterListTitle': 'Capítulos Atuais',
+    'chapters.members': 'Membros',
+    'chapters.chapterComingSoon': 'Em Breve',
+    'chapters.getNotified': '🧀 Receba Notificações',
+    'chapters.learnMore': '🧀 Saiba Mais',
 
     // WhatsApp
     'whatsApp.title': 'Junte-se à Comunidade',
@@ -267,12 +308,19 @@ export const ui = {
     'chapterSlug.backToChaptersLink': '/pt-BR/chapters/',
     'chapterSlug.placesToWatch': 'Lugares para assistir',
     'chapterSlug.members': 'Membros',
+    'chapterSlug.status.notActive': 'Capítulo Ainda Não Ativo',
+    'chapterSlug.status.comingSoon': 'Capítulo Em Breve',
 
     // Logos
     'logos.text': 'Além disso, as',
     'logos.colors': 'cores',
     'logos.are': 'do time são',
     'logos.incredible': 'incríveis.',
+
+    // Start a Chapter Page
+    'startAChapterPage.title': 'Iniciar um Capítulo',
+    'startAChapterPage.subTitle': 'Você tem interesse em iniciar um capítulo na sua região?',
+    'startAChapterPage.guide': 'Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um capítulo. Entraremos em contato com você o mais breve possível.',
 
     // Misc
     '404.title': 'Página não encontrada',

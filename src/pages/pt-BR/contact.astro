@@ -1,10 +1,13 @@
 ---
-// import Contactform from "@components/contactform.astro";
+import Contactform from "@components/contactform.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon";
-import { t } from "i18next";
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <Layout
@@ -30,7 +33,6 @@ import { t } from "i18next";
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
-        <!-- <h2 class="font-medium text-2xl text-gray-800">Contact Cabeça de Queijo</h2> -->
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
           {t("contact.guide")}
         </p>
@@ -38,13 +40,15 @@ import { t } from "i18next";
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
             <span>São Paulo, Brasil</span>
-          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:help@CabecadeQueijo.com"
-              >help@CabecadeQueijo.com</a
-            >
+          </div>
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
+            <a href="mailto:help@CabecadeQueijo.com">help@CabecadeQueijo.com</a>
           </div>
         </div>
+      </div>
+      <div>
+        <Contactform />
       </div>
     </div>
   </Container>

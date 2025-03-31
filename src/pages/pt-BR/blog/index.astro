@@ -14,17 +14,17 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg
 
 // Get all blog entries to check what's available
 const allBlogEntries = await getCollection('blog');
-console.log('All blog entries:', allBlogEntries.map(entry => entry.slug));
+// console.log('All blog entries:', allBlogEntries.map(entry => entry.slug));
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries: CollectionEntry<'blog'>[] = allBlogEntries.filter(entry => {
   const isPublished = !entry.data.draft && entry.data.publishDate < new Date();
   const isPortuguese = entry.slug.toLowerCase().startsWith('pt-br/');
-  console.log(`Entry ${entry.slug}: published=${isPublished}, portuguese=${isPortuguese}`);
+  // console.log(`Entry ${entry.slug}: published=${isPublished}, portuguese=${isPortuguese}`);
   return isPublished && isPortuguese;
 });
 
-console.log('Published Portuguese entries:', publishedBlogEntries.map(entry => entry.slug));
+// console.log('Published Portuguese entries:', publishedBlogEntries.map(entry => entry.slug));
 
 // helper function to import dynamic images
 const dynamicImageImport = (src) => {

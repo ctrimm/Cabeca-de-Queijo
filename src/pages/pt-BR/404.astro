@@ -1,7 +1,10 @@
 ---
-import { t } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 // randomly generated on the 404 page. Feel free to add more.
 const errorStatuses = [

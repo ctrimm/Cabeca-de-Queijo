@@ -1,6 +1,9 @@
 ---
-import { t } from "i18next";
 import { Icon } from "astro-icon";
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 import lambeauOutside from "assets/outsideLambeau.jpeg";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
@@ -154,12 +157,12 @@ const { Content } = await entry.render();
       </div>
 
       <div class="mx-auto prose prose-lg mt-6 max-w-3xl">
-        {(entry.data.comingSoon === false && entry.data.activeChapter === false)? 'Chapter Not Yet Active' : ''}
-        {(entry.data.comingSoon === true && entry.data.activeChapter === false) ? 'Chapter Coming Soon' : ''}
+        {(entry.data.comingSoon === false && entry.data.activeChapter === false)? t('chapterSlug.status.notActive') : ''}
+        {(entry.data.comingSoon === true && entry.data.activeChapter === false) ? t('chapterSlug.status.comingSoon') : ''}
       </div>
       <div class="text-center mt-8">
         <a
-          href="/chapters/"
+          href="/pt-BR/chapters/"
           class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
           >← {t("chapterSlug.backToChapters")}</a
         >

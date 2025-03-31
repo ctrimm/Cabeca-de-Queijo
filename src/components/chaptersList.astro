@@ -1,5 +1,8 @@
 ---
-import { t } from "i18next";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 interface Chapter {
   city: string;
@@ -10,15 +13,48 @@ interface Chapter {
   slug: string;
 }
 
-let chapterList: Chapter[] = [];
-try {
-  const items = t("chapters.chapterList", { returnObjects: true });
-  if (Array.isArray(items) && items.every(item => typeof item === 'object' && 'city' in item)) {
-    chapterList = items as Chapter[];
+const chapterList: Chapter[] = [
+  {
+    slug: "sao-paulo",
+    city: "São Paulo",
+    members: "12",
+    chapterMeetingPlace: "Watch Parties",
+    chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/sao-paulo/" : "/chapters/sao-paulo/",
+    status: "Active"
+  },
+  {
+    slug: "santos",
+    city: "Santos",
+    members: "22",
+    chapterMeetingPlace: "Lambeau Field Northeast",
+    chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/santos/" : "/chapters/santos/",
+    status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
+  },
+  {
+    slug: "salvador",
+    city: "Salvador",
+    members: "22",
+    chapterMeetingPlace: lang === 'pt-BR' ? "Campo Lambeau Nordeste" : "Lambeau Field Northeast",
+    chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/salvador/" : "/chapters/salvador/",
+    status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
+  },
+  {
+    slug: "amazonia",
+    city: "Amazônia",
+    members: "~10",
+    chapterMeetingPlace: lang === 'pt-BR' ? "Campo Lambeau Amazônia" : "Lambeau Field Amazonia",
+    chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/amazonia/" : "/chapters/amazonia/",
+    status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
+  },
+  {
+    slug: "brasilia",
+    city: "Brasília",
+    members: "~10",
+    chapterMeetingPlace: lang === 'pt-BR' ? "Campo Lambeau Amazônia" : "Lambeau Field Amazonia",
+    chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/brasilia/" : "/chapters/brasilia/",
+    status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
   }
-} catch (error) {
-  console.error("Error loading chapter list:", error);
-}
+];
 ---
 
 <div class="pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6" id="chapters">
@@ -34,7 +70,7 @@ try {
               <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
                 <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>
                 <span class="font-extrabold text-white text-2xl pb-2">{t("chapters.chapterComingSoon")}</span>
-                <a href="/join/" class="btn btn-accent text-md">
+                <a href={lang === 'pt-BR' ? "/pt-BR/join/" : "/join/"} class="btn btn-accent text-md">
                   {t("chapters.getNotified")}
                 </a>
               </div>
@@ -56,7 +92,7 @@ try {
               {
                 // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
                 (chapter.status === "Active") && (
-                <a href={t("chapters.learnMoreButtonLink")+`${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
+                <a href={`${lang === 'pt-BR' ? "/pt-BR" : ""}/chapters/${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
                   {t("chapters.learnMore")}
                 </a>
               )}
