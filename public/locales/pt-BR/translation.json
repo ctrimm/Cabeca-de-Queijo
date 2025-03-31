@@ -96,7 +96,7 @@
   "footer": {
     "copyright": "Direitos Autorais",
     "rights": "Todos os direitos reservados",
-    "byline": "Feito com {{0}} por {{1}}",
+    "byline": "Feito com <a href=\"https://web3templates.com\" target=\"_blank\" rel=\"noopener\" class=\"hover:underline\">Web3Template</a> por <a href=\"https://twitter.com/cdt5058\" target=\"_blank\" rel=\"noopener\" class=\"hover:underline\">@cdt5058</a>",
     "help": "Precisa de ajuda? Tem feedback? Clique aqui.",
     "helpLink": "/pt-BR/contact/",
     "playToday": {

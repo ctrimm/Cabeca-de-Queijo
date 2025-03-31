@@ -8,8 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "generate-i18n": "astro-i18next generate"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/mdx": "^2.3.1",

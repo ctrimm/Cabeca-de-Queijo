@@ -14,10 +14,9 @@ import { Trans } from "astro-i18next/components";
     or Purchase a commercial license from https://web3templates.com
   -->
   <p class="text-center text-xs text-slate-500 mt-1">
-    {t("footer.byline", {
-      0: `<a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline">Web3Template</a>`,
-      1: `<a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline">@cdt5058</a>`
-    })}
+    <Trans i18nKey="footer.byline">
+      Feito com <a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline">Web3Template</a> por <a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline">@cdt5058</a>
+    </Trans>
   </p>
   <p class="text-center text-xs text-slate-400 mt-1">
     <a href=`${t("footer.helpLink")}`>{t("footer.help")}</a>
