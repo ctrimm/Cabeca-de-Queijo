@@ -3,7 +3,7 @@ draft: false
 title: "How To Say Go Pack Go in Portuguese"
 snippet: "Learning a new language can be difficult, but as a Packer Fan, there is one phrase you should know."
 image: {
-    src: "/src/assets/go-pack-go-in-portuguese.webp",
+    src: "go-pack-go-in-portuguese.webp",
     alt: "Green Bay Packers fans learning Go Pack Go in Portuguese"
 }
 publishDate: "2024-05-19 14:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [language, portuguese, learning]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/go-pack-go-in-portuguese.webp"
-  alt="Photo of an AI generated group of Packers fans cheering Vai Pack Vai"
-/>
+![Photo of an AI generated group of Packers fans cheering Vai Pack Vai](../../../assets/go-pack-go-in-portuguese.webp)
 
 ## How To Say Go Pack Go in Portuguese
 

@@ -3,7 +3,7 @@ draft: false
 title: "How to Order a Beer in Portuguese"
 snippet: "Cerveja is a universal word for ordering a beer. Read our quick post on how to order a cold one."
 image: {
-    src: "/src/assets/packers-fans-with-beer-flight.webp",
+    src: "packers-fans-with-beer-flight.webp",
     alt: "Green Bay Packers fans enjoying a craft beers in Sao Paulo, Brazil"
 }
 publishDate: "2024-08-30 14:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [Cervejaria, Chopp, Craft Beer, Language]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/bauzera.jpg"
-  alt="Interior of Bauzera Cervejaria"
-/>
+![Interior of Bauzera Cervejaria](../../../assets/bauzera.jpg)
 
 ## How to Order a Beer in Portuguese
 
@@ -29,7 +24,4 @@ If you are looking for the [PackersEverywhere.com Bar](https://www.packerseveryw
 
 Here is a post with [our favorite craft breweries in Sao Paulo](/blog/beer-to-try-in-sao-paulo/) to try out.
 
-<BlogImage 
-  src="/src/assets/beer-flight.png"
-  alt="Craft Beer Flight"
-/>
+![Craft Beer Flight](../../../assets/beer-flight.png)

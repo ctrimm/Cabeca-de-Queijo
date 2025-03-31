@@ -16,34 +16,34 @@ async function updateBlogPost(filePath) {
     return;
   }
   
-  // Update frontmatter image paths to match Astro's expected format
+  // Update frontmatter image paths to just use the filename
   let frontmatter = parts[1].replace(
     /image:\s*{\s*src:\s*"(?:\/src\/assets\/|\.\.\/\.\.\/assets\/)(.*?)"/g,
-    'image: {\n    src: "/src/assets/$1"'
+    'image: {\n    src: "../../../assets/$1"'
   );
   
   // Get main content
-  let mainContent = parts.slice(2).join('---');
+  let mainContent = parts.slice(2).join('---').trim();
   
   // Remove any existing imports
-  mainContent = mainContent.replace(/import.*?from.*?\n/g, '');
+  mainContent = mainContent.replace(/^import.*?from.*?\n/gm, '');
   
-  // Add BlogImage import at the start
-  mainContent = 'import BlogImage from "@components/BlogImage.astro"\n\n' + mainContent.trim();
-  
-  // Replace markdown images with BlogImage component
+  // Convert Image components with dynamic imports to markdown images
   mainContent = mainContent.replace(
-    /!\[(.*?)\]\((\.\.\/\.\.\/assets\/.*?|\/src\/assets\/.*?)\)/g,
-    (match, alt, path) => {
-      const imagePath = path.replace(/^(\.\.\/\.\.\/assets\/|\/src\/assets\/)/, '');
-      return `<BlogImage \n  src="/src/assets/${imagePath}"\n  alt="${alt}"\n/>`;
-    }
+    /<Image\s+src={import\("\.\.\/assets\/(.*?)"\)}[\s\S]*?alt="([^"]*?)"[\s\S]*?\/>/g,
+    '![$2](../../../assets/$1)'
   );
 
-  // Fix any existing BlogImage components
+  // Convert BlogImage components to markdown images
   mainContent = mainContent.replace(
     /<BlogImage\s+src="[^"]*?\/src\/assets\/(.*?)"\s+alt="([^"]*?)"\s*\/>/g,
-    '<BlogImage \n  src="/src/assets/$1"\n  alt="$2"\n/>'
+    '![$2](../../../assets/$1)'
+  );
+
+  // Fix any existing markdown image paths to use relative path
+  mainContent = mainContent.replace(
+    /!\[(.*?)\]\((?:\/src\/assets\/|\.\.\/\.\.\/assets\/|\.\.\/assets\/|\.\.\/\.\.\/\.\.\/src\/assets\/)(.*?)\)/g,
+    '![$1](../../../assets/$2)'
   );
 
   // Replace commented out images

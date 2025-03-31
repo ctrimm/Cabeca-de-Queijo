@@ -3,7 +3,7 @@ draft: false
 title: "Announcing O'Malley's As the Packers Everywhere Bar in Sao Paulo"
 snippet: "With the NFL coming to São Paulo next week - there is no better time than the present to announce O'Malley's being THE location to watch all Green Bay Packers games for the 2024 season."
 image: {
-    src: "/src/assets/packers-everywhere-announcement.png",
+    src: "packers-everywhere-announcement.png",
     alt: "Green Bay Packers fans cheering inside of a stadium with green and gold jerseys"
 }
 publishDate: "2024-08-29 14:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [PackersEverywhere.com, O'Malley's, Official]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/packers-everywhere-announcement.png"
-  alt="Screenshot of Cabeca de Queijo and O'Malley's Bar on the PackersEverywhere.com website"
-/>
+![Screenshot of Cabeca de Queijo and O'Malley's Bar on the PackersEverywhere.com website](../../../assets/packers-everywhere-announcement.png)
 
 # 🚨 Announcing O'Malley's As [the Packers Everywhere Bar](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) in São Paulo 🚨
 With the NFL coming to São Paulo **next week** - there is no better time than the present to announce O'Malley's being **the location** to watch all [Green Bay Packers](https://packers.com) games for the 2024 to 2025 season.

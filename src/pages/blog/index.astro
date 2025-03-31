@@ -21,7 +21,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg
 // Process entries with images
 const processedEntries = await Promise.all(
   publishedBlogEntries.map(async (entry) => {
-    const imagePath = `/src/assets/${entry.data.image.src.replace(/^\/src\/assets\//, '')}`;
+    const imagePath = `/src/assets/${entry.data.image.src}`;
     const imageModule = await images[imagePath]();
     return {
       ...entry,

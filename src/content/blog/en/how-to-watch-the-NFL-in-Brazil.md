@@ -3,7 +3,7 @@ draft: false
 title: "How to Watch the NFL in Brazil"
 snippet: "Based on our experience, there are a few easy ways to watch NFL games while visiting Brazil."
 image: {
-    src: "/src/assets/watch-nfl-in-brazil.webp",
+    src: "watch-nfl-in-brazil.webp",
     alt: "a hybrid image of food from Brazil and Wisconsin"
 }
 publishDate: "2024-04-25 08:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [sports, dazn, brazil]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/watch-nfl-in-brazil.webp"
-  alt="Photo of an AI generated set of fans watching the NFL inside of a very Brazilian house"
-/>
+![Photo of an AI generated set of fans watching the NFL inside of a very Brazilian house](../../../assets/watch-nfl-in-brazil.webp)
 
 ## Growing American Football Culture in Brazil
 Since ~2010, American Football has been on the rise in Brazil - similar to the NBA. The Packers have repeatedly been one of the [most rooted for teams in Brazil](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F2x3s4o1xme7b1.jpg). We think that this is due to the colors being green and gold (like the flag of Brazil) and because the fans 'own' the team. However, one of the biggest problems that I've found while traveling overseas has been how to watch the Green Bay Packers. 
@@ -33,10 +28,7 @@ Whether you are traveling here for [the first ever NFL game in South America](ht
 <!-- ![image courtesy of NFL Brasil detailing the percentage of the population that like each NFL Team](../src/assets/nfl-brasil-team-fans.png)
 _Image courtesy of [NFL Brasil](https://instagram.com/nflbrasil) (source: [Reddit](https://www.reddit.com/r/GreenBayPackers/comments/14fdmhw/the_packers_are_the_most_popular_nfl_team_in/))_ -->
 
-<BlogImage 
-  src="/src/assets/nfl-game-pass-screenshot.png"
-  alt="NFL Gamepass on DAZN screenshot"
-/>
+![NFL Gamepass on DAZN screenshot](../../../assets/nfl-game-pass-screenshot.png)
 
 ## NFL Game Pass + NFL Network with DAZN
 
@@ -62,10 +54,7 @@ Steps to use a VPN:
 
 __Note:__ _If you have problems with a specific connection, try to change to another VPN connection and see what happens._
 
-<BlogImage 
-  src="/src/assets/omalleys-interior.png"
-  alt="the interior of o'malley's irish pub"
-/>
+![the interior of o'malley's irish pub](../../../assets/omalleys-interior.png)
 
 ## Going to a Sports Bar
 For some reason or another, finding a place like Buffalo Wild Wings is pretty difficult in Brazil. Typically, soccer matches between clubs are played on small TV's at the corner botecas. Fans used to gather at Applebee's but, it appears that most locations in São Paulo have closed. However, there is also the American Staple - [TGI Fridays](https://www.google.com/maps/search/TGI+Fridays/@-23.6011142,-46.6829626,14z/data=!3m1!4b1?entry=ttu), but they're typically in shopping malls. We cannot speak from experience, but that seems like a bit of a different vibe for watching an NFL game...

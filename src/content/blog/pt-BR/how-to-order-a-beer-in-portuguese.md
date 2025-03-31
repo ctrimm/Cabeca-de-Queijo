@@ -3,7 +3,7 @@ draft: false
 title: "Como Pedir uma Cerveja em Português"
 snippet: "Cerveja é uma palavra universal para pedir uma cerveja. Leia nosso post rápido sobre como pedir uma gelada."
 image: {
-    src: "/src/assets/packers-fans-with-beer-flight.webp",
+    src: "packers-fans-with-beer-flight.webp",
     alt: "Torcedores do Green Bay Packers aproveitando cervejas artesanais em São Paulo, Brasil"
 }
 publishDate: "2024-08-30 14:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [Cervejaria, Chopp, Craft Beer, Língua]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/bauzera.jpg"
-  alt="Interior da Bauzera Cervejaria"
-/>
+![Interior da Bauzera Cervejaria](../../../assets/bauzera.jpg)
 
 ## Como Pedir uma Cerveja em Português
 
@@ -29,7 +24,4 @@ Se você está procurando o [Bar PackersEverywhere.com](https://www.packersevery
 
 Aqui está um post com [nossas cervejarias artesanais favoritas em São Paulo](/blog/beer-to-try-in-sao-paulo/) para você experimentar.
 
-<BlogImage 
-  src="/src/assets/beer-flight.png"
-  alt="Craft Beer Flight"
-/>
+![Craft Beer Flight](../../../assets/beer-flight.png)

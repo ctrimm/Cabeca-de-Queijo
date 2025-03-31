@@ -6,6 +6,13 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://CabecadeQueijo.com",
+  vite: {
+    resolve: {
+      alias: {
+        '@assets': '/src/assets'
+      }
+    }
+  },
   i18n: {
     defaultLocale: "en",
     locales: ["en", "pt-BR"],

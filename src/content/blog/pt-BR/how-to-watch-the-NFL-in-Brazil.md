@@ -3,7 +3,7 @@ draft: false
 title: "Como Assistir à NFL no Brasil"
 snippet: "Com base em nossa experiência, existem algumas maneiras fáceis de assistir aos jogos da NFL enquanto visita o Brasil."
 image: {
-    src: "/src/assets/watch-nfl-in-brazil.webp",
+    src: "watch-nfl-in-brazil.webp",
     alt: "uma imagem híbrida de alimentos do Brasil e Wisconsin"
 }
 publishDate: "2024-04-25 08:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [esportes, dazn, brasil]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/watch-nfl-in-brazil.webp"
-  alt="Foto de um conjunto de torcedores assistindo à NFL dentro de uma casa bem brasileira gerada por IA"
-/>
+![Foto de um conjunto de torcedores assistindo à NFL dentro de uma casa bem brasileira gerada por IA](../../../assets/watch-nfl-in-brazil.webp)
 
 ## Crescimento da Cultura do Futebol Americano no Brasil
 Desde aproximadamente 2010, o futebol americano tem crescido no Brasil - similarmente ao que aconteceu com a NBA. Os Packers têm sido repetidamente um dos [times mais torcidos no Brasil](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F2x3s4o1xme7b1.jpg). Achamos que isso se deve ao fato das cores serem verde e dourado (como a bandeira do Brasil) e porque os torcedores "possuem" o time. No entanto, um dos maiores problemas que encontrei ao viajar para o exterior foi como assistir aos jogos do Green Bay Packers.
@@ -33,10 +28,7 @@ Seja você um viajante vindo para [o primeiro jogo da NFL na América do Sul](ht
 <!-- ![imagem cortesia da NFL Brasil detalhando a porcentagem da população que gosta de cada time da NFL](../src/assets/nfl-brasil-team-fans.png)
 _Imagem cortesia da [NFL Brasil](https://instagram.com/nflbrasil) (fonte: [Reddit](https://www.reddit.com/r/GreenBayPackers/comments/14fdmhw/the_packers_are_the_most_popular_nfl_team_in/))_ -->
 
-<BlogImage 
-  src="/src/assets/nfl-game-pass-screenshot.png"
-  alt="Captura de tela do NFL Gamepass no DAZN"
-/>
+![Captura de tela do NFL Gamepass no DAZN](../../../assets/nfl-game-pass-screenshot.png)
 
 ## NFL Game Pass + NFL Network com DAZN
 
@@ -63,10 +55,7 @@ Passos para usar um VPN:
 
 __Nota:__ _Se você tiver problemas com uma conexão específica, tente mudar para outra conexão de VPN e veja o que acontece._
 
-<BlogImage 
-  src="/src/assets/omalleys-interior.png"
-  alt="o interior do O'Malley's Irish Pub"
-/>
+![o interior do O'Malley's Irish Pub](../../../assets/omalleys-interior.png)
 
 ## Indo a um Sports Bar
 Por algum motivo, encontrar um lugar como Buffalo Wild Wings é bem difícil no Brasil. Normalmente, as partidas de futebol entre clubes são exibidas em pequenas TVs nos botecos de esquina. Antes, os torcedores se reuniam no Applebee's, mas parece que a maioria dos locais em São Paulo fechou. No entanto, ainda há o clássico americano - [TGI Fridays](https://www.google.com/maps/search/TGI+Fridays/@-23.6011142,-46.6829626,14z/data=!3m1!4b1?entry=ttu), mas eles geralmente estão em shoppings. Não podemos falar por experiência própria, mas parece que é um ambiente um pouco diferente para assistir a um jogo da NFL...

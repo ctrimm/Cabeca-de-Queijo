@@ -3,7 +3,7 @@ draft: false
 title: "How to Get Around Sao Paulo"
 snippet: "Being a mega-city of 22.5 million people there are plenty of ways to get from Point A to Point B."
 image: {
-    src: "/src/assets/packers-fans-in-transit.webp",
+    src: "packers-fans-in-transit.webp",
     alt: "a hybrid image of food from Brazil and Wisconsin"
 }
 publishDate: "2024-05-01 08:39"
@@ -12,12 +12,7 @@ author: "Cory Trimm"
 tags: [transportation, brazil]
 ---
 
-import BlogImage from "@components/BlogImage.astro"
-
-<BlogImage 
-  src="/src/assets/packers-fans-in-transit.webp"
-  alt="image of packers fans getting into an Uber"
-/>
+![image of packers fans getting into an Uber](../../../assets/packers-fans-in-transit.webp)
 
 ## Getting Around Sao Paulo for the NFL Game
 As we've mentioned numerous times in other posts - São Paulo is a mega city. However, with it being so large, there are plenty of options and a range of prices to get around.
@@ -25,10 +20,7 @@ As we've mentioned numerous times in other posts - São Paulo is a mega city. Ho
 ## Walking
 Fortunately, if you [pick a good neighborhood to stay](/blog/where-to-stay-in-sao-paulo-for-nfl-game/) - you will be able to walk to and from the attractions in the neighborhood. Typically when it is dark, we will still use an Uber for safety.
 
-<BlogImage 
-  src="/src/assets/screenshots/bike-share.jpg"
-  alt="Screenshot of Itau Bike Share Availability in Sao Paulo"
-/>
+![Screenshot of Itau Bike Share Availability in Sao Paulo](../../../assets/screenshots/bike-share.jpg)
 ## Biking
 With the Uber app, you are able to unlock the electric or non-electric Orange Bike Itau bikes. These are very similar to [NYC Citi Bikes](https://citibikenyc.com/) or to [Capital Bike share bikes in D.C.](https://capitalbikeshare.com/).
 
@@ -39,10 +31,7 @@ Before selecting and scanning a bike to rent, ensure that it looks ok, the wheel
 ## Bus or Metro via [SPTrans](https://www.sptrans.com.br/)
 If you do not have a CPF number, we would not recommend this option since acquiring a metro/bus card can be an multiple-hour-long-ordeal. It also requires working knowledge of Brazilian Portuguese to interact with the attendant to receive the card. Typically the bus is 4.90 BRL - we are unsure if the metro is the same price.
 
-<BlogImage 
-  src="/src/assets/screenshots/uber.jpg"
-  alt="Screenshot of Uber App Prices in Sao Paulo"
-/>
+![Screenshot of Uber App Prices in Sao Paulo](../../../assets/screenshots/uber.jpg)
 ## Uber
 By far the most convenient option. The screenshot above shows what it would cost for 3 different types of Ubers to go approximately 4 miles (25 minutes).
 
@@ -57,10 +46,7 @@ However, you can rent a car using your Passport at Unidas, Movida, and other bus
 
 If you are planning on staying longer in Brazil (we'd recommend this) you can easily drive an hour down the road to the beach town and birthplace of Pelé and Neymar - Santos. 
 
-<BlogImage 
-  src="/src/assets/private-driver.webp"
-  alt="image of a private driver in front of their car"
-/>
+![image of a private driver in front of their car](../../../assets/private-driver.webp)
 ## Hire A Private Driver
 This is the most surefire way to get around the city with the least amount of waiting and nonsense. However - it comes with a price. You can expect the hourly rate to be anywhere from $5 USD to $25 USD - so, if they are waiting / driving you all day, it will add up quick. Some of the private drivers have the spacial placards that allow them to use the Bus Lane - making traffic a little more tolerable.
 
