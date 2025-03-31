@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  src: string;
+  alt: string;
+}
+
+const { src, alt } = Astro.props;
+
+// For local images in src/assets/
+const imagePath = src.replace(/^\/src\/assets\//, '');
+const imageModule = await import(`../assets/${imagePath}`);
+---
+
+<Image 
+  src={imageModule.default}
+  alt={alt}
+  class="rounded-lg my-8"
+  width={800}
+  height={400}
+  format="webp"
+  loading="lazy"
+  decoding="async"
+/>

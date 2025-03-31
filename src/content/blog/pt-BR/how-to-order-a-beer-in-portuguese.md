@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [Cervejaria, Chopp, Craft Beer, Língua]
 ---
 
-![Interior da Bauzera Cervejaria](../../assets/bauzera.jpg)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/bauzera.jpg"
+  alt="Interior da Bauzera Cervejaria"
+/>
 
 ## Como Pedir uma Cerveja em Português
 
@@ -24,4 +29,7 @@ Se você está procurando o [Bar PackersEverywhere.com](https://www.packersevery
 
 Aqui está um post com [nossas cervejarias artesanais favoritas em São Paulo](/blog/beer-to-try-in-sao-paulo/) para você experimentar.
 
-![Craft Beer Flight](../../assets/beer-flight.png)
+<BlogImage 
+  src="/src/assets/beer-flight.png"
+  alt="Craft Beer Flight"
+/>

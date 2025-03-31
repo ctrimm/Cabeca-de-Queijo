@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [esportes, bar, brasil]
 ---
 
-![Foto gerada por IA de um boteco com um fã de esportes assistindo televisão](../../assets/boteco-sports-bar.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/boteco-sports-bar.webp"
+  alt="Foto gerada por IA de um boteco com um fã de esportes assistindo televisão"
+/>
 _Última Atualização: Maio de 2024_
 
 ## Indo a um Sports Bar em São Paulo, Brasil
@@ -20,7 +25,10 @@ Por algum motivo, encontrar um lugar como o Buffalo Wild Wings é bem difícil n
 
 Aqui está uma lista curta de bares em São Paulo que sabemos que têm TVs que exibem a NFL. A lista inclui sports bars em São Paulo que sabemos que transmitem vários esportes americanos.
 
-![O interior do O'Malley's Irish Pub](../../assets/omalleys-interior.png)
+<BlogImage 
+  src="/src/assets/omalleys-interior.png"
+  alt="O interior do O'Malley's Irish Pub"
+/>
 
 - [O'Malley's Irish Pub](https://www.omalleysbar.net/) - _tipicamente __LOTADO__ de torcedores da NFL em todos os dias de jogo. Este também é o local oficial do [PackersEverywhere](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) para assistir a todos os jogos do Green Bay_
 - [Goose Island Brewery São Paulo](https://www.instagram.com/gooseislandsp/) - _O ponto de encontro de Chicago tem uma filial em São Paulo com uma pequena TV no andar principal_

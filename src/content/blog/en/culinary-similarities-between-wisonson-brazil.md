@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [food, wisconsin, brazil]
 ---
 
-![Photo of an AI generated spread of food on a table from Brazil and Wisconsin](../../assets/brazil-wisconsin-food.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/brazil-wisconsin-food.webp"
+  alt="Photo of an AI generated spread of food on a table from Brazil and Wisconsin"
+/>
 
 Exploring the culinary landscapes of Wisconsin and Brazil might seem like a study in contrasts, but you might be surprised to discover a number of delicious similarities. Both regions boast a rich heritage of using local ingredients to create hearty, comforting dishes that have become staples of their respective culinary cultures. Here’s a look at some of the foods where Wisconsin and Brazil find common ground.
 
@@ -59,4 +64,3 @@ Brigadeiros are Brazil's answer to truffles, with condensed milk, cocoa powder, 
 ## Conclusion
 
 While Wisconsin and Brazil may be miles apart, their culinary worlds overlap in their love for rich, hearty foods that bring people together. Whether it’s the creamy textures of their beloved cheeses or their communal meat feasts, there’s a shared spirit in how they approach food—a testament to the universal language of delicious eats.
-

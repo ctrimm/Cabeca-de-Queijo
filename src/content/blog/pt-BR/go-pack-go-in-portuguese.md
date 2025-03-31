@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [língua, português, aprendizado]
 ---
 
-![Foto de um grupo de torcedores dos Packers torcendo Vai Pack Vai gerada por IA](../../assets/go-pack-go-in-portuguese.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/go-pack-go-in-portuguese.webp"
+  alt="Foto de um grupo de torcedores dos Packers torcendo Vai Pack Vai gerada por IA"
+/>
 
 ## Vai Pack Vai em Português
 

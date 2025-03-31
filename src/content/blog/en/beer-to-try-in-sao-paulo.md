@@ -12,9 +12,14 @@ author: "Cory Trimm"
 tags: [Cervejaria, Chopp, Craft Beer]
 ---
 
+import BlogImage from "@components/BlogImage.astro"
+
 #### [Here's a Link to Google Maps with 40+ Craft Beer Options in Sao Paulo](https://maps.app.goo.gl/9fSNUafi48tqup1D6)
 
-![Green Bay Packers fans enjoying a craft beer in Sao Paulo, Brazil](../../assets/packers-fans-drinking-beers.webp)
+<BlogImage 
+  src="/src/assets/packers-fans-drinking-beers.webp"
+  alt="Green Bay Packers fans enjoying a craft beer in Sao Paulo, Brazil"
+/>
 
 **Note** - As far as we know, there is not much in terms of a craft brewery or tap house near the Corinthians Stadium. Your best bet will be to snag a Brahma or Original from the street vendors outside the stadium or wait until you're inside to imbibe.
 
@@ -35,7 +40,10 @@ The next step up from a chopp beer would be Eisenbahn,  Cerverjaria Colorado, or
 
 We'll move right onto the Craft Beer level - or Cervejas Artesanal - can be about $5 USD to $8 USD depending where you go. The styles can either be a bit underwhelming or ALL-IN. Think of something as polarizing as a Rauchbier - there are some cervejarias that only have a touch of smoked malts or they go all in and it feels like you've just ripped a carton of cigs. This hold true across all other styles.
 
-![Interior of Trilha Cervejaria in Itaim Bibi](../../assets/trilha.jpg)
+<BlogImage 
+  src="/src/assets/trilha.jpg"
+  alt="Interior of Trilha Cervejaria in Itaim Bibi"
+/>
 
 To save you some time, here's a quick unordered list of some of my favorite craft breweries that I've gone to or had at home:
 - [Trilha Cervejaria](https://maps.app.goo.gl/nSVREYYKco8cPLsP6) (or their [Fermentaria](https://maps.app.goo.gl/fo7dPTg256xHUFP4A))

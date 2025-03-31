@@ -12,8 +12,12 @@ author: "Cory Trimm"
 tags: [sports, bar, brazil]
 ---
 
+import BlogImage from "@components/BlogImage.astro"
 
-![Photo of an AI generated outside view of a Boteco with a sports fan watching the television](../../assets/boteco-sports-bar.webp)
+<BlogImage 
+  src="/src/assets/boteco-sports-bar.webp"
+  alt="Photo of an AI generated outside view of a Boteco with a sports fan watching the television"
+/>
 _Last Updated: May 2024_
 
 ## Going to a Sports Bar in São Paulo, Brazil
@@ -21,7 +25,10 @@ For some reason or another, finding a place like Buffalo Wild Wings is pretty di
 
 Here is a short list of bars in São Paulo that we know of with TV's that will play the NFL. The list includes sports bars in São Paulo that we know will play various American Sports.
 
-![the interior of o'malley's irish pub](../../assets/omalleys-interior.png)
+<BlogImage 
+  src="/src/assets/omalleys-interior.png"
+  alt="the interior of o'malley's irish pub"
+/>
 
 - [O'Malley's Irish Pub](https://www.omalleysbar.net/) - _typically __PACKED__ with NFL fans every game day. This is also the official [PackersEverywhere](https://www.packerseverywhere.com/find-a-bar/bar-details/Index?id=dade858a-fa8f-6ce3-be09-ff000095b832) watch location for all Green Bay games_
 - [Goose Island Brewery São Paulo](https://www.instagram.com/gooseislandsp/) - _The Chicago staple has an outpost in Sao Paulo with one small TV on the main floor_

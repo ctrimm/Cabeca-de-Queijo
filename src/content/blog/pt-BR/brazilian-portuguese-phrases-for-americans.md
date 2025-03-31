@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [língua, português, aprendizado]
 ---
 
-![Foto aérea gerada por IA de torcedores comemorando durante uma partida](../../assets/language-cheering-fans.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/language-cheering-fans.webp"
+  alt="Foto aérea gerada por IA de torcedores comemorando durante uma partida"
+/>
 
 O Futebol Americano tem crescido em popularidade no Brasil - ainda mais agora com o [primeiro jogo em São Paulo em setembro](https://www.nfl.com/news/sao-paulo-brazil-to-host-regular-season-game-during-2024-nfl-season) entre o [Green Bay Packers](https://www.packers.com/) e o [Philadelphia Eagles](https://www.philadelphiaeagles.com/). Será útil conhecer algum vocabulário básico em português relacionado ao esporte. Se você é um novo fã no Brasil ou apenas está interessado em linguística cultural, este guia vai ajudá-lo a se comunicar com os torcedores brasileiros durante os jogos de Futebol Americano. Além disso, se você é fã do Green Bay Packers, incluímos alguns termos essenciais para melhorar sua experiência.
 

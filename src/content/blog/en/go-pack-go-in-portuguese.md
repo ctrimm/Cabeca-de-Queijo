@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [language, portuguese, learning]
 ---
 
-![Photo of an AI generated group of Packers fans cheering Vai Pack Vai](../../assets/go-pack-go-in-portuguese.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/go-pack-go-in-portuguese.webp"
+  alt="Photo of an AI generated group of Packers fans cheering Vai Pack Vai"
+/>
 
 ## How To Say Go Pack Go in Portuguese
 

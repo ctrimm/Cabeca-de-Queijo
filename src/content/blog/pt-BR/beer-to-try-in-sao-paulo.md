@@ -12,9 +12,14 @@ author: "Cory Trimm"
 tags: [Cervejaria, Chopp, Craft Beer]
 ---
 
+import BlogImage from "@components/BlogImage.astro"
+
 #### [Aqui está um link para o Google Maps com mais de 40 opções de cervejas artesanais em São Paulo](https://maps.app.goo.gl/9fSNUafi48tqup1D6)
 
-![Torcedores do Green Bay Packers aproveitando uma cerveja artesanal em São Paulo, Brasil](../../assets/packers-fans-drinking-beers.webp)
+<BlogImage 
+  src="/src/assets/packers-fans-drinking-beers.webp"
+  alt="Torcedores do Green Bay Packers aproveitando uma cerveja artesanal em São Paulo, Brasil"
+/>
 
 **Nota** - Pelo que sabemos, não há muito em termos de cervejaria artesanal ou bar perto da Arena Corinthians. Sua melhor opção será pegar uma Brahma ou Original dos vendedores de rua fora do estádio ou esperar até estar dentro para beber.
 
@@ -35,7 +40,10 @@ O próximo passo acima de uma cerveja chopp seria a Eisenbahn, Cervejaria Colora
 
 Vamos direto para o nível de cerveja artesanal - ou Cervejas Artesanais - que pode custar entre $5 USD a $8 USD, dependendo de onde você for. Os estilos podem ser um pouco decepcionantes ou intensos. Pense em algo polarizador como uma Rauchbier - algumas cervejarias usam maltes defumados de forma sutil, enquanto outras vão ao extremo e parece que você acabou de fumar um maço de cigarros. Isso acontece em vários outros estilos.
 
-![Interior da Trilha Cervejaria em Itaim Bibi](../../assets/trilha.jpg)
+<BlogImage 
+  src="/src/assets/trilha.jpg"
+  alt="Interior da Trilha Cervejaria em Itaim Bibi"
+/>
 
 Para economizar seu tempo, aqui está uma lista rápida e não ordenada de algumas das minhas cervejarias artesanais favoritas que visitei ou tomei em casa:
 - [Trilha Cervejaria](https://maps.app.goo.gl/nSVREYYKco8cPLsP6) (ou a sua [Fermentaria](https://maps.app.goo.gl/fo7dPTg256xHUFP4A))

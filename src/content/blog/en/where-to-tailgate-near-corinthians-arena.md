@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [tailgate, corinthians, eagles, packers, nfl, sao paulo]
 ---
 
-![Photo of Green Bay Packers fans tailgating inside of a Boteco](../../assets/packers-fans-tailgating-inside-a-boteco.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/packers-fans-tailgating-inside-a-boteco.webp"
+  alt="Photo of Green Bay Packers fans tailgating inside of a Boteco"
+/>
 
 **Last Updated - Thursday, September 5, 2024**
 We are constantly monitoring the internet for other options.
@@ -21,7 +26,10 @@ If you **have** tickets to the game, it appears that you can enter the NFL Fan C
 
 Download the NFL OnePass App ([iPhone](https://apps.apple.com/us/app/nfl-onepass/id1456010454) or [Android](https://play.google.com/store/apps/details?id=com.nfl.fanmobilepass&hl=en_US&pli=1)) to see the Fan Campus Map with more detail (photo below). [There is also a $200 USD tailgate at the Itaquera Mall](https://sportsfanstravel.com/products/green-bay-philadelphia-tailgate-in-sao-paulo), but that is pretty expensive.
 
-![Screenshot of the NFL One Pass Fan Experience outside of Corinthians Arena](../../assets/nfl-fan-zone-one-pass.jpg)
+<BlogImage 
+  src="/src/assets/nfl-fan-zone-one-pass.jpg"
+  alt="Screenshot of the NFL One Pass Fan Experience outside of Corinthians Arena"
+/>
 
 ## Quick Intro
 Corinthians Arena is typically home to a different kind of football. However for the first time, the National Football League (NFL) will be hosting an American Football match - the first of it's kind in South America - between the Green Bay Packers and the Philadelphia Eagles.
@@ -32,7 +40,10 @@ Now, if you don't live in São Paulo, you may not know where to tailgate prior t
 
 **But first, please be aware of how terrible the traffic can be**! Corinthians Stadium is located in the Eastern part of the city - to go from central São Paulo to Corinthians Arena can be 45 minutes or it can be **2+ hours** - plus, the game is on a Friday when a lot of people want to leave the city for the weekend. Google Maps / Waze / etc aren't reliable.
 
-![Photo of Green Bay Packers fans tailgating outside at a corner Boteco](../../assets/packers-fans-tailgating-outside-a-boteco.webp)
+<BlogImage 
+  src="/src/assets/packers-fans-tailgating-outside-a-boteco.webp"
+  alt="Photo of Green Bay Packers fans tailgating outside at a corner Boteco"
+/>
 
 ****
 # Where to Tailgate Near Corinthians Arena

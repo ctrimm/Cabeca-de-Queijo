@@ -12,7 +12,12 @@ author: "Cory Trimm"
 tags: [tailgate, corinthians, eagles, packers, nfl, são paulo]
 ---
 
-![Foto aérea de São Paulo gerada por IA](../../assets/aerial-view-sao-paulo.webp)
+import BlogImage from "@components/BlogImage.astro"
+
+<BlogImage 
+  src="/src/assets/aerial-view-sao-paulo.webp"
+  alt="Foto aérea de São Paulo gerada por IA"
+/>
 
 ## Introdução Rápida a São Paulo, Brasil
 São Paulo é uma cidade com mais de 22,5 milhões de habitantes - quase 2,5x a população de Nova York. Se estendendo por 1.521 km², enquanto Nova York tem 783,8 km². 🤯
@@ -23,7 +28,10 @@ Este guia tem como objetivo contar um pouco mais sobre os diferentes bairros de 
 
 À medida que a NFL anunciar eventos que ocorrerão pela cidade, atualizaremos este post com bairros próximos a esses locais.
 
-![captura de tela da vista do mapa de Itaquera](../../assets/itaquera-map-view.png)
+<BlogImage 
+  src="/src/assets/itaquera-map-view.png"
+  alt="captura de tela da vista do mapa de Itaquera"
+/>
 ## [Bairro Itaquera](https://www.google.com/maps/place/Itaquera,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5339784,-46.4716919,13.93z/data=!4m6!3m5!1s0x94ce66b99a42eac7:0x8ed06d80800b0a3c!8m2!3d-23.5374198!4d-46.4536983!16s%2Fm%2F0fq2p7t?entry=ttu) (mais próximo do Estádio)
 A Neo Química Arena, casa do Corinthians, está situada na zona leste de São Paulo, no bairro de Itaquera. É aqui que toda a ação acontecerá na noite de sexta-feira, no jogo entre Green Bay Packers e Philadelphia Eagles. Esta área é principalmente residencial, com uma forte sensação de comunidade, apresentando uma mistura de prédios de apartamentos e casas simples. No entanto, está passando por mudanças devido à construção da Neo Química Arena para a Copa do Mundo FIFA de 2014. A área é conhecida por sua acessibilidade devido às extensas opções de transporte público, incluindo a estação de metrô Corinthians-Itaquera nas proximidades. O bairro também abriga o Shopping Metrô Itaquera, oferecendo aos moradores e visitantes diversas opções de compras e alimentação.
 
@@ -33,7 +41,10 @@ Moema é um bairro sofisticado em São Paulo, conhecido por sua mistura de charm
 ## [Bairro Pinheiros](https://www.google.com/maps/place/Pinheiros,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5620058,-46.6987426,15z/data=!3m1!4b1!4m6!3m5!1s0x94ce5798cb16268f:0xa94014a3e39a3708!8m2!3d-23.5635787!4d-46.6916068!16s%2Fg%2F155ryzty?entry=ttu)
 Pinheiros é um bairro vibrante e eclético em São Paulo, bem diferente de Moema e da área ao redor da Neo Química Arena. Ao contrário de Moema, que é mais residencial e sofisticada, Pinheiros é conhecida por sua vida noturna agitada, galerias vanguardistas e uma cena culinária florescente, oferecendo uma mistura de cozinhas tradicionais brasileiras e internacionais. O bairro também é um polo para indústrias criativas, com inúmeras startups e espaços de coworking. Em contraste com a área perto da Neo Química Arena, mais conhecida pelo estádio e pelos desenvolvimentos associados, Pinheiros possui uma atmosfera cultural mais rica e uma experiência urbana mais dinâmica, tornando-o popular entre os jovens e profissionais. Ele também faz fronteira com o [Beco do Batman](https://www.google.com/maps/place/Beco+do+Batman/@-23.5566009,-46.6891539,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce575858b6a5b9:0xc5b1a9636043ff22!8m2!3d-23.5566009!4d-46.686579!16s%2Fg%2F11b6pwftrw?entry=ttu) - uma famosa galeria de grafite ao ar livre com lojas elétricas.
 
-![captura de tela dos bairros próximos ao Parque Ibirapuera](../../assets/ibirapuera-map-view.png)
+<BlogImage 
+  src="/src/assets/ibirapuera-map-view.png"
+  alt="captura de tela dos bairros próximos ao Parque Ibirapuera"
+/>
 ## Bairros Próximos ao Parque Ibirapuera ([Jardim Paulista](https://www.google.com/maps/place/Jardim+Paulista,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5339784,-46.4716919,13.93z/data=!4m6!3m5!1s0x94ce59c2db1faacb:0x186ce70be3f34d44!8m2!3d-23.5739787!4d-46.6606906!16s%2Fg%2F120r00xg?entry=ttu), [Vila Nova](https://www.google.com/maps/place/Vila+Nova+Concei%C3%A7%C3%A3o,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo,+Brazil/@-23.5742553,-46.6704143,15z/data=!4m6!3m5!1s0x94ce57575900735f:0xdfe8f65daf38be97!8m2!3d-23.5917828!4d-46.6727333!16s%2Fg%2F121pqdsq?entry=ttu), etc.)
 Os bairros ao redor do Parque Ibirapuera em São Paulo estão entre as áreas mais desejadas da cidade, oferecendo uma mistura de conforto residencial e vibração cultural. O Parque Ibirapuera é um vasto oásis verde com inúmeras trilhas, pequenos restaurantes para fazer um lanche e muitos vendedores de Água de Coco. Moema fica diretamente ao sul do parque, conhecida por sua vida sofisticada e ruas amigáveis aos pedestres. Ao norte, você encontrará a Vila Nova Conceição, uma área afluente com propriedades luxuosas e excelentes restaurantes. Jardim Paulista, a oeste do parque, combina uma sensação residencial com dinamismo comercial, abrigando uma variedade de lojas, cafés e atrações culturais. Cada um desses bairros compartilha a proximidade ao Parque Ibirapuera, o que aumenta seu apelo com fácil acesso a um dos maiores espaços verdes da cidade.
 
