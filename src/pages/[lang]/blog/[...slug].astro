@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+export async function getStaticPaths() {
+  const englishPosts = await getCollection('blog');
+  const portuguesePosts = await getCollection('blogportuguese');
+
+  const paths = [
+    ...englishPosts.map(post => ({
+      params: { lang: 'en', slug: post.slug },
+      props: { post, collection: 'blog' }
+    })),
+    ...portuguesePosts.map(post => ({
+      params: { lang: 'pt-BR', slug: post.slug },
+      props: { post, collection: 'blogportuguese' }
+    }))
+  ];
+
+  return paths;
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const formattedDate = post.data.publishDate.toLocaleDateString(lang, {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<Layout
+  seoTitle={`${post.data.title} | Cabeça de Queijo`}
+  seoDescription={post.data.snippet}
+  seoOpenGraph={{
+    basic: {
+      title: post.data.title,
+      type: "article",
+      image: `https://cabecadequeijo.com${post.data.image.src}`,
+      url: Astro.url.href,
+    },
+    image: {
+      alt: post.data.image.alt,
+    },
+  }}
+>
+  <Container>
+    <article>
+      <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-8">
+        {post.data.title}
+      </h1>
+      <div class="flex gap-2 mt-4 items-center flex-wrap">
+        <span class="text-gray-400">{post.data.author}</span>
+        <span class="text-gray-400">•</span>
+        <time class="text-gray-400" datetime={post.data.publishDate.toISOString()}>
+          {formattedDate}
+        </time>
+        <span class="text-gray-400">•</span>
+        <span class="text-blue-400 uppercase">{post.data.category}</span>
+      </div>
+      <div class="prose prose-lg mt-10 max-w-none">
+        <Content />
+      </div>
+    </article>
+  </Container>
+</Layout>

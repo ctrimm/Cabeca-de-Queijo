@@ -2,11 +2,18 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import astroI18next from "astro-i18next";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://CabecadeQueijo.com",
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "pt-BR"],
+    routing: {
+      prefixDefaultLocale: false,
+      redirectToDefaultLocale: true
+    }
+  },
   integrations: [
     tailwind(),
     mdx(),
@@ -18,8 +25,7 @@ export default defineConfig({
           'pt-BR': 'pt-BR',
         },
       },
-    }),
-    astroI18next(),
+    })
   ],
   trailingSlash: "always",
 });

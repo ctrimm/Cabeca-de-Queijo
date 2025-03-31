@@ -1,23 +1,42 @@
 ---
-// @ts-ignore
 import { Icon } from "astro-icon";
-import { t } from "i18next";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
-interface SellingPoint {
-  title: string;
-  description: string;
-  icon: string;
-}
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
-let sellingPoints: SellingPoint[] = [];
-try {
-  const items = t("sellingPoints.sellingPoints", { returnObjects: true });
-  if (Array.isArray(items) && items.every(item => typeof item === 'object' && 'title' in item)) {
-    sellingPoints = items as SellingPoint[];
+const sellingPoints = [
+  {
+    title: t('sellingPoints.richHistory.title'),
+    description: t('sellingPoints.richHistory.description'),
+    icon: 'bx:bxs-book'
+  },
+  {
+    title: t('sellingPoints.globalCommunity.title'),
+    description: t('sellingPoints.globalCommunity.description'),
+    icon: 'mdi:globe'
+  },
+  {
+    title: t('sellingPoints.cheeseheads.title'),
+    description: t('sellingPoints.cheeseheads.description'),
+    icon: 'icon-park-outline:cheese'
+  },
+  {
+    title: t('sellingPoints.lambeauField.title'),
+    description: t('sellingPoints.lambeauField.description'),
+    icon: 'ic:outline-stadium'
+  },
+  {
+    title: t('sellingPoints.ownership.title'),
+    description: t('sellingPoints.ownership.description'),
+    icon: 'bx:bxs-group'
+  },
+  {
+    title: t('sellingPoints.competitive.title'),
+    description: t('sellingPoints.competitive.description'),
+    icon: 'bx:bxs-trophy'
   }
-} catch (error) {
-  console.error("Error loading selling points:", error);
-}
+];
 ---
 
 <div class="mt-4 md:mt-0" id="selling-points">

@@ -1,7 +1,9 @@
 ---
-import { t } from "i18next";
 import { getNextGames } from '@utils/getNextGames';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 const { nextGames } = await getNextGames();
 
 // The function below wasn't working properly, quickly just removed it in favor of displaying dates.
@@ -40,8 +42,7 @@ function convertToReadableDate(dateString: string): string {
       day: 'numeric', 
       timeZone: 'America/Sao_Paulo' 
     };
-    const localeString = t("nextGames.localeString") as string;
-    return date.toLocaleDateString(localeString === 'pt-BR' ? 'pt-BR' : 'en-US', options);
+    return date.toLocaleDateString(lang === 'pt-BR' ? 'pt-BR' : 'en-US', options);
   } catch (error) {
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', {
@@ -63,8 +64,7 @@ function extractTime(dateString: string): string {
       hour12: true,
       timeZone: 'America/Sao_Paulo'
     };
-    const localeString = t("nextGames.localeString") as string;
-    return date.toLocaleTimeString(localeString === 'pt-BR' ? 'pt-BR' : 'en-US', options);
+    return date.toLocaleTimeString(lang === 'pt-BR' ? 'pt-BR' : 'en-US', options);
   } catch (error) {
     const date = new Date(dateString);
     return date.toLocaleTimeString('en-US', {

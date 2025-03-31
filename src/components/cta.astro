@@ -1,6 +1,8 @@
 ---
-// import Link from "./ui/link.astro";
-import { t } from "i18next";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <div
@@ -13,7 +15,7 @@ import { t } from "i18next";
     {t("cta.subtext")}
   </p>
   <div class="mt-5">
-    <a href=`${t("cta.button1Link")}` role="button" class="btn btn-primary">{t("cta.button1Text")}</a>
-    <a href=`${t("cta.button2Link")}` role="button" class="btn btn-success">{t("cta.button2Text")}</a>
+    <a href={t("cta.button1Link")} role="button" class="btn btn-primary">{t("cta.button1Text")}</a>
+    <a href={t("cta.button2Link")} role="button" class="btn btn-success">{t("cta.button2Text")}</a>
   </div>
 </div>

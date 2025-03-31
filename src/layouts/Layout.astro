@@ -4,11 +4,10 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import BannerBar from "@components/BannerBar.astro";
 import "@fontsource-variable/inter/index.css";
-import { t } from "i18next";
-import { HeadHrefLangs } from "astro-i18next/components";
+import { getLangFromUrl } from '../i18n/utils';
 import PostHog from '@components/posthog.astro';
 
-const currentLanguage = Astro.url.pathname.startsWith('/pt-BR/') ? 'pt-BR' : 'en';
+const currentLanguage = getLangFromUrl(Astro.url);
 const isEnglish = currentLanguage === 'en';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -73,7 +72,8 @@ const makeTitle = Astro.props.title
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="generator" content={Astro.generator} />
-    <HeadHrefLangs />
+    <link rel="alternate" href={canonicalURL} hreflang={currentLanguage} />
+    <link rel="alternate" href={alternateURL} hreflang={alternateLanguage} />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <!-- src/layouts/Layout.astro -->

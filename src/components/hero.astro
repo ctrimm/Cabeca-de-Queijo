@@ -1,16 +1,17 @@
 ---
 import { Image } from "astro:assets";
-import mainLogoImage from "assets/main.png"
-import { t } from "i18next";
-import { Trans } from "astro-i18next/components";
+import mainLogoImage from "assets/main.png";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<main
-  class="grid lg:grid-cols-2 place-items-center pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6">
+<main class="grid lg:grid-cols-2 place-items-center pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6">
   <div class="py-6 order-last sm:block">
     <Image
       src={mainLogoImage}
-      alt={t("hero.altTag")}
+      alt={t('hero.altTag')}
       widths={[200, 400, 600]}
       sizes="(max-width: 800px) 100vw, 620px"
       loading="eager"
@@ -19,30 +20,17 @@ import { Trans } from "astro-i18next/components";
   </div>
   <div>
     <div class="text-3xl lg:text-5xl xl:text-6xl lg:tracking-tight xl:tracking-tighter">
-      <span>{t("hero.title.part1")}</span>
-      <span class="font-italic font-skinny">{t("hero.title.part2")}</span>
-      <span>{t("hero.title.part3")}</span>
-      <span class="block text-5xl lg:text-5xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">{t("hero.title.part4")}</span>
-      <span class="block">{t("hero.title.part5")}</span>
+      <span>{t('hero.title.part1')}</span>
+      <span class="font-italic font-skinny">{t('hero.title.part2')}</span>
+      <span>{t('hero.title.part3')}</span>
+      <span class="block text-5xl lg:text-5xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">{t('hero.title.part4')}</span>
+      <span class="block">{t('hero.title.part5')}</span>
     </div>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      {t("hero.subtitle")}
+      {t('hero.subtitle')}
     </p>
-    <!-- <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <Link
-        href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
-        target="_blank"
-        class="flex gap-1 items-center justify-center"
-        rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
-        Submit a Bar
-      </Link>
-    </div> -->
-    <!-- <a role="button" class="btn btn-primary">Current Chapters</a> -->
     <br>
-    <a href=`${t("hero.button1Link")}` role="button" class="btn btn-secondary mt-2">{t("hero.button1Text")}</a>
-    <a href=`${t("hero.button2Link")}` role="button" class="btn btn-primary mt-2">{t("hero.button2Text")}</a>
-    <!-- Submit a Bar, View Current Bars, Upcoming Games, etc -->
+    <a href={t('hero.button1.link')} role="button" class="btn btn-secondary mt-2">{t('hero.button1.text')}</a>
+    <a href={t('hero.button2.link')} role="button" class="btn btn-primary mt-2">{t('hero.button2.text')}</a>
   </div>
 </main>

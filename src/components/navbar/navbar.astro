@@ -1,29 +1,53 @@
 ---
 import Container from "@components/container.astro";
-// import Dropdown from "./dropdown.astro";
-import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
-import { LanguageSelector } from "astro-i18next/components";
-import { t } from "i18next";
+import { Icon } from "astro-icon";
+import { getLangFromUrl, useTranslations, useTranslatedPath } from '../../i18n/utils';
+import LanguagePicker from '../LanguagePicker.astro';
 
-const menuitems = t("navbar.menuitems", { returnObjects: true });
-const buttonLink = t("navbar.button1Link");
-const buttonText = t("navbar.button1Text");
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+
+const menuitems = [
+  {
+    title: t('nav.join'),
+    path: translatePath('/join/')
+  },
+  {
+    title: t('nav.chapters'),
+    path: translatePath('/chapters/')
+  },
+  {
+    title: t('nav.schedule'),
+    path: translatePath('/#schedule')
+  },
+  {
+    title: t('nav.posts'),
+    path: translatePath('/blog/')
+  }
+];
+
+const mainLink = translatePath('/');
 ---
 
 <Container>
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
-    <Astronav>
-      <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href={t("navbar.mainLink")} class="text-lg">
-          <span class="font-bold text-slate-800">Cabeça</span>
-          <span class="text-slate-500"> de </span>
-          <span class="font-bold text-slate-800">Queijo</span>
-        </a>
-        <div class="block lg:hidden cursor-pointer">
-          <MenuIcon class="w-4 h-4 text-gray-800 hover:text-gray-600" />
-        </div>
-      </div>
-      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 absolute lg:relative bg-white lg:bg-transparent z-[49] left-0 right-0 p-4 lg:p-0 border lg:border-0 rounded-lg shadow-lg lg:shadow-none top-full">
+    <div class="flex w-full lg:w-auto items-center justify-between">
+      <a href={mainLink} class="text-lg">
+        <span class="font-bold text-slate-800">Cabeça</span>
+        <span class="text-slate-500"> de </span>
+        <span class="font-bold text-slate-800">Queijo</span>
+      </a>
+      <button
+        type="button"
+        class="btn btn-ghost btn-sm lg:hidden"
+        aria-label="Toggle menu"
+        data-menu-toggle
+      >
+        <Icon class="w-5 h-5 text-gray-800 hover:text-gray-600" name="heroicons-outline:menu" />
+      </button>
+    </div>
+    <nav id="mobile-menu" class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 fixed lg:relative bg-white lg:bg-transparent z-[100] left-0 right-0 p-4 lg:p-0 border-t lg:border-0 shadow-lg lg:shadow-none top-[4.5rem] lg:top-0 max-h-[calc(100vh-4.5rem)] overflow-y-auto">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
             Array.isArray(menuitems) ? menuitems.map((item) => (
@@ -49,27 +73,53 @@ const buttonText = t("navbar.button1Text");
             )) : null
           }
         </ul>
-        <div class="lg:hidden flex items-center mt-3 gap-4 flex-col">
-          <a role="button" href={buttonLink} class="btn btn-large btn-primary w-full text-center">{buttonText}</a>
-          <!-- LanguageSelector with custom language naming -->
-          <LanguageSelector
-            showFlag={true}
-            class="bg-white border rounded-md px-2 py-1 text-lg w-full cursor-pointer relative z-[100]"
-            languageMapping={{ en: "English", "pt-BR": "Português" }}
-          />
+        <div class="lg:hidden flex items-center mt-6 gap-4 flex-col">
+          <a role="button" href={translatePath('/join/')} class="btn btn-primary w-full text-center">{t('nav.getInvolved')}</a>
+          <div class="w-full">
+            <LanguagePicker />
+          </div>
         </div>
-      </MenuItems>
-    </Astronav>
+    </nav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a role="button" href={buttonLink} class="btn btn-large btn-primary">{buttonText}</a>
-        <!-- LanguageSelector with custom language naming -->
-        <LanguageSelector
-          showFlag={true}
-          class="bg-white border rounded-md px-2 py-1 text-lg cursor-pointer relative z-[100]"
-          languageMapping={{ en: "English", "pt-BR": "Português" }}
-        />
+        <a role="button" href={translatePath('/join/')} class="btn btn-large btn-primary">{t('nav.getInvolved')}</a>
+        <LanguagePicker />
       </div>
     </div>
   </header>
 </Container>
+
+<script>
+  function setupMobileMenu() {
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuButton = document.querySelector('[data-menu-toggle]');
+
+    if (menuButton && mobileMenu) {
+      // Toggle menu
+      menuButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!mobileMenu.contains(e.target as Node) && !menuButton.contains(e.target as Node)) {
+          mobileMenu.classList.add('hidden');
+        }
+      });
+
+      // Close menu when clicking a link
+      mobileMenu.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+  }
+
+  // Setup on initial load
+  setupMobileMenu();
+
+  // Setup on client-side navigation
+  document.addEventListener('astro:page-load', setupMobileMenu);
+</script>

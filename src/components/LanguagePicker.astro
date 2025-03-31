@@ -1,0 +1,36 @@
+---
+import { languages } from '../i18n/ui';
+import { getLangFromUrl, useTranslatedPath } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+const currentPath = Astro.url.pathname;
+const path = currentPath.replace(/^\/(pt-BR\/)?/, '/');
+
+const flags = {
+  'en': '🇺🇸',
+  'pt-BR': '🇧🇷'
+};
+---
+
+<div class="w-full relative">
+  <div class="dropdown lg:dropdown-end w-full">
+    <div tabindex="0" role="button" class="btn btn-ghost gap-2 normal-case w-full lg:w-auto justify-start lg:justify-center">
+      <span class="text-xl">{flags[lang]}</span>
+      <span class="font-medium">{languages[lang]}</span>
+      <svg width="12px" height="12px" class="h-2.5 w-2.5 fill-current opacity-60 ml-auto lg:ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
+    </div>
+    <ul tabindex="0" class="dropdown-content z-[101] p-2 shadow-lg bg-base-100 rounded-lg w-full lg:w-40 mt-1 lg:absolute lg:top-full lg:left-0 static">
+      {Object.entries(languages).map(([l, label]) => (
+        <li>
+          <a 
+            href={translatePath(path, l)}
+            class={`flex items-center gap-2 px-4 py-3 hover:bg-base-200 rounded-lg ${lang === l ? 'bg-base-200' : ''}`}>
+            <span class="text-xl">{flags[l]}</span>
+            <span>{label}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>

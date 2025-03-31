@@ -1,16 +1,14 @@
 ---
-import i18next from "i18next";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
-const language = Astro.props.language;
-const isEnglish = language === 'en';
-const bannerText = isEnglish ? '🇧🇷🧀 In Brazil? Join Our WhatsApp Group to Talk With Other Packers Fans' : '🇧🇷🧀 Vc esta na Brasil? Junte-se ao nosso grupo do WhatsApp para conversar com outros torcedores do Packers';
-const bannerCTA = isEnglish ? 'Join Now ↗️' : 'Junte-se agora ↗️';
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <div id="banner-bar" class="bg-green-500 text-white py-2 px-4 text-center">
   <div class="flex justify-between items-center">
     <p class="text-sm flex-grow text-center">
-      {bannerText} <a href="https://chat.whatsapp.com/IY3vw63xn8S6tVjsHsYuVp" target="_blank" class="underline font-bold">{bannerCTA} 🧀🇧🇷</a>
+      {t('banner.text')} <a href="https://chat.whatsapp.com/IY3vw63xn8S6tVjsHsYuVp" target="_blank" class="underline font-bold">{t('banner.cta')} 🧀🇧🇷</a>
     </p>
     <button id="close-banner" class="text-white hover:text-gray-300">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -24,7 +22,9 @@ const bannerCTA = isEnglish ? 'Join Now ↗️' : 'Junte-se agora ↗️';
   const bannerBar = document.getElementById('banner-bar');
   const closeBanner = document.getElementById('close-banner');
 
-  closeBanner.addEventListener('click', () => {
-    bannerBar.style.display = 'none';
-  });
+  if (bannerBar && closeBanner) {
+    closeBanner.addEventListener('click', () => {
+      bannerBar.style.display = 'none';
+    });
+  }
 </script>

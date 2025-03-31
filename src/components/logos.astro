@@ -1,10 +1,13 @@
 ---
-// @ts-ignore
 import { Icon } from "astro-icon";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <div class="mt-24">
-  <h2 class="text-center text-slate-500">Plus, the team's <span class="text-primary">colors</span> are <span class="text-secondary">incredible.</span></h2>
+  <h2 class="text-center text-slate-500">{t('logos.text')} <span class="text-primary">{t('logos.colors')}</span> {t('logos.are')} <span class="text-secondary">{t('logos.incredible')}</span></h2>
   <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
     <Icon class="h-8 md:h-12" name="simple-icons:react" />
     <Icon class="h-8 md:h-12" name="simple-icons:svelte" />
