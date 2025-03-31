@@ -21,9 +21,12 @@ jobs:
         run: |
           npm ci
           npm install astro-i18next@1.0.0-beta.21
-      - name: Build application
+      - name: Copy locales
         run: |
-          npm run build
+          mkdir -p dist/locales
+          cp -r public/locales/* dist/locales/
+      - name: Build application
+        run: npm run build
       - name: Deploy to S3
         run: aws s3 sync --delete ./dist/ s3://${{ secrets.BUCKET_ID }}
       - name: Create CloudFront invalidation

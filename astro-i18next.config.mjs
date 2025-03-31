@@ -2,19 +2,11 @@
 export default {
   defaultLocale: "en",
   locales: ["en", "pt-BR"],
-  load: ["server", "client"],
   i18next: {
-    debug: false,
-    supportedLngs: ["en", "pt-BR"],
-    fallbackLng: "en",
-    defaultNS: "translation",
-    ns: ["translation"]
-  },
-  routes: {
-    "pt-BR": {
-      about: "sobre",
-      "contact-us": "contato",
-      blog: "blog"
+    debug: true,
+    initImmediate: false,
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
     }
   }
 };
