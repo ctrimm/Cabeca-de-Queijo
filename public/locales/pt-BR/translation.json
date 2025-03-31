@@ -96,7 +96,7 @@
   "footer": {
     "copyright": "Direito Autoral",
     "rights": "Todos os direitos reservados.",
-    "byline": "<0>Feito a partir de um </0><1>Web3Template</1><2> por </2><3>@cdt5058</3>",
+    "byline": "Feito a partir de um {{0}} por {{1}}",
     "help": "Preciso de ajuda? Tem comentários? Clique aqui.",
     "helpLink": "/pt-BR/contact/",
     "playToday": {
