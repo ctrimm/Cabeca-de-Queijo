@@ -1,0 +1,108 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import { Image } from "astro:assets";
+import { useTranslations } from '../../i18n/utils';
+import type { ImageMetadata } from 'astro';
+
+const lang = 'en';
+const t = useTranslations(lang);
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif,webp}');
+
+// Filter blog entries with 'draft: false' & date before current date
+const publishedBlogEntries: CollectionEntry<'blog'>[] = await getCollection('blog', ({ data, slug }) => {
+  return !data.draft && data.publishDate < new Date() && slug.startsWith('en/');
+});
+
+// helper function to import dynamic images
+const dynamicImageImport = (src) => {
+  // return the http or https image paths
+  if (src.startsWith('http') || src.startsWith('https')) {
+    return src;
+  } else {
+    return images[`${src}`]();
+  }
+}
+
+// Sort content entries by publication date
+publishedBlogEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+---
+
+<Layout
+  seoTitle={`Blog | Cabeça de Queijo`}
+  seoDescription="Read the latest blog posts from the Cabeça de Queijo community. Learn about the Green Bay Packers, NFL, and Brazilian fanbase."
+  seoOpenGraph={{
+    basic: {
+      title: "Blog",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/og-blog-eng.png",
+      url: Astro.url.href,
+    },
+    image: {
+      alt: "Screenshot of Cabeça de Queijo Blog page",
+    },
+  }}
+>
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">{t("blog.title")}</Fragment>
+      <Fragment slot="desc">
+        {t("blog.desc")}
+        <a href="mailto:gopackgo@CabecadeQueijo.com">
+          {t("blog.contactUs")}
+        </a>.
+      </Fragment>
+    </Sectionhead>
+    <main class="mt-16">
+      <ul class="grid gap-16 max-w-4xl mx-auto">
+        {
+          publishedBlogEntries.map((blogPostEntry, index) => (
+            <li>
+              <a href={`/blog/${blogPostEntry.slug.replace('en/', '')}/`}>
+                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                  <Image
+                    src={dynamicImageImport(blogPostEntry.data.image.src)}
+                    alt={blogPostEntry.data.image.alt}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    widths={[200, 400, 800]}
+                    loading={index <= 2 ? "eager" : "lazy"}
+                    decoding={index <= 2 ? "sync" : "async"}
+                    class="w-full rounded-md"
+                  />
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {blogPostEntry.data.category}
+                    </span>
+
+                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1">
+                      {blogPostEntry.data.title}
+                    </h2>
+
+                    <div class="flex gap-2 mt-3">
+                      <span class="text-gray-400">
+                        {blogPostEntry.data.author}
+                      </span>
+                      <span class="text-gray-400">• </span>
+                      <time
+                        class="text-gray-400"
+                        datetime={blogPostEntry.data.publishDate.toISOString()}>
+                        {blogPostEntry.data.publishDate.toLocaleDateString(lang, {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </Container>
+</Layout>

@@ -20,7 +20,6 @@ jobs:
       - name: Install modules
         run: |
           npm ci
-          npm install astro-i18next@1.0.0-beta.21
       - name: Check Node Version
         run: node -v
       - name: Build application
