@@ -1,6 +1,12 @@
 {
   "hero": {
-    "title": "<0>O </0><1>(não)</1><2>oficial </2><3>Green Bay Packers </3><4>no Brasil 🇧🇷</4>",
+    "title": {
+      "part1": "O ",
+      "part2": "(não)",
+      "part3": "oficial ",
+      "part4": "Green Bay Packers ",
+      "part5": "no Brasil 🇧🇷"
+    },
     "subtitle": "Cabeça de Queijo é um fã-clube do time de futebol americano (NFL) Green Bay Packers no Brasil. Somos um grupo de torcedores que amam os Packers e querem compartilhar nossa paixão com outros torcedores do Brasil.",
     "button1Text": "Saber mais",
     "button1Link": "/pt-BR#selling-points",

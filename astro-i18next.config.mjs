@@ -2,11 +2,11 @@
 export default {
   defaultLocale: "en",
   locales: ["en", "pt-BR"],
+  load: ["server"],
   i18next: {
     debug: true,
-    initImmediate: false,
-    backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json",
-    }
+    defaultNS: "translation",
+    ns: ["translation"],
+    fallbackLng: "en"
   }
 };
