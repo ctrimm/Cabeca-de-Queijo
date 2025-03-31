@@ -4,13 +4,10 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import BannerBar from "@components/BannerBar.astro";
 import "@fontsource-variable/inter/index.css";
-import i18next from "i18next";
-import { initI18n } from "../utils/i18n";
-
-await initI18n();
+import { t } from "i18next";
 import PostHog from '@components/posthog.astro';
 
-const currentLanguage = i18next.language || 'en';
+const currentLanguage = Astro.url.pathname.startsWith('/pt-BR/') ? 'pt-BR' : 'en';
 const isEnglish = currentLanguage === 'en';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -68,7 +65,7 @@ const makeTitle = Astro.props.title
 ---
 
 <!DOCTYPE html>
-<html lang={i18next.language} dir="ltr" data-theme="lemonade" style="scroll-behavior: smooth">
+<html lang={currentLanguage} dir="ltr" data-theme="lemonade" style="scroll-behavior: smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />

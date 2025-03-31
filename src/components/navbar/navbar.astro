@@ -18,11 +18,11 @@ const menuitems = t("navbar.menuitems", { returnObjects: true }) || [];
           <span class="text-slate-500"> de </span>
           <span class="font-bold text-slate-800">Queijo</span>
         </a>
-        <div class="block lg:hidden">
-          <MenuIcon class="w-4 h-4 text-gray-800" />
+        <div class="block lg:hidden cursor-pointer">
+          <MenuIcon class="w-4 h-4 text-gray-800 hover:text-gray-600" />
         </div>
       </div>
-      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 absolute lg:relative bg-white lg:bg-transparent z-50 left-0 right-0 p-4 lg:p-0 border lg:border-0 rounded-lg shadow-lg lg:shadow-none">
+      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 absolute lg:relative bg-white lg:bg-transparent z-[49] left-0 right-0 p-4 lg:p-0 border lg:border-0 rounded-lg shadow-lg lg:shadow-none top-full">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
             Array.isArray(menuitems) ? menuitems.map((item) => (
