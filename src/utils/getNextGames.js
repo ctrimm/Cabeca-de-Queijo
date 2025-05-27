@@ -293,8 +293,16 @@ const schedule = [
     "eventName": "RFA First Refusal Deadline"
   },
   {
-    "dateOfMatch": "2025-04-24T02:00:00.000-03:00",
-    "eventName": "NFL Draft Begins"
+    dateOfMatch: "2025-04-24T18:30:00.000-03:00",
+    eventName: "2025 NFL Draft Day 1",
+  },
+  {
+    dateOfMatch: "2025-04-25T18:30:00.000-03:00",
+    eventName: "2025 NFL Draft Day 2",
+  },
+  {
+    dateOfMatch: "2025-04-26T18:30:00.000-03:00",
+    eventName: "2025 NFL Draft Day 3",
   },
   {
     "dateOfMatch": "2025-05-01T02:00:00.000-03:00",
