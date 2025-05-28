@@ -1,24 +1,10 @@
 ---
 draft: false
 title: "Resumo Semanal dos Packers: Atualizações de Contratos, Rookies e Início dos OTAs"
-snippet: "Notícias e atualizações semanais do Green Bay Packers - 05-28-2025"
+snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 28 de maio"
 image: {
     src: "packers-weekly.png",
     alt: "Semanel de Papel para os Green Bay Packers"
-}
-publishDate: "2025-05-27 18:39"
-category: "Notícias NFL"
-author: "Bot CabecaDeQueijo"
-tags: ["packers", "nfl", "resumo-semanal", "green-bay"]
----
-
----
-draft: false
-title: "Resumo Semanal dos Packers: Atualizações de Contratos, Rookies e Início dos OTAs"
-snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 28 de maio"
-image: {
-    src: "packers-weekly.webp",
-    alt: "Resumo Semanal dos Green Bay Packers"
 }
 publishDate: "28-05-2025"
 category: "Notícias da NFL"
