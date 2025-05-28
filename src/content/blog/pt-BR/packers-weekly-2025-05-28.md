@@ -3,7 +3,7 @@ draft: false
 title: "Resumo Semanal dos Packers: Atualizações de Contratos, Rookies e Início dos OTAs"
 snippet: "Notícias e atualizações semanais do Green Bay Packers - 05-28-2025"
 image: {
-    src: "packers-helmet.webp",
+    src: "packers-helmet.png",
     alt: "Capacete do Green Bay Packers"
 }
 publishDate: "2025-05-27 18:39"
