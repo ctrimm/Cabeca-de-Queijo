@@ -6,7 +6,7 @@ image: {
     src: "packers-helmet.webp",
     alt: "Capacete do Green Bay Packers"
 }
-publishDate: "2025-05-28 08:39"
+publishDate: "2025-05-27 18:39"
 category: "Notícias NFL"
 author: "Bot CabecaDeQueijo"
 tags: ["packers", "nfl", "resumo-semanal", "green-bay"]

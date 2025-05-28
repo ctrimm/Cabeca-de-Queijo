@@ -6,7 +6,7 @@ image: {
     src: "packers-weekly.png",
     alt: "Green Bay Packers Weekly Roundup"
 }
-publishDate: "2025-05-28 08:39"
+publishDate: "2025-05-27 18:39"
 category: "NFL News"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "weekly-update", "green-bay"]
