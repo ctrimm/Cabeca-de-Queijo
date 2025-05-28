@@ -6,7 +6,7 @@ image: {
     src: "packers-weekly.png",
     alt: "Semanel de Papel para os Green Bay Packers"
 }
-publishDate: "28-05-2025"
+publishDate: "2025-05-27 18:39"
 category: "Notícias da NFL"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
