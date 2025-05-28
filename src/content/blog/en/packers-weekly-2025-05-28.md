@@ -3,15 +3,15 @@ draft: false
 title: "Packers Weekly Recap: Contract Updates, Rookies, and OTAs Kickoff"
 snippet: "Weekly Green Bay Packers news and updates for the week of May 28"
 image: {
-    src: "packers-weekly.webp",
+    src: "packers-weekly.png",
     alt: "Green Bay Packers Weekly Roundup"
 }
-publishDate: "05-28-2025"
+publishDate: "2025-05-28 08:39"
 category: "NFL News"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "weekly-update", "green-bay"]
 ---
-# Green Bay Packers Weekly Summary (May 20-27, 2025)
+![Photo of an AI generated Weekly Packers Newspaper](../../../assets/packers-weekly.png)
 
 As we gear up for the upcoming NFL season, the **Green Bay Packers** have been busy making headlines this past week. Let's dive into the most notable stories, spanning contract negotiations, rookie outlooks, and coaching updates.
 

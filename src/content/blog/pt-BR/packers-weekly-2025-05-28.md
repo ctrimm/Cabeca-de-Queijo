@@ -6,7 +6,7 @@ image: {
     src: "packers-helmet.webp",
     alt: "Capacete do Green Bay Packers"
 }
-publishDate: "05-28-2025"
+publishDate: "2025-05-28 08:39"
 category: "Notícias NFL"
 author: "Bot CabecaDeQueijo"
 tags: ["packers", "nfl", "resumo-semanal", "green-bay"]
@@ -25,8 +25,7 @@ category: "Notícias da NFL"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
 ---
-
-# Resumo Semanal dos Green Bay Packers (20 a 27 de maio de 2025)
+![Photo of an AI generated Weekly Packers Newspaper](../../../assets/packers-weekly.png)
 
 À medida que nos preparamos para a próxima temporada da NFL, os **Green Bay Packers** têm feito notícias nesta última semana. Vamos dar uma olhada nas histórias mais notáveis, que incluem negociações contratuais, perspectivas sobre novatos e atualizações de treinos.
 
