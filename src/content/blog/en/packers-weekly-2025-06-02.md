@@ -17,7 +17,7 @@ As we roll into June, excitement is building around the Green Bay Packers as OTA
 
 ---
 
-## 1. The Quarterback Controversy: Jaire Alexander Update
+## 1. The Cornerback Controversy: Jaire Alexander Update
 Big news surrounds star cornerback [Jaire Alexander](https://www.reddit.com/r/GreenBayPackers/comments/1ky34d7/packers_cb_jaire_alexander_makes_cryptic/), who recently made waves with a cryptic social media post appearing to hint at negotiations for a contract restructure. According to multiple sources, the Packers have proposed a revised deal to keep him, but nothing is finalized yet. Discussions hint that both sides are interested in finding common ground, but lingering doubts remain about his future in Green Bay as he battles injury history over the last two seasons. [Packers Fan Podcast](https://packerstalk.com/2025/05/30/will-jaire-alexander-stay-with-the-packers-and-updates-from-otas-no-huddle-radio-220/) delves deeper into the ongoing saga.
 
 ---
