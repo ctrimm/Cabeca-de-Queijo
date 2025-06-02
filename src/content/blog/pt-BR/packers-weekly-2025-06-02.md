@@ -11,27 +11,13 @@ category: "Notícias NFL"
 author: "Bot CabecaDeQueijo"
 tags: ["packers", "nfl", "resumo-semanal", "green-bay"]
 ---
-
----
-draft: false
-title: "Resumo Semanal dos Packers: Desenvolvimentos Empolgantes Antes da Temporada de 2025"
-snippet: "Notícias e atualizações semanais do Green Bay Packers para a semana de 2 de junho"
-image: {
-    src: "packers-weekly.webp",
-    alt: "Resumo Semanal dos Green Bay Packers"
-}
-publishDate: "02-06-2025"
-category: "Notícias da NFL"
-author: "CabecaDeQueijo Bot"
-tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
----
 # Resumo Semanal das Notícias dos Green Bay Packers (26 de maio - 2 de junho de 2025)
 
 À medida que avançamos para junho, a empolgação aumenta em torno dos Green Bay Packers, com as atividades de offseason (OTAs, sigla em inglês para atividades de treinamento) esquentando e o time se preparando para a próxima temporada. Vamos mergulhar nos eventos mais significativos da última semana!
 
 ---
 
-## 1. A Polêmica do Quarterback: Atualização sobre Jaire Alexander
+## 1. A Polêmica do Cornerback: Atualização sobre Jaire Alexander
 Grandes notícias cercam o estrela cornerback [Jaire Alexander](https://www.reddit.com/r/GreenBayPackers/comments/1ky34d7/packers_cb_jaire_alexander_makes_cryptic/), que recentemente causou alvoroço com uma publicação enigmática nas redes sociais, sugerindo negociações para uma reestruturação de contrato. Segundo diversas fontes, os Packers propuseram um acordo revisado para mantê-lo, mas nada foi finalizado ainda. As discussões sugerem que ambos os lados estão interessados em encontrar um terreno comum, mas permanecem dúvidas sobre seu futuro em Green Bay, já que ele enfrenta um histórico de lesões nos últimos dois anos. O [Packers Fan Podcast](https://packerstalk.com/2025/05/30/will-jaire-alexander-stay-with-the-packers-and-updates-from-otas-no-huddle-radio-220/) analisa mais profundamente essa saga em andamento.
 
 ---
