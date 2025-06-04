@@ -13,6 +13,8 @@ tags: ["packers", "nfl", "weekly-update", "green-bay"]
 ---
 # Green Bay Packers Weekly Wrap-Up (Jun 4, 2025)
 
+![Photo of an AI generated Weekly Packers Newspaper](../../../assets/packers-weekly.png)
+
 Welcome to this week’s round-up of all things Green Bay Packers! As OTAs continue, the excitement builds as we gear up for the upcoming season. Let’s dive into the key stories that have emerged over the past week.
 
 ---
