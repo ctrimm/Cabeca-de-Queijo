@@ -13,6 +13,8 @@ tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
 ---
 # Resumo Semanal dos Green Bay Packers (4 de junho de 2025)
 
+![Photo of an AI generated Weekly Packers Newspaper](../../../assets/packers-weekly.png)
+
 Bem-vindos ao resumo desta semana sobre tudo que envolve os Green Bay Packers! Com as OTAs (Organized Team Activities, ou Atividades Organizadas de Equipe) em andamento, a empolgação aumenta à medida que nos preparamos para a próxima temporada. Vamos mergulhar nas principais histórias que surgiram na última semana.
 
 ---
