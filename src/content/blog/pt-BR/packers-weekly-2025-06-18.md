@@ -6,7 +6,7 @@ image: {
     src: "packers-weekly.png",
     alt: "Resumo Semanal dos Green Bay Packers"
 }
-publishDate: "18-06-2025"
+publishDate: "06-18-2025"
 category: "Notícias da NFL"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
