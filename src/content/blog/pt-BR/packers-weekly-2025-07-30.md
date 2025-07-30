@@ -6,7 +6,7 @@ image: {
     src: "packers-weekly.png",
     alt: "Pacote Semanal dos Green Bay Packers"
 }
-publishDate: "30-07-2025"
+publishDate: "07-30-2025"
 category: "Notícias da NFL"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
