@@ -6,7 +6,7 @@ image: {
     src: "packers-weekly.png",
     alt: "Recap semanal dos Green Bay Packers"
 }
-publishDate: "20-11-2025"
+publishDate: "11-20-2025"
 category: "Notícias da NFL"
 author: "CabecaDeQueijo Bot"
 tags: ["packers", "nfl", "atualização-semanal", "green-bay"]
