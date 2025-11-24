@@ -1,4 +1,8 @@
-// TO-DO - Work in Progress to add TV networks + outcome + logic to not display games in the past
+/**
+ * Schedule data for Green Bay Packers games and NFL events
+ * Includes outcome and score for completed games
+ * Future enhancement: Add TV network data for upcoming games
+ */
 const schedule = [
   {
     dateOfMatch: "2023-09-10T13:00:00.000-03:00",
@@ -354,18 +358,19 @@ const schedule = [
   }
 ];
 
+/**
+ * Get the next 4 upcoming games/events from the schedule
+ * Filters out games that have already occurred based on current timestamp
+ * @returns {Object} Object containing array of next 4 games and the immediate next game
+ */
 export async function getNextGames() {
-  const today = new Date();
+  const now = new Date();
 
   const nextGames = schedule
     .filter((game) => {
       const gameDate = new Date(game.dateOfMatch);
-
-      return (
-        gameDate.getFullYear() > today.getFullYear() ||
-        (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() > today.getMonth()) ||
-        (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() === today.getMonth() && gameDate.getDate() >= today.getDate())
-      );
+      // Compare full timestamps to properly exclude games that have already started
+      return gameDate.getTime() > now.getTime();
     })
     .sort((a, b) => new Date(a.dateOfMatch).getTime() - new Date(b.dateOfMatch).getTime())
     .slice(0, 4);
@@ -376,6 +381,10 @@ export async function getNextGames() {
   };
 }
 
+/**
+ * Get only the immediate next game/event
+ * @returns {Object} The next upcoming game/event object
+ */
 export function getSingleNextGame() {
   return getNextGames().nextGame;
 }

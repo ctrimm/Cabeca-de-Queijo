@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.astro/
+scripts/
+public/
+.github/
