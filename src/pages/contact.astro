@@ -5,23 +5,25 @@ import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon";
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getSeoMetadata } from '../i18n/seo';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const seo = getSeoMetadata('contact', lang);
 ---
 
 <Layout
-  seoTitle="Contact | Cabeça de Queijo"
-  seoDescription="Contact Cabeça de Queijo for more information about the Green Bay Packers, the NFL, and the Brazilian fanbase."
+  seoTitle={seo.title}
+  seoDescription={seo.description}
   seoOpenGraph={{
     basic: {
-      title: "Contact",
+      title: seo.title,
       type: "website",
-      image: "https://cabecadequeijo.com/og/og-contact-eng.png",
-      url: "https://cabecadequeijo.com/contact/",
+      image: seo.ogImage,
+      url: seo.ogUrl,
     },
     image: {
-      alt: "Cabeça de Queijo Contact Page Screenshot",
+      alt: seo.ogAlt,
     },
   }}
 >

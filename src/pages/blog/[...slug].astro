@@ -2,7 +2,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import { useTranslations } from '../../i18n/utils';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 type Props = {
   post: CollectionEntry<'blog'>;
@@ -11,16 +11,27 @@ type Props = {
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
 
-  return posts
-    .filter(post => post.slug.startsWith('en/'))
-    .map(post => ({
-      params: { slug: post.slug.replace('en/', '') },
-      props: { post }
-    }));
+  // Generate paths for both English and Portuguese posts
+  return posts.map(post => {
+    const isEnglish = post.slug.startsWith('en/');
+    const isPortuguese = post.slug.startsWith('pt-BR/');
+
+    if (isEnglish) {
+      return {
+        params: { slug: post.slug.replace('en/', '') },
+        props: { post }
+      };
+    } else if (isPortuguese) {
+      return {
+        params: { slug: post.slug.replace('pt-BR/', '') },
+        props: { post }
+      };
+    }
+  }).filter(Boolean);
 }
 
 const { post } = Astro.props;
-const lang = 'en';
+const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const { Content } = await post.render();
 const formattedDate = post.data.publishDate.toLocaleDateString(lang, {

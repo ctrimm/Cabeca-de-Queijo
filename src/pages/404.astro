@@ -2,9 +2,11 @@
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getSeoMetadata } from '../i18n/seo';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const seo = getSeoMetadata('notFound', lang);
 
 // randomly generated on the 404 page. Feel free to add more.
 const errorStatuses = [
@@ -79,17 +81,17 @@ const randomErrorStatusLink = errorStatuses[randomIndex].link;
 ---
 
 <Layout
-  seoTitle="404 | Cabeça de Queijo"
-  seoDescription="Page Not Found"
+  seoTitle={seo.title}
+  seoDescription={seo.description}
   seoOpenGraph={{
     basic: {
-      title: "404 | Page Not Found",
+      title: seo.title,
       type: "website",
-      url: "https://cabecadequeijo.com/404/",
-      image: "https://cabecadequeijo.com/og/og-404-eng.png",
+      url: seo.ogUrl,
+      image: seo.ogImage,
     },
     image: {
-      alt: "Cabeça de Queijo Page Not Found",
+      alt: seo.ogAlt,
     },
   }}
 >

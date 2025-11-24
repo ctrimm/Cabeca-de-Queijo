@@ -2,6 +2,11 @@
 import { getNextGames } from '@utils/getNextGames';
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getSeoMetadata } from '../i18n/seo';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 function isGameToday(gameTime) {
   const gameDate = new Date(gameTime);
@@ -28,30 +33,32 @@ function isGameToday(gameTime) {
 
 const { nextGame } = await getNextGames();
 const isPlayingToday = nextGame && isGameToday(nextGame.dateOfMatch);
+const seo = getSeoMetadata('gameToday', lang);
+const yesNoText = isPlayingToday ? (lang === 'pt-BR' ? 'SIM' : 'YES') : (lang === 'pt-BR' ? 'NÃO' : 'NO');
 ---
 
 <Layout
-  seoTitle={`Is There a Green Bay Packers Game Today? ${isPlayingToday ? 'YES' : 'NO'}`}
-  seoDescription={`Quickly check to see if the Green Bay Packers are playing today.`}
+  seoTitle={`${seo.title} ${yesNoText}`}
+  seoDescription={seo.description}
   seoOpenGraph={{
     basic: {
-      title: `Is There a Green Bay Packers Game Today? ${isPlayingToday ? 'YES' : 'NO'}`,
+      title: `${seo.title} ${yesNoText}`,
       type: "website",
       image: `https://cabecadequeijo.com/og/og-playing-${isPlayingToday ? 'yes' : 'no'}.png`,
-      url: "https://cabecadequeijo.com/play-today/",
+      url: seo.ogUrl,
     },
     image: {
-      alt: `Is There a Green Bay Packers Game Today website screenshot? ${isPlayingToday ? 'YES' : 'NO'}`,
+      alt: seo.ogAlt,
     },
   }}
 >
   <Container>
     <div class="flex flex-col justify-center items-center pt-12 min-h-96">
       <div class="text-3xl font-semibold mb-4">
-        Is There a Green Bay Packers Game Today?
+        {lang === 'pt-BR' ? 'Tem Jogo do Green Bay Packers Hoje?' : 'Is There a Green Bay Packers Game Today?'}
       </div>
       <div class="text-[12rem] font-bold">
-        {isPlayingToday ? '🧀 YES 🧀' : 'NO 😭'}
+        {isPlayingToday ? `🧀 ${yesNoText} 🧀` : `${yesNoText} 😭`}
       </div>
     </div>
   </Container>

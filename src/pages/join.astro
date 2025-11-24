@@ -6,20 +6,25 @@ import StartAChapter from "@components/startAChapter.astro";
 import Newsletter from "@components/newsletter.astro";
 import WhatsAppJoin from "@components/whatsApp.astro";
 import MemberBenefits from "@components/memberBenefits.astro";
+import { getLangFromUrl } from '../i18n/utils';
+import { getSeoMetadata } from '../i18n/seo';
+
+const lang = getLangFromUrl(Astro.url);
+const seo = getSeoMetadata('join', lang);
 ---
 
 <Layout
-  seoTitle="Join the Green Bay Packers Fan Club in Brazil"
-  seoDescription="Become a member of the official Green Bay Packers fan club in Brazil. Connect with fellow fans, get exclusive updates, and show your support for the team."
+  seoTitle={seo.title}
+  seoDescription={seo.description}
   seoOpenGraph={{
     basic: {
-      title: "Join the Green Bay Packers Fan Club in Brazil",
+      title: seo.title,
       type: "website",
-      image: "https://cabecadequeijo.com/og/og-join-us-eng.png",
-      url: "https://cabecadequeijo.com/join/",
+      image: seo.ogImage,
+      url: seo.ogUrl,
     },
     image: {
-      alt: "Cabeça de Queijo Join Us Page",
+      alt: seo.ogAlt,
     },
   }}
 >

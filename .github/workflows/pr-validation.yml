@@ -1,0 +1,60 @@
+name: PR Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Build site
+        run: |
+          npm run build
+          cp -r public/locales dist/locales
+
+      - name: Check build output
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "Build failed: dist directory not found"
+            exit 1
+          fi
+          echo "✅ Build successful"
+
+      - name: Validate dist size
+        run: |
+          DIST_SIZE=$(du -sh dist | cut -f1)
+          echo "📦 Build size: $DIST_SIZE"
+
+      - name: PR Comment
+        if: success()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const distSize = require('child_process').execSync('du -sh dist').toString().split('\t')[0];
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## ✅ PR Validation Passed\n\n- **Build**: Successful\n- **Size**: ${distSize}\n- **Lint**: Check logs for warnings\n\nReady for review!`
+            })

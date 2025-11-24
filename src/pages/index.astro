@@ -5,20 +5,25 @@ import SellingPoints from "@components/sellingPoints.astro";
 import Hero from "@components/hero.astro";
 import Layout from "@layouts/Layout.astro";
 import NextGames from "@components/nextGames.astro";
+import { getLangFromUrl } from '../i18n/utils';
+import { getSeoMetadata } from '../i18n/seo';
+
+const lang = getLangFromUrl(Astro.url);
+const seo = getSeoMetadata('index', lang);
 ---
 
 <Layout
-  seoTitle="Cabeça de Queijo | The Brazilian Green Bay Packers Fan Club"
-  seoDescription="Cabeça de Queijo is the Brazilian Green Bay Packers Fan Club. We are the largest Packers fan club in Brazil. We are dedicated to the Green Bay Packers, the NFL, and the Brazilian fanbase."
+  seoTitle={seo.title}
+  seoDescription={seo.description}
   seoOpenGraph={{
     basic: {
       title: "Cabeça de Queijo",
       type: "website",
-      image: "https://cabecadequeijo.com/open-graph.png",
-      url: "https://cabecadequeijo.com/",
+      image: seo.ogImage,
+      url: seo.ogUrl,
     },
     image: {
-      alt: "Cabeça de Queijo Homepage Screenshot",
+      alt: seo.ogAlt,
     },
   }}
 >

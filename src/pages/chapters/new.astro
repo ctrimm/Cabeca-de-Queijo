@@ -4,23 +4,25 @@ import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon";
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getSeoMetadata } from '../../i18n/seo';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const seo = getSeoMetadata('chaptersNew', lang);
 ---
 
 <Layout
-  seoTitle="Start a Chapter | Cabeça de Queijo"
-  seoDescription="Start a Green Bay Packers fan club chapter in your city. Connect with fellow fans, get exclusive updates, and show your support for the team."
+  seoTitle={seo.title}
+  seoDescription={seo.description}
   seoOpenGraph={{
     basic: {
-      title: "Start a Chapter",
+      title: seo.title,
       type: "website",
-      image: "https://cabecadequeijo.com/og/og-start-a-chapter-eng.png",
-      url: "https://cabecadequeijo.com/chapters/new/",
+      image: seo.ogImage,
+      url: seo.ogUrl,
     },
     image: {
-      alt: "Cabeça de Queijo Start a Chapter",
+      alt: seo.ogAlt,
     },
   }}
 >
