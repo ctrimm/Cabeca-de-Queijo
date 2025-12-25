@@ -342,36 +342,48 @@ const schedule = [
   {
     dateOfMatch: "2025-11-23T12:00:00.000-06:00",
     opponent: "Minnesota Vikings",
+    outcome: "W",
+    score: "23-6",
     network: "FOX"
   },
   {
     dateOfMatch: "2025-11-27T12:00:00.000-06:00",
     opponent: "at Detroit Lions",
+    outcome: "W",
+    score: "31-24",
     network: "FOX",
     eventName: "Thanksgiving"
   },
   {
     dateOfMatch: "2025-12-07T12:00:00.000-06:00",
     opponent: "Chicago Bears",
+    outcome: "W",
+    score: "28-21",
     network: "FOX"
   },
   {
     dateOfMatch: "2025-12-14T15:25:00.000-06:00",
     opponent: "at Denver Broncos",
+    outcome: "L",
+    score: "26-34",
     network: "CBS"
   },
   {
-    dateOfMatch: "2025-12-20T00:00:00.000-06:00",
+    dateOfMatch: "2025-12-20T19:20:00.000-06:00",
     opponent: "at Chicago Bears",
+    outcome: "L",
+    score: "16-22",
     network: "FOX"
   },
   {
-    dateOfMatch: "2026-01-04T00:00:00.000-06:00",
-    opponent: "Baltimore Ravens"
+    dateOfMatch: "2025-12-27T19:00:00.000-06:00",
+    opponent: "Baltimore Ravens",
+    network: "Peacock"
   },
   {
-    dateOfMatch: "2026-01-12T00:00:00.000-06:00",
-    opponent: "at Minnesota Vikings"
+    dateOfMatch: "2026-01-04T12:00:00.000-06:00",
+    opponent: "at Minnesota Vikings",
+    network: "TBD"
   },
   // Playoffs 2025
   {
