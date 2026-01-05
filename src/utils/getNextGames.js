@@ -378,14 +378,23 @@ const schedule = [
   {
     dateOfMatch: "2025-12-27T19:00:00.000-06:00",
     opponent: "Baltimore Ravens",
+    outcome: "L",
+    score: "24-41",
     network: "Peacock"
   },
   {
     dateOfMatch: "2026-01-04T12:00:00.000-06:00",
     opponent: "at Minnesota Vikings",
-    network: "TBD"
+    outcome: "L",
+    score: "3-16",
+    network: "FOX"
   },
   // Playoffs 2025
+  {
+    dateOfMatch: "2026-01-10T19:00:00.000-06:00",
+    eventName: "Wild Card: Packers vs Chicago Bears",
+    network: "Amazon / DAZN"
+  },
   {
     dateOfMatch: "2026-01-18T00:00:00.000-06:00",
     eventName: "Divisional Playoff Weekend"
