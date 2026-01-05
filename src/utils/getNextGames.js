@@ -393,7 +393,7 @@ const schedule = [
   {
     dateOfMatch: "2026-01-10T19:00:00.000-06:00",
     eventName: "Wild Card: Packers vs Chicago Bears",
-    network: "TBD"
+    network: "Amazon / DAZN"
   },
   {
     dateOfMatch: "2026-01-18T00:00:00.000-06:00",
