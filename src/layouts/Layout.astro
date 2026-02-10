@@ -65,7 +65,7 @@ const makeTitle = Astro.props.title
 ---
 
 <!DOCTYPE html>
-<html lang={currentLanguage} dir="ltr" data-theme="lemonade" style="scroll-behavior: smooth">
+<html lang={currentLanguage} dir="ltr" data-theme="packers" style="scroll-behavior: smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -100,6 +100,34 @@ const makeTitle = Astro.props.title
       /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
       img {
         content-visibility: auto;
+      }
+
+      /* Professional modern base styles */
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Refined selection color */
+      ::selection {
+        background-color: #FFB612;
+        color: #203731;
+      }
+
+      /* Smooth transitions on interactive elements */
+      a, button, .btn {
+        transition: all 0.2s ease;
+      }
+
+      /* Prose overrides for Packers branding */
+      .prose a {
+        color: #203731;
+        text-decoration-color: #FFB612;
+        text-underline-offset: 3px;
+      }
+      .prose a:hover {
+        color: #2d4a42;
+        text-decoration-color: #203731;
       }
     </style>
   </body>

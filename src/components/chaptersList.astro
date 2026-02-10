@@ -57,20 +57,20 @@ const chapterList: Chapter[] = [
 ];
 ---
 
-<div class="pt-4 md:pt-16 pb-2 md:pt-3 md:pb-6" id="chapters">
-  <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+<div class="pt-8 md:pt-16 pb-2 md:pb-6" id="chapters">
+  <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-base-content">
     {t("chapters.chapterListTitle")}
   </h1>
-  <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
+  <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-6">
     {
       chapterList.map((chapter, index) => {
         if (chapter.status === "Coming Soon" || chapter.status === "Em breve") {
           return (
-            <div class="relative border border-slate-200 rounded-lg p-4 hover:drop-shadow-sm min-h-56">
-              <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center rounded-lg backdrop-blur-sm">
+            <div class="relative border border-base-300 rounded-2xl p-4 min-h-56 overflow-hidden">
+              <div class="absolute inset-0 bg-packers-green-900 bg-opacity-80 flex flex-col items-center justify-center rounded-2xl backdrop-blur-sm">
                 <span class="font-extrabold text-white text-3xl pb-2">{chapter.city}</span>
-                <span class="font-extrabold text-white text-2xl pb-2">{t("chapters.chapterComingSoon")}</span>
-                <a href={lang === 'pt-BR' ? "/pt-BR/join/" : "/join/"} class="btn btn-accent text-md">
+                <span class="font-bold text-packers-gold-500 text-xl pb-3">{t("chapters.chapterComingSoon")}</span>
+                <a href={lang === 'pt-BR' ? "/pt-BR/join/" : "/join/"} class="btn btn-secondary btn-sm font-bold">
                   {t("chapters.getNotified")}
                 </a>
               </div>
@@ -78,21 +78,20 @@ const chapterList: Chapter[] = [
           )
         } else {
           return (
-            <div class="relative border border-slate-200 rounded-lg p-4 hover:drop-shadow-sm min-h-56">
-              <h3 class="text-3xl font-extrabold tracking-tight text-center ">
+            <div class="relative border border-packers-green-200 rounded-2xl p-4 hover:shadow-lg transition-shadow min-h-56 bg-white">
+              <h3 class="text-3xl font-extrabold tracking-tight text-center text-packers-green-900">
                 {chapter.city}
               </h3>
-              <hr>
-              <p class="text-lg font-semibold mt-2">
+              <div class="w-12 h-0.5 bg-packers-gold-500 mx-auto my-3 rounded-full"></div>
+              <p class="text-lg font-semibold mt-2 text-base-content/80">
                 👪 {chapter.members} {t("chapters.members")}
               </p>
-              <p class="text-lg font-semibold mt-2">
-                <a href={`${chapter.chapterMeetingAddressLink}`}>🗺️ {chapter.chapterMeetingPlace}</a>
+              <p class="text-lg font-semibold mt-2 text-base-content/80">
+                <a href={`${chapter.chapterMeetingAddressLink}`} class="hover:text-packers-green-700">🗺️ {chapter.chapterMeetingPlace}</a>
               </p>
               {
-                // If the Chapter is not "Coming Soon" or "Inactive", show the Join button
                 (chapter.status === "Active") && (
-                <a href={`${lang === 'pt-BR' ? "/pt-BR" : ""}/chapters/${chapter.slug}/`} class="btn btn-primary text-lg mt-2">
+                <a href={`${lang === 'pt-BR' ? "/pt-BR" : ""}/chapters/${chapter.slug}/`} class="btn btn-primary text-lg mt-3 w-full font-bold">
                   {t("chapters.learnMore")}
                 </a>
               )}

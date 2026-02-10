@@ -77,18 +77,18 @@ function extractTime(dateString: string): string {
 }
 ---
 
-<div class="mt-4 md:mt-0 py-4 pb-[4rem]" id="schedule">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+<div class="mt-8 md:mt-4 py-4 pb-[4rem]" id="schedule">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-base-content">
     {t("nextGames.title")}
   </h2>
-  <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
+  <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-6 text-base-content/70">
     {
       nextGames.map((game, index) => (
-        <div class="card w-50 bg-neutral text-neutral-content drop-shadow-lg">
+        <div class="card w-50 bg-primary text-primary-content shadow-lg hover:shadow-xl transition-shadow border-b-4 border-packers-gold-500">
           <div class="card-body">
-            <h2 class="card-title text-center">{convertToReadableDate(game.dateOfMatch)}</h2>
-            <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Brasilia Time</p>
-            <p class="pb-5"><strong>{game.opponent ? t("nextGames.opponent"): t("nextGames.event")}:</strong>{game.opponent ? ` ${game.opponent}`: ` ${game.eventName}`}</p>
+            <h2 class="card-title text-center text-packers-gold-500">{convertToReadableDate(game.dateOfMatch)}</h2>
+            <p class="pt-5 pb-0 text-packers-green-200"><strong class="text-white">{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Brasilia Time</p>
+            <p class="pb-5 text-packers-green-200"><strong class="text-white">{game.opponent ? t("nextGames.opponent"): t("nextGames.event")}:</strong>{game.opponent ? ` ${game.opponent}`: ` ${game.eventName}`}</p>
           </div>
         </div>
       ))

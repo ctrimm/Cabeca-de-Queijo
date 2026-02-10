@@ -40,21 +40,21 @@ const { Content } = await entry.render();
     }}
   >
     <Container>
-      <div class="grid grid-cols-1 md:grid-cols-2 mt-6 min-h-[36rem]">
+      <div class="grid grid-cols-1 md:grid-cols-2 mt-6 min-h-[36rem] gap-0">
         <!-- LEFT SECTION -->
-        <div class="min-h-full mt-4 p-20 relative" style={`background-image: url(${lambeauOutside.src}); background-repeat: no-repeat`}>
-          <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+        <div class="min-h-full mt-4 p-20 relative rounded-l-2xl overflow-hidden" style={`background-image: url(${lambeauOutside.src}); background-repeat: no-repeat; background-size: cover`}>
+          <div class="absolute inset-0 bg-packers-green-900 opacity-70"></div>
           <div class="relative">
-            <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+            <span class="text-packers-gold-500 uppercase tracking-wider text-sm font-semibold">
               {entry.data.category}
             </span>
             <h1 class="text-white text-4xl lg:text-6xl font-bold lg:tracking-tight mt-1 lg:leading-tight">
               {entry.data.city}
             </h1>
-            <h2 class="text-blue-400 uppercase tracking-wider text-sm font-medium pt-2">
+            <h2 class="text-packers-gold-400 uppercase tracking-wider text-sm font-medium pt-3">
               {entry.data.otherPlacesToWatch.length + 1}&nbsp;{t("chapterSlug.placesToWatch")}
             </h2>
-            <h2 class="text-blue-400 uppercase tracking-wider text-sm font-medium pt-2">
+            <h2 class="text-packers-gold-400 uppercase tracking-wider text-sm font-medium pt-2">
               {entry.data.totalMembers}&nbsp;{t("chapterSlug.members")}
             </h2>
           </div>
@@ -62,51 +62,50 @@ const { Content } = await entry.render();
 
         <!-- RIGHT SECTION -->
         <div class="p-6">
-          <!-- <JoinAChapter>{entry.data.city}?</JoinAChapter> -->
-          <div class="alert mt-12 mb-12">
-            <span class="text-sm font-bold lg:tracking-tight mw-12">{t("chapterSlug.interested")} {entry.data.city}?</span>
-            <div class="">
-              <button class="btn btn-secondary">
-                <Icon class="text-black w-5 h-5" name="mdi:whatsapp" />
+          <div class="bg-packers-green-50 border border-packers-green-200 rounded-xl p-4 mt-8 mb-8 flex items-center justify-between flex-wrap gap-4">
+            <span class="text-sm font-bold lg:tracking-tight text-packers-green-900">{t("chapterSlug.interested")} {entry.data.city}?</span>
+            <div>
+              <button class="btn btn-secondary font-bold">
+                <Icon class="text-packers-green-900 w-5 h-5" name="mdi:whatsapp" />
                 {t("chapterSlug.joinWhatsApp")}
               </button>
             </div>
           </div>
-          {entry.data.ptBRsnippet} <!-- Individual Chapter Snippet Needs to Be Like This -->
+          <p class="text-base-content/70 leading-relaxed">{entry.data.ptBRsnippet}</p>
 
           <!-- FIND US SECTION -->
-          <div class="mt-6 mb-6">
-            <h2 class="text-2xl font-bold">{t("chapterSlug.whereToCheer")}</h2>
-            <div class="mt-3 bg-base-200 rounded-lg p-4">
+          <div class="mt-8 mb-6">
+            <h2 class="text-2xl font-bold text-base-content">{t("chapterSlug.whereToCheer")}</h2>
+            <div class="mt-3 bg-packers-green-50 rounded-xl p-4 border-2 border-packers-green-200 transition-all hover:border-packers-gold-500 hover:shadow-md">
               <a href={entry.data.findUs.googleMapsLink} target="_blank">
-                <p class="text-lg font-extrabold">{entry.data.findUs.locationName}</p>
+                <p class="text-lg font-extrabold text-packers-green-900">{entry.data.findUs.locationName}</p>
               </a>
-              <p class="m-1">{entry.data.findUs.locationAddress}</p>
-              <div class="mt-2 items-center text-center">
-                <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" class="btn btn-success">
-                  <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+              <p class="m-1 text-base-content/70">{entry.data.findUs.locationAddress}</p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" class="btn btn-primary btn-sm">
+                  <Icon class="text-white w-4 h-4" name="mdi:account-group-outline" />
                   Google Maps
                 </a>
-                <a href={entry.data.findUs.appleMapsLink} role="button" target="_blank" class="btn btn-success mt-1">
-                  <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                <a href={entry.data.findUs.appleMapsLink} role="button" target="_blank" class="btn btn-primary btn-sm">
+                  <Icon class="text-white w-4 h-4" name="mdi:account-group-outline" />
                   Apple Maps
                 </a>
               </div>
             </div>
             {
               entry.data.otherPlacesToWatch.map((otherPlace) => (
-              <div class="mt-3 bg-base-200 rounded-lg p-4">
+              <div class="mt-3 bg-base-200 rounded-xl p-4 hover:shadow-md transition-shadow">
                 <a href={entry.data.findUs.googleMapsLink} target="_blank">
-                  <p class="text-lg font-extrabold">{otherPlace.locationName}</p>
+                  <p class="text-lg font-extrabold text-base-content">{otherPlace.locationName}</p>
                 </a>
-                <p class="m-1">{otherPlace.locationAddress}</p>
-                <div class="mt-2 items-center text-center">
-                  <a href={otherPlace.googleMapsLink} role="button" target="_blank" class="btn btn-success">
-                    <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                <p class="m-1 text-base-content/70">{otherPlace.locationAddress}</p>
+                <div class="mt-3 flex flex-wrap gap-2">
+                  <a href={otherPlace.googleMapsLink} role="button" target="_blank" class="btn btn-primary btn-sm">
+                    <Icon class="text-white w-4 h-4" name="mdi:account-group-outline" />
                     Google Maps
                   </a>
-                  <a href={otherPlace.appleMapsLink} role="button" target="_blank" class="btn btn-success mt-1">
-                    <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:account-group-outline" />
+                  <a href={otherPlace.appleMapsLink} role="button" target="_blank" class="btn btn-primary btn-sm">
+                    <Icon class="text-white w-4 h-4" name="mdi:account-group-outline" />
                     Apple Maps
                   </a>
                 </div>
@@ -119,7 +118,7 @@ const { Content } = await entry.render();
       <div class="text-center mt-8">
         <a
           href={t("chapterSlug.backToChaptersLink")}
-          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
+          class="bg-packers-green-50 text-packers-green-900 px-5 py-3 rounded-lg hover:bg-packers-green-100 transition font-medium"
           >← {t("chapterSlug.backToChapters")}</a
         >
       </div>
@@ -147,11 +146,11 @@ const { Content } = await entry.render();
   >
     <Container>
       <div class="mx-auto max-w-3xl mt-14">
-        <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+        <span class="text-packers-gold-600 uppercase tracking-wider text-sm font-semibold">
           {entry.data.category}
         </span>
         <h1
-          class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight">
+          class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight text-base-content">
           {entry.data.city}
         </h1>
       </div>
@@ -163,7 +162,7 @@ const { Content } = await entry.render();
       <div class="text-center mt-8">
         <a
           href="/pt-BR/chapters/"
-          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
+          class="bg-packers-green-50 text-packers-green-900 px-5 py-3 rounded-lg hover:bg-packers-green-100 transition font-medium"
           >← {t("chapterSlug.backToChapters")}</a
         >
       </div>
