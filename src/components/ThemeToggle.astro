@@ -1,0 +1,76 @@
+---
+---
+
+<button
+  data-theme-toggle
+  class="flex items-center gap-0.5 p-0.5 rounded-full border border-packers-green-700 bg-packers-green-800/50 transition-colors"
+  aria-label="Toggle between home and away theme"
+  title="Switch theme"
+>
+  <!-- Home jersey (filled) -->
+  <span data-jersey="home" class="p-1.5 rounded-full transition-all duration-200">
+    <svg class="w-4 h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M2,8.5 L6.5,3 L9.5,3 L12,6 L14.5,3 L17.5,3 L22,8.5 L19.5,11 L17.5,9 L17.5,21 L6.5,21 L6.5,9 L4.5,11 Z"
+        fill="currentColor"
+      />
+    </svg>
+  </span>
+  <!-- Away jersey (outlined) -->
+  <span data-jersey="away" class="p-1.5 rounded-full transition-all duration-200">
+    <svg class="w-4 h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M2,8.5 L6.5,3 L9.5,3 L12,6 L14.5,3 L17.5,3 L22,8.5 L19.5,11 L17.5,9 L17.5,21 L6.5,21 L6.5,9 L4.5,11 Z"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </span>
+</button>
+
+<script>
+  function setupThemeToggles() {
+    const toggles = document.querySelectorAll('[data-theme-toggle]');
+
+    const activeClass = 'bg-packers-gold-500 text-packers-green-900';
+    const inactiveClass = 'text-packers-green-400';
+
+    function setClasses(el: HTMLElement, classes: string) {
+      el.className = 'p-1.5 rounded-full transition-all duration-200 ' + classes;
+    }
+
+    function updateAllToggles(theme: string) {
+      const isHome = theme === 'packers';
+      toggles.forEach((toggle) => {
+        const home = toggle.querySelector('[data-jersey="home"]') as HTMLElement;
+        const away = toggle.querySelector('[data-jersey="away"]') as HTMLElement;
+        if (home && away) {
+          setClasses(home, isHome ? activeClass : inactiveClass);
+          setClasses(away, isHome ? inactiveClass : activeClass);
+        }
+      });
+    }
+
+    // Set initial visuals
+    updateAllToggles(document.documentElement.getAttribute('data-theme') || 'packers');
+
+    // Attach click handler to each toggle instance
+    toggles.forEach((toggle) => {
+      if ((toggle as HTMLElement).dataset.initialized) return;
+      (toggle as HTMLElement).dataset.initialized = 'true';
+
+      toggle.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        const next = current === 'packers' ? 'packers-away' : 'packers';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateAllToggles(next);
+      });
+    });
+  }
+
+  setupThemeToggles();
+  document.addEventListener('astro:page-load', setupThemeToggles);
+</script>

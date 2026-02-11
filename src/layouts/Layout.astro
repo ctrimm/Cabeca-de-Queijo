@@ -75,8 +75,15 @@ const makeTitle = Astro.props.title
     <link rel="alternate" href={canonicalURL} hreflang={currentLanguage} />
     <link rel="alternate" href={alternateURL} hreflang={alternateLanguage} />
 
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
-    <!-- src/layouts/Layout.astro -->
+    <!-- Prevent FOUC: apply saved theme before first paint -->
+    <script is:inline>
+      (function() {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'packers' || saved === 'packers-away') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      })();
+    </script>
     <SEO
       title={Astro.props.seoTitle || makeTitle}
       description={Astro.props.seoDescription}
@@ -128,6 +135,110 @@ const makeTitle = Astro.props.title
       .prose a:hover {
         color: #2d4a42;
         text-decoration-color: #203731;
+      }
+
+      /* ===== Away (dark) theme overrides for hardcoded colors ===== */
+
+      /* Light green backgrounds → dark green */
+      [data-theme="packers-away"] .bg-packers-green-50 {
+        background-color: #1a3830;
+      }
+      [data-theme="packers-away"] .hover\:bg-packers-green-50:hover {
+        background-color: #1a3830;
+      }
+      [data-theme="packers-away"] .bg-packers-green-50.font-semibold,
+      [data-theme="packers-away"] .hover\:bg-packers-green-100:hover {
+        background-color: #1f4038;
+      }
+
+      /* Light green borders → muted green */
+      [data-theme="packers-away"] .border-packers-green-200 {
+        border-color: #2d4a42;
+      }
+
+      /* Hardcoded bg-white → use theme base */
+      [data-theme="packers-away"] .bg-white {
+        background-color: #162420;
+      }
+
+      /* Dark green text → lighter on dark content backgrounds */
+      [data-theme="packers-away"] .text-packers-green-900 {
+        color: #c5dbd6;
+      }
+      /* Preserve dark text on gold backgrounds (banner, icon hovers) */
+      [data-theme="packers-away"] .bg-packers-gold-500.text-packers-green-900,
+      [data-theme="packers-away"] .bg-packers-gold-500 .text-packers-green-900 {
+        color: #203731;
+      }
+
+      /* Hero gradient text → brighter greens for visibility */
+      [data-theme="packers-away"] .from-packers-green-900 {
+        --tw-gradient-from: #78ada1 var(--tw-gradient-from-position);
+      }
+      [data-theme="packers-away"] .to-packers-green-600 {
+        --tw-gradient-to: #5b9b8d var(--tw-gradient-to-position);
+      }
+
+      /* Blog hover states → lighter green */
+      [data-theme="packers-away"] .group-hover\:text-packers-green-700:hover {
+        color: #9fc4bc;
+      }
+      [data-theme="packers-away"] .group:hover .group-hover\:text-packers-green-700 {
+        color: #9fc4bc;
+      }
+
+      /* Prose text and links in dark mode */
+      [data-theme="packers-away"] .prose {
+        color: #e0ebe0;
+      }
+      [data-theme="packers-away"] .prose a {
+        color: #FFB612;
+        text-decoration-color: #3e8979;
+      }
+      [data-theme="packers-away"] .prose a:hover {
+        color: #ffd54f;
+        text-decoration-color: #FFB612;
+      }
+
+      /* Blog tag / mid-green text → lighter for readability */
+      [data-theme="packers-away"] .text-packers-green-600 {
+        color: #78ada1;
+      }
+      [data-theme="packers-away"] .hover\:text-packers-green-700:hover {
+        color: #9fc4bc;
+      }
+
+      /* Form inputs → dark backgrounds with light text */
+      [data-theme="packers-away"] input:not([type="hidden"]):not([type="checkbox"]),
+      [data-theme="packers-away"] textarea {
+        background-color: #1a2e28;
+        color: #e0ebe0;
+      }
+
+      /* Form focus rings → darker for dark theme */
+      [data-theme="packers-away"] .ring-packers-green-100 {
+        --tw-ring-color: rgba(30, 70, 55, 0.5);
+      }
+      [data-theme="packers-away"] .focus\:border-packers-green-900:focus {
+        border-color: #3e8979;
+      }
+
+      /* Language picker dropdown bg */
+      [data-theme="packers-away"] .dropdown-content.bg-white {
+        background-color: #1a2e28;
+      }
+
+      /* Selling points / member benefits icon bg in dark mode — keep visible */
+      [data-theme="packers-away"] .bg-packers-green-900 {
+        background-color: #2d4a42;
+      }
+      [data-theme="packers-away"] .group:hover .group-hover\:text-packers-green-900 {
+        color: #203731;
+      }
+
+      /* Smooth theme transitions */
+      html {
+        transition: background-color 0.3s ease, color 0.3s ease;
       }
     </style>
   </body>
