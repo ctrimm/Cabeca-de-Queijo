@@ -409,21 +409,26 @@ const schedule = [
   }
 ];
 
+// Bolt: Pre-process schedule to avoid repeated Date creation and sorting
+const processedSchedule = schedule.map(game => ({
+  ...game,
+  _date: new Date(game.dateOfMatch)
+})).sort((a, b) => a._date.getTime() - b._date.getTime());
+
 export async function getNextGames() {
   const today = new Date();
 
-  const nextGames = schedule
-    .filter((game) => {
-      const gameDate = new Date(game.dateOfMatch);
+  // Bolt: Use findIndex on pre-sorted array for O(N) lookup instead of O(N log N) filter + sort
+  const startIndex = processedSchedule.findIndex(game => {
+    const gameDate = game._date;
+    return (
+      gameDate.getFullYear() > today.getFullYear() ||
+      (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() > today.getMonth()) ||
+      (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() === today.getMonth() && gameDate.getDate() >= today.getDate())
+    );
+  });
 
-      return (
-        gameDate.getFullYear() > today.getFullYear() ||
-        (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() > today.getMonth()) ||
-        (gameDate.getFullYear() === today.getFullYear() && gameDate.getMonth() === today.getMonth() && gameDate.getDate() >= today.getDate())
-      );
-    })
-    .sort((a, b) => new Date(a.dateOfMatch).getTime() - new Date(b.dateOfMatch).getTime())
-    .slice(0, 4);
+  const nextGames = startIndex === -1 ? [] : processedSchedule.slice(startIndex, startIndex + 4);
 
   return {
     nextGames,
@@ -432,5 +437,5 @@ export async function getNextGames() {
 }
 
 export function getSingleNextGame() {
-  return getNextGames().nextGame;
+  return getNextGames().then(res => res.nextGame);
 }

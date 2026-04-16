@@ -6,6 +6,23 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const { nextGames } = await getNextGames();
 
+// Bolt: Cache Intl.DateTimeFormat objects to avoid repeated initialization and locale lookups
+const locale = lang === 'pt-BR' ? 'pt-BR' : 'en-US';
+const dateFormatter = new Intl.DateTimeFormat(locale, {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'America/Sao_Paulo'
+});
+
+const timeFormatter = new Intl.DateTimeFormat(locale, {
+  hour: 'numeric',
+  minute: '2-digit',
+  hour12: true,
+  timeZone: 'America/Sao_Paulo'
+});
+
 // The function below wasn't working properly, quickly just removed it in favor of displaying dates.
 // The original HTML was below - 
 // <h2 class="card-title text-center">{index === 0 ? calculateTimeUntilMatch(game.dateOfMatch) : convertToReadableDate(game.dateOfMatch)}</h2>
@@ -35,15 +52,9 @@ function calculateTimeUntilMatch(dateOfMatch: string): string {
 function convertToReadableDate(dateString: string): string {
   try {
     const date = new Date(dateString);
-    const options: Intl.DateTimeFormatOptions = { 
-      weekday: 'long', 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric', 
-      timeZone: 'America/Sao_Paulo' 
-    };
-    return date.toLocaleDateString(lang === 'pt-BR' ? 'pt-BR' : 'en-US', options);
+    return dateFormatter.format(date);
   } catch (error) {
+    // Fallback for unexpected date formats
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', {
       weekday: 'long',
@@ -58,14 +69,9 @@ function convertToReadableDate(dateString: string): string {
 function extractTime(dateString: string): string {
   try {
     const date = new Date(dateString);
-    const options: Intl.DateTimeFormatOptions = {
-      hour: 'numeric',
-      minute: '2-digit',
-      hour12: true,
-      timeZone: 'America/Sao_Paulo'
-    };
-    return date.toLocaleTimeString(lang === 'pt-BR' ? 'pt-BR' : 'en-US', options);
+    return timeFormatter.format(date);
   } catch (error) {
+    // Fallback for unexpected date formats
     const date = new Date(dateString);
     return date.toLocaleTimeString('en-US', {
       hour: 'numeric',
