@@ -1,0 +1,3 @@
+## 2025-05-14 - Redundant sorting and Date creation in schedule processing
+**Learning:** Found a performance bottleneck in the `getNextGames` utility where a 60-item array was being filtered, re-sorted (despite being already sorted), and multiple `Date` objects were being created for every comparison in every call. Additionally, `toLocaleDateString` and `toLocaleTimeString` were used without cached `Intl.DateTimeFormat` objects in the component loop.
+**Action:** Pre-process the schedule once at module load, use `findIndex` and `slice` for O(N) or O(1) access instead of O(N log N) sorting, and reuse `Intl.DateTimeFormat` instances.
