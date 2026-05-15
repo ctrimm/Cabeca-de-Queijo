@@ -1,8 +1,14 @@
 ---
+import { getCollection } from "astro:content";
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+const chapterEntries = await getCollection("chapters");
+const memberCountMap = Object.fromEntries(
+  chapterEntries.map(e => [e.slug, e.data.totalMembers as string])
+);
 
 interface Chapter {
   city: string;
@@ -17,7 +23,7 @@ const chapterList: Chapter[] = [
   {
     slug: "sao-paulo",
     city: "São Paulo",
-    members: "12",
+    members: memberCountMap["sao-paulo"] || "12",
     chapterMeetingPlace: "Watch Parties",
     chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/sao-paulo/" : "/chapters/sao-paulo/",
     status: "Active"
@@ -25,7 +31,7 @@ const chapterList: Chapter[] = [
   {
     slug: "santos",
     city: "Santos",
-    members: "22",
+    members: memberCountMap["santos"] || "22",
     chapterMeetingPlace: "Lambeau Field Northeast",
     chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/santos/" : "/chapters/santos/",
     status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
@@ -33,7 +39,7 @@ const chapterList: Chapter[] = [
   {
     slug: "salvador",
     city: "Salvador",
-    members: "22",
+    members: memberCountMap["salvador"] || "22",
     chapterMeetingPlace: lang === 'pt-BR' ? "Campo Lambeau Nordeste" : "Lambeau Field Northeast",
     chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/salvador/" : "/chapters/salvador/",
     status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
@@ -41,7 +47,7 @@ const chapterList: Chapter[] = [
   {
     slug: "amazonia",
     city: "Amazônia",
-    members: "~10",
+    members: memberCountMap["amazonia"] || "~10",
     chapterMeetingPlace: lang === 'pt-BR' ? "Campo Lambeau Amazônia" : "Lambeau Field Amazonia",
     chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/amazonia/" : "/chapters/amazonia/",
     status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"
@@ -49,7 +55,7 @@ const chapterList: Chapter[] = [
   {
     slug: "brasilia",
     city: "Brasília",
-    members: "~10",
+    members: memberCountMap["brasilia"] || "~10",
     chapterMeetingPlace: lang === 'pt-BR' ? "Campo Lambeau Amazônia" : "Lambeau Field Amazonia",
     chapterMeetingAddressLink: lang === 'pt-BR' ? "/pt-BR/chapters/brasilia/" : "/chapters/brasilia/",
     status: lang === 'pt-BR' ? "Em breve" : "Coming Soon"

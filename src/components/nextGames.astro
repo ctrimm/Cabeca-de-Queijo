@@ -87,10 +87,12 @@ function extractTime(dateString: string): string {
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     {t("nextGames.title")}
   </h2>
-  <div class="grid md:grid-cols-4 gap-4 max-h-100 text-lg mt-4 text-slate-600">
-    {
+  <div class="grid md:grid-cols-4 gap-4 text-lg mt-4 text-slate-600">
+    {nextGames.length === 0 ? (
+      <p class="col-span-4 text-slate-500 mt-2">{t("nextGames.noUpcoming")}</p>
+    ) : (
       nextGames.map((game, index) => (
-        <div class="card w-50 bg-neutral text-neutral-content drop-shadow-lg">
+        <div class="card w-50 bg-neutral text-neutral-content shadow-md">
           <div class="card-body">
             <h2 class="card-title text-center">{convertToReadableDate(game.dateOfMatch)}</h2>
             <p class="pt-5 pb-0"><strong>{t("nextGames.time")}:</strong>{` ${extractTime(game.dateOfMatch)}`} Brasilia Time</p>
@@ -98,6 +100,6 @@ function extractTime(dateString: string): string {
           </div>
         </div>
       ))
-    }
+    )}
   </div>
 </div>

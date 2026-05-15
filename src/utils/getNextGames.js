@@ -586,3 +586,5 @@ export async function getNextGames() {
 export function getSingleNextGame() {
   return getNextGames().then(res => res.nextGame);
 }
+
+export { schedule };

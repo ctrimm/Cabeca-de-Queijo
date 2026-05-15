@@ -8,7 +8,7 @@ const t = useTranslations(lang);
 <div id="banner-bar" class="bg-green-500 text-white py-2 px-4 text-center">
   <div class="flex justify-between items-center">
     <p class="text-sm flex-grow text-center">
-      {t('banner.text')} <a href="https://chat.whatsapp.com/IY3vw63xn8S6tVjsHsYuVp" target="_blank" class="underline font-bold">{t('banner.cta')} 🧀🇧🇷</a>
+      {t('banner.text')} <a href="https://chat.whatsapp.com/IY3vw63xn8S6tVjsHsYuVp" target="_blank" rel="noopener noreferrer" class="underline font-bold">{t('banner.cta')} 🧀🇧🇷</a>
     </p>
     <button id="close-banner" class="text-white hover:text-gray-300">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -23,8 +23,12 @@ const t = useTranslations(lang);
   const closeBanner = document.getElementById('close-banner');
 
   if (bannerBar && closeBanner) {
+    if (localStorage.getItem('banner-closed') === 'true') {
+      bannerBar.style.display = 'none';
+    }
     closeBanner.addEventListener('click', () => {
       bannerBar.style.display = 'none';
+      localStorage.setItem('banner-closed', 'true');
     });
   }
 </script>

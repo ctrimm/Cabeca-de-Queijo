@@ -1,0 +1,32 @@
+---
+import { Icon } from "astro-icon";
+
+interface Item {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+interface Props {
+  items: readonly Item[];
+  class?: string;
+}
+
+const { items, class: className = "mt-8 gap-12" } = Astro.props;
+---
+
+<div class={`grid sm:grid-cols-2 md:grid-cols-3 ${className}`}>
+  {
+    items.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0" aria-hidden="true">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>
+          <p class="text-slate-600 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

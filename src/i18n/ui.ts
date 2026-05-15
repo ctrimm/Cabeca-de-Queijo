@@ -39,6 +39,7 @@ export const ui = {
     'nextGames.today': 'TODAY 🎉',
     'nextGames.inProgress': 'IN PROGRESS',
     'nextGames.endedToday': 'TODAY = FINAL',
+    'nextGames.noUpcoming': 'No upcoming games scheduled. Check back soon!',
 
     // Selling Points
     'sellingPoints.title': 'Why Should You Root For the Green Bay Packers?',
@@ -199,6 +200,7 @@ export const ui = {
     'nextGames.today': 'HOJE 🎉',
     'nextGames.inProgress': 'EM ANDAMENTO',
     'nextGames.endedToday': 'HOJE = FINALIZADO',
+    'nextGames.noUpcoming': 'Nenhum jogo agendado. Volte em breve!',
 
     // Selling Points
     'sellingPoints.title': 'Por que você deveria torcer pelo Green Bay Packers?',
