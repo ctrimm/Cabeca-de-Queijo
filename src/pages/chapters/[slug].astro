@@ -21,9 +21,9 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 
-const heroImageMap: Record<string, ImageMetadata> = {
+const heroImageMap = {
   'aerial-view-sao-paulo': aerialSaoPaulo,
-};
+} as const;
 const heroImage = entry.data.heroImage ? (heroImageMap[entry.data.heroImage] || lambeauOutside) : lambeauOutside;
 ---
 
