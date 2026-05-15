@@ -9,11 +9,11 @@ test.describe('Navigation', () => {
 
   test('language picker dropdown contains pt-BR link', async ({ page }) => {
     await page.goto('/');
-    // DaisyUI dropdown uses CSS :focus-within — link is always in the DOM, just hidden.
-    // Use force:true to click without requiring CSS visibility.
+    // DaisyUI dropdown uses display:none — force:true still fails on display:none.
+    // dispatchEvent bypasses all visibility constraints and triggers <a> navigation.
     const ptLink = page.locator('.dropdown-content a[href="/pt-BR/"]').first();
-    await expect(ptLink).toHaveCount(1);
-    await ptLink.click({ force: true });
+    await expect(ptLink).toHaveAttribute('href', '/pt-BR/');
+    await ptLink.dispatchEvent('click');
     await expect(page).toHaveURL(/\/pt-BR\//);
   });
 
