@@ -39,26 +39,25 @@ const sellingPoints = [
 ];
 ---
 
-<div class="mt-4 md:mt-0" id="selling-points">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+<div class="mt-8 md:mt-4" id="selling-points">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-base-content">
     {t("sellingPoints.title")}
-    
   </h2>
-  <p class="text-lg mt-4 text-slate-600">
+  <p class="text-lg mt-4 text-base-content/60">
     {t("sellingPoints.subtext")}
   </p>
 </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-8 gap-12">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-10 gap-12">
   {
     sellingPoints.map((item) => (
-      <div class="flex gap-4 items-start">
-        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
-          <Icon class="text-white" name={item.icon} />
+      <div class="flex gap-4 items-start group">
+        <div class="mt-1 bg-packers-green-900 rounded-full p-2 w-8 h-8 shrink-0 group-hover:bg-packers-gold-500 transition-colors">
+          <Icon class="text-white group-hover:text-packers-green-900" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          <h3 class="font-semibold text-lg text-base-content">{item.title}</h3>
+          <p class="text-base-content/60 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>
     ))

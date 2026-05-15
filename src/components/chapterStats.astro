@@ -5,16 +5,16 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<div class="stats stats-vertical lg:stats-horizontal shadow m-12">
+<div class="stats stats-vertical lg:stats-horizontal shadow-lg m-12 border border-packers-green-100">
   <div class="stat place-items-center">
-    <div class="stat-title">{t("chapterStats.brazilianCheeseheads")}</div>
-    <div class="stat-value">~31K</div>
+    <div class="stat-title text-base-content/60">{t("chapterStats.brazilianCheeseheads")}</div>
+    <div class="stat-value text-packers-green-900">~31K</div>
     <slot />
   </div>
-  
+
   <div class="stat place-items-center">
-    <div class="stat-title">{t("chapterStats.chapters")}</div>
-    <div class="stat-value">1</div>
+    <div class="stat-title text-base-content/60">{t("chapterStats.chapters")}</div>
+    <div class="stat-value text-packers-gold-600">1</div>
   </div>
 
 </div>

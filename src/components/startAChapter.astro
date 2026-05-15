@@ -5,9 +5,9 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<div class="alert mt-12 mb-12">
-  <span>{t("startAChapter.text")}</span>
+<div class="bg-packers-green-50 border border-packers-green-200 rounded-xl p-4 mt-12 mb-12 flex items-center justify-between flex-wrap gap-4">
+  <span class="text-base-content font-medium">{t("startAChapter.text")}</span>
   <div>
-    <a href={t("startAChapter.buttonLink")} role="button" class="btn btn-primary">{t("startAChapter.buttonText")}</a>
+    <a href={t("startAChapter.buttonLink")} role="button" class="btn btn-primary font-bold">{t("startAChapter.buttonText")}</a>
   </div>
 </div>

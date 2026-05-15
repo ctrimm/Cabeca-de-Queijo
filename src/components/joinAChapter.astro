@@ -6,11 +6,11 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<div class="alert mt-12 mb-12">
-  <span class="text-sm font-bold lg:tracking-tight mw-12">{t("joinAChapter.text")}<slot /></span>
+<div class="bg-packers-green-50 border border-packers-green-200 rounded-xl p-4 mt-12 mb-12 flex items-center justify-between flex-wrap gap-4">
+  <span class="text-sm font-bold lg:tracking-tight text-packers-green-900">{t("joinAChapter.text")}<slot /></span>
   <div class="join">
-    <a href={t("joinAChapter.buttonLink")} role="button" class="btn btn-secondary">
-      <Icon class="text-black w-5 h-5" name="mdi:account-group-outline" />
+    <a href={t("joinAChapter.buttonLink")} role="button" class="btn btn-secondary font-bold">
+      <Icon class="text-packers-green-900 w-5 h-5" name="mdi:account-group-outline" />
       {t("joinAChapter.buttonText")}
       <slot />
     </a>

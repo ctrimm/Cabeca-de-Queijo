@@ -70,7 +70,7 @@ processedEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDat
         {
           processedEntries.map((blogPostEntry, index) => (
             <li>
-              <a href={`/${lang}/blog/${blogPostEntry.slug.replace('pt-br/', '')}/`}>
+              <a href={`/${lang}/blog/${blogPostEntry.slug.replace('pt-br/', '')}/`} class="group">
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                   <Image
                     src={blogPostEntry.data.image.src}
@@ -79,24 +79,24 @@ processedEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDat
                     widths={[200, 400, 800]}
                     loading={index <= 2 ? "eager" : "lazy"}
                     decoding={index <= 2 ? "sync" : "async"}
-                    class="w-full rounded-md"
+                    class="w-full rounded-xl shadow-md group-hover:shadow-lg transition-shadow"
                   />
                   <div>
-                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                    <span class="text-packers-gold-600 uppercase tracking-wider text-sm font-semibold">
                       {blogPostEntry.data.category}
                     </span>
 
-                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1">
+                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 text-base-content group-hover:text-packers-green-700 transition-colors">
                       {blogPostEntry.data.title}
                     </h2>
 
                     <div class="flex gap-2 mt-3">
-                      <span class="text-gray-400">
+                      <span class="text-base-content/50">
                         {blogPostEntry.data.author}
                       </span>
-                      <span class="text-gray-400">• </span>
+                      <span class="text-base-content/50">• </span>
                       <time
-                        class="text-gray-400"
+                        class="text-base-content/50"
                         datetime={blogPostEntry.data.publishDate.toISOString()}>
                         {blogPostEntry.data.publishDate.toLocaleDateString(lang, {
                           year: 'numeric',

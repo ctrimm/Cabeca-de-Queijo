@@ -5,26 +5,38 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<footer class="my-20">
-  <p class="text-center text-sm text-slate-500">
-    {t("footer.copyright")} © {new Date().getFullYear()} Cabeça de Queijo. {t("footer.rights")}.
-  </p>
-  <!--
-    Can we ask you a favor 🙏
-    Please keep this backlink on your website if possible.
-    or Purchase a commercial license from https://web3templates.com
-  -->
-  <p class="text-center text-xs text-slate-500 mt-1">
-    {lang === 'en' ? (
-      <>Made with <a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline">Web3Template</a> by <a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline">@cdt5058</a></>
-    ) : (
-      <>Feito com <a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline">Web3Template</a> por <a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline">@cdt5058</a></>
-    )}
-  </p>
-  <p class="text-center text-xs text-slate-400 mt-1">
-    <a href={t("footer.helpLink")}>{t("footer.help")}</a>
-  </p>
-  <p class="text-center text-xs text-slate-400 mt-1">
-    <a href={t("footer.playToday.linkHref")}>{t("footer.playToday.linkText")}</a>
-  </p>
+<footer class="bg-primary mt-20 py-12">
+  <div class="max-w-screen-xl mx-auto px-5">
+    <div class="flex flex-col items-center gap-4">
+      <div class="text-center">
+        <span class="font-bold text-white text-lg">Cabeça</span>
+        <span class="text-packers-green-300"> de </span>
+        <span class="font-bold text-packers-gold-500 text-lg">Queijo</span>
+      </div>
+      <div class="w-16 h-0.5 bg-packers-gold-500 rounded-full"></div>
+      <p class="text-center text-sm text-packers-green-200">
+        {t("footer.copyright")} © {new Date().getFullYear()} Cabeça de Queijo. {t("footer.rights")}.
+      </p>
+      <!--
+        Can we ask you a favor
+        Please keep this backlink on your website if possible.
+        or Purchase a commercial license from https://web3templates.com
+      -->
+      <p class="text-center text-xs text-packers-green-300">
+        {lang === 'en' ? (
+          <>Made with <a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline text-packers-gold-400 hover:text-packers-gold-300">Web3Template</a> by <a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline text-packers-gold-400 hover:text-packers-gold-300">@cdt5058</a></>
+        ) : (
+          <>Feito com <a href="https://web3templates.com" target="_blank" rel="noopener" class="hover:underline text-packers-gold-400 hover:text-packers-gold-300">Web3Template</a> por <a href="https://twitter.com/cdt5058" target="_blank" rel="noopener" class="hover:underline text-packers-gold-400 hover:text-packers-gold-300">@cdt5058</a></>
+        )}
+      </p>
+      <div class="flex gap-4">
+        <p class="text-center text-xs text-packers-green-400">
+          <a href={t("footer.helpLink")} class="hover:text-packers-gold-400">{t("footer.help")}</a>
+        </p>
+        <p class="text-center text-xs text-packers-green-400">
+          <a href={t("footer.playToday.linkHref")} class="hover:text-packers-gold-400">{t("footer.playToday.linkText")}</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </footer>
