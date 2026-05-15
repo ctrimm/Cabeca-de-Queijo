@@ -9,12 +9,11 @@ test.describe('Navigation', () => {
 
   test('language picker dropdown contains pt-BR link', async ({ page }) => {
     await page.goto('/');
-    // The LanguagePicker is a DaisyUI dropdown — open it first, then click
-    const dropdownBtn = page.locator('.dropdown [role="button"]').first();
-    await dropdownBtn.click();
-    const ptLink = page.locator('.dropdown-content a[href="/pt-BR/"]');
-    await ptLink.waitFor({ state: 'visible' });
-    await ptLink.click();
+    // DaisyUI dropdown uses CSS :focus-within — link is always in the DOM, just hidden.
+    // Use force:true to click without requiring CSS visibility.
+    const ptLink = page.locator('.dropdown-content a[href="/pt-BR/"]').first();
+    await expect(ptLink).toHaveCount(1);
+    await ptLink.click({ force: true });
     await expect(page).toHaveURL(/\/pt-BR\//);
   });
 
