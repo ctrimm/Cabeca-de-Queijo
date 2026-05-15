@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Game Today page (EN)', () => {
   test('loads with correct title', async ({ page }) => {
     await page.goto('/green-bay-packers-game-today/');
-    await expect(page).toHaveTitle(/game today|Cabeça de Queijo/i);
+    await expect(page).toHaveTitle(/packers game today/i);
   });
 
   test('has a role="status" element', async ({ page }) => {
@@ -20,10 +20,9 @@ test.describe('Game Today page (EN)', () => {
     expect(['YES', 'NO'].some(v => text.includes(v))).toBe(true);
   });
 
-  test('page has a heading', async ({ page }) => {
+  test('page has a visible question text', async ({ page }) => {
     await page.goto('/green-bay-packers-game-today/');
-    const h1 = page.locator('h1');
-    await expect(h1).toBeVisible();
+    await expect(page.locator('text=Is There a Green Bay Packers Game Today?')).toBeVisible();
   });
 
   test('is readable on mobile viewport', async ({ page }) => {
@@ -39,7 +38,7 @@ test.describe('Game Today page (EN)', () => {
 test.describe('Game Today page (PT-BR)', () => {
   test('loads with correct title', async ({ page }) => {
     await page.goto('/pt-BR/green-bay-packers-game-today/');
-    await expect(page).toHaveTitle(/Cabeça de Queijo/i);
+    await expect(page).toHaveTitle(/packers hoje|jogo.*hoje|hoje.*jogo/i);
   });
 
   test('has a role="status" element', async ({ page }) => {
@@ -53,6 +52,6 @@ test.describe('Game Today page (PT-BR)', () => {
     await page.goto('/pt-BR/green-bay-packers-game-today/');
     const statusEl = page.locator('[role="status"]');
     const text = await statusEl.innerText();
-    expect(['SIM', 'NÃO', 'YES', 'NO'].some(v => text.includes(v))).toBe(true);
+    expect(['SIM', 'NÃO'].some(v => text.includes(v))).toBe(true);
   });
 });

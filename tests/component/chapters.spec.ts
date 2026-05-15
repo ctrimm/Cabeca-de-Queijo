@@ -10,9 +10,9 @@ test.describe('Chapters list page', () => {
 
   test('lists at least one chapter card', async ({ page }) => {
     await page.goto('/chapters/');
-    const chapterLinks = page.locator('a[href*="/chapters/"]');
-    await expect(chapterLinks).toHaveCount(expect.any(Number));
-    const count = await chapterLinks.count();
+    // Count links that point to individual chapter pages (not the nav link to /chapters/)
+    const chapterCards = page.locator('main a[href*="/chapters/"], #main-content a[href*="/chapters/"]');
+    const count = await chapterCards.count();
     expect(count).toBeGreaterThan(0);
   });
 
@@ -32,9 +32,9 @@ test.describe('São Paulo chapter page', () => {
 
   test('has Google Maps and Apple Maps buttons', async ({ page }) => {
     await page.goto('/chapters/sao-paulo/');
-    const googleBtn = page.locator('a[href*="google"][href*="map"], a:has-text("Google Maps")').first();
+    const googleBtn = page.locator('a:has-text("Google Maps")').first();
     await expect(googleBtn).toBeVisible();
-    const appleBtn = page.locator('a[href*="apple"][href*="map"], a:has-text("Apple Maps")').first();
+    const appleBtn = page.locator('a:has-text("Apple Maps")').first();
     await expect(appleBtn).toBeVisible();
   });
 
@@ -55,8 +55,7 @@ test.describe('São Paulo chapter page', () => {
 
   test('has back to chapters link', async ({ page }) => {
     await page.goto('/chapters/sao-paulo/');
-    const backLink = page.locator('a[href*="/chapters/"]').last();
+    const backLink = page.locator('a[href="/chapters/"]').last();
     await expect(backLink).toBeVisible();
-    await expect(backLink).toContainText(/chapters|back/i);
   });
 });

@@ -85,16 +85,16 @@ const heroImage = entry.data.heroImage ? (heroImageMap[entry.data.heroImage] || 
           <div class="mt-6 mb-6">
             <h2 class="text-2xl font-bold">{t("chapterSlug.whereToCheer")}</h2>
             <div class="mt-3 bg-base-200 rounded-lg p-4 border border-emerald-700 border-2 transition-all hover:bg-green-100">
-              <a href={entry.data.findUs.googleMapsLink} target="_blank">
+              <a href={entry.data.findUs.googleMapsLink} target="_blank" rel="noopener noreferrer">
                 <p class="text-lg font-extrabold">{entry.data.findUs.locationName}</p>
               </a>
               <p class="m-1">{entry.data.findUs.locationAddress}</p>
               <div class="mt-2 items-center text-center">
-                <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" class="btn btn-success m-2">
+                <a href={entry.data.findUs.googleMapsLink} role="button" target="_blank" rel="noopener noreferrer" class="btn btn-success m-2">
                   <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:map-marker" />
                   Google Maps
                 </a>
-                <a href={entry.data.findUs.appleMapsLink} role="button" target="_blank" class="btn btn-success mt-1">
+                <a href={entry.data.findUs.appleMapsLink} role="button" target="_blank" rel="noopener noreferrer" class="btn btn-success mt-1">
                   <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:map-marker" />
                   Apple Maps
                 </a>
@@ -103,16 +103,16 @@ const heroImage = entry.data.heroImage ? (heroImageMap[entry.data.heroImage] || 
             {
               entry.data.otherPlacesToWatch.map((otherPlace) => (
               <div class="mt-3 bg-base-200 rounded-lg p-4">
-                <a href={otherPlace.googleMapsLink} target="_blank">
+                <a href={otherPlace.googleMapsLink} target="_blank" rel="noopener noreferrer">
                   <p class="text-lg font-extrabold">{otherPlace.locationName}</p>
                 </a>
                 <p class="m-1">{otherPlace.locationAddress}</p>
                 <div class="mt-2 items-center text-center">
-                  <a href={otherPlace.googleMapsLink} role="button" target="_blank" class="btn btn-success m-2">
+                  <a href={otherPlace.googleMapsLink} role="button" target="_blank" rel="noopener noreferrer" class="btn btn-success m-2">
                     <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:map-marker" />
                     Google Maps
                   </a>
-                  <a href={otherPlace.appleMapsLink} role="button" target="_blank" class="btn btn-success mt-1">
+                  <a href={otherPlace.appleMapsLink} role="button" target="_blank" rel="noopener noreferrer" class="btn btn-success mt-1">
                     <Icon class="text-black w-5 h-5 font-extrabold" name="mdi:map-marker" />
                     Apple Maps
                   </a>

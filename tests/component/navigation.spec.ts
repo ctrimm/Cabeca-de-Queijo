@@ -7,10 +7,13 @@ test.describe('Navigation', () => {
     await expect(nav.first()).toBeVisible();
   });
 
-  test('language picker navigates to pt-BR', async ({ page }) => {
+  test('language picker dropdown contains pt-BR link', async ({ page }) => {
     await page.goto('/');
-    const ptLink = page.locator('a[href="/pt-BR/"]').first();
-    await expect(ptLink).toBeVisible();
+    // The LanguagePicker is a DaisyUI dropdown — open it first, then click
+    const dropdownBtn = page.locator('.dropdown [role="button"]').first();
+    await dropdownBtn.click();
+    const ptLink = page.locator('.dropdown-content a[href="/pt-BR/"]');
+    await ptLink.waitFor({ state: 'visible' });
     await ptLink.click();
     await expect(page).toHaveURL(/\/pt-BR\//);
   });

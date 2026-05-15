@@ -41,7 +41,8 @@ test.describe('Home page', () => {
     const externalLinks = await page.locator('a[target="_blank"]').all();
     for (const link of externalLinks) {
       const rel = await link.getAttribute('rel');
-      expect(rel, `Link missing noreferrer: ${await link.getAttribute('href')}`).toContain('noreferrer');
+      const href = await link.getAttribute('href');
+      expect(rel, `Link missing noreferrer: ${href}`).toContain('noreferrer');
     }
   });
 
