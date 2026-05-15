@@ -1,0 +1,104 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const faqs = [
+  {
+    q: "O que é o Cabeça de Queijo?",
+    a: "Cabeça de Queijo é um fã-clube não oficial do Green Bay Packers com base no Brasil. Reunimos torcedores dos Packers de todo o país para watch parties, eventos e comunidade.",
+  },
+  {
+    q: "Como posso me associar?",
+    a: "A associação é completamente gratuita. Entre na nossa comunidade do WhatsApp ou encontre um capítulo local perto de você. Acesse a página 'Participe' para começar.",
+  },
+  {
+    q: "Como posso assistir aos jogos dos Packers no Brasil?",
+    a: "Os jogos da NFL estão disponíveis no Brasil pela ESPN Brasil, ESPN 2 e via NFL+ (o serviço de streaming da liga). Alguns jogos também passam no Globoplay e na DAZN. Verifique a programação semanalmente, pois os direitos de transmissão variam por jogo.",
+  },
+  {
+    q: "O que é futebol americano?",
+    a: "O futebol americano é jogado por dois times de 11 jogadores em um campo de 100 jardas (91 m). O objetivo é avançar com a bola até a end zone adversária para fazer um touchdown (6 pontos). Os times têm 4 tentativas (downs) para avançar 10 jardas. Se não conseguirem, a posse passa para o outro time.",
+  },
+  {
+    q: "Como funciona a pontuação na NFL?",
+    a: "Touchdown = 6 pontos. Chute extra após TD = 1 ponto. Conversão de 2 pontos após TD = 2 pontos. Field goal = 3 pontos. Safety (quando o portador da bola é derrubado na própria end zone) = 2 pontos.",
+  },
+  {
+    q: "Quem são os Green Bay Packers?",
+    a: "Os Packers são uma das franquias mais antigas e tradicionais da NFL, fundada em 1919 em Green Bay, Wisconsin. São o único time profissional de grande porte nos EUA de propriedade comunitária sem fins lucrativos, e já conquistaram 13 títulos, incluindo 4 Super Bowls.",
+  },
+  {
+    q: "O que é o Lambeau Field?",
+    a: "Lambeau Field é o estádio dos Packers em Green Bay, Wisconsin, inaugurado em 1957. Comporta mais de 81.000 torcedores e é famoso pelos seus jogos no frio do inverno. O 'Lambeau Leap' — celebração de touchdown onde os jogadores pulam para a arquibancada — nasceu aqui.",
+  },
+  {
+    q: "Quando acontece a temporada da NFL?",
+    a: "A temporada regular da NFL vai de início de setembro a início de janeiro (17 jogos). Os playoffs acontecem em janeiro, e o Super Bowl é disputado em fevereiro. O Draft da NFL é em abril, e os campos de treinamento abrem no final de julho.",
+  },
+  {
+    q: "O que é um Cheesehead?",
+    a: "Cheesehead é o apelido dado ao torcedor dos Packers, uma referência à famosa indústria de laticínios de Wisconsin. Os torcedores costumam usar chapéus de espuma em formato de queijo nos jogos. 'Cabeça de Queijo' é a tradução direta para o português.",
+  },
+  {
+    q: "Como posso criar um capítulo na minha cidade?",
+    a: "Se não há um capítulo perto de você, adoraríamos sua ajuda para criar um. Entre em contato pela página de Contato com seu nome, cidade e um pouco sobre você. Vamos orientá-lo na criação de um grupo de watch party.",
+  },
+  {
+    q: "Há algum custo para participar das watch parties?",
+    a: "Não — as watch parties são organizadas pelos capítulos locais e são gratuitas. Você pode pagar pela sua comida e bebida no local, mas não há taxa de entrada do Cabeça de Queijo.",
+  },
+  {
+    q: "Quem é Jordan Love?",
+    a: "Jordan Love é o quarterback titular dos Packers, escolhido na primeira rodada do Draft de 2020. Ele assumiu o posto do lendário Aaron Rodgers (trocado para o New York Jets) em 2023 e vem se desenvolvendo continuamente como um dos jovens QBs mais emocionantes da liga.",
+  },
+];
+---
+
+<Layout
+  seoTitle="Perguntas Frequentes — Cabeça de Queijo | Torcida dos Packers no Brasil"
+  seoDescription="Perguntas frequentes sobre o Green Bay Packers, a NFL, como assistir aos jogos no Brasil e o fã-clube Cabeça de Queijo."
+  seoOpenGraph={{
+    basic: {
+      title: "Perguntas Frequentes — Cabeça de Queijo",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/faq-pt.png",
+      url: "https://cabecadequeijo.com/pt-BR/faq/",
+    },
+    image: { alt: "Perguntas Frequentes — Cabeça de Queijo Torcida dos Packers no Brasil" },
+  }}
+>
+  <Container>
+    <div class="mx-auto max-w-3xl mt-14 mb-20">
+      <p class="text-blue-500 uppercase tracking-wider text-sm font-semibold mb-2">Central de Ajuda</p>
+      <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">{t('faq.title')}</h1>
+      <p class="text-lg text-slate-600 mt-4">{t('faq.description')}</p>
+
+      <div class="mt-12 space-y-4">
+        {faqs.map((faq) => (
+          <details class="group border border-slate-200 rounded-xl overflow-hidden">
+            <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg hover:bg-slate-50 transition list-none">
+              <span>{faq.q}</span>
+              <span class="text-2xl text-slate-400 group-open:rotate-45 transition-transform duration-200 shrink-0 ml-4">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+              {faq.a}
+            </div>
+          </details>
+        ))}
+      </div>
+
+      <div class="mt-16 bg-green-800 text-white rounded-2xl p-8 text-center">
+        <p class="text-xl font-bold mb-2">Ainda tem dúvidas?</p>
+        <p class="text-green-200 mb-6">Ficamos felizes em ajudar. Entre em contato pelo formulário ou junte-se ao nosso grupo do WhatsApp.</p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="/pt-BR/contact/" class="btn bg-yellow-400 hover:bg-yellow-300 text-green-900 border-0 font-bold">Fale Conosco</a>
+          <a href="https://chat.whatsapp.com/IY3vw63xn8S6tVjsHsYuVp" target="_blank" rel="noopener noreferrer" class="btn bg-green-600 hover:bg-green-500 text-white border-0">Entrar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Layout>

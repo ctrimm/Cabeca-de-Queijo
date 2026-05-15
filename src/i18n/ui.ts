@@ -14,6 +14,8 @@ export const ui = {
     'nav.chapters': 'Chapters',
     'nav.schedule': 'Schedule',
     'nav.posts': 'Posts',
+    'nav.faq': 'FAQ',
+    'nav.seasons': 'Seasons',
     'nav.getInvolved': 'Get Involved',
 
     // Hero
@@ -163,6 +165,28 @@ export const ui = {
     'startAChapterPage.subTitle': 'Are you interested in starting a chapter in your area?',
     'startAChapterPage.guide': 'Drop us an email with your name, location, and a brief description of why you want to start a chapter. We will get back to you as soon as possible.',
 
+    // Social
+    'social.instagram': 'Instagram',
+    'social.instagramHandle': '@cabecadequeijo',
+    'social.instagramLink': 'https://www.instagram.com/cabecadequeijo/',
+
+    // FAQ
+    'faq.title': 'Frequently Asked Questions',
+    'faq.description': 'Everything you need to know about the Green Bay Packers, the NFL, and Cabeça de Queijo.',
+
+    // Seasons
+    'seasons.title': 'Season History',
+    'seasons.description': 'A decade of Green Bay Packers seasons at a glance.',
+    'seasons.record': 'Record',
+    'seasons.coach': 'Coach',
+    'seasons.qb': 'QB',
+    'seasons.division': 'Division',
+    'seasons.playoff': 'Playoff Result',
+    'seasons.highlights': 'Highlights',
+    'seasons.missedPlayoffs': 'Missed Playoffs',
+    'seasons.lostIn': 'Lost in',
+    'seasons.vs': 'vs',
+
     // Misc
     '404.title': 'Page Not Found',
     'banner.text': '🇧🇷🧀 In Brazil? Join Our WhatsApp Group to Talk With Other Packers Fans',
@@ -175,6 +199,8 @@ export const ui = {
     'nav.chapters': 'Capítulos',
     'nav.schedule': 'Partidas',
     'nav.posts': 'Blog',
+    'nav.faq': 'Perguntas',
+    'nav.seasons': 'Temporadas',
     'nav.getInvolved': 'Participe',
 
     // Hero
@@ -323,6 +349,28 @@ export const ui = {
     'startAChapterPage.title': 'Iniciar um Capítulo',
     'startAChapterPage.subTitle': 'Você tem interesse em iniciar um capítulo na sua região?',
     'startAChapterPage.guide': 'Envie-nos um e-mail com seu nome, localização e uma breve descrição do motivo pelo qual deseja iniciar um capítulo. Entraremos em contato com você o mais breve possível.',
+
+    // Social
+    'social.instagram': 'Instagram',
+    'social.instagramHandle': '@cabecadequeijo',
+    'social.instagramLink': 'https://www.instagram.com/cabecadequeijo/',
+
+    // FAQ
+    'faq.title': 'Perguntas Frequentes',
+    'faq.description': 'Tudo o que você precisa saber sobre o Green Bay Packers, a NFL e o Cabeça de Queijo.',
+
+    // Seasons
+    'seasons.title': 'Histórico de Temporadas',
+    'seasons.description': 'Uma década de temporadas do Green Bay Packers em resumo.',
+    'seasons.record': 'Recorde',
+    'seasons.coach': 'Técnico',
+    'seasons.qb': 'QB',
+    'seasons.division': 'Divisão',
+    'seasons.playoff': 'Resultado nos Playoffs',
+    'seasons.highlights': 'Destaques',
+    'seasons.missedPlayoffs': 'Não foi aos Playoffs',
+    'seasons.lostIn': 'Eliminado na',
+    'seasons.vs': 'vs',
 
     // Misc
     '404.title': 'Página não encontrada',

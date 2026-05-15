@@ -1,0 +1,102 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { seasons } from '../data/seasons';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const playoffBadge = (result: string, round?: string, opponent?: string, score?: string) => {
+  if (result === 'missed') return { text: t('seasons.missedPlayoffs'), color: 'bg-slate-100 text-slate-500' };
+  if (result === 'won-super-bowl') return { text: '🏆 Super Bowl Champions', color: 'bg-yellow-100 text-yellow-800' };
+  return {
+    text: `${t('seasons.lostIn')} ${round} ${t('seasons.vs')} ${opponent} (${score})`,
+    color: 'bg-red-50 text-red-700',
+  };
+};
+---
+
+<Layout
+  seoTitle="Season History — Cabeça de Queijo | Green Bay Packers Results"
+  seoDescription="A decade of Green Bay Packers season results, records, and playoff history from 2015 through 2025."
+  seoOpenGraph={{
+    basic: {
+      title: "Packers Season History — Cabeça de Queijo",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/seasons.png",
+      url: "https://cabecadequeijo.com/seasons/",
+    },
+    image: { alt: "Packers Season History — Cabeça de Queijo" },
+  }}
+>
+  <Container>
+    <div class="mt-14 mb-20">
+      <p class="text-blue-500 uppercase tracking-wider text-sm font-semibold mb-2">Packers History</p>
+      <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">{t('seasons.title')}</h1>
+      <p class="text-lg text-slate-600 mt-4 max-w-2xl">{t('seasons.description')}</p>
+
+      <!-- Jump to year -->
+      <div class="mt-8 flex flex-wrap gap-2">
+        {seasons.map(s => (
+          <a
+            href={`#season-${s.year}`}
+            class="px-3 py-1.5 text-sm font-semibold rounded-lg bg-slate-100 hover:bg-green-800 hover:text-white transition"
+          >
+            {s.year}
+          </a>
+        ))}
+      </div>
+
+      <!-- Season cards -->
+      <div class="mt-10 space-y-6">
+        {seasons.map(s => {
+          const badge = playoffBadge(s.playoff.result, s.playoff.round, s.playoff.opponent, s.playoff.score);
+          return (
+            <div id={`season-${s.year}`} class="border border-slate-200 rounded-2xl overflow-hidden scroll-mt-24">
+              <!-- Season header -->
+              <div class="bg-green-800 text-white px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <div class="flex items-center gap-4">
+                  <span class="text-3xl font-bold text-yellow-400">{s.year}</span>
+                  <span class="text-2xl font-semibold">{s.record}</span>
+                </div>
+                <span class={`text-sm font-semibold px-3 py-1.5 rounded-full self-start sm:self-auto ${badge.color}`}>
+                  {badge.text}
+                </span>
+              </div>
+
+              <!-- Season details -->
+              <div class="px-6 py-5 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                  <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-1">{t('seasons.coach')}</p>
+                  <p class="font-medium text-slate-800">{s.coach}</p>
+                </div>
+                <div>
+                  <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-1">{t('seasons.qb')}</p>
+                  <p class="font-medium text-slate-800">{s.qb}</p>
+                </div>
+                <div>
+                  <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-1">{t('seasons.division')}</p>
+                  <p class="font-medium text-slate-800">{s.divisionFinish}</p>
+                </div>
+              </div>
+
+              <!-- Highlights -->
+              <div class="px-6 pb-5 border-t border-slate-100 pt-4">
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-2">{t('seasons.highlights')}</p>
+                <ul class="space-y-1">
+                  {s.notableEn.map(note => (
+                    <li class="text-slate-600 text-sm flex gap-2">
+                      <span class="text-yellow-500 shrink-0">›</span>
+                      <span>{note}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </Container>
+</Layout>

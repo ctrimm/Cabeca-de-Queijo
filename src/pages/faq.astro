@@ -1,0 +1,104 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const faqs = [
+  {
+    q: "What is Cabeça de Queijo?",
+    a: "Cabeça de Queijo (Portuguese for 'Cheesehead') is an unofficial Green Bay Packers fan club based in Brazil. We bring together Packers fans from across the country for watch parties, events, and community.",
+  },
+  {
+    q: "How do I join?",
+    a: "Membership is completely free. Join our WhatsApp community group or find a local chapter near you. Head to the Join page to get started.",
+  },
+  {
+    q: "How can I watch Packers games in Brazil?",
+    a: "NFL games are available in Brazil on ESPN Brasil, ESPN 2, and via NFL+ (the league's own streaming service). Some games are also on Globoplay and DAZN. Check the schedule each week as broadcast rights vary by game.",
+  },
+  {
+    q: "What is American football?",
+    a: "American football is played by two teams of 11 players on a 100-yard (91 m) field. The goal is to advance the ball into the opponent's end zone to score a touchdown (6 points). Teams get 4 downs (attempts) to move the ball 10 yards. If they fail, the other team takes possession.",
+  },
+  {
+    q: "How does NFL scoring work?",
+    a: "Touchdown = 6 points. Extra point kick after TD = 1 point. Two-point conversion after TD = 2 points. Field goal = 3 points. Safety (tackling the ball carrier in their own end zone) = 2 points.",
+  },
+  {
+    q: "Who are the Green Bay Packers?",
+    a: "The Packers are one of the oldest and most storied franchises in the NFL, founded in 1919 in Green Bay, Wisconsin. They are the only publicly community-owned major professional sports team in the US and have won 13 championships, including 4 Super Bowls.",
+  },
+  {
+    q: "What is Lambeau Field?",
+    a: "Lambeau Field is the Packers' home stadium in Green Bay, Wisconsin, opened in 1957. It holds over 81,000 fans and is famous for its famously cold winter games. The 'Lambeau Leap' — a touchdown celebration where players jump into the stands — was born here.",
+  },
+  {
+    q: "When does the NFL season run?",
+    a: "The NFL regular season runs from early September through early January (17 games). The playoffs follow in January, with the Super Bowl played in February. The NFL Draft is in April, and training camps open in late July.",
+  },
+  {
+    q: "What is a Cheesehead?",
+    a: "A Cheesehead is the nickname for a Packers fan, referencing Wisconsin's famous dairy industry. Fans often wear foam cheese-shaped hats to games. 'Cabeça de Queijo' is the direct Portuguese translation.",
+  },
+  {
+    q: "How do I start a chapter in my city?",
+    a: "If there's no chapter near you, we'd love your help building one. Get in touch through the Contact page with your name, city, and a bit about yourself. We'll guide you through setting up a watch party group.",
+  },
+  {
+    q: "Is there a cost to attend watch parties?",
+    a: "No — watch parties are organized by local chapters and are free to attend. You may pay for your own food and drinks at the venue, but there is no admission fee from Cabeça de Queijo.",
+  },
+  {
+    q: "Who is Jordan Love?",
+    a: "Jordan Love is the Packers' starting quarterback, drafted in the first round in 2020. He took over from the legendary Aaron Rodgers (traded to the New York Jets) in 2023 and has steadily developed into one of the league's exciting young QBs.",
+  },
+];
+---
+
+<Layout
+  seoTitle="FAQ — Cabeça de Queijo | Green Bay Packers Fan Club Brazil"
+  seoDescription="Frequently asked questions about the Green Bay Packers, the NFL, watching games in Brazil, and the Cabeça de Queijo fan club."
+  seoOpenGraph={{
+    basic: {
+      title: "FAQ — Cabeça de Queijo",
+      type: "website",
+      image: "https://cabecadequeijo.com/og/faq.png",
+      url: "https://cabecadequeijo.com/faq/",
+    },
+    image: { alt: "FAQ — Cabeça de Queijo Green Bay Packers Fan Club Brazil" },
+  }}
+>
+  <Container>
+    <div class="mx-auto max-w-3xl mt-14 mb-20">
+      <p class="text-blue-500 uppercase tracking-wider text-sm font-semibold mb-2">Help Center</p>
+      <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">{t('faq.title')}</h1>
+      <p class="text-lg text-slate-600 mt-4">{t('faq.description')}</p>
+
+      <div class="mt-12 space-y-4">
+        {faqs.map((faq, i) => (
+          <details class="group border border-slate-200 rounded-xl overflow-hidden">
+            <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg hover:bg-slate-50 transition list-none">
+              <span>{faq.q}</span>
+              <span class="text-2xl text-slate-400 group-open:rotate-45 transition-transform duration-200 shrink-0 ml-4">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+              {faq.a}
+            </div>
+          </details>
+        ))}
+      </div>
+
+      <div class="mt-16 bg-green-800 text-white rounded-2xl p-8 text-center">
+        <p class="text-xl font-bold mb-2">Still have questions?</p>
+        <p class="text-green-200 mb-6">We're happy to help. Reach out through the contact form or join our WhatsApp group.</p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="/contact/" class="btn bg-yellow-400 hover:bg-yellow-300 text-green-900 border-0 font-bold">Contact Us</a>
+          <a href="https://chat.whatsapp.com/IY3vw63xn8S6tVjsHsYuVp" target="_blank" rel="noopener noreferrer" class="btn bg-green-600 hover:bg-green-500 text-white border-0">Join WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Layout>
