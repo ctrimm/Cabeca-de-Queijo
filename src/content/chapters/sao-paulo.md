@@ -1,6 +1,7 @@
 ---
 activeChapter: true
 comingSoon: false
+heroImage: "aerial-view-sao-paulo"
 officialChapter: true
 slug: "sao-paulo"
 city: "São Paulo"

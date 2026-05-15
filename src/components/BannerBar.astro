@@ -23,8 +23,12 @@ const t = useTranslations(lang);
   const closeBanner = document.getElementById('close-banner');
 
   if (bannerBar && closeBanner) {
+    if (localStorage.getItem('banner-closed') === 'true') {
+      bannerBar.style.display = 'none';
+    }
     closeBanner.addEventListener('click', () => {
       bannerBar.style.display = 'none';
+      localStorage.setItem('banner-closed', 'true');
     });
   }
 </script>

@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import FeatureGrid from './FeatureGrid.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
@@ -34,28 +34,13 @@ const memberBenefits = [
 ] as const;
 ---
 
-<div class="mt-4 md:mt-4" id="selling-points">
+<div class="mt-4 md:mt-4" id="member-benefits">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
     {t("memberBenefits.title")}
-    
   </h2>
-  <p class="text-lg mt-4 text-slate-600">
+  <p class="text-lg mt-4 text-slate-700">
     {t("memberBenefits.subtext")}
   </p>
 </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-10 gap-10 md:pb-6 mb-6">
-  {
-    memberBenefits.map((item) => (
-      <div class="flex gap-4 items-start">
-        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
-          <Icon class="text-white" name={item.icon} />
-        </div>
-        <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
-        </div>
-      </div>
-    ))
-  }
-</div>
+<FeatureGrid items={memberBenefits} class="mt-10 gap-10 md:pb-6 mb-6" />

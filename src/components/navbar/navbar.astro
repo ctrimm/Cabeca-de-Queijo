@@ -42,6 +42,8 @@ const mainLink = translatePath('/');
         type="button"
         class="btn btn-ghost btn-sm lg:hidden"
         aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
         data-menu-toggle
       >
         <Icon class="w-5 h-5 text-gray-800 hover:text-gray-600" name="heroicons-outline:menu" />
@@ -98,7 +100,9 @@ const mainLink = translatePath('/');
       // Toggle menu
       menuButton.addEventListener('click', (e) => {
         e.stopPropagation();
+        const isOpen = !mobileMenu.classList.contains('hidden');
         mobileMenu.classList.toggle('hidden');
+        menuButton.setAttribute('aria-expanded', String(!isOpen));
       });
 
       // Close menu when clicking outside
