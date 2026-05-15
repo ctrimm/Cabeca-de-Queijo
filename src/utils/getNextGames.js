@@ -1,4 +1,4 @@
-// Green Bay Packers Schedule - 2023, 2024, 2025 Seasons
+// Green Bay Packers Schedule - 2023, 2024, 2025, 2026 Seasons
 // Includes past seasons with results and upcoming games
 
 const schedule = [
@@ -267,7 +267,7 @@ const schedule = [
     score: "10-22",
     network: "FOX"
   },
-  // ===== 2025 SEASON (In Progress) =====
+  // ===== 2025 SEASON (9-7-1 Regular Season) =====
   {
     dateOfMatch: "2025-09-07T15:25:00.000-05:00",
     opponent: "Detroit Lions",
@@ -392,8 +392,10 @@ const schedule = [
   // Playoffs 2025
   {
     dateOfMatch: "2026-01-10T19:00:00.000-06:00",
-    eventName: "Wild Card: Packers vs Chicago Bears",
-    network: "Amazon / DAZN"
+    eventName: "Wild Card: Packers at Chicago Bears",
+    outcome: "L",
+    score: "27-31",
+    network: "Prime Video"
   },
   {
     dateOfMatch: "2026-01-18T00:00:00.000-06:00",
@@ -406,6 +408,151 @@ const schedule = [
   {
     dateOfMatch: "2026-02-08T18:30:00.000-06:00",
     eventName: "Super Bowl LX"
+  },
+  // ===== 2026 OFF-SEASON & SPECIAL EVENTS =====
+  {
+    dateOfMatch: "2026-07-23T10:30:00.000-05:00",
+    eventName: "Packers Training Camp Opens"
+  },
+  {
+    dateOfMatch: "2026-08-06T19:00:00.000-05:00",
+    eventName: "Hall of Fame Game: Cardinals vs Panthers",
+    network: "NBC/Peacock"
+  },
+  // ===== 2026 PRESEASON =====
+  {
+    dateOfMatch: "2026-08-15T18:00:00.000-05:00",
+    opponent: "at Pittsburgh Steelers",
+    network: "TBD",
+    eventName: "Preseason Week 1"
+  },
+  {
+    dateOfMatch: "2026-08-22T18:00:00.000-05:00",
+    opponent: "at Denver Broncos",
+    network: "TBD",
+    eventName: "Preseason Week 2"
+  },
+  {
+    dateOfMatch: "2026-08-29T18:00:00.000-05:00",
+    opponent: "Arizona Cardinals",
+    network: "TBD",
+    eventName: "Preseason Week 3"
+  },
+  // ===== 2026 SEASON =====
+  {
+    dateOfMatch: "2026-09-13T15:25:00.000-05:00",
+    opponent: "at Minnesota Vikings",
+    network: "CBS"
+  },
+  {
+    dateOfMatch: "2026-09-20T12:00:00.000-05:00",
+    opponent: "at New York Jets",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-09-24T19:15:00.000-05:00",
+    opponent: "Atlanta Falcons",
+    network: "Prime Video",
+    eventName: "Thursday Night Football"
+  },
+  {
+    dateOfMatch: "2026-09-27T19:00:00.000-03:00",
+    eventName: "NFL in Rio de Janeiro 🇧🇷: Ravens vs Cowboys",
+    network: "ESPN"
+  },
+  {
+    dateOfMatch: "2026-10-04T12:00:00.000-05:00",
+    opponent: "at Tampa Bay Buccaneers",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-10-11T15:25:00.000-05:00",
+    opponent: "Chicago Bears",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-10-18T19:20:00.000-05:00",
+    opponent: "Dallas Cowboys",
+    network: "NBC",
+    eventName: "Sunday Night Football"
+  },
+  {
+    dateOfMatch: "2026-10-25T15:25:00.000-05:00",
+    opponent: "Detroit Lions",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-10-29T19:15:00.000-05:00",
+    opponent: "Carolina Panthers",
+    network: "Prime Video",
+    eventName: "Thursday Night Football"
+  },
+  {
+    dateOfMatch: "2026-11-08T15:25:00.000-06:00",
+    opponent: "at New England Patriots",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-11-15T12:00:00.000-06:00",
+    opponent: "Minnesota Vikings",
+    network: "FOX"
+  },
+  // Week 11 - BYE
+  {
+    dateOfMatch: "2026-11-25T19:00:00.000-06:00",
+    opponent: "at Los Angeles Rams",
+    network: "Netflix",
+    eventName: "Thanksgiving Eve"
+  },
+  {
+    dateOfMatch: "2026-12-06T12:00:00.000-06:00",
+    opponent: "at New Orleans Saints",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-12-13T19:20:00.000-06:00",
+    opponent: "Buffalo Bills",
+    network: "NBC",
+    eventName: "Sunday Night Football"
+  },
+  {
+    dateOfMatch: "2026-12-20T12:00:00.000-06:00",
+    opponent: "Miami Dolphins",
+    network: "FOX"
+  },
+  {
+    dateOfMatch: "2026-12-25T12:00:00.000-06:00",
+    opponent: "at Chicago Bears",
+    network: "Netflix",
+    eventName: "Christmas Day"
+  },
+  {
+    dateOfMatch: "2027-01-04T19:15:00.000-06:00",
+    opponent: "Houston Texans",
+    network: "ESPN",
+    eventName: "Monday Night Football"
+  },
+  {
+    dateOfMatch: "2027-01-10T12:00:00.000-06:00",
+    opponent: "Detroit Lions",
+    network: "TBD"
+  },
+  // Playoffs 2026
+  {
+    dateOfMatch: "2027-01-17T00:00:00.000-06:00",
+    eventName: "Wild Card Weekend"
+  },
+  {
+    dateOfMatch: "2027-01-25T00:00:00.000-06:00",
+    eventName: "Divisional Playoff Weekend"
+  },
+  {
+    dateOfMatch: "2027-02-01T18:00:00.000-06:00",
+    eventName: "Conference Championship"
+  },
+  {
+    dateOfMatch: "2027-02-07T18:30:00.000-06:00",
+    eventName: "Super Bowl LXI"
   }
 ];
 
