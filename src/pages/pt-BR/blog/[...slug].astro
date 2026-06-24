@@ -1,5 +1,5 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { useTranslations } from '../../../i18n/utils';
@@ -12,9 +12,9 @@ export async function getStaticPaths() {
   const posts = await getCollection('blog');
 
   return posts
-    .filter(post => post.slug.toLowerCase().startsWith('pt-br/'))
+    .filter(post => post.id.startsWith('pt-BR/'))
     .map(post => ({
-      params: { slug: post.slug.replace('pt-br/', '') },
+      params: { slug: post.id.replace(/\.(md|mdx)$/, '').replace('pt-BR/', '') },
       props: { post }
     }));
 }
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const lang = 'pt-BR';
 const t = useTranslations(lang);
-const { Content } = await post.render();
+const { Content } = await render(post);
 const formattedDate = post.data.publishDate.toLocaleDateString(lang, {
   year: 'numeric',
   month: 'long',

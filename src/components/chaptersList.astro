@@ -7,7 +7,7 @@ const t = useTranslations(lang);
 
 const chapterEntries = await getCollection("chapters");
 const memberCountMap = Object.fromEntries(
-  chapterEntries.map(e => [e.slug, e.data.totalMembers as string])
+  chapterEntries.map(e => [e.id.replace(/\.(md|mdx)$/, ''), e.data.totalMembers as string])
 );
 
 interface Chapter {
