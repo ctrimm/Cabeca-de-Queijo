@@ -3,6 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { useTranslations } from '../../i18n/utils';
+import { isLocaleEntry, localeEntrySlug } from '../../utils/blogEntries';
 
 type Props = {
   post: CollectionEntry<'blog'>;
@@ -12,9 +13,9 @@ export async function getStaticPaths() {
   const posts = await getCollection('blog');
 
   return posts
-    .filter(post => post.id.startsWith('en/'))
+    .filter(post => isLocaleEntry(post.id, 'en'))
     .map(post => ({
-      params: { slug: post.id.replace(/\.(md|mdx)$/, '').replace('en/', '') },
+      params: { slug: localeEntrySlug(post.id, 'en') },
       props: { post }
     }));
 }

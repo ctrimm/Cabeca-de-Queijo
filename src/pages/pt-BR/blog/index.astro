@@ -5,6 +5,7 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import { Image } from "astro:assets";
 import { useTranslations } from '../../../i18n/utils';
+import { isLocaleEntry, localeEntrySlug } from '../../../utils/blogEntries';
 import type { ImageMetadata } from 'astro';
 
 const lang = 'pt-BR';
@@ -15,7 +16,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries: CollectionEntry<'blog'>[] = await getCollection('blog', ({ data, id }) => {
-  return !data.draft && data.publishDate < new Date() && id.startsWith('pt-BR/');
+  return !data.draft && data.publishDate < new Date() && isLocaleEntry(id, 'pt-BR');
 });
 
 // Process entries with images
@@ -70,7 +71,7 @@ processedEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDat
         {
           processedEntries.map((blogPostEntry, index) => (
             <li>
-              <a href={`/${lang}/blog/${blogPostEntry.id.replace(/\.(md|mdx)$/, '').replace('pt-BR/', '')}/`}>
+              <a href={`/${lang}/blog/${localeEntrySlug(blogPostEntry.id, 'pt-BR')}/`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                   <Image
                     src={blogPostEntry.data.image.src}

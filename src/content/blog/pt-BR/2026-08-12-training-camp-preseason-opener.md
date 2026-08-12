@@ -117,7 +117,7 @@ A NFL está voltando ao Brasil, e desta vez para o Rio. Segundo o NFL.com, **Dal
 
 ---
 
-*Vai acompanhar os jogos no Brasil essa temporada? Encontre um watch party perto de você na nossa [página de capítulos](/pt-BR/chapters/), ou conecte-se com outros fãs na [comunidade WhatsApp do Cabeça de Queijo](/pt-BR/join/). Chegou agora? Comece pelo nosso guia de [como assistir à NFL no Brasil](/pt-BR/blog/how-to-watch-the-NFL-in-Brazil/).*
+*Vai acompanhar os jogos no Brasil essa temporada? Encontre um watch party perto de você na nossa [página de capítulos](/pt-BR/chapters/), ou conecte-se com outros fãs na [comunidade WhatsApp do Cabeça de Queijo](/pt-BR/join/). Chegou agora? Comece pelo nosso guia de [como assistir à NFL no Brasil](/pt-BR/blog/how-to-watch-the-nfl-in-brazil/).*
 
 ---
 

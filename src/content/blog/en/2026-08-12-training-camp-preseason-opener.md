@@ -117,7 +117,7 @@ The NFL is coming back to Brazil, and this time to Rio. Per NFL.com, the **Dalla
 
 ---
 
-*Catching games in Brazil this season? Find a watch party near you on our [chapters page](/chapters/), or connect with fellow fans in the [Cabeça de Queijo WhatsApp community](/join/). New here? Start with our guide on [how to watch the NFL in Brazil](/blog/how-to-watch-the-NFL-in-Brazil/).*
+*Catching games in Brazil this season? Find a watch party near you on our [chapters page](/chapters/), or connect with fellow fans in the [Cabeça de Queijo WhatsApp community](/join/). New here? Start with our guide on [how to watch the NFL in Brazil](/blog/how-to-watch-the-nfl-in-brazil/).*
 
 ---
 
