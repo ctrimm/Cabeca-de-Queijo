@@ -26,8 +26,6 @@ Matt LaFleur não conseguiu disfarçar depois do jogo. Segundo o Yahoo Sports, e
 
 Duas semanas atrás Smack estava com 8 acertos em 13 tentativas no camp e a vaga parecia frágil. Ele é o único chutador do elenco — e, depois de quinta-feira, isso parece bem mais uma decisão do que uma falta de opção.
 
-![Lambeau Leap — jogador do Green Bay Packers comemorando um touchdown com a torcida na arquibancada](../../../assets/lambeauLeap.jpeg)
-
 ---
 
 ## Love Jogou Uma Série, e Era Esse Mesmo o Plano
@@ -51,8 +49,6 @@ A melhor notícia da semana aconteceu no treino, não no jogo.
 No domingo, Kraft participou de períodos de 11 contra 11 pela primeira vez desde a ruptura do ligamento cruzado do joelho direito, em novembro passado — e comemorou pegando um touchdown de Love e cravando a bola no chão. Terminou o dia com cinco alvos, cinco recepções e um touchdown.
 
 A avaliação dele mesmo, segundo a ESPN e a WTMJ: *"Acho que somos um time diferente quando eu estou em campo, e acho que isso é óbvio"*. Difícil discordar. Ele também comentou que seu número de jogadas será administrado no início da temporada — um plano de retomada gradual, e não uma preocupação com o joelho. Kraft faz tudo isso ainda à espera de um novo contrato.
-
-![Átrio do Lambeau Field e a Packers Pro Shop em um dia de verão](../../../assets/outsideLambeau.jpeg)
 
 ---
 

@@ -26,8 +26,6 @@ Matt LaFleur couldn't hide it afterward. Per Yahoo Sports, he said special teams
 
 Two weeks ago Smack was 8-for-13 in camp and the job looked shaky. He's the only kicker on the roster, and after Thursday, that looks a lot more like a decision than a default.
 
-![Lambeau Leap — a Green Bay Packers player celebrating a touchdown with fans in the stands](../../../assets/lambeauLeap.jpeg)
-
 ---
 
 ## Love Played One Series and That Was the Point
@@ -51,8 +49,6 @@ The best news of the week happened at practice, not in the game.
 On Sunday, Kraft took part in 11-on-11 drills for the first time since tearing his right ACL last November — and celebrated by catching a touchdown from Love and spiking the ball. He finished the day five targets, five catches, one touchdown.
 
 His own assessment, per ESPN and WTMJ: *"I think we're a different team when I'm out on the field, and I think that's obvious."* Hard to argue. He also noted his snap count will be managed early in the season — a planned ramp-up, not a knee concern. Kraft is doing all of this while still waiting on a new contract.
-
-![Lambeau Field atrium and the Packers Pro Shop on a summer day](../../../assets/outsideLambeau.jpeg)
 
 ---
 
