@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "npm run test:unit && npm run test:component",
+    "test": "pnpm run test:unit && pnpm run test:component",
     "test:unit": "vitest run",
     "test:unit:watch": "vitest",
     "test:component": "playwright test",
@@ -47,5 +47,16 @@
   },
   "overrides": {
     "yaml": "^2.8.3"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "//": "pnpm ignores the npm-style top-level `overrides` field above, so the yaml pin is repeated here. Keep the two in sync.",
+    "overrides": {
+      "yaml": "^2.8.3"
+    },
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }
