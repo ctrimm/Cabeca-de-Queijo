@@ -23,7 +23,7 @@ export interface SeasonEntry {
 export const seasons: SeasonEntry[] = [
   {
     year: 2025,
-    record: '9-8',
+    record: '9-7-1',
     coach: 'Matt LaFleur',
     qb: 'Jordan Love',
     divisionFinish: '2nd in NFC North',
