@@ -421,21 +421,25 @@ const schedule = [
   },
   // ===== 2026 PRESEASON =====
   {
-    dateOfMatch: "2026-08-15T18:00:00.000-05:00",
+    dateOfMatch: "2026-08-13T18:00:00.000-05:00",
     opponent: "at Pittsburgh Steelers",
-    network: "TBD",
+    outcome: "L",
+    score: "9-28",
+    network: "Packers TV Network",
     eventName: "Preseason Week 1"
   },
   {
-    dateOfMatch: "2026-08-22T18:00:00.000-05:00",
+    dateOfMatch: "2026-08-21T20:00:00.000-05:00",
     opponent: "at Denver Broncos",
-    network: "TBD",
+    outcome: "W",
+    score: "33-13",
+    network: "Packers TV Network",
     eventName: "Preseason Week 2"
   },
   {
-    dateOfMatch: "2026-08-29T18:00:00.000-05:00",
+    dateOfMatch: "2026-08-28T19:00:00.000-05:00",
     opponent: "Arizona Cardinals",
-    network: "TBD",
+    network: "Packers TV Network",
     eventName: "Preseason Week 3"
   },
   // ===== 2026 SEASON =====
