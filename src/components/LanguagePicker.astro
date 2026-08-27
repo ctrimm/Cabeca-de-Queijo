@@ -23,8 +23,9 @@ const flags = {
     <ul tabindex="0" class="dropdown-content z-[101] p-2 shadow-lg bg-base-100 rounded-lg w-full lg:w-40 mt-1 lg:absolute lg:top-full lg:left-0 static">
       {Object.entries(languages).map(([l, label]) => (
         <li>
-          <a 
+          <a
             href={translatePath(path, l)}
+            data-lang-choice={l}
             class={`flex items-center gap-2 px-4 py-3 hover:bg-base-200 rounded-lg ${lang === l ? 'bg-base-200' : ''}`}>
             <span class="text-xl">{flags[l]}</span>
             <span>{label}</span>
@@ -34,3 +35,18 @@ const flags = {
     </ul>
   </div>
 </div>
+
+<script>
+  // Remember an explicit language choice so the South America auto-redirect in
+  // LocaleRedirect.astro stops firing. Choosing English has to stick too —
+  // otherwise a visitor in Brazil who wants English gets bounced every visit.
+  document.querySelectorAll('[data-lang-choice]').forEach((link) => {
+    link.addEventListener('click', () => {
+      try {
+        localStorage.setItem('cdq:lang', link.getAttribute('data-lang-choice') || '');
+      } catch (e) {
+        // Private mode: the choice just won't persist past this navigation.
+      }
+    });
+  });
+</script>

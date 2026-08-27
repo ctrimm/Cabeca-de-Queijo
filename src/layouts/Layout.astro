@@ -7,9 +7,13 @@ import "@fontsource-variable/inter/index.css";
 import "../styles/global.css";
 import { getLangFromUrl } from '../i18n/utils';
 import PostHog from '@components/posthog.astro';
+import LocaleRedirect from '@components/LocaleRedirect.astro';
 
 const currentLanguage = getLangFromUrl(Astro.url);
 const isEnglish = currentLanguage === 'en';
+
+// Same-origin path of the pt-BR twin of this page, for the locale auto-redirect.
+const ptPath = isEnglish ? `/pt-BR${Astro.url.pathname}` : Astro.url.pathname;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
@@ -75,6 +79,8 @@ const makeTitle = Astro.props.title
     <meta name="generator" content={Astro.generator} />
     <link rel="alternate" href={canonicalURL} hreflang={currentLanguage} />
     <link rel="alternate" href={alternateURL} hreflang={alternateLanguage} />
+
+    {isEnglish && <LocaleRedirect ptPath={ptPath} />}
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <!-- src/layouts/Layout.astro -->
