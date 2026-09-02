@@ -439,6 +439,8 @@ const schedule = [
   {
     dateOfMatch: "2026-08-28T19:00:00.000-05:00",
     opponent: "Arizona Cardinals",
+    outcome: "W",
+    score: "42-38",
     network: "Packers TV Network",
     eventName: "Preseason Week 3"
   },
