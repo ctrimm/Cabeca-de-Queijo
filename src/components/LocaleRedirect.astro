@@ -1,0 +1,77 @@
+---
+/**
+ * Sends first-time visitors in South America (or with a Portuguese browser
+ * preference) to the pt-BR version of whatever page they landed on.
+ *
+ * This is a static site on S3/CloudFront, so there is no server to inspect the
+ * request — the detection has to happen in the browser. The script is inlined
+ * in <head> and runs before render so the redirect fires without a visible
+ * flash of English content.
+ *
+ * Rules, in order:
+ *   1. If the visitor has ever picked a language explicitly, do nothing. Ever.
+ *   2. Otherwise redirect when the browser asks for Portuguese, or when the
+ *      timezone puts them in South America.
+ *
+ * Only rendered on English pages, so it can't loop: the target is always a
+ * pt-BR page, where this component isn't included.
+ *
+ * @param ptPath - Same-origin path of the pt-BR equivalent of the current page.
+ */
+interface Props {
+  ptPath: string;
+}
+
+const { ptPath } = Astro.props;
+---
+
+<script is:inline define:vars={{ ptPath }}>
+  (function () {
+    // South American IANA timezones. Used as a proxy for geography — it needs
+    // no permission prompt and no network call, unlike the Geolocation API.
+    var SOUTH_AMERICA = [
+      // Brazil
+      'America/Sao_Paulo', 'America/Bahia', 'America/Fortaleza', 'America/Recife',
+      'America/Belem', 'America/Manaus', 'America/Cuiaba', 'America/Campo_Grande',
+      'America/Porto_Velho', 'America/Rio_Branco', 'America/Boa_Vista',
+      'America/Santarem', 'America/Maceio', 'America/Araguaina',
+      'America/Eirunepe', 'America/Noronha',
+      // Argentina (legacy aliases; the America/Argentina/* prefix is checked below)
+      'America/Buenos_Aires', 'America/Cordoba', 'America/Mendoza',
+      'America/Catamarca', 'America/Jujuy', 'America/Rosario',
+      // Rest of the continent
+      'America/Santiago', 'America/Punta_Arenas', 'Pacific/Easter',
+      'America/Bogota', 'America/Lima', 'America/Caracas', 'America/La_Paz',
+      'America/Asuncion', 'America/Montevideo', 'America/Guayaquil',
+      'Pacific/Galapagos', 'America/Guyana', 'America/Paramaribo',
+      'America/Cayenne', 'Atlantic/Stanley'
+    ];
+
+    // An explicit choice always wins — including a choice of English.
+    try {
+      if (localStorage.getItem('cdq:lang')) return;
+    } catch (e) {
+      // Storage can throw in private mode. Fall through and use detection.
+    }
+
+    var wantsPortuguese = false;
+    try {
+      var langs = navigator.languages || [navigator.language || ''];
+      for (var i = 0; i < langs.length; i++) {
+        if (/^pt\b/i.test(langs[i])) { wantsPortuguese = true; break; }
+      }
+    } catch (e) {}
+
+    var inSouthAmerica = false;
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      inSouthAmerica =
+        SOUTH_AMERICA.indexOf(tz) !== -1 || tz.indexOf('America/Argentina/') === 0;
+    } catch (e) {}
+
+    if (!wantsPortuguese && !inSouthAmerica) return;
+
+    // replace() rather than assign() so Back doesn't bounce them straight here again.
+    location.replace(ptPath + location.search + location.hash);
+  })();
+</script>
