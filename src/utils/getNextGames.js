@@ -448,6 +448,8 @@ const schedule = [
   {
     dateOfMatch: "2026-09-13T15:25:00.000-05:00",
     opponent: "at Minnesota Vikings",
+    outcome: "L",
+    score: "22-39",
     network: "CBS"
   },
   {
