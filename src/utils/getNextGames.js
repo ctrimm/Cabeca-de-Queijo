@@ -455,6 +455,8 @@ const schedule = [
   {
     dateOfMatch: "2026-09-20T12:00:00.000-05:00",
     opponent: "at New York Jets",
+    outcome: "W",
+    score: "20-17",
     network: "FOX"
   },
   {
