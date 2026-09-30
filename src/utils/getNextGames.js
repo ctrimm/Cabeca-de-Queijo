@@ -462,13 +462,15 @@ const schedule = [
   {
     dateOfMatch: "2026-09-24T19:15:00.000-05:00",
     opponent: "Atlanta Falcons",
+    outcome: "L",
+    score: "14-35",
     network: "Prime Video",
     eventName: "Thursday Night Football"
   },
   {
     dateOfMatch: "2026-09-27T19:00:00.000-03:00",
     eventName: "NFL in Rio de Janeiro 🇧🇷: Ravens vs Cowboys",
-    network: "ESPN"
+    network: "CBS"
   },
   {
     dateOfMatch: "2026-10-04T12:00:00.000-05:00",
