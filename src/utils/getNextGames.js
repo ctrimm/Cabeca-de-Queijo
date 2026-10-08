@@ -475,10 +475,13 @@ const schedule = [
   {
     dateOfMatch: "2026-10-04T12:00:00.000-05:00",
     opponent: "at Tampa Bay Buccaneers",
+    outcome: "W",
+    score: "17-14",
     network: "FOX"
   },
   {
-    dateOfMatch: "2026-10-11T15:25:00.000-05:00",
+    // Flexed from 3:25pm CT to noon CT — the NFL's first flex of the 2026 season.
+    dateOfMatch: "2026-10-11T12:00:00.000-05:00",
     opponent: "Chicago Bears",
     network: "FOX"
   },
