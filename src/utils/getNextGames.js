@@ -483,6 +483,8 @@ const schedule = [
     // Flexed from 3:25pm CT to noon CT — the NFL's first flex of the 2026 season.
     dateOfMatch: "2026-10-11T12:00:00.000-05:00",
     opponent: "Chicago Bears",
+    outcome: "W",
+    score: "31-7",
     network: "FOX"
   },
   {
