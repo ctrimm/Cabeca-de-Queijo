@@ -52,9 +52,9 @@ A NFL divulgou o calendário completo de 2026 em 14 de maio, e segundo o detalha
 
 **Semana 6 — vs. Dallas Cowboys (18 de out., NBC, 20h20):** Sunday Night Football em casa contra o Dallas. Palco nacional.
 
-**Semana 7 — vs. Detroit Lions (25 de out., Fox):** Os Lions têm sido o maior obstáculo dos Packers no NFC North. Jogar em casa aqui é fundamental.
+**Semana 7 — em Detroit Lions (25 de out., Fox):** Os Lions têm sido o maior obstáculo dos Packers no NFC North. Desta vez o jogo é fora de casa, no Ford Field, o que o torna ainda mais difícil.
 
-**Semana 12 — vs. Los Angeles Rams (véspera de Thanksgiving, Netflix):** Um jogo em destaque nacional na quarta-feira antes do Thanksgiving americano, transmitido pelo Netflix.
+**Semana 12 — em Los Angeles Rams (véspera de Thanksgiving, Netflix):** Um jogo em destaque nacional na quarta-feira antes do Thanksgiving americano, no SoFi Stadium, transmitido pelo Netflix.
 
 **Semana 14 — vs. Buffalo Bills no Lambeau:** Josh Allen no Lambeau Field no coração do inverno? Compre seus ingressos já.
 
@@ -63,6 +63,8 @@ A NFL divulgou o calendário completo de 2026 em 14 de maio, e segundo o detalha
 **Semana 18 — vs. Detroit Lions (em casa):** O último jogo da temporada pode ter implicações enormes nos playoffs numa divisão NFC North acirrada.
 
 É um calendário com momentos de destaque real — e uma grade de divisão brutal. Não há semanas fáceis.
+
+*Correção (21 de outubro de 2026): este post listava originalmente o jogo da Semana 7 contra os Lions e o da Semana 12 contra os Rams como jogos em casa. Os dois são fora de casa — em Detroit e no SoFi Stadium. O texto acima foi atualizado.*
 
 ---
 

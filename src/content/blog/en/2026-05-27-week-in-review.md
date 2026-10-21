@@ -52,9 +52,9 @@ The NFL released the full 2026 schedule on May 14, and per Packers.com's "10 thi
 
 **Week 6 — vs. Dallas Cowboys (Oct. 18, NBC, 8:20 p.m.):** Sunday Night Football at home against Dallas. Big-stage game.
 
-**Week 7 — vs. Detroit Lions (Oct. 25, Fox):** The Lions have been Green Bay's biggest obstacle in the NFC North. Home-field advantage matters here.
+**Week 7 — at Detroit Lions (Oct. 25, Fox):** The Lions have been Green Bay's biggest obstacle in the NFC North. This one is a road game at Ford Field, which makes it that much tougher.
 
-**Week 12 — vs. Los Angeles Rams (Thanksgiving Eve, Netflix):** A national spotlight game on the Wednesday before Thanksgiving, streaming on Netflix.
+**Week 12 — at Los Angeles Rams (Thanksgiving Eve, Netflix):** A national spotlight game on the Wednesday before Thanksgiving at SoFi Stadium, streaming on Netflix.
 
 **Week 14 — vs. Buffalo Bills at Lambeau:** Josh Allen at Lambeau Field in the heart of winter? Buy your tickets now.
 
@@ -63,6 +63,8 @@ The NFL released the full 2026 schedule on May 14, and per Packers.com's "10 thi
 **Week 18 — vs. Detroit Lions (home):** The season finale could have massive playoff implications in a tight NFC North.
 
 That's a schedule with some real marquee moments — and a brutal division slate. No easy weeks.
+
+*Correction (Oct. 21, 2026): this post originally listed the Week 7 Lions game and the Week 12 Rams game as home games. Both are road games — at Detroit and at SoFi Stadium. The text above has been updated.*
 
 ---
 
