@@ -59,7 +59,7 @@ describe('schedule data integrity', () => {
       .map(g => g.opponent);
     expect(opponents).toContain('at Minnesota Vikings');
     expect(opponents).toContain('at Chicago Bears');
-    expect(opponents).toContain('Detroit Lions');
+    expect(opponents).toContain('at Detroit Lions');
   });
 
   it('has the Thanksgiving Eve Netflix game', () => {
