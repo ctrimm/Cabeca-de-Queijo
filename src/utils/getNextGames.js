@@ -490,12 +490,14 @@ const schedule = [
   {
     dateOfMatch: "2026-10-18T19:20:00.000-05:00",
     opponent: "Dallas Cowboys",
+    outcome: "W",
+    score: "23-13",
     network: "NBC",
     eventName: "Sunday Night Football"
   },
   {
     dateOfMatch: "2026-10-25T15:25:00.000-05:00",
-    opponent: "Detroit Lions",
+    opponent: "at Detroit Lions",
     network: "FOX"
   },
   {
