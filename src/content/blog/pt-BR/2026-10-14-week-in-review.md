@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Semana em Revista dos Packers: Vingança por 31 a 7 sobre os Bears e uma Defesa Perdendo Titulares"
+seoTitle: "Vingança por 31 a 7 sobre os Bears"
 snippet: "Green Bay atropelou o Chicago no Lambeau, com o maior número de turnovers forçados desde 2016, e subiu para 3-2. Mas Javon Hargrave e Edgerrin Cooper estão fora do ano com rupturas de Aquiles, e Trey Smack finalmente errou."
 image: {
     src: "lambeauLeap.jpeg",

@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Weekly Green Bay Packers Roundup: June 18, 2025 - A Week of Changes and Challenges"
+seoTitle: "Packers Roundup: June 18, 2025"
 snippet: "Weekly Green Bay Packers news and updates for the week of June 18"
 image: {
     src: "packers-weekly.png",

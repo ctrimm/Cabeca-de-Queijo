@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Week in Review: Beaten at the Gun in Detroit, a Center Crisis, and a Door Creaking Open for Parsons"
+seoTitle: "Beaten at the Gun in Detroit"
 snippet: "Green Bay lost 20-17 at Detroit on a walk-off field goal, undone by two missed Trey Smack kicks and a fourth-quarter stop that went to waste. The Packers are 4-3 and last in the NFC North — and Carolina comes to Lambeau tomorrow night, with the middle of the offensive line in pieces."
 image: {
     src: "jordan-love-lambeau.jpg",

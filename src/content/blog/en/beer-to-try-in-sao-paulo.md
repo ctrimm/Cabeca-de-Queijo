@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Top Beers To Try While in Sao Paulo for the NFL Game"
+seoTitle: "Beers for the NFL Game in São Paulo"
 snippet: "In São Paulo, you can get Budweiser, Stella Artois, Blue Moon, Pabst, and even Lagunitas. But São Paulo has a budding craft brewery scene. This post aims to highlight a few of our favorite places and breweries to have one."
 image: {
     src: "packers-fans-drinking-beers.webp",

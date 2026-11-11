@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Semana em Revista dos Packers: Recorde de 45 Pontos no Gillette, Dois Jogos de Carreira e um Dedo Caríssimo"
+seoTitle: "Recorde de 45 Pontos no Gillette"
 snippet: "Green Bay marcou 45 pontos no New England — o maior total de um time visitante na história do Gillette Stadium — com jogos de carreira de Christian Watson e Matthew Golden. Os Packers estão 6-3. A conta: o dedo quebrado de Josh Jacobs, cirurgia e um backfield dividido por comitê para a revanche contra os Vikings."
 image: {
     src: "christian-watson.jpg",

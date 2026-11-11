@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Atualização da Offseason 2026 dos Packers: Um Novo Elenco Toma Forma"
+seoTitle: "Offseason 2026 dos Packers Toma Forma"
 snippet: "A temporada de 2025 terminou com uma dor no coração, mas Green Bay não perdeu tempo reformulando o time. Confira tudo o que aconteceu nesta offseason — agência livre, o draft e o que tudo isso significa para o grupo do Jordan Love em 2026."
 image: {
     src: "lambeauLeap.jpeg",

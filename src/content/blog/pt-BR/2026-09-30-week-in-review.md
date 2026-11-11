@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Semana em Revista dos Packers: Uma Noite Humilhante no Lambeau, e a NFL Desembarca no Rio"
+seoTitle: "Uma Noite Humilhante no Lambeau"
 snippet: "O Atlanta marcou 27 pontos seguidos no Lambeau e encerrou uma sequência de 13 anos de vitórias em estreias em casa, o jogo de corrida produziu 17 jardas e Green Bay está 1-2. Enquanto isso, a NFL fez seu primeiro jogo no Rio — e foi um clássico."
 image: {
     src: "outsideLambeau.jpeg",

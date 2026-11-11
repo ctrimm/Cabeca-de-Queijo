@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Resumo Semanal dos Green Bay Packers: 18 de Junho de 2025 - Uma Semana de Mudanças e Desafios"
+seoTitle: "Resumo dos Packers: 18 de Junho"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 18 de Junho"
 image: {
     src: "packers-weekly.png",

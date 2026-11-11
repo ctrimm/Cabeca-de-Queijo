@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Resumo Semanal dos Packers: Uma Difícil Semana 18 à Frente com os Playoffs se Aproximando"
+seoTitle: "Resumo: Semana 18 Difícil, Playoffs Perto"
 snippet: "Notícias e atualizações do Green Bay Packers para a semana de 31 de dezembro"
 image: {
     src: "packers-weekly.png",

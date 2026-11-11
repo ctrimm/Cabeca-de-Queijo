@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Week in Review: A Scare, a Comeback, and a 27-19 Win Over Carolina"
+seoTitle: "A Scare, a Comeback, a 27-19 Win"
 snippet: "Green Bay beat Carolina 27-19 on Thursday night behind Jordan Love's three touchdowns and a six-sack defense — but the night belonged to Christian Watson, who left in an ambulance with a broken rib and came back to finish with 113 yards. The Packers are 5-3, and New England awaits on Sunday."
 image: {
     src: "outsideLambeau2.jpg",

@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Catch-Up: Camp Battles, Big Extensions, and a Preseason Opener in Pittsburgh"
+seoTitle: "Camp Battles and Big Extensions"
 snippet: "Everything you missed since minicamp: three contract extensions, Micah Parsons on PUP, a one-man kicker competition, a rookie corner making noise — and a preseason opener against Aaron Rodgers and Mike McCarthy."
 image: {
     src: "outsideLambeau.jpeg",

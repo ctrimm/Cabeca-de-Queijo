@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Semana em Revista dos Packers: Um Jogaço de 42 a 38, um Quarterback Trocado e os 53 Definidos"
+seoTitle: "Jogaço de 42 a 38, QB Trocado"
 snippet: "Kyle McCord lançou quatro touchdowns para vencer os Cardinals de Mike LaFleur — e foi trocado para o Miami. Green Bay cortou 30 jogadores, colocou Micah Parsons na reserve/PUP e o elenco está oficialmente pronto para a Semana 1."
 image: {
     src: "outsideLambeau.jpeg",

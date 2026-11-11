@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Week in Review: A Rookie Kicker Steals the Show in a 28-9 Loss"
+seoTitle: "A Rookie Kicker Steals the Show"
 snippet: "Green Bay dropped the preseason opener in Pittsburgh, but Trey Smack was perfect, Jordan Love did his job in one series, and Tucker Kraft is finally back in team drills."
 image: {
     src: "packers-weekly.png",

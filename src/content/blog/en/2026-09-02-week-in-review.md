@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Week in Review: A 42-38 Thriller, a Quarterback Traded, and the 53 Are Set"
+seoTitle: "A 42-38 Thriller, a QB Traded"
 snippet: "Kyle McCord threw four touchdowns to beat Mike LaFleur's Cardinals — then got traded to Miami. Green Bay cut 30 players, put Micah Parsons on reserve/PUP, and the roster is officially set for Week 1."
 image: {
     src: "outsideLambeau.jpeg",

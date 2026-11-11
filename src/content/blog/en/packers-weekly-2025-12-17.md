@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Weekly Wrap-Up: Injury Woes and Playoff Push - Dec 17, 2025"
+seoTitle: "Packers Wrap-Up: Injuries, Playoff Push"
 snippet: "Weekly Green Bay Packers news and updates for the week of December 17"
 image: {
     src: "packers-weekly.png",

@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Recap Semanal dos Packers: 16 de Julho de 2025 - A Pré-temporada se Aproxima!"
+seoTitle: "Recap dos Packers: 16 de Julho de 2025"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 16 de julho"
 image: {
     src: "packers-weekly.png",

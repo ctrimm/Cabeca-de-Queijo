@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Week in Review: A Rout in Denver, a Kicker Nobody's Worried About, and Brother vs. Brother"
+seoTitle: "A Rout in Denver, Brother vs. Brother"
 snippet: "Green Bay blew out the Broncos 33-13, Trey Smack stayed perfect, the backup quarterback race got interesting, and the Cardinals are in town for a joint practice coached by Matt LaFleur's little brother."
 image: {
     src: "lambeauLeap.jpeg",

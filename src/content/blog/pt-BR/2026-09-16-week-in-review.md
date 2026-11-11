@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Semana em Revista dos Packers: 12 Pontos de Vantagem, 29 Sem Resposta e um Início 0-1"
+seoTitle: "12 Pontos de Vantagem, 29 Sem Resposta"
 snippet: "Green Bay vencia por 22 a 10 em Minneapolis e perdeu por 39 a 22. Doze penalidades, quatro sacks no segundo tempo e um colapso familiar — além de Josh Jacobs na lista de exempt do comissário e Micah Parsons liberado para treinar na semana que vem."
 image: {
     src: "packers-weekly.png",

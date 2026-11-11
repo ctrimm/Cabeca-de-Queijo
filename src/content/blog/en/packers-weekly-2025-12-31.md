@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Weekly Recap: A Tough Week 18 Ahead as Playoffs Loom"
+seoTitle: "Packers: Tough Week 18 as Playoffs Loom"
 snippet: "Weekly Green Bay Packers news and updates for the week of December 31"
 image: {
     src: "packers-weekly.png",

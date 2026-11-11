@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Packers Weekly Recap: Training Camp Buzz and Key Player Updates (July 2, 2025)"
+seoTitle: "Packers Recap: Camp Buzz, July 2, 2025"
 snippet: "Weekly Green Bay Packers news and updates for the week of July 2"
 image: {
     src: "packers-weekly.png",

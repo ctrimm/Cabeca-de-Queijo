@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "As Melhores Cervejas Para Experimentar em São Paulo Durante o Jogo da NFL"
+seoTitle: "Cervejas em São Paulo para o Jogo da NFL"
 snippet: "Em São Paulo, você pode encontrar Budweiser, Stella Artois, Blue Moon, Pabst e até Lagunitas. Mas São Paulo também tem uma crescente cena de cervejas artesanais. Este post destaca alguns dos nossos lugares e cervejarias favoritos."
 image: {
     src: "packers-fans-drinking-beers.webp",
