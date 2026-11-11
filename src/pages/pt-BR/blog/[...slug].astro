@@ -1,5 +1,6 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
+import type { ImageMetadata } from 'astro';
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { useTranslations } from '../../../i18n/utils';
@@ -24,6 +25,40 @@ const { post } = Astro.props;
 const lang = 'pt-BR';
 const t = useTranslations(lang);
 const { Content } = await render(post);
+// Resolve the hero image through the assets pipeline: the frontmatter stores
+// only a filename, so build the absolute og:image URL from the built asset.
+const heroImagePath = post.data.image.src.replace(/^\/src\/assets\//, "");
+const heroModules = import.meta.glob<{ default: ImageMetadata }>("/src/assets/*", {
+  eager: true,
+});
+const heroImage = heroModules[`/src/assets/${heroImagePath}`]?.default;
+if (!heroImage) {
+  throw new Error(`Blog hero image not found in src/assets: ${heroImagePath}`);
+}
+const ogImage = new URL(heroImage.src, Astro.site).toString();
+
+// Cap the meta description at ~160 chars on a word boundary; the snippet
+// itself stays intact everywhere it is displayed.
+const metaDescription =
+  post.data.snippet.length > 160
+    ? post.data.snippet.slice(0, 157).replace(/\s+\S*$/, "") + "..."
+    : post.data.snippet;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: metaDescription,
+  image: ogImage,
+  datePublished: post.data.publishDate.toISOString(),
+  author: { "@type": "Person", name: post.data.author },
+  publisher: {
+    "@type": "Organization",
+    name: "Cabe\u00e7a de Queijo",
+    url: "https://cabecadequeijo.com/",
+  },
+  mainEntityOfPage: Astro.url.href,
+};
 const formattedDate = post.data.publishDate.toLocaleDateString(lang, {
   year: 'numeric',
   month: 'long',
@@ -33,12 +68,12 @@ const formattedDate = post.data.publishDate.toLocaleDateString(lang, {
 
 <Layout
   seoTitle={`${post.data.title} | Cabeça de Queijo`}
-  seoDescription={post.data.snippet}
+  seoDescription={metaDescription}
   seoOpenGraph={{
     basic: {
       title: post.data.title,
       type: "article",
-      image: `https://cabecadequeijo.com${post.data.image.src}`,
+      image: ogImage,
       url: Astro.url.href,
     },
     image: {
@@ -46,6 +81,7 @@ const formattedDate = post.data.publishDate.toLocaleDateString(lang, {
     },
   }}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <Container>
     <article>
       <h1 class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-8">
