@@ -25,6 +25,9 @@ const alternateURL = new URL(
   Astro.site
 ).toString();
 
+// The English version is the default for users whose language matches neither.
+const defaultURL = isEnglish ? canonicalURL : alternateURL;
+
 export interface Props {
   title?: string;
   seoTitle: string;
@@ -79,6 +82,7 @@ const makeTitle = Astro.props.title
     <meta name="generator" content={Astro.generator} />
     <link rel="alternate" href={canonicalURL} hreflang={currentLanguage} />
     <link rel="alternate" href={alternateURL} hreflang={alternateLanguage} />
+    <link rel="alternate" href={defaultURL} hreflang="x-default" />
 
     {isEnglish && <LocaleRedirect ptPath={ptPath} />}
 
