@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Três Seguidas e a Defesa Rouba a Bola"
+title: "Semana em Revista dos Packers: Três Vitórias Seguidas, uma Defesa que Rouba a Bola e uma Semana Curta pela Frente"
+seoTitle: "Três Seguidas e a Defesa Rouba a Bola"
 snippet: "Green Bay venceu o Dallas por 23 a 13 no Sunday Night Football e chegou a 4-2, graças a uma defesa que não para de forçar turnovers. Agora é viagem a Detroit e uma quinta-feira de volta ao campo — com a linha defensiva no osso."
 image: {
     src: "outsideLambeau.jpeg",

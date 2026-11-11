@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Frases em Português para Fãs da NFL"
+title: "Um Guia de Frases em Português para Torcedores de Futebol Americano"
+seoTitle: "Frases em Português para Fãs da NFL"
 snippet: "Com a NFL chegando a São Paulo no outono e o crescimento do Futebol Americano no Brasil, é útil conhecer algum vocabulário em português relacionado ao esporte."
 image: {
     src: "language-cheering-fans.webp",

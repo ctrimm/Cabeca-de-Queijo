@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "31-7 Revenge Over the Bears"
+title: "Packers Week in Review: 31-7 Revenge Over the Bears, and a Defense Bleeding Starters"
+seoTitle: "31-7 Revenge Over the Bears"
 snippet: "Green Bay buried Chicago at Lambeau for its most takeaways since 2016 and climbed to 3-2. But Javon Hargrave and Edgerrin Cooper are both done for the year with Achilles tears, and Trey Smack finally missed."
 image: {
     src: "lambeauLeap.jpeg",

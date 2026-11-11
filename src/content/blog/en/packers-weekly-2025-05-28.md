@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Packers Recap: Contracts, Rookies, OTAs"
+title: "Packers Weekly Recap: Contract Updates, Rookies, and OTAs Kickoff"
+seoTitle: "Packers Recap: Contracts, Rookies, OTAs"
 snippet: "Weekly Green Bay Packers news and updates for the week of May 28"
 image: {
     src: "packers-weekly.png",

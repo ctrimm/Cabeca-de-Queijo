@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Where to Stay in São Paulo: NFL Game"
+title: "Where to Stay In Sao Paulo for the First Ever NFL Game"
+seoTitle: "Where to Stay in São Paulo: NFL Game"
 snippet: "Sao Paulo is a city of over 22.5 MILLION people - nearly 2.5x the size of New York City. Use our guide to help find a great neighborhood to stay."
 image: {
     src: "aerial-view-sao-paulo.webp",

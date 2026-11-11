@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Resumo: Rumores do Camp, 2 de Julho"
+title: "Resumo Semanal dos Packers: Rumores do Treinamento e Atualizações de Jogadores Chaves (2 de Julho de 2025)"
+seoTitle: "Resumo: Rumores do Camp, 2 de Julho"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 2 de julho"
 image: {
     src: "packers-weekly.png",

@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Conexões Culinárias: Wisconsin e Brasil"
+title: "Descobrindo Conexões Culinárias: Alimentos Semelhantes entre Wisconsin e Brasil"
+seoTitle: "Conexões Culinárias: Wisconsin e Brasil"
 snippet: "Explorar os cenários culinários de Wisconsin e Brasil pode parecer um estudo de contrastes, mas você pode se surpreender ao descobrir várias semelhanças deliciosas."
 image: {
     src: "brazil-wisconsin-food.webp",

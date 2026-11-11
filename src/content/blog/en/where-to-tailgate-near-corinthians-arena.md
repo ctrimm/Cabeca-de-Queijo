@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Where to Tailgate: Corinthians Arena"
+title: "Where to Tailgate Near Corinthians Arena for the Sao Paulo NFL Game"
+seoTitle: "Where to Tailgate: Corinthians Arena"
 snippet: "Looking for a place to tailgate in São Paulo for the inaugural NFL Game in South America between the Packers and the Eagles? Look no further."
 image: {
     src: "packers-fans-tailgating-inside-a-boteco.webp",

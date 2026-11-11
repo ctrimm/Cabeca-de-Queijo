@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Recap: Lesões e Vitórias Históricas"
+title: "Recapitulação Semanal dos Packers: Atualizações de Lesões, Vitórias Históricas e Preparação para os Vikings"
+seoTitle: "Recap: Lesões e Vitórias Históricas"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 20 de novembro"
 image: {
     src: "packers-weekly.png",

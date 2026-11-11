@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "A Humbling Night at Lambeau"
+title: "Packers Week in Review: A Humbling Night at Lambeau, and the NFL Lands in Rio"
+seoTitle: "A Humbling Night at Lambeau"
 snippet: "Atlanta scored 27 straight at Lambeau and ended a 13-year home-opener streak, the run game produced 17 yards, and Green Bay is 1-2. Meanwhile the NFL played its first game in Rio, and it was a classic."
 image: {
     src: "outsideLambeau.jpeg",

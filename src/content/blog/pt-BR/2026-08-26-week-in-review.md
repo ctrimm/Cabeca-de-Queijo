@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Atropelo em Denver: Irmão contra Irmão"
+title: "Semana em Revista dos Packers: Atropelo em Denver, um Chutador que Não Preocupa Mais e Irmão contra Irmão"
+seoTitle: "Atropelo em Denver: Irmão contra Irmão"
 snippet: "Green Bay atropelou os Broncos por 33 a 13, Trey Smack seguiu perfeito, a disputa pelo QB reserva ficou interessante e os Cardinals estão em Green Bay para um treino conjunto comandado pelo irmão mais novo de Matt LaFleur."
 image: {
     src: "lambeauLeap.jpeg",

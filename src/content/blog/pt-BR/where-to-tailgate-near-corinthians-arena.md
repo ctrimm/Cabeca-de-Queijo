@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Onde Fazer Tailgate: Arena Corinthians"
+title: "Onde Fazer Tailgate Perto da Arena Corinthians para o Jogo da NFL em São Paulo"
+seoTitle: "Onde Fazer Tailgate: Arena Corinthians"
 snippet: "Procurando um lugar para fazer tailgate em São Paulo para o jogo inaugural da NFL na América do Sul entre Packers e Eagles? Não procure mais."
 image: {
     src: "packers-fans-tailgating-inside-a-boteco.webp",

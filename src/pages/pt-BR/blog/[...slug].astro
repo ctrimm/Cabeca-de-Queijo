@@ -67,7 +67,7 @@ const formattedDate = post.data.publishDate.toLocaleDateString(lang, {
 ---
 
 <Layout
-  seoTitle={`${post.data.title} | Cabeça de Queijo`}
+  seoTitle={`${post.data.seoTitle ?? post.data.title} | Cabeça de Queijo`}
   seoDescription={metaDescription}
   seoOpenGraph={{
     basic: {

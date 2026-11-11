@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Notícias dos Packers: 11 de Junho"
+title: "Atualizações da Semana sobre o Green Bay Packers (11 de Junho de 2025)"
+seoTitle: "Notícias dos Packers: 11 de Junho"
 snippet: "Notícias e atualizações semanais sobre o Green Bay Packers para a semana de 11 de junho"
 image: {
     src: "packers-weekly.png",

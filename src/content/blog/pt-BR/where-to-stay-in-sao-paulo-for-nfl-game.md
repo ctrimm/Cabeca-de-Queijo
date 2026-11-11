@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Onde Ficar em São Paulo: Jogo da NFL"
+title: "Onde Ficar em São Paulo para o Primeiro Jogo da NFL"
+seoTitle: "Onde Ficar em São Paulo: Jogo da NFL"
 snippet: "São Paulo é uma cidade com mais de 22,5 MILHÕES de pessoas - quase 2,5x o tamanho de Nova York. Use nosso guia para encontrar um ótimo bairro para se hospedar."
 image: {
     src: "aerial-view-sao-paulo.webp",

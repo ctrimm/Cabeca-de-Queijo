@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Packers Beat the Bears in a Crucial Week"
+title: "Packers Victory Over Bears Highlights a Crucial Week"
+seoTitle: "Packers Beat the Bears in a Crucial Week"
 snippet: "Weekly Green Bay Packers news and updates for the week of December 10"
 image: {
     src: "packers-weekly.png",

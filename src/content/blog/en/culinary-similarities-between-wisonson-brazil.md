@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "Culinary Connections: Wisconsin & Brazil"
+title: "Discovering Culinary Connections: Similar Foods Between Wisconsin and Brazil"
+seoTitle: "Culinary Connections: Wisconsin & Brazil"
 snippet: "Exploring the culinary landscapes of Wisconsin and Brazil might seem like a study in contrasts, but you might be surprised to discover a number of delicious similarities."
 image: {
     src: "brazil-wisconsin-food.webp",

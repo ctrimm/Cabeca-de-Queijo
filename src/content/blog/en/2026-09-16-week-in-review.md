@@ -1,6 +1,7 @@
 ---
 draft: false
-title: "A 12-Point Lead, 29 Unanswered"
+title: "Packers Week in Review: A 12-Point Lead, 29 Unanswered, and an 0-1 Start"
+seoTitle: "A 12-Point Lead, 29 Unanswered"
 snippet: "Green Bay led 22-10 in Minneapolis and lost 39-22. Twelve penalties, four second-half sacks and a familiar collapse — plus Josh Jacobs on the commissioner's exempt list and Micah Parsons cleared to practice next week."
 image: {
     src: "packers-weekly.png",
