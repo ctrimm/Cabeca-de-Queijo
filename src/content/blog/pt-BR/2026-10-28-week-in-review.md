@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana em Revista dos Packers: Derrota no Estouro do Relógio em Detroit, Crise na Posição de Center e uma Porta Entreaberta para Parsons"
+title: "Derrota no Estouro do Relógio"
 snippet: "Green Bay perdeu por 20 a 17 em Detroit, num field goal no último lance, vítima de dois chutes desperdiçados de Trey Smack e de uma parada na quarta descida jogada fora. Os Packers estão 4-3 e em último na NFC North — e o Carolina chega ao Lambeau amanhã à noite, com o meio da linha ofensiva em pedaços."
 image: {
     src: "jordan-love-lambeau.jpg",

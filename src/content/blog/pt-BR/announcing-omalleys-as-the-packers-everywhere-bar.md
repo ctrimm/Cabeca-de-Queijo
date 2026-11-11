@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Anunciando O'Malley's como o Bar Packers Everywhere em São Paulo"
+title: "O'Malley's: Bar dos Packers em São Paulo"
 snippet: "Com a NFL chegando a São Paulo na próxima semana, não há momento melhor para anunciar que o O'Malley's será O local para assistir a todos os jogos do Green Bay Packers na temporada 2024."
 image: {
     src: "packers-everywhere-announcement.png",

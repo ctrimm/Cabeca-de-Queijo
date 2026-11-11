@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Resumo Semanal do Green Bay Packers: Principais Insights e Atualizações para 25 de Junho de 2025"
+title: "Resumo dos Packers: 25 de Junho"
 snippet: "Notícias e atualizações semanais do Green Bay Packers para a semana de 25 de junho"
 image: {
     src: "packers-weekly.png",

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Pacotes da Semana: Preocupações com Lesões e Esperanças de Playoffs em Jogo"
+title: "Lesões e Esperanças de Playoffs"
 snippet: "Notícias e atualizações semanais do Green Bay Packers para a semana de 24 de dezembro"
 image: {
     src: "packers-weekly.png",

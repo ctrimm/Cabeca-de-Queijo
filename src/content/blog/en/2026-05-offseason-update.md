@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers 2026 Offseason Update: A New Look Roster Takes Shape"
+title: "2026 Offseason: A New-Look Roster"
 snippet: "The 2025 season ended in heartbreak, but Green Bay has been busy reshaping the roster. Here's everything that happened this offseason — free agency, the draft, and what it all means for Jordan Love's crew heading into 2026."
 image: {
     src: "lambeauLeap.jpeg",

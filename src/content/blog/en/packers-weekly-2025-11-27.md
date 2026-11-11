@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Thanksgiving Showdown: Packers Battle Lions in Key NFC North Clash"
+title: "Thanksgiving Showdown: Packers vs. Lions"
 snippet: "Weekly Green Bay Packers news and updates for the week of November 27"
 image: {
     src: "packers-weekly.png",

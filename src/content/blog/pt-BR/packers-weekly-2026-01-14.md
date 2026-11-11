@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Resumo Semanal de Notícias dos Packers (14 de Jan, 2026): Uma Dura Derrota e Questões de Treinamento à Frente"
+title: "Uma Dura Derrota, Questões no Comando"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 14 de janeiro"
 image: {
     src: "packers-weekly.png",

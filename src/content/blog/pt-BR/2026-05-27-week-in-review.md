@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana em Revista dos Packers: OTAs Começam, Calendário 2026 é Divulgado e uma Novidade na Família Love"
+title: "OTAs Começam, Sai o Calendário 2026"
 snippet: "Uma semana agitada no mundo Packer: os treinos organizados começaram, o calendário de 2026 foi lançado com jogos imperdíveis, a disputa pelo chutador tomou outro rumo, e a família de Jordan Love aumentou."
 image: {
     src: "lambeauLeap.jpeg",

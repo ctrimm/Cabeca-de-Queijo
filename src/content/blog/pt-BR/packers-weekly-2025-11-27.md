@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Confronto de Ação de Graças: Packers Enfrentam Lions em Confronto Crucial da NFC Norte"
+title: "Ação de Graças: Packers x Lions"
 snippet: "Notícias e atualizações semanais do Green Bay Packers para a semana de 27 de novembro"
 image: {
     src: "packers-weekly.png",

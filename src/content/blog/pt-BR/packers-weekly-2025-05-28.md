@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Resumo Semanal dos Packers: Atualizações de Contratos, Rookies e Início dos OTAs"
+title: "Resumo: Contratos, Rookies e OTAs"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 28 de maio"
 image: {
     src: "packers-weekly.png",

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Week in Review: A Scrappy Road Win, a Rebuilt Offensive Line, and the Bears Are Coming"
+title: "A Scrappy 17-14 Win in Tampa"
 snippet: "Green Bay survived Tampa 17-14 to get to 2-2, signed three veteran offensive linemen in a week, and lost Jayden Reed for the season. Now the Bears come to Lambeau for a Wild Card rematch that's been flexed to noon."
 image: {
     src: "packers-weekly.png",

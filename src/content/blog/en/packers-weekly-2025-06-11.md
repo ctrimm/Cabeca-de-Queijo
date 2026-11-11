@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "This Week in Green Bay Packers News (June 11, 2025)"
+title: "Packers News: Week of June 11, 2025"
 snippet: "Weekly Green Bay Packers news and updates for the week of June 11"
 image: {
     src: "packers-weekly.png",

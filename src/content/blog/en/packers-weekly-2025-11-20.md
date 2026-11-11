@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Weekly Recap: Injury Updates, Historic Wins, and Preparing for the Vikings"
+title: "Packers Recap: Injuries, Historic Wins"
 snippet: "Weekly Green Bay Packers news and updates for the week of November 20"
 image: {
     src: "packers-weekly.png",

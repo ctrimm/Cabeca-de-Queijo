@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Week in Review: OTAs Begin, the 2026 Schedule Drops, and a Love Family Milestone"
+title: "OTAs Begin, the 2026 Schedule Drops"
 snippet: "A big week in Packerland: organized team activities got underway, the 2026 schedule was released with some juicy matchups, the kicker competition took a turn, and Jordan Love's family grew by one."
 image: {
     src: "lambeauLeap.jpeg",

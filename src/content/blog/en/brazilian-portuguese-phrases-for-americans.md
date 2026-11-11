@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "A Guide to Portuguese Phrases for American Football Fans"
+title: "Portuguese Phrases for Football Fans"
 snippet: "With the NFL coming to São Paulo in the Fall and the growth of American Football in Brazil, it's handy to know some Portuguese vocabulary related to the sport."
 image: {
     src: "language-cheering-fans.webp",

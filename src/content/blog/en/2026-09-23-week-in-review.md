@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Week in Review: First Win of the Year, and It Cost Them"
+title: "First Win of the Year — and It Cost Them"
 snippet: "Green Bay rallied from 10 down to beat the Jets 20-17 in overtime, snapping a six-game skid. But Jayden Reed and Zach Bako-Bewele were carted off on consecutive plays, and the penalty problem is now the worst in the NFL."
 image: {
     src: "lambeauLeap.jpeg",

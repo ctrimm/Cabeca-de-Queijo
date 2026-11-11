@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers News Weekly Summary (Jan 14, 2026): A Tough Loss and Coaching Questions Ahead"
+title: "A Tough Loss, Coaching Questions"
 snippet: "Weekly Green Bay Packers news and updates for the week of January 14"
 image: {
     src: "packers-weekly.png",

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Sumário Semanal dos Packers: Lesões e Empenho para os Playoffs - 17 de Dezembro de 2025"
+title: "Sumário: Lesões e Rumo aos Playoffs"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 17 de dezembro"
 image: {
     src: "packers-weekly.png",

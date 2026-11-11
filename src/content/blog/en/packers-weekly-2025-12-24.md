@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Weekly Roundup: Injury Concerns and Playoff Hopes on the Line"
+title: "Packers: Playoff Hopes on the Line"
 snippet: "Weekly Green Bay Packers news and updates for the week of December 24"
 image: {
     src: "packers-weekly.png",

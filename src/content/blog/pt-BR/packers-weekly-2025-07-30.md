@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Pacote Semanal dos Packers: Insights do Treinamento e Atualizações dos Jogadores (30 de Julho de 2025)"
+title: "Resumo dos Packers: 30 de Julho"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 30 de julho"
 image: {
     src: "packers-weekly.png",

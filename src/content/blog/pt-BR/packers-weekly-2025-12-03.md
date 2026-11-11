@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Resumo Semanal dos Packers: Preparando-se para um Conflito Crucial com os Bears!"
+title: "Resumo: Confronto Crucial com os Bears"
 snippet: "Notícias e atualizações semanais do Green Bay Packers para a semana de 3 de dezembro"
 image: {
     src: "packers-weekly.png",

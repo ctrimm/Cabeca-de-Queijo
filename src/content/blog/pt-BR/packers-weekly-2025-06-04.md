@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Resumo Semanal dos Packers: Principais Acontecimentos das OTAs e Atualizações do Time"
+title: "Resumo: Destaques das OTAs"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 4 de junho"
 image: {
     src: "packers-weekly.png",

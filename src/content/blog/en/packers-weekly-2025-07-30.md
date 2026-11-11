@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Weekly Roundup: Training Camp Insights and Player Updates (July 30, 2025)"
+title: "Packers Roundup: July 30, 2025"
 snippet: "Weekly Green Bay Packers news and updates for the week of July 30"
 image: {
     src: "packers-weekly.png",

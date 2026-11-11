@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana em Revista dos Packers: Um Susto, um Retorno e a Vitória por 27 a 19 Sobre o Carolina"
+title: "Um Susto, um Retorno, 27 a 19"
 snippet: "Green Bay venceu o Carolina por 27 a 19 na noite de quinta com três touchdowns de Jordan Love e uma defesa de seis sacks — mas a noite foi de Christian Watson, que saiu de ambulância com uma costela quebrada e voltou para terminar com 113 jardas. Os Packers estão 5-3, e New England espera no domingo."
 image: {
     src: "outsideLambeau2.jpg",

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Weekly Recap: Preparing for a Crucial Clash with the Bears!"
+title: "Packers Recap: Crucial Clash with Bears"
 snippet: "Weekly Green Bay Packers news and updates for the week of December 3"
 image: {
     src: "packers-weekly.png",

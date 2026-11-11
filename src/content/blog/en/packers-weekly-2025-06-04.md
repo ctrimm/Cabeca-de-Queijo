@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Weekly Wrap-Up: Key Developments from OTAs and Team Updates"
+title: "Packers Wrap-Up: OTA Developments"
 snippet: "Weekly Green Bay Packers news and updates for the week of June 4"
 image: {
     src: "packers-weekly.png",

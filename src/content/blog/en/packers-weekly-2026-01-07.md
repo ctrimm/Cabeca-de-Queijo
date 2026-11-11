@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Playoff Preparations: An Eventful Week Leading Up to the Bears Showdown"
+title: "Playoff Prep: The Bears Showdown Awaits"
 snippet: "Weekly Green Bay Packers news and updates for the week of January 7"
 image: {
     src: "packers-weekly.png",

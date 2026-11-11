@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers em Dia: Disputas no Camp, Extensões Milionárias e a Estreia da Pré-Temporada em Pittsburgh"
+title: "Disputas no Camp, Extensões Milionárias"
 snippet: "Tudo o que você perdeu desde o minicamp: três renovações de contrato, Micah Parsons na lista PUP, uma disputa de chutador com um só candidato, um cornerback novato aparecendo — e uma estreia de pré-temporada contra Aaron Rodgers e Mike McCarthy."
 image: {
     src: "outsideLambeau.jpeg",

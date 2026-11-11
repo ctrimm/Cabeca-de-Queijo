@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Week in Review: Three Straight Wins, a Defense That Takes the Ball Away, and a Short Week Ahead"
+title: "Three Straight Wins, a Thieving Defense"
 snippet: "Green Bay beat Dallas 23-13 on Sunday Night Football to get to 4-2, behind a defense that keeps forcing turnovers. Now it's a trip to Detroit and a Thursday night turnaround — with the defensive line down to the studs."
 image: {
     src: "outsideLambeau.jpeg",

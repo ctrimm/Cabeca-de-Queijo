@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Green Bay Packers Weekly Recap: Key Insights and Updates for June 25, 2025"
+title: "Packers Recap: Week of June 25, 2025"
 snippet: "Weekly Green Bay Packers news and updates for the week of June 25"
 image: {
     src: "packers-weekly.png",

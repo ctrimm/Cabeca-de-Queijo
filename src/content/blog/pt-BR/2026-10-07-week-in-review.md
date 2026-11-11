@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana em Revista dos Packers: Uma Vitória Sofrida Fora de Casa, uma Linha Ofensiva Reconstruída e os Bears Chegando"
+title: "Vitória Sofrida por 17 a 14 em Tampa"
 snippet: "Green Bay sobreviveu em Tampa por 17 a 14 e chegou a 2-2, contratou três veteranos de linha ofensiva em uma semana e perdeu Jayden Reed para a temporada. Agora os Bears vêm ao Lambeau para uma revanche de Wild Card que foi antecipada para o meio-dia."
 image: {
     src: "packers-weekly.png",

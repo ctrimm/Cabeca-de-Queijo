@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana em Revista dos Packers: Um Chutador Novato Rouba a Cena na Derrota por 28 a 9"
+title: "Um Chutador Novato Rouba a Cena"
 snippet: "Green Bay perdeu a estreia da pré-temporada em Pittsburgh, mas Trey Smack foi perfeito, Jordan Love fez o seu trabalho em uma única série e Tucker Kraft finalmente voltou aos treinos coletivos."
 image: {
     src: "packers-weekly.png",

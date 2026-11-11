@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Weekly Recap: July 16, 2025 - Training Camp Approaches!"
+title: "Packers Recap, July 16: Camp Approaches"
 snippet: "Weekly Green Bay Packers news and updates for the week of July 16"
 image: {
     src: "packers-weekly.png",

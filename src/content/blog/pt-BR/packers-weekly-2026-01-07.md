@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Preparativos dos Packers para os playoffs: Uma semana agitada antes do confronto com os Bears"
+title: "Playoffs: Semana Agitada Pré-Bears"
 snippet: "Notícias e atualizações semanais dos Green Bay Packers para a semana de 7 de janeiro"
 image: {
     src: "packers-weekly.png",

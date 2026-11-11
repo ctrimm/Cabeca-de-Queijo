@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Packers Week in Review: A Record 45 at Gillette, Two Career Days, and One Very Expensive Finger"
+title: "A Record 45 at Gillette"
 snippet: "Green Bay hung 45 on New England — the most points a visiting team has ever scored at Gillette — behind career days from Christian Watson and Matthew Golden. The Packers are 6-3. The bill: Josh Jacobs' broken finger, surgery, and a backfield by committee for the Vikings rematch."
 image: {
     src: "christian-watson.jpg",

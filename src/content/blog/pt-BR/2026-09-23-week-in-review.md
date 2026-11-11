@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Semana em Revista dos Packers: A Primeira Vitória do Ano, e Ela Custou Caro"
+title: "A Primeira Vitória — e Custou Caro"
 snippet: "Green Bay virou de 10 pontos atrás e venceu os Jets por 20 a 17 na prorrogação, encerrando uma sequência de seis derrotas. Mas Jayden Reed e Zach Bako-Bewele saíram de maca em jogadas seguidas, e o problema das penalidades já é o pior da NFL."
 image: {
     src: "lambeauLeap.jpeg",
